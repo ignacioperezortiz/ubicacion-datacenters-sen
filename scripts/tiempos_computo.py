@@ -39,7 +39,9 @@ PATRONES = {
 
 # Tiempo de reloj y concurrencia, desde los registros del lanzador (última corrida de cada caso).
 reloj = {}
-for registro in sorted((RAIZ / 'casos').glob('corrida_*.txt'), key=lambda p: p.stat().st_mtime):
+# Los registros se leen en orden de nombre (corrida_1_..., corrida_2_..., corrida_registro.txt): la
+# corrida más reciente de cada caso queda al final y es la que vale.
+for registro in sorted((RAIZ / 'casos').glob('corrida_*.txt'), key=lambda p: p.name):
     lineas = [l for l in registro.read_text(encoding='utf-8').splitlines() if 'código' in l]
     for l in lineas:
         m = re.match(r'(\S+)\s+(\S+)\s+código (\d+)\s+([\d.]+) min', l)

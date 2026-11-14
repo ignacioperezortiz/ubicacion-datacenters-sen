@@ -30,7 +30,8 @@ parser.add_argument('--dc-libre-desde', type=int, default=2030,
                     help='en modo libre, los períodos anteriores quedan con la ubicación base (comprometidos)')
 parser.add_argument('--solver', default='gurobi_direct', help='gurobi_direct (recomendado) o appsi_highs (gratuito, más lento)')
 args = parser.parse_args()
-opciones_solver = f'Method=2 Threads={args.hilos}' if 'gurobi' in args.solver else f'threads={args.hilos}'
+# Gurobi: barrera con un número fijo de hilos. HiGHS se usa con sus opciones por omisión.
+opciones_solver = f'Method=2 Threads={args.hilos}' if 'gurobi' in args.solver else None
 
 
 def correr(escenario, modo):
@@ -39,8 +40,9 @@ def correr(escenario, modo):
     comando = [str(SWITCH), 'solve', '--inputs-dir', 'inputs', '--outputs-dir', f'outputs_{modo}',
                '--solver', args.solver, '--dc-modo', modo, '--verbose', '--stream-solver',
                '--suffixes', 'dual',
-               '--solver-options-string', opciones_solver,
                '--dc-libre-desde', str(args.dc_libre_desde)]
+    if opciones_solver:
+        comando += ['--solver-options-string', opciones_solver]
     entorno = dict(os.environ, PYTHONPATH=str(RAIZ), PYTHONUNBUFFERED='1')
     inicio = time.time()
     with open(log, 'w', encoding='utf-8') as salida:
@@ -55,6 +57,7 @@ def correr(escenario, modo):
     return escenario, modo, resultado.returncode, minutos, texto
 
 
-trabajos = [(e, m) for m in args.modos for e in args.escenarios]
+# SIN_DC no tiene data centers que ubicar: solo se corre en modo base.
+trabajos = [(e, m) for m in args.modos for e in args.escenarios if not (e == 'SIN_DC' and m == 'libre')]
 with ThreadPoolExecutor(max_workers=args.paralelo) as pool:
     resultados = list(pool.map(lambda t: correr(*t), trabajos))

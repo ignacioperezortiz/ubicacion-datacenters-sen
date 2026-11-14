@@ -107,7 +107,9 @@ Con HiGHS en vez de Gurobi:
 python scripts/correr_casos.py SIN_DC --modos base --solver appsi_highs
 ```
 
-Cada corrida reescribe `casos/<CASO>/outputs_<modo>/` y su log. Los archivos horarios pesados (`dispatch.csv` y otros) no están en el repositorio y se regeneran al correr. La opción `--dc-libre-desde 2030` (por omisión) fija la ubicación de los data centers antes de 2030 en el modo libre.
+El caso `SIN_DC` se resuelve solo en modo base, así que «todos los casos» son 9 corridas. Cada corrida reescribe `casos/<CASO>/outputs_<modo>/` y su log.
+
+**Reproducibilidad exacta.** Con Gurobi y el mismo número de hilos que la corrida original (`hilos` en `resultados/tablas/tiempos_computo.csv`), la solución se reproduce bit a bit. Con otro número de hilos, el costo total es el mismo (diferencia relativa ~1e-16) y la ubicación de los data centers también. Pueden cambiar soluciones alternativas de igual costo: unos MW de almacenamiento entre zonas vecinas con parámetros idénticos, o el reparto del vertimiento. Los archivos horarios pesados (`dispatch.csv` y otros) no están en el repositorio y se regeneran al correr. La opción `--dc-libre-desde 2030` (por omisión) fija la ubicación de los data centers antes de 2030 en el modo libre.
 
 ### 3. Regenerar tablas y gráficos
 
