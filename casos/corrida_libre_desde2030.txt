@@ -1,0 +1,4 @@
+PELP_E2  libre  código 0   14.7 min  costo total 41426717378.24973
+PROPIO   libre  código 0   15.0 min  costo total 46238184882.58611
+PELP_N1  libre  código 0   15.2 min  costo total 43490471238.93968
+CEN      libre  código 0   15.6 min  costo total 43078924578.85955

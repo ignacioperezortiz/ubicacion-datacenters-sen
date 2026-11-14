@@ -1,0 +1,1675 @@
+escenario,modo,zona,nombre,orden,macrozona,periodo,precio_carga_plana_usd_mwh
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2026,47.589
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,47.589
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2026,47.589
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2026,47.672
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2026,47.068
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,47.068
+CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,47.068
+CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2026,47.672
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2026,47.672
+CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,47.672
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,47.672
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2026,47.019
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,47.019
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2026,71.672
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,71.672
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,74.862
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,75.525
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,76.962
+CEN,base,Quillota500,Quillota 500,19,Centro,2026,83.275
+CEN,base,Polpaico500,Polpaico 500,20,Centro,2026,83.275
+CEN,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,85.591
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2026,85.591
+CEN,base,Rapel500,Rapel 500,23,Centro,2026,85.591
+CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2026,85.591
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2026,85.893
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,85.591
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2026,85.591
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2026,85.591
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2026,85.591
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,85.591
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,85.591
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,34.966
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,34.966
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2030,34.966
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2030,34.966
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2030,34.966
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,34.966
+CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,34.966
+CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2030,34.966
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2030,34.966
+CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,34.966
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,34.589
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2030,28.943
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,28.943
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,34.987
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,34.987
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,34.987
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,34.987
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,34.987
+CEN,base,Quillota500,Quillota 500,19,Centro,2030,34.987
+CEN,base,Polpaico500,Polpaico 500,20,Centro,2030,34.987
+CEN,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,34.987
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2030,34.987
+CEN,base,Rapel500,Rapel 500,23,Centro,2030,34.987
+CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,33.97
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,28.963
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,28.66
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,27.665
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2030,27.487
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2030,27.487
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,27.487
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,27.487
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.684
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.684
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.812
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2035,40.812
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2035,40.796
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.796
+CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.796
+CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.812
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.812
+CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.812
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.318
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2035,39.204
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.204
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.848
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.848
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.374
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.79
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.796
+CEN,base,Quillota500,Quillota 500,19,Centro,2035,42.024
+CEN,base,Polpaico500,Polpaico 500,20,Centro,2035,42.024
+CEN,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,42.008
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2035,42.09
+CEN,base,Rapel500,Rapel 500,23,Centro,2035,42.008
+CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2035,40.991
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.619
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.464
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,33.204
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2035,33.026
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,31.79
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,31.071
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,30.68
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,38.797
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,38.797
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,38.848
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2040,38.677
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2040,38.382
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,38.382
+CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,38.382
+CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2040,38.677
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2040,38.677
+CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,38.677
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,38.286
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2040,38.027
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,38.027
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2040,38.404
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,38.404
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,38.711
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,38.945
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,39.418
+CEN,base,Quillota500,Quillota 500,19,Centro,2040,39.626
+CEN,base,Polpaico500,Polpaico 500,20,Centro,2040,39.626
+CEN,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,39.114
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2040,39.334
+CEN,base,Rapel500,Rapel 500,23,Centro,2040,39.114
+CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2040,37.794
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.798
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.496
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2040,25.642
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2040,25.464
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2040,24.227
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.508
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,23.118
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.193
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.193
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.336
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2045,39.675
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2045,39.675
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.675
+CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.675
+CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,40.077
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.863
+CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,40.077
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.473
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2045,39.851
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.851
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,40.286
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,40.286
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.718
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,41.056
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.583
+CEN,base,Quillota500,Quillota 500,19,Centro,2045,42.602
+CEN,base,Polpaico500,Polpaico 500,20,Centro,2045,42.596
+CEN,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,42.195
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2045,42.352
+CEN,base,Rapel500,Rapel 500,23,Centro,2045,42.195
+CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.584
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,28.265
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,27.962
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2045,24.492
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2045,24.314
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2045,23.078
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,22.359
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,21.723
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,36.673
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,36.345
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,36.482
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2050,36.821
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2050,37.035
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,37.035
+CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,37.035
+CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2050,37.187
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.974
+CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,37.187
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,36.383
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2050,36.719
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,36.719
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,37.125
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,37.125
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,37.558
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.896
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,38.422
+CEN,base,Quillota500,Quillota 500,19,Centro,2050,39.233
+CEN,base,Polpaico500,Polpaico 500,20,Centro,2050,39.436
+CEN,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,39.127
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2050,39.32
+CEN,base,Rapel500,Rapel 500,23,Centro,2050,39.127
+CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,38.11
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,31.38
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,31.682
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,31.402
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2050,30.042
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.805
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,28.086
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,28.024
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2026,47.553
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,47.553
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2026,47.553
+CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2026,47.676
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2026,47.06
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,47.06
+CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,47.06
+CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2026,47.676
+CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2026,47.676
+CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,47.676
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,47.676
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2026,47.023
+CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,47.023
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2026,72.156
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,72.156
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,75.241
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,75.906
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,77.401
+CEN,libre,Quillota500,Quillota 500,19,Centro,2026,83.537
+CEN,libre,Polpaico500,Polpaico 500,20,Centro,2026,83.537
+CEN,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,85.827
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2026,85.827
+CEN,libre,Rapel500,Rapel 500,23,Centro,2026,85.827
+CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2026,85.827
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2026,86.13
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,85.827
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2026,85.827
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2026,85.827
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2026,85.827
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,85.827
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,85.827
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2030,33.914
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,33.914
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2030,33.914
+CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2030,33.914
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2030,33.914
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,33.914
+CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,33.914
+CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2030,33.914
+CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2030,33.914
+CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,33.914
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,33.914
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2030,28.204
+CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,28.204
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2030,33.933
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,33.933
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,33.933
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,33.933
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,33.933
+CEN,libre,Quillota500,Quillota 500,19,Centro,2030,33.933
+CEN,libre,Polpaico500,Polpaico 500,20,Centro,2030,33.933
+CEN,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,33.933
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2030,33.933
+CEN,libre,Rapel500,Rapel 500,23,Centro,2030,33.933
+CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2030,32.916
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2030,28.46
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,28.158
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,27.526
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,27.526
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2030,27.526
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,27.526
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,27.526
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.784
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.784
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.922
+CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2035,40.893
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2035,40.893
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.893
+CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.893
+CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.893
+CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.893
+CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.893
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.41
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2035,39.298
+CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.298
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.931
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.931
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.47
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.844
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.863
+CEN,libre,Quillota500,Quillota 500,19,Centro,2035,42.068
+CEN,libre,Polpaico500,Polpaico 500,20,Centro,2035,42.068
+CEN,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,42.068
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2035,42.083
+CEN,libre,Rapel500,Rapel 500,23,Centro,2035,42.068
+CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2035,41.051
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.906
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.604
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,33.288
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,33.11
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,31.982
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,31.81
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,31.419
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2040,38.432
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,38.432
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2040,38.432
+CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2040,38.287
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2040,37.992
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,37.992
+CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,37.992
+CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2040,38.287
+CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2040,38.287
+CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,38.287
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,37.902
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2040,37.648
+CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,37.648
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2040,37.999
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,37.998
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,38.287
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,38.578
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,38.924
+CEN,libre,Quillota500,Quillota 500,19,Centro,2040,39.056
+CEN,libre,Polpaico500,Polpaico 500,20,Centro,2040,39.056
+CEN,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,38.516
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2040,38.766
+CEN,libre,Rapel500,Rapel 500,23,Centro,2040,38.516
+CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2040,37.154
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.77
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.467
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2040,25.773
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2040,25.595
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2040,24.359
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.64
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,23.249
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.113
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.061
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.197
+CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2045,39.536
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2045,39.536
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.536
+CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.536
+CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2045,39.9
+CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.687
+CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,39.9
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.296
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2045,39.661
+CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.661
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,40.112
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,40.112
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.544
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,40.882
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.409
+CEN,libre,Quillota500,Quillota 500,19,Centro,2045,42.422
+CEN,libre,Polpaico500,Polpaico 500,20,Centro,2045,42.422
+CEN,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,42.058
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2045,42.176
+CEN,libre,Rapel500,Rapel 500,23,Centro,2045,42.058
+CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.503
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,28.745
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,28.442
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2045,25.14
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2045,24.962
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2045,23.726
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,23.007
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,22.481
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,36.111
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,35.862
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,35.998
+CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2050,36.338
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2050,36.551
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,36.551
+CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,36.551
+CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2050,36.754
+CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.54
+CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,36.754
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,35.97
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2050,36.286
+CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,36.286
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,36.669
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,36.669
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,37.102
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.44
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,37.966
+CEN,libre,Quillota500,Quillota 500,19,Centro,2050,38.809
+CEN,libre,Polpaico500,Polpaico 500,20,Centro,2050,38.98
+CEN,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,38.775
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2050,38.968
+CEN,libre,Rapel500,Rapel 500,23,Centro,2050,38.775
+CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2050,37.758
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,31.188
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,31.491
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,31.21
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,30.206
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.97
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,28.251
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,28.042
+PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2026,46.346
+PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,46.346
+PELP_E2,base,Lagunas220,Lagunas 220,3,Norte Grande,2026,46.346
+PELP_E2,base,Kimal220,Kimal 220,4,Norte Grande,2026,46.428
+PELP_E2,base,Kimal500,Kimal 500,5,Norte Grande,2026,45.979
+PELP_E2,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,45.979
+PELP_E2,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,45.979
+PELP_E2,base,LosChangos500,Los Changos 500,8,Norte Grande,2026,46.428
+PELP_E2,base,LosChangos220,Los Changos 220,9,Norte Grande,2026,46.428
+PELP_E2,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,46.428
+PELP_E2,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,46.428
+PELP_E2,base,Parinas500,Parinas 500,12,Norte Grande,2026,45.776
+PELP_E2,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,45.776
+PELP_E2,base,Cumbre500,Cumbre 500,14,Norte Chico,2026,69.262
+PELP_E2,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,69.262
+PELP_E2,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,71.48
+PELP_E2,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,72.144
+PELP_E2,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,73.386
+PELP_E2,base,Quillota500,Quillota 500,19,Centro,2026,78.977
+PELP_E2,base,Polpaico500,Polpaico 500,20,Centro,2026,78.977
+PELP_E2,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,81.412
+PELP_E2,base,Candelaria500,Candelaria 500,22,Centro,2026,81.412
+PELP_E2,base,Rapel500,Rapel 500,23,Centro,2026,81.412
+PELP_E2,base,Ancoa500,Ancoa 500,24,Centro-Sur,2026,81.412
+PELP_E2,base,Concepcion500,Concepción 500,25,Centro-Sur,2026,81.715
+PELP_E2,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,81.412
+PELP_E2,base,Mulchen500,Mulchén 500,27,Centro-Sur,2026,81.412
+PELP_E2,base,RioMalleco500,Río Malleco 500,28,Sur,2026,81.412
+PELP_E2,base,Pichirropulli500,Pichirropulli 500,29,Sur,2026,81.412
+PELP_E2,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,81.412
+PELP_E2,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,81.412
+PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,32.993
+PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,32.993
+PELP_E2,base,Lagunas220,Lagunas 220,3,Norte Grande,2030,32.993
+PELP_E2,base,Kimal220,Kimal 220,4,Norte Grande,2030,32.993
+PELP_E2,base,Kimal500,Kimal 500,5,Norte Grande,2030,32.993
+PELP_E2,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,32.993
+PELP_E2,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,32.993
+PELP_E2,base,LosChangos500,Los Changos 500,8,Norte Grande,2030,32.993
+PELP_E2,base,LosChangos220,Los Changos 220,9,Norte Grande,2030,32.993
+PELP_E2,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,32.993
+PELP_E2,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,32.993
+PELP_E2,base,Parinas500,Parinas 500,12,Norte Grande,2030,27.838
+PELP_E2,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,27.838
+PELP_E2,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,33.013
+PELP_E2,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,33.013
+PELP_E2,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,33.013
+PELP_E2,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,33.013
+PELP_E2,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,33.013
+PELP_E2,base,Quillota500,Quillota 500,19,Centro,2030,33.013
+PELP_E2,base,Polpaico500,Polpaico 500,20,Centro,2030,33.013
+PELP_E2,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,33.013
+PELP_E2,base,Candelaria500,Candelaria 500,22,Centro,2030,33.013
+PELP_E2,base,Rapel500,Rapel 500,23,Centro,2030,33.013
+PELP_E2,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,31.996
+PELP_E2,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,27.914
+PELP_E2,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,27.611
+PELP_E2,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,26.616
+PELP_E2,base,RioMalleco500,Río Malleco 500,28,Sur,2030,26.616
+PELP_E2,base,Pichirropulli500,Pichirropulli 500,29,Sur,2030,26.616
+PELP_E2,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,26.616
+PELP_E2,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,26.616
+PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.533
+PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.533
+PELP_E2,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.662
+PELP_E2,base,Kimal220,Kimal 220,4,Norte Grande,2035,40.662
+PELP_E2,base,Kimal500,Kimal 500,5,Norte Grande,2035,40.646
+PELP_E2,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.646
+PELP_E2,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.646
+PELP_E2,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.662
+PELP_E2,base,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.662
+PELP_E2,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.662
+PELP_E2,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.13
+PELP_E2,base,Parinas500,Parinas 500,12,Norte Grande,2035,39.046
+PELP_E2,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.046
+PELP_E2,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.583
+PELP_E2,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.583
+PELP_E2,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.138
+PELP_E2,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.476
+PELP_E2,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.476
+PELP_E2,base,Quillota500,Quillota 500,19,Centro,2035,41.582
+PELP_E2,base,Polpaico500,Polpaico 500,20,Centro,2035,41.582
+PELP_E2,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,41.566
+PELP_E2,base,Candelaria500,Candelaria 500,22,Centro,2035,41.616
+PELP_E2,base,Rapel500,Rapel 500,23,Centro,2035,41.566
+PELP_E2,base,Ancoa500,Ancoa 500,24,Centro-Sur,2035,40.549
+PELP_E2,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.397
+PELP_E2,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.242
+PELP_E2,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,33.005
+PELP_E2,base,RioMalleco500,Río Malleco 500,28,Sur,2035,32.827
+PELP_E2,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,31.804
+PELP_E2,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,31.085
+PELP_E2,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,30.694
+PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,38.515
+PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,38.515
+PELP_E2,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,38.541
+PELP_E2,base,Kimal220,Kimal 220,4,Norte Grande,2040,38.424
+PELP_E2,base,Kimal500,Kimal 500,5,Norte Grande,2040,38.129
+PELP_E2,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,38.129
+PELP_E2,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,38.129
+PELP_E2,base,LosChangos500,Los Changos 500,8,Norte Grande,2040,38.424
+PELP_E2,base,LosChangos220,Los Changos 220,9,Norte Grande,2040,38.424
+PELP_E2,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,38.424
+PELP_E2,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,38.066
+PELP_E2,base,Parinas500,Parinas 500,12,Norte Grande,2040,37.828
+PELP_E2,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,37.828
+PELP_E2,base,Cumbre500,Cumbre 500,14,Norte Chico,2040,38.156
+PELP_E2,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,38.156
+PELP_E2,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,38.424
+PELP_E2,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,38.762
+PELP_E2,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,39.054
+PELP_E2,base,Quillota500,Quillota 500,19,Centro,2040,39.135
+PELP_E2,base,Polpaico500,Polpaico 500,20,Centro,2040,39.135
+PELP_E2,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,38.599
+PELP_E2,base,Candelaria500,Candelaria 500,22,Centro,2040,38.805
+PELP_E2,base,Rapel500,Rapel 500,23,Centro,2040,38.599
+PELP_E2,base,Ancoa500,Ancoa 500,24,Centro-Sur,2040,37.276
+PELP_E2,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.588
+PELP_E2,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.285
+PELP_E2,base,Mulchen500,Mulchén 500,27,Centro-Sur,2040,25.402
+PELP_E2,base,RioMalleco500,Río Malleco 500,28,Sur,2040,25.224
+PELP_E2,base,Pichirropulli500,Pichirropulli 500,29,Sur,2040,23.988
+PELP_E2,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.269
+PELP_E2,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,22.878
+PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.127
+PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.116
+PELP_E2,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.252
+PELP_E2,base,Kimal220,Kimal 220,4,Norte Grande,2045,39.591
+PELP_E2,base,Kimal500,Kimal 500,5,Norte Grande,2045,39.591
+PELP_E2,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.591
+PELP_E2,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.591
+PELP_E2,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,39.961
+PELP_E2,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.747
+PELP_E2,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,39.961
+PELP_E2,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.357
+PELP_E2,base,Parinas500,Parinas 500,12,Norte Grande,2045,39.665
+PELP_E2,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.665
+PELP_E2,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,40.087
+PELP_E2,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,40.087
+PELP_E2,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.52
+PELP_E2,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,40.858
+PELP_E2,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.384
+PELP_E2,base,Quillota500,Quillota 500,19,Centro,2045,42.411
+PELP_E2,base,Polpaico500,Polpaico 500,20,Centro,2045,42.398
+PELP_E2,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,42.028
+PELP_E2,base,Candelaria500,Candelaria 500,22,Centro,2045,42.204
+PELP_E2,base,Rapel500,Rapel 500,23,Centro,2045,42.028
+PELP_E2,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.42
+PELP_E2,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,28.269
+PELP_E2,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,27.966
+PELP_E2,base,Mulchen500,Mulchén 500,27,Centro-Sur,2045,24.707
+PELP_E2,base,RioMalleco500,Río Malleco 500,28,Sur,2045,24.529
+PELP_E2,base,Pichirropulli500,Pichirropulli 500,29,Sur,2045,23.293
+PELP_E2,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,22.574
+PELP_E2,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,21.947
+PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,36.218
+PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,35.914
+PELP_E2,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,36.05
+PELP_E2,base,Kimal220,Kimal 220,4,Norte Grande,2050,36.389
+PELP_E2,base,Kimal500,Kimal 500,5,Norte Grande,2050,36.603
+PELP_E2,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,36.603
+PELP_E2,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,36.603
+PELP_E2,base,LosChangos500,Los Changos 500,8,Norte Grande,2050,36.798
+PELP_E2,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.584
+PELP_E2,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,36.798
+PELP_E2,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,36.006
+PELP_E2,base,Parinas500,Parinas 500,12,Norte Grande,2050,36.329
+PELP_E2,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,36.329
+PELP_E2,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,36.752
+PELP_E2,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,36.752
+PELP_E2,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,37.184
+PELP_E2,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.522
+PELP_E2,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,38.049
+PELP_E2,base,Quillota500,Quillota 500,19,Centro,2050,38.874
+PELP_E2,base,Polpaico500,Polpaico 500,20,Centro,2050,39.062
+PELP_E2,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,38.765
+PELP_E2,base,Candelaria500,Candelaria 500,22,Centro,2050,38.958
+PELP_E2,base,Rapel500,Rapel 500,23,Centro,2050,38.765
+PELP_E2,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,37.748
+PELP_E2,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,31.139
+PELP_E2,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,31.441
+PELP_E2,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,31.161
+PELP_E2,base,RioMalleco500,Río Malleco 500,28,Sur,2050,29.937
+PELP_E2,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.701
+PELP_E2,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,27.982
+PELP_E2,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,27.907
+PELP_E2,libre,Parinacota220,Parinacota 220,1,Norte Grande,2026,46.28
+PELP_E2,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,46.28
+PELP_E2,libre,Lagunas220,Lagunas 220,3,Norte Grande,2026,46.28
+PELP_E2,libre,Kimal220,Kimal 220,4,Norte Grande,2026,46.389
+PELP_E2,libre,Kimal500,Kimal 500,5,Norte Grande,2026,45.923
+PELP_E2,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,45.923
+PELP_E2,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,45.923
+PELP_E2,libre,LosChangos500,Los Changos 500,8,Norte Grande,2026,46.389
+PELP_E2,libre,LosChangos220,Los Changos 220,9,Norte Grande,2026,46.389
+PELP_E2,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,46.389
+PELP_E2,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,46.389
+PELP_E2,libre,Parinas500,Parinas 500,12,Norte Grande,2026,45.736
+PELP_E2,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,45.736
+PELP_E2,libre,Cumbre500,Cumbre 500,14,Norte Chico,2026,69.323
+PELP_E2,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,69.323
+PELP_E2,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,71.542
+PELP_E2,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,72.205
+PELP_E2,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,73.452
+PELP_E2,libre,Quillota500,Quillota 500,19,Centro,2026,79.077
+PELP_E2,libre,Polpaico500,Polpaico 500,20,Centro,2026,79.077
+PELP_E2,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,81.517
+PELP_E2,libre,Candelaria500,Candelaria 500,22,Centro,2026,81.517
+PELP_E2,libre,Rapel500,Rapel 500,23,Centro,2026,81.517
+PELP_E2,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2026,81.517
+PELP_E2,libre,Concepcion500,Concepción 500,25,Centro-Sur,2026,81.819
+PELP_E2,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,81.517
+PELP_E2,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2026,81.517
+PELP_E2,libre,RioMalleco500,Río Malleco 500,28,Sur,2026,81.517
+PELP_E2,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2026,81.517
+PELP_E2,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,81.517
+PELP_E2,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,81.517
+PELP_E2,libre,Parinacota220,Parinacota 220,1,Norte Grande,2030,32.487
+PELP_E2,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,32.487
+PELP_E2,libre,Lagunas220,Lagunas 220,3,Norte Grande,2030,32.487
+PELP_E2,libre,Kimal220,Kimal 220,4,Norte Grande,2030,32.487
+PELP_E2,libre,Kimal500,Kimal 500,5,Norte Grande,2030,32.487
+PELP_E2,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,32.487
+PELP_E2,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,32.487
+PELP_E2,libre,LosChangos500,Los Changos 500,8,Norte Grande,2030,32.487
+PELP_E2,libre,LosChangos220,Los Changos 220,9,Norte Grande,2030,32.487
+PELP_E2,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,32.487
+PELP_E2,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,32.487
+PELP_E2,libre,Parinas500,Parinas 500,12,Norte Grande,2030,27.587
+PELP_E2,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,27.587
+PELP_E2,libre,Cumbre500,Cumbre 500,14,Norte Chico,2030,32.507
+PELP_E2,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,32.507
+PELP_E2,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,32.507
+PELP_E2,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,32.507
+PELP_E2,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,32.507
+PELP_E2,libre,Quillota500,Quillota 500,19,Centro,2030,32.507
+PELP_E2,libre,Polpaico500,Polpaico 500,20,Centro,2030,32.507
+PELP_E2,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,32.507
+PELP_E2,libre,Candelaria500,Candelaria 500,22,Centro,2030,32.507
+PELP_E2,libre,Rapel500,Rapel 500,23,Centro,2030,32.507
+PELP_E2,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2030,31.49
+PELP_E2,libre,Concepcion500,Concepción 500,25,Centro-Sur,2030,27.699
+PELP_E2,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,27.396
+PELP_E2,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,26.861
+PELP_E2,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,26.861
+PELP_E2,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2030,26.861
+PELP_E2,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,26.861
+PELP_E2,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,26.861
+PELP_E2,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.558
+PELP_E2,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.558
+PELP_E2,libre,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.656
+PELP_E2,libre,Kimal220,Kimal 220,4,Norte Grande,2035,40.564
+PELP_E2,libre,Kimal500,Kimal 500,5,Norte Grande,2035,40.547
+PELP_E2,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.547
+PELP_E2,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.547
+PELP_E2,libre,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.564
+PELP_E2,libre,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.564
+PELP_E2,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.564
+PELP_E2,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.072
+PELP_E2,libre,Parinas500,Parinas 500,12,Norte Grande,2035,38.979
+PELP_E2,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,38.979
+PELP_E2,libre,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.45
+PELP_E2,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.45
+PELP_E2,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.018
+PELP_E2,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.356
+PELP_E2,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.356
+PELP_E2,libre,Quillota500,Quillota 500,19,Centro,2035,41.356
+PELP_E2,libre,Polpaico500,Polpaico 500,20,Centro,2035,41.356
+PELP_E2,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,41.339
+PELP_E2,libre,Candelaria500,Candelaria 500,22,Centro,2035,41.339
+PELP_E2,libre,Rapel500,Rapel 500,23,Centro,2035,41.339
+PELP_E2,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2035,40.322
+PELP_E2,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.546
+PELP_E2,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.243
+PELP_E2,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,32.849
+PELP_E2,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,32.671
+PELP_E2,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,31.639
+PELP_E2,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,31.411
+PELP_E2,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,31.02
+PELP_E2,libre,Parinacota220,Parinacota 220,1,Norte Grande,2040,38.142
+PELP_E2,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,38.142
+PELP_E2,libre,Lagunas220,Lagunas 220,3,Norte Grande,2040,38.142
+PELP_E2,libre,Kimal220,Kimal 220,4,Norte Grande,2040,37.803
+PELP_E2,libre,Kimal500,Kimal 500,5,Norte Grande,2040,37.498
+PELP_E2,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,37.498
+PELP_E2,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,37.498
+PELP_E2,libre,LosChangos500,Los Changos 500,8,Norte Grande,2040,37.803
+PELP_E2,libre,LosChangos220,Los Changos 220,9,Norte Grande,2040,37.803
+PELP_E2,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,37.803
+PELP_E2,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,37.467
+PELP_E2,libre,Parinas500,Parinas 500,12,Norte Grande,2040,37.24
+PELP_E2,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,37.24
+PELP_E2,libre,Cumbre500,Cumbre 500,14,Norte Chico,2040,37.551
+PELP_E2,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,37.551
+PELP_E2,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,37.803
+PELP_E2,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,38.141
+PELP_E2,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,38.437
+PELP_E2,libre,Quillota500,Quillota 500,19,Centro,2040,38.44
+PELP_E2,libre,Polpaico500,Polpaico 500,20,Centro,2040,38.44
+PELP_E2,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,37.888
+PELP_E2,libre,Candelaria500,Candelaria 500,22,Centro,2040,38.128
+PELP_E2,libre,Rapel500,Rapel 500,23,Centro,2040,37.888
+PELP_E2,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2040,36.324
+PELP_E2,libre,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.652
+PELP_E2,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.349
+PELP_E2,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2040,25.781
+PELP_E2,libre,RioMalleco500,Río Malleco 500,28,Sur,2040,25.603
+PELP_E2,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2040,24.367
+PELP_E2,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.648
+PELP_E2,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,23.257
+PELP_E2,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.073
+PELP_E2,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.0
+PELP_E2,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.136
+PELP_E2,libre,Kimal220,Kimal 220,4,Norte Grande,2045,39.475
+PELP_E2,libre,Kimal500,Kimal 500,5,Norte Grande,2045,39.475
+PELP_E2,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.475
+PELP_E2,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.475
+PELP_E2,libre,LosChangos500,Los Changos 500,8,Norte Grande,2045,39.823
+PELP_E2,libre,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.609
+PELP_E2,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,39.823
+PELP_E2,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.219
+PELP_E2,libre,Parinas500,Parinas 500,12,Norte Grande,2045,39.482
+PELP_E2,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.482
+PELP_E2,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,39.937
+PELP_E2,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,39.936
+PELP_E2,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.369
+PELP_E2,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,40.707
+PELP_E2,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.234
+PELP_E2,libre,Quillota500,Quillota 500,19,Centro,2045,42.247
+PELP_E2,libre,Polpaico500,Polpaico 500,20,Centro,2045,42.247
+PELP_E2,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,41.9
+PELP_E2,libre,Candelaria500,Candelaria 500,22,Centro,2045,42.031
+PELP_E2,libre,Rapel500,Rapel 500,23,Centro,2045,41.9
+PELP_E2,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.614
+PELP_E2,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,28.974
+PELP_E2,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,28.672
+PELP_E2,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2045,25.556
+PELP_E2,libre,RioMalleco500,Río Malleco 500,28,Sur,2045,25.378
+PELP_E2,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2045,24.141
+PELP_E2,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,23.422
+PELP_E2,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,22.851
+PELP_E2,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,35.807
+PELP_E2,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,35.586
+PELP_E2,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,35.722
+PELP_E2,libre,Kimal220,Kimal 220,4,Norte Grande,2050,36.061
+PELP_E2,libre,Kimal500,Kimal 500,5,Norte Grande,2050,36.275
+PELP_E2,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,36.275
+PELP_E2,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,36.275
+PELP_E2,libre,LosChangos500,Los Changos 500,8,Norte Grande,2050,36.481
+PELP_E2,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.267
+PELP_E2,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,36.481
+PELP_E2,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,35.669
+PELP_E2,libre,Parinas500,Parinas 500,12,Norte Grande,2050,36.013
+PELP_E2,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,36.013
+PELP_E2,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,36.392
+PELP_E2,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,36.392
+PELP_E2,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,36.824
+PELP_E2,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.162
+PELP_E2,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,37.689
+PELP_E2,libre,Quillota500,Quillota 500,19,Centro,2050,38.503
+PELP_E2,libre,Polpaico500,Polpaico 500,20,Centro,2050,38.703
+PELP_E2,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,38.428
+PELP_E2,libre,Candelaria500,Candelaria 500,22,Centro,2050,38.621
+PELP_E2,libre,Rapel500,Rapel 500,23,Centro,2050,38.428
+PELP_E2,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2050,37.41
+PELP_E2,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,30.975
+PELP_E2,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,31.278
+PELP_E2,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,30.997
+PELP_E2,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,30.01
+PELP_E2,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.774
+PELP_E2,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,28.055
+PELP_E2,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,27.906
+PELP_N1,base,Parinacota220,Parinacota 220,1,Norte Grande,2026,47.728
+PELP_N1,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,47.728
+PELP_N1,base,Lagunas220,Lagunas 220,3,Norte Grande,2026,47.728
+PELP_N1,base,Kimal220,Kimal 220,4,Norte Grande,2026,47.728
+PELP_N1,base,Kimal500,Kimal 500,5,Norte Grande,2026,47.309
+PELP_N1,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,47.309
+PELP_N1,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,47.309
+PELP_N1,base,LosChangos500,Los Changos 500,8,Norte Grande,2026,47.728
+PELP_N1,base,LosChangos220,Los Changos 220,9,Norte Grande,2026,47.728
+PELP_N1,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,47.728
+PELP_N1,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,47.728
+PELP_N1,base,Parinas500,Parinas 500,12,Norte Grande,2026,47.075
+PELP_N1,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,47.075
+PELP_N1,base,Cumbre500,Cumbre 500,14,Norte Chico,2026,69.502
+PELP_N1,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,69.502
+PELP_N1,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,72.222
+PELP_N1,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,72.886
+PELP_N1,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,74.047
+PELP_N1,base,Quillota500,Quillota 500,19,Centro,2026,79.452
+PELP_N1,base,Polpaico500,Polpaico 500,20,Centro,2026,79.452
+PELP_N1,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,82.194
+PELP_N1,base,Candelaria500,Candelaria 500,22,Centro,2026,82.194
+PELP_N1,base,Rapel500,Rapel 500,23,Centro,2026,82.194
+PELP_N1,base,Ancoa500,Ancoa 500,24,Centro-Sur,2026,82.194
+PELP_N1,base,Concepcion500,Concepción 500,25,Centro-Sur,2026,82.497
+PELP_N1,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,82.194
+PELP_N1,base,Mulchen500,Mulchén 500,27,Centro-Sur,2026,82.194
+PELP_N1,base,RioMalleco500,Río Malleco 500,28,Sur,2026,82.194
+PELP_N1,base,Pichirropulli500,Pichirropulli 500,29,Sur,2026,82.194
+PELP_N1,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,82.194
+PELP_N1,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,82.194
+PELP_N1,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,35.94
+PELP_N1,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,35.94
+PELP_N1,base,Lagunas220,Lagunas 220,3,Norte Grande,2030,35.94
+PELP_N1,base,Kimal220,Kimal 220,4,Norte Grande,2030,35.94
+PELP_N1,base,Kimal500,Kimal 500,5,Norte Grande,2030,35.94
+PELP_N1,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,35.94
+PELP_N1,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,35.94
+PELP_N1,base,LosChangos500,Los Changos 500,8,Norte Grande,2030,35.94
+PELP_N1,base,LosChangos220,Los Changos 220,9,Norte Grande,2030,35.94
+PELP_N1,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,35.94
+PELP_N1,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,35.549
+PELP_N1,base,Parinas500,Parinas 500,12,Norte Grande,2030,29.562
+PELP_N1,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,29.562
+PELP_N1,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,35.94
+PELP_N1,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,35.94
+PELP_N1,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,35.94
+PELP_N1,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,35.94
+PELP_N1,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,35.94
+PELP_N1,base,Quillota500,Quillota 500,19,Centro,2030,35.94
+PELP_N1,base,Polpaico500,Polpaico 500,20,Centro,2030,35.94
+PELP_N1,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,35.94
+PELP_N1,base,Candelaria500,Candelaria 500,22,Centro,2030,35.94
+PELP_N1,base,Rapel500,Rapel 500,23,Centro,2030,35.94
+PELP_N1,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,34.922
+PELP_N1,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,29.393
+PELP_N1,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,29.091
+PELP_N1,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,28.007
+PELP_N1,base,RioMalleco500,Río Malleco 500,28,Sur,2030,27.829
+PELP_N1,base,Pichirropulli500,Pichirropulli 500,29,Sur,2030,27.829
+PELP_N1,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,27.829
+PELP_N1,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,27.829
+PELP_N1,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,41.054
+PELP_N1,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,41.054
+PELP_N1,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,41.206
+PELP_N1,base,Kimal220,Kimal 220,4,Norte Grande,2035,41.258
+PELP_N1,base,Kimal500,Kimal 500,5,Norte Grande,2035,41.199
+PELP_N1,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,41.199
+PELP_N1,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,41.199
+PELP_N1,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,41.258
+PELP_N1,base,LosChangos220,Los Changos 220,9,Norte Grande,2035,41.258
+PELP_N1,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,41.258
+PELP_N1,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.634
+PELP_N1,base,Parinas500,Parinas 500,12,Norte Grande,2035,39.359
+PELP_N1,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.358
+PELP_N1,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,41.039
+PELP_N1,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,41.039
+PELP_N1,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.597
+PELP_N1,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.935
+PELP_N1,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.935
+PELP_N1,base,Quillota500,Quillota 500,19,Centro,2035,42.164
+PELP_N1,base,Polpaico500,Polpaico 500,20,Centro,2035,42.164
+PELP_N1,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,42.104
+PELP_N1,base,Candelaria500,Candelaria 500,22,Centro,2035,42.242
+PELP_N1,base,Rapel500,Rapel 500,23,Centro,2035,42.104
+PELP_N1,base,Ancoa500,Ancoa 500,24,Centro-Sur,2035,41.087
+PELP_N1,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.614
+PELP_N1,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.311
+PELP_N1,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,33.225
+PELP_N1,base,RioMalleco500,Río Malleco 500,28,Sur,2035,33.047
+PELP_N1,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,31.81
+PELP_N1,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,31.091
+PELP_N1,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,30.701
+PELP_N1,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,38.978
+PELP_N1,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,38.978
+PELP_N1,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,39.086
+PELP_N1,base,Kimal220,Kimal 220,4,Norte Grande,2040,38.938
+PELP_N1,base,Kimal500,Kimal 500,5,Norte Grande,2040,38.639
+PELP_N1,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,38.639
+PELP_N1,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,38.639
+PELP_N1,base,LosChangos500,Los Changos 500,8,Norte Grande,2040,38.938
+PELP_N1,base,LosChangos220,Los Changos 220,9,Norte Grande,2040,38.938
+PELP_N1,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,38.938
+PELP_N1,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,38.596
+PELP_N1,base,Parinas500,Parinas 500,12,Norte Grande,2040,38.349
+PELP_N1,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,38.349
+PELP_N1,base,Cumbre500,Cumbre 500,14,Norte Chico,2040,38.662
+PELP_N1,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,38.662
+PELP_N1,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,38.926
+PELP_N1,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,39.265
+PELP_N1,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,39.553
+PELP_N1,base,Quillota500,Quillota 500,19,Centro,2040,39.754
+PELP_N1,base,Polpaico500,Polpaico 500,20,Centro,2040,39.754
+PELP_N1,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,39.219
+PELP_N1,base,Candelaria500,Candelaria 500,22,Centro,2040,39.413
+PELP_N1,base,Rapel500,Rapel 500,23,Centro,2040,39.219
+PELP_N1,base,Ancoa500,Ancoa 500,24,Centro-Sur,2040,37.862
+PELP_N1,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.814
+PELP_N1,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.512
+PELP_N1,base,Mulchen500,Mulchén 500,27,Centro-Sur,2040,25.498
+PELP_N1,base,RioMalleco500,Río Malleco 500,28,Sur,2040,25.32
+PELP_N1,base,Pichirropulli500,Pichirropulli 500,29,Sur,2040,24.084
+PELP_N1,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.365
+PELP_N1,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,22.974
+PELP_N1,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.731
+PELP_N1,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.566
+PELP_N1,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.866
+PELP_N1,base,Kimal220,Kimal 220,4,Norte Grande,2045,40.206
+PELP_N1,base,Kimal500,Kimal 500,5,Norte Grande,2045,40.206
+PELP_N1,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,40.206
+PELP_N1,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,40.206
+PELP_N1,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,40.578
+PELP_N1,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,40.364
+PELP_N1,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,40.578
+PELP_N1,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.974
+PELP_N1,base,Parinas500,Parinas 500,12,Norte Grande,2045,40.272
+PELP_N1,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,40.272
+PELP_N1,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,40.694
+PELP_N1,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,40.694
+PELP_N1,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,41.127
+PELP_N1,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,41.465
+PELP_N1,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.991
+PELP_N1,base,Quillota500,Quillota 500,19,Centro,2045,43.02
+PELP_N1,base,Polpaico500,Polpaico 500,20,Centro,2045,43.005
+PELP_N1,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,42.633
+PELP_N1,base,Candelaria500,Candelaria 500,22,Centro,2045,42.826
+PELP_N1,base,Rapel500,Rapel 500,23,Centro,2045,42.633
+PELP_N1,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,42.071
+PELP_N1,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,28.364
+PELP_N1,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,28.062
+PELP_N1,base,Mulchen500,Mulchén 500,27,Centro-Sur,2045,24.38
+PELP_N1,base,RioMalleco500,Río Malleco 500,28,Sur,2045,24.202
+PELP_N1,base,Pichirropulli500,Pichirropulli 500,29,Sur,2045,22.966
+PELP_N1,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,22.247
+PELP_N1,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,21.614
+PELP_N1,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,37.336
+PELP_N1,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,37.019
+PELP_N1,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,37.155
+PELP_N1,base,Kimal220,Kimal 220,4,Norte Grande,2050,37.494
+PELP_N1,base,Kimal500,Kimal 500,5,Norte Grande,2050,37.593
+PELP_N1,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,37.593
+PELP_N1,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,37.593
+PELP_N1,base,LosChangos500,Los Changos 500,8,Norte Grande,2050,37.777
+PELP_N1,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,37.563
+PELP_N1,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,37.777
+PELP_N1,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,37.056
+PELP_N1,base,Parinas500,Parinas 500,12,Norte Grande,2050,37.308
+PELP_N1,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,37.308
+PELP_N1,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,37.731
+PELP_N1,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,37.731
+PELP_N1,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,38.163
+PELP_N1,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,38.501
+PELP_N1,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,39.028
+PELP_N1,base,Quillota500,Quillota 500,19,Centro,2050,39.838
+PELP_N1,base,Polpaico500,Polpaico 500,20,Centro,2050,40.042
+PELP_N1,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,39.731
+PELP_N1,base,Candelaria500,Candelaria 500,22,Centro,2050,39.924
+PELP_N1,base,Rapel500,Rapel 500,23,Centro,2050,39.731
+PELP_N1,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,38.714
+PELP_N1,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,31.715
+PELP_N1,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,32.017
+PELP_N1,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,31.737
+PELP_N1,base,RioMalleco500,Río Malleco 500,28,Sur,2050,30.028
+PELP_N1,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.791
+PELP_N1,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,28.072
+PELP_N1,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,28.006
+PELP_N1,libre,Parinacota220,Parinacota 220,1,Norte Grande,2026,47.693
+PELP_N1,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,47.693
+PELP_N1,libre,Lagunas220,Lagunas 220,3,Norte Grande,2026,47.693
+PELP_N1,libre,Kimal220,Kimal 220,4,Norte Grande,2026,47.776
+PELP_N1,libre,Kimal500,Kimal 500,5,Norte Grande,2026,47.336
+PELP_N1,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,47.336
+PELP_N1,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,47.336
+PELP_N1,libre,LosChangos500,Los Changos 500,8,Norte Grande,2026,47.776
+PELP_N1,libre,LosChangos220,Los Changos 220,9,Norte Grande,2026,47.776
+PELP_N1,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,47.776
+PELP_N1,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,47.776
+PELP_N1,libre,Parinas500,Parinas 500,12,Norte Grande,2026,47.123
+PELP_N1,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,47.123
+PELP_N1,libre,Cumbre500,Cumbre 500,14,Norte Chico,2026,70.094
+PELP_N1,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,70.094
+PELP_N1,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,72.738
+PELP_N1,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,73.402
+PELP_N1,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,74.562
+PELP_N1,libre,Quillota500,Quillota 500,19,Centro,2026,80.039
+PELP_N1,libre,Polpaico500,Polpaico 500,20,Centro,2026,80.039
+PELP_N1,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,82.758
+PELP_N1,libre,Candelaria500,Candelaria 500,22,Centro,2026,82.758
+PELP_N1,libre,Rapel500,Rapel 500,23,Centro,2026,82.758
+PELP_N1,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2026,82.758
+PELP_N1,libre,Concepcion500,Concepción 500,25,Centro-Sur,2026,83.06
+PELP_N1,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,82.758
+PELP_N1,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2026,82.758
+PELP_N1,libre,RioMalleco500,Río Malleco 500,28,Sur,2026,82.758
+PELP_N1,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2026,82.758
+PELP_N1,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,82.758
+PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,82.758
+PELP_N1,libre,Parinacota220,Parinacota 220,1,Norte Grande,2030,34.399
+PELP_N1,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,34.399
+PELP_N1,libre,Lagunas220,Lagunas 220,3,Norte Grande,2030,34.399
+PELP_N1,libre,Kimal220,Kimal 220,4,Norte Grande,2030,34.399
+PELP_N1,libre,Kimal500,Kimal 500,5,Norte Grande,2030,34.399
+PELP_N1,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,34.399
+PELP_N1,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,34.399
+PELP_N1,libre,LosChangos500,Los Changos 500,8,Norte Grande,2030,34.399
+PELP_N1,libre,LosChangos220,Los Changos 220,9,Norte Grande,2030,34.399
+PELP_N1,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,34.399
+PELP_N1,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,34.278
+PELP_N1,libre,Parinas500,Parinas 500,12,Norte Grande,2030,28.743
+PELP_N1,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,28.743
+PELP_N1,libre,Cumbre500,Cumbre 500,14,Norte Chico,2030,34.399
+PELP_N1,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,34.399
+PELP_N1,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,34.399
+PELP_N1,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,34.399
+PELP_N1,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,34.399
+PELP_N1,libre,Quillota500,Quillota 500,19,Centro,2030,34.399
+PELP_N1,libre,Polpaico500,Polpaico 500,20,Centro,2030,34.399
+PELP_N1,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,34.399
+PELP_N1,libre,Candelaria500,Candelaria 500,22,Centro,2030,34.399
+PELP_N1,libre,Rapel500,Rapel 500,23,Centro,2030,34.399
+PELP_N1,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2030,33.382
+PELP_N1,libre,Concepcion500,Concepción 500,25,Centro-Sur,2030,28.983
+PELP_N1,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,28.68
+PELP_N1,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,28.048
+PELP_N1,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,28.048
+PELP_N1,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2030,28.048
+PELP_N1,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,28.048
+PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,28.048
+PELP_N1,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.642
+PELP_N1,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.642
+PELP_N1,libre,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.728
+PELP_N1,libre,Kimal220,Kimal 220,4,Norte Grande,2035,40.66
+PELP_N1,libre,Kimal500,Kimal 500,5,Norte Grande,2035,40.66
+PELP_N1,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.66
+PELP_N1,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.66
+PELP_N1,libre,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.66
+PELP_N1,libre,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.66
+PELP_N1,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.66
+PELP_N1,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.199
+PELP_N1,libre,Parinas500,Parinas 500,12,Norte Grande,2035,39.039
+PELP_N1,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.039
+PELP_N1,libre,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.735
+PELP_N1,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.735
+PELP_N1,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.272
+PELP_N1,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.61
+PELP_N1,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.61
+PELP_N1,libre,Quillota500,Quillota 500,19,Centro,2035,41.61
+PELP_N1,libre,Polpaico500,Polpaico 500,20,Centro,2035,41.61
+PELP_N1,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,41.61
+PELP_N1,libre,Candelaria500,Candelaria 500,22,Centro,2035,41.61
+PELP_N1,libre,Rapel500,Rapel 500,23,Centro,2035,41.61
+PELP_N1,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2035,40.593
+PELP_N1,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.765
+PELP_N1,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.462
+PELP_N1,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,32.861
+PELP_N1,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,32.683
+PELP_N1,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,32.157
+PELP_N1,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,32.876
+PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,32.601
+PELP_N1,libre,Parinacota220,Parinacota 220,1,Norte Grande,2040,38.843
+PELP_N1,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,38.843
+PELP_N1,libre,Lagunas220,Lagunas 220,3,Norte Grande,2040,38.843
+PELP_N1,libre,Kimal220,Kimal 220,4,Norte Grande,2040,38.532
+PELP_N1,libre,Kimal500,Kimal 500,5,Norte Grande,2040,38.225
+PELP_N1,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,38.225
+PELP_N1,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,38.225
+PELP_N1,libre,LosChangos500,Los Changos 500,8,Norte Grande,2040,38.532
+PELP_N1,libre,LosChangos220,Los Changos 220,9,Norte Grande,2040,38.532
+PELP_N1,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,38.532
+PELP_N1,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,38.142
+PELP_N1,libre,Parinas500,Parinas 500,12,Norte Grande,2040,37.923
+PELP_N1,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,37.923
+PELP_N1,libre,Cumbre500,Cumbre 500,14,Norte Chico,2040,38.24
+PELP_N1,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,38.24
+PELP_N1,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,38.532
+PELP_N1,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,38.871
+PELP_N1,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,39.26
+PELP_N1,libre,Quillota500,Quillota 500,19,Centro,2040,39.274
+PELP_N1,libre,Polpaico500,Polpaico 500,20,Centro,2040,39.274
+PELP_N1,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,38.704
+PELP_N1,libre,Candelaria500,Candelaria 500,22,Centro,2040,38.952
+PELP_N1,libre,Rapel500,Rapel 500,23,Centro,2040,38.704
+PELP_N1,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2040,36.931
+PELP_N1,libre,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.984
+PELP_N1,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.682
+PELP_N1,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2040,26.04
+PELP_N1,libre,RioMalleco500,Río Malleco 500,28,Sur,2040,25.862
+PELP_N1,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2040,24.626
+PELP_N1,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.907
+PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,23.516
+PELP_N1,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.06
+PELP_N1,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.033
+PELP_N1,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.17
+PELP_N1,libre,Kimal220,Kimal 220,4,Norte Grande,2045,39.509
+PELP_N1,libre,Kimal500,Kimal 500,5,Norte Grande,2045,39.509
+PELP_N1,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.509
+PELP_N1,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.509
+PELP_N1,libre,LosChangos500,Los Changos 500,8,Norte Grande,2045,39.833
+PELP_N1,libre,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.619
+PELP_N1,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,39.833
+PELP_N1,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.229
+PELP_N1,libre,Parinas500,Parinas 500,12,Norte Grande,2045,39.554
+PELP_N1,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.554
+PELP_N1,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,40.004
+PELP_N1,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,40.004
+PELP_N1,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.436
+PELP_N1,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,40.774
+PELP_N1,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.301
+PELP_N1,libre,Quillota500,Quillota 500,19,Centro,2045,42.314
+PELP_N1,libre,Polpaico500,Polpaico 500,20,Centro,2045,42.314
+PELP_N1,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,41.99
+PELP_N1,libre,Candelaria500,Candelaria 500,22,Centro,2045,42.11
+PELP_N1,libre,Rapel500,Rapel 500,23,Centro,2045,41.99
+PELP_N1,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.984
+PELP_N1,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,29.358
+PELP_N1,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,29.056
+PELP_N1,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2045,26.685
+PELP_N1,libre,RioMalleco500,Río Malleco 500,28,Sur,2045,26.507
+PELP_N1,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2045,25.271
+PELP_N1,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,24.552
+PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,24.05
+PELP_N1,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,36.11
+PELP_N1,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,35.828
+PELP_N1,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,35.964
+PELP_N1,libre,Kimal220,Kimal 220,4,Norte Grande,2050,36.303
+PELP_N1,libre,Kimal500,Kimal 500,5,Norte Grande,2050,36.517
+PELP_N1,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,36.517
+PELP_N1,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,36.517
+PELP_N1,libre,LosChangos500,Los Changos 500,8,Norte Grande,2050,36.75
+PELP_N1,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.536
+PELP_N1,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,36.75
+PELP_N1,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,35.929
+PELP_N1,libre,Parinas500,Parinas 500,12,Norte Grande,2050,36.281
+PELP_N1,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,36.281
+PELP_N1,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,36.666
+PELP_N1,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,36.666
+PELP_N1,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,37.099
+PELP_N1,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.437
+PELP_N1,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,37.963
+PELP_N1,libre,Quillota500,Quillota 500,19,Centro,2050,39.001
+PELP_N1,libre,Polpaico500,Polpaico 500,20,Centro,2050,38.977
+PELP_N1,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,39.238
+PELP_N1,libre,Candelaria500,Candelaria 500,22,Centro,2050,39.432
+PELP_N1,libre,Rapel500,Rapel 500,23,Centro,2050,39.238
+PELP_N1,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2050,38.221
+PELP_N1,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,31.578
+PELP_N1,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,31.88
+PELP_N1,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,31.6
+PELP_N1,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,30.93
+PELP_N1,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,29.694
+PELP_N1,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,28.975
+PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,28.732
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2026,47.328
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,47.328
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2026,47.328
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2026,47.328
+PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2026,46.797
+PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,46.797
+PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,46.797
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2026,47.328
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2026,47.328
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,47.328
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,47.328
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2026,46.675
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,46.675
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2026,68.287
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,68.287
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,71.192
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,71.578
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,73.015
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2026,79.064
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2026,79.064
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,82.272
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2026,82.272
+PROPIO,base,Rapel500,Rapel 500,23,Centro,2026,82.272
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2026,82.272
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2026,82.761
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,82.272
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2026,82.272
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2026,82.272
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2026,82.272
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,82.272
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,82.272
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,43.877
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,43.877
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2030,43.877
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2030,43.877
+PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2030,43.877
+PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,43.877
+PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,43.877
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2030,43.877
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2030,43.877
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,43.877
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,43.487
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2030,32.954
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,32.954
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,43.959
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,43.959
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,44.23
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,44.518
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,44.685
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2030,44.685
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2030,44.685
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,44.685
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2030,44.685
+PROPIO,base,Rapel500,Rapel 500,23,Centro,2030,44.685
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,43.668
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,33.322
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,33.214
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,31.506
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2030,31.328
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2030,31.328
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,30.608
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,30.254
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,41.826
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,41.826
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,41.826
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2035,41.665
+PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2035,41.665
+PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,41.665
+PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,41.665
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,41.665
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2035,41.665
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,41.665
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,41.13
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2035,39.866
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.866
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,43.816
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,43.816
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,44.248
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,44.586
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,45.113
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2035,46.127
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2035,46.127
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,46.127
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2035,46.127
+PROPIO,base,Rapel500,Rapel 500,23,Centro,2035,46.127
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2035,45.11
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,36.638
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,36.484
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,35.046
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2035,34.868
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,33.632
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,32.913
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,32.522
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,40.274
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,40.274
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,40.274
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2040,40.146
+PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2040,39.876
+PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,39.876
+PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,39.876
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2040,40.234
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2040,40.146
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,40.234
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,39.756
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2040,39.608
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,39.608
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2040,40.03
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,40.03
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,40.462
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,40.801
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,41.327
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2040,42.341
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2040,42.341
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,41.89
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2040,42.083
+PROPIO,base,Rapel500,Rapel 500,23,Centro,2040,41.89
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2040,40.459
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,27.915
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,27.612
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2040,26.138
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2040,25.837
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2040,24.601
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.882
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,23.491
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,40.892
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,40.794
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,41.046
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2045,41.385
+PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2045,41.481
+PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,41.481
+PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,41.481
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,41.691
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,41.477
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,41.691
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,41.057
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2045,41.37
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,41.37
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,42.446
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,42.446
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,43.422
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,43.76
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,44.286
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2045,45.511
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2045,45.3
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,45.099
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2045,45.293
+PROPIO,base,Rapel500,Rapel 500,23,Centro,2045,45.099
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,44.637
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,29.733
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,29.902
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2045,25.507
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2045,25.278
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2045,24.042
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,23.323
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,22.932
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,37.975
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,37.633
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,37.769
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2050,38.108
+PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2050,38.322
+PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,38.322
+PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,38.322
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2050,38.617
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,38.403
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,38.617
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,37.713
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2050,38.236
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,38.236
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,38.658
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,38.658
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,39.108
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,39.446
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,39.972
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2050,41.179
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2050,40.986
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,41.408
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2050,41.602
+PROPIO,base,Rapel500,Rapel 500,23,Centro,2050,41.408
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,40.391
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,32.687
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,32.989
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,32.672
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2050,30.194
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.958
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,28.239
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,27.848
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2026,46.948
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,46.948
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2026,46.948
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2026,46.948
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2026,46.338
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,46.338
+PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,46.338
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2026,46.948
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2026,46.948
+PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,46.948
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,46.948
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2026,46.296
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,46.296
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2026,71.739
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,71.739
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,75.014
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,75.468
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,76.501
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2026,83.459
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2026,83.459
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,86.238
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2026,86.238
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2026,86.238
+PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2026,86.238
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2026,86.541
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,86.238
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2026,86.238
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2026,86.238
+PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2026,86.238
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,86.238
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,86.238
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2030,36.594
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,36.594
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2030,36.594
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2030,36.594
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2030,36.594
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,36.594
+PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,36.594
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2030,36.594
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2030,36.594
+PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,36.594
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,36.203
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2030,30.116
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,30.116
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2030,36.537
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,36.537
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,36.641
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,36.859
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,36.859
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2030,36.859
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2030,36.859
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,36.859
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2030,36.859
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2030,36.859
+PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2030,35.842
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2030,31.468
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,31.166
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,30.753
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,30.931
+PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2030,32.807
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,33.267
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,33.86
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.736
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.736
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.819
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2035,40.659
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2035,40.659
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.659
+PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.659
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.659
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.659
+PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.659
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,40.111
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2035,39.047
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,39.047
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.665
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.665
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,41.224
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.562
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,42.089
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2035,42.228
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2035,42.228
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,42.228
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2035,42.228
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2035,42.228
+PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2035,41.21
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.675
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.373
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,33.036
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,32.858
+PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,32.478
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,33.101
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,32.981
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2040,39.802
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,39.802
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2040,39.802
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2040,39.464
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2040,39.168
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,39.168
+PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,39.168
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2040,39.464
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2040,39.464
+PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,39.464
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,39.073
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2040,38.79
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,38.79
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2040,39.201
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,39.201
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,39.464
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,39.802
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,40.328
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2040,41.01
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2040,41.01
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,40.492
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2040,40.813
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2040,40.492
+PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2040,39.071
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2040,28.72
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,28.418
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2040,27.749
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2040,27.571
+PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2040,26.335
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,25.616
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,25.225
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.134
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.134
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.27
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2045,39.609
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2045,39.622
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.622
+PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.622
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2045,39.956
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.742
+PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,39.956
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.352
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2045,39.763
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.763
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,40.202
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,40.202
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.634
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,40.972
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.499
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2045,42.512
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2045,42.512
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,42.237
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2045,42.258
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2045,42.237
+PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.76
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,29.984
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,30.137
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2045,28.052
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2045,27.874
+PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2045,26.396
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,25.676
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,25.286
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,36.374
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,36.056
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,36.192
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2050,36.531
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2050,36.745
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,36.745
+PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,36.745
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2050,36.987
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.774
+PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,36.987
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,36.093
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2050,36.519
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,36.519
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,36.919
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,36.919
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,37.352
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.69
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,38.216
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2050,39.343
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2050,39.23
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,39.695
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2050,39.888
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2050,39.695
+PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2050,38.678
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,31.729
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,32.031
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,31.751
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,31.375
+PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,30.463
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,29.744
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,29.353
+SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2026,46.478
+SIN_DC,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2026,46.478
+SIN_DC,base,Lagunas220,Lagunas 220,3,Norte Grande,2026,46.478
+SIN_DC,base,Kimal220,Kimal 220,4,Norte Grande,2026,46.587
+SIN_DC,base,Kimal500,Kimal 500,5,Norte Grande,2026,46.181
+SIN_DC,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2026,46.181
+SIN_DC,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2026,46.181
+SIN_DC,base,LosChangos500,Los Changos 500,8,Norte Grande,2026,46.587
+SIN_DC,base,LosChangos220,Los Changos 220,9,Norte Grande,2026,46.587
+SIN_DC,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2026,46.587
+SIN_DC,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2026,46.587
+SIN_DC,base,Parinas500,Parinas 500,12,Norte Grande,2026,45.934
+SIN_DC,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2026,45.934
+SIN_DC,base,Cumbre500,Cumbre 500,14,Norte Chico,2026,69.226
+SIN_DC,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2026,69.226
+SIN_DC,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2026,71.113
+SIN_DC,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2026,71.777
+SIN_DC,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2026,73.01
+SIN_DC,base,Quillota500,Quillota 500,19,Centro,2026,78.524
+SIN_DC,base,Polpaico500,Polpaico 500,20,Centro,2026,78.524
+SIN_DC,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2026,81.208
+SIN_DC,base,Candelaria500,Candelaria 500,22,Centro,2026,81.208
+SIN_DC,base,Rapel500,Rapel 500,23,Centro,2026,81.208
+SIN_DC,base,Ancoa500,Ancoa 500,24,Centro-Sur,2026,81.208
+SIN_DC,base,Concepcion500,Concepción 500,25,Centro-Sur,2026,81.51
+SIN_DC,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2026,81.208
+SIN_DC,base,Mulchen500,Mulchén 500,27,Centro-Sur,2026,81.208
+SIN_DC,base,RioMalleco500,Río Malleco 500,28,Sur,2026,81.208
+SIN_DC,base,Pichirropulli500,Pichirropulli 500,29,Sur,2026,81.208
+SIN_DC,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2026,81.208
+SIN_DC,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2026,81.208
+SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,32.172
+SIN_DC,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,32.172
+SIN_DC,base,Lagunas220,Lagunas 220,3,Norte Grande,2030,32.172
+SIN_DC,base,Kimal220,Kimal 220,4,Norte Grande,2030,32.172
+SIN_DC,base,Kimal500,Kimal 500,5,Norte Grande,2030,32.172
+SIN_DC,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2030,32.172
+SIN_DC,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2030,32.172
+SIN_DC,base,LosChangos500,Los Changos 500,8,Norte Grande,2030,32.172
+SIN_DC,base,LosChangos220,Los Changos 220,9,Norte Grande,2030,32.172
+SIN_DC,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2030,32.172
+SIN_DC,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,32.172
+SIN_DC,base,Parinas500,Parinas 500,12,Norte Grande,2030,27.474
+SIN_DC,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2030,27.474
+SIN_DC,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,32.192
+SIN_DC,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2030,32.192
+SIN_DC,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2030,32.192
+SIN_DC,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,32.192
+SIN_DC,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,32.192
+SIN_DC,base,Quillota500,Quillota 500,19,Centro,2030,32.192
+SIN_DC,base,Polpaico500,Polpaico 500,20,Centro,2030,32.192
+SIN_DC,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2030,32.192
+SIN_DC,base,Candelaria500,Candelaria 500,22,Centro,2030,32.192
+SIN_DC,base,Rapel500,Rapel 500,23,Centro,2030,32.192
+SIN_DC,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,31.174
+SIN_DC,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,27.464
+SIN_DC,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,27.162
+SIN_DC,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,26.344
+SIN_DC,base,RioMalleco500,Río Malleco 500,28,Sur,2030,26.344
+SIN_DC,base,Pichirropulli500,Pichirropulli 500,29,Sur,2030,26.344
+SIN_DC,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,26.344
+SIN_DC,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,26.344
+SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,40.431
+SIN_DC,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,40.431
+SIN_DC,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,40.56
+SIN_DC,base,Kimal220,Kimal 220,4,Norte Grande,2035,40.539
+SIN_DC,base,Kimal500,Kimal 500,5,Norte Grande,2035,40.522
+SIN_DC,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,40.522
+SIN_DC,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,40.522
+SIN_DC,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,40.539
+SIN_DC,base,LosChangos220,Los Changos 220,9,Norte Grande,2035,40.539
+SIN_DC,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2035,40.539
+SIN_DC,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,39.932
+SIN_DC,base,Parinas500,Parinas 500,12,Norte Grande,2035,38.884
+SIN_DC,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,38.884
+SIN_DC,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,40.109
+SIN_DC,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,40.109
+SIN_DC,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,40.706
+SIN_DC,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,41.044
+SIN_DC,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,41.044
+SIN_DC,base,Quillota500,Quillota 500,19,Centro,2035,41.106
+SIN_DC,base,Polpaico500,Polpaico 500,20,Centro,2035,41.106
+SIN_DC,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2035,41.09
+SIN_DC,base,Candelaria500,Candelaria 500,22,Centro,2035,41.108
+SIN_DC,base,Rapel500,Rapel 500,23,Centro,2035,41.09
+SIN_DC,base,Ancoa500,Ancoa 500,24,Centro-Sur,2035,40.073
+SIN_DC,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,34.216
+SIN_DC,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,34.061
+SIN_DC,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,32.785
+SIN_DC,base,RioMalleco500,Río Malleco 500,28,Sur,2035,32.607
+SIN_DC,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,31.535
+SIN_DC,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,30.9
+SIN_DC,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,30.51
+SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,37.935
+SIN_DC,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,37.935
+SIN_DC,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,37.999
+SIN_DC,base,Kimal220,Kimal 220,4,Norte Grande,2040,37.66
+SIN_DC,base,Kimal500,Kimal 500,5,Norte Grande,2040,37.325
+SIN_DC,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,37.325
+SIN_DC,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2040,37.325
+SIN_DC,base,LosChangos500,Los Changos 500,8,Norte Grande,2040,37.66
+SIN_DC,base,LosChangos220,Los Changos 220,9,Norte Grande,2040,37.66
+SIN_DC,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,37.66
+SIN_DC,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,37.376
+SIN_DC,base,Parinas500,Parinas 500,12,Norte Grande,2040,37.17
+SIN_DC,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2040,37.17
+SIN_DC,base,Cumbre500,Cumbre 500,14,Norte Chico,2040,37.447
+SIN_DC,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2040,37.447
+SIN_DC,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,37.66
+SIN_DC,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,37.998
+SIN_DC,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,38.27
+SIN_DC,base,Quillota500,Quillota 500,19,Centro,2040,38.27
+SIN_DC,base,Polpaico500,Polpaico 500,20,Centro,2040,38.27
+SIN_DC,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2040,37.721
+SIN_DC,base,Candelaria500,Candelaria 500,22,Centro,2040,37.914
+SIN_DC,base,Rapel500,Rapel 500,23,Centro,2040,37.721
+SIN_DC,base,Ancoa500,Ancoa 500,24,Centro-Sur,2040,36.307
+SIN_DC,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,26.331
+SIN_DC,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,26.029
+SIN_DC,base,Mulchen500,Mulchén 500,27,Centro-Sur,2040,25.338
+SIN_DC,base,RioMalleco500,Río Malleco 500,28,Sur,2040,25.16
+SIN_DC,base,Pichirropulli500,Pichirropulli 500,29,Sur,2040,23.924
+SIN_DC,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,23.204
+SIN_DC,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,22.814
+SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,39.188
+SIN_DC,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,39.096
+SIN_DC,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,39.232
+SIN_DC,base,Kimal220,Kimal 220,4,Norte Grande,2045,39.571
+SIN_DC,base,Kimal500,Kimal 500,5,Norte Grande,2045,39.571
+SIN_DC,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,39.571
+SIN_DC,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2045,39.571
+SIN_DC,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,39.924
+SIN_DC,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,39.71
+SIN_DC,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,39.924
+SIN_DC,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,39.32
+SIN_DC,base,Parinas500,Parinas 500,12,Norte Grande,2045,39.484
+SIN_DC,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2045,39.484
+SIN_DC,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,39.967
+SIN_DC,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,39.967
+SIN_DC,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,40.399
+SIN_DC,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,40.737
+SIN_DC,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,41.264
+SIN_DC,base,Quillota500,Quillota 500,19,Centro,2045,42.293
+SIN_DC,base,Polpaico500,Polpaico 500,20,Centro,2045,42.277
+SIN_DC,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2045,41.924
+SIN_DC,base,Candelaria500,Candelaria 500,22,Centro,2045,42.117
+SIN_DC,base,Rapel500,Rapel 500,23,Centro,2045,41.924
+SIN_DC,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,41.438
+SIN_DC,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,28.404
+SIN_DC,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,28.102
+SIN_DC,base,Mulchen500,Mulchén 500,27,Centro-Sur,2045,25.211
+SIN_DC,base,RioMalleco500,Río Malleco 500,28,Sur,2045,25.034
+SIN_DC,base,Pichirropulli500,Pichirropulli 500,29,Sur,2045,23.797
+SIN_DC,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,23.078
+SIN_DC,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,22.402
+SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,35.725
+SIN_DC,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,35.53
+SIN_DC,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,35.666
+SIN_DC,base,Kimal220,Kimal 220,4,Norte Grande,2050,36.005
+SIN_DC,base,Kimal500,Kimal 500,5,Norte Grande,2050,36.212
+SIN_DC,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2050,36.212
+SIN_DC,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,36.212
+SIN_DC,base,LosChangos500,Los Changos 500,8,Norte Grande,2050,36.357
+SIN_DC,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,36.144
+SIN_DC,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,36.357
+SIN_DC,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,35.567
+SIN_DC,base,Parinas500,Parinas 500,12,Norte Grande,2050,35.889
+SIN_DC,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2050,35.889
+SIN_DC,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,36.231
+SIN_DC,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,36.231
+SIN_DC,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,36.663
+SIN_DC,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,37.001
+SIN_DC,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,37.528
+SIN_DC,base,Quillota500,Quillota 500,19,Centro,2050,38.338
+SIN_DC,base,Polpaico500,Polpaico 500,20,Centro,2050,38.541
+SIN_DC,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,38.253
+SIN_DC,base,Candelaria500,Candelaria 500,22,Centro,2050,38.446
+SIN_DC,base,Rapel500,Rapel 500,23,Centro,2050,38.253
+SIN_DC,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,37.236
+SIN_DC,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,30.67
+SIN_DC,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,30.972
+SIN_DC,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,30.692
+SIN_DC,base,RioMalleco500,Río Malleco 500,28,Sur,2050,29.443
+SIN_DC,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,28.207
+SIN_DC,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,27.488
+SIN_DC,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,27.478

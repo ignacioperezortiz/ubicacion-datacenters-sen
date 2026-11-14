@@ -1,0 +1,17 @@
+# Entornos y cachés
+.venv*/
+__pycache__/
+*.pyc
+# Salidas horarias pesadas de Switch (se regeneran corriendo los casos)
+casos/*/outputs_*/dispatch.csv
+casos/*/outputs_*/DispatchGen.csv
+casos/*/outputs_*/storage_dispatch.csv
+casos/*/outputs_*/GenFuelUseRate.csv
+casos/*/outputs_*/StateOfCharge.csv
+casos/*/outputs_*/ChargeStorage.csv
+casos/*/outputs_*/DispatchTx.csv
+casos/*/outputs_*/dispatch_wide.csv
+casos/*/outputs_*/*.pickle
+# Licencias y archivos locales
+gurobi.lic
+*.log

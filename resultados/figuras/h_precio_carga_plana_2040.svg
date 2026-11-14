@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="633.6pt" height="590.4pt" viewBox="0 0 633.6 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T23:22:14.321893</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 590.4 
+L 633.6 590.4 
+L 633.6 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 129.32 516.213086 
+L 626.699654 516.213086 
+L 626.699654 65.52 
+L 129.32 65.52 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 129.32 516.213086 
+L 129.32 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="129.32" y="526.765332" transform="rotate(-0 129.32 526.765332)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 191.208543 516.213086 
+L 191.208543 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="191.208543" y="526.765332" transform="rotate(-0 191.208543 526.765332)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 253.097086 516.213086 
+L 253.097086 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="253.097086" y="526.765332" transform="rotate(-0 253.097086 526.765332)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 314.985629 516.213086 
+L 314.985629 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="314.985629" y="526.765332" transform="rotate(-0 314.985629 526.765332)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 376.874172 516.213086 
+L 376.874172 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="376.874172" y="526.765332" transform="rotate(-0 376.874172 526.765332)">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 438.762716 516.213086 
+L 438.762716 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="438.762716" y="526.765332" transform="rotate(-0 438.762716 526.765332)">25</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 500.651259 516.213086 
+L 500.651259 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="500.651259" y="526.765332" transform="rotate(-0 500.651259 526.765332)">30</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 562.539802 516.213086 
+L 562.539802 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="562.539802" y="526.765332" transform="rotate(-0 562.539802 526.765332)">35</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 624.428345 516.213086 
+L 624.428345 65.52 
+" clip-path="url(#paa8e183eb2)" style="fill: none; stroke: #e1e0d9; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="624.428345" y="526.765332" transform="rotate(-0 624.428345 526.765332)">40</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="378.009827" y="539.322187" transform="rotate(-0 378.009827 539.322187)">USD/MWh de una carga plana en 2040, sistema sin data centers</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_19"/>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="78.491048" transform="rotate(-0 125.32 78.491048)">Parinacota 220 (18,5° S)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_20"/>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="92.881831" transform="rotate(-0 125.32 92.881831)">Nueva Pozo Almonte 220 (20,3° S)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_21"/>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="107.185973" transform="rotate(-0 125.32 107.185973)">Lagunas 220 (21,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_22"/>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="121.588397" transform="rotate(-0 125.32 121.588397)">Kimal 220 (22,3° S)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_23"/>
+     <g id="text_15">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="135.94168" transform="rotate(-0 125.32 135.94168)">Kimal 500 (22,3° S)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_24"/>
+     <g id="text_16">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="150.294963" transform="rotate(-0 125.32 150.294963)">Polo Tocopilla A1 (22,3° S)</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_25"/>
+     <g id="text_17">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="164.648246" transform="rotate(-0 125.32 164.648246)">Polo Tocopilla A2 (22,3° S)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_26"/>
+     <g id="text_18">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="179.001529" transform="rotate(-0 125.32 179.001529)">Los Changos 500 (23,1° S)</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_27"/>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="193.354812" transform="rotate(-0 125.32 193.354812)">Los Changos 220 (23,1° S)</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_28"/>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="207.750595" transform="rotate(-0 125.32 207.750595)">Polo Antofagasta B1 (23,1° S)</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_29"/>
+     <g id="text_21">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="222.119503" transform="rotate(-0 125.32 222.119503)">Nueva Zaldívar 220 (24,3° S)</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_30"/>
+     <g id="text_22">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="236.377161" transform="rotate(-0 125.32 236.377161)">Parinas 500 (25,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_31"/>
+     <g id="text_23">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="250.810444" transform="rotate(-0 125.32 250.810444)">Polo Antofagasta B2 (25,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_32"/>
+     <g id="text_24">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="265.121227" transform="rotate(-0 125.32 265.121227)">Cumbre 500 (26,4° S)</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_33"/>
+     <g id="text_25">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="279.51701" transform="rotate(-0 125.32 279.51701)">Polo Antofagasta B3 (26,4° S)</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_34"/>
+     <g id="text_26">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="293.827793" transform="rotate(-0 125.32 293.827793)">Nueva Cardones 500 (27,5° S)</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_35"/>
+     <g id="text_27">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="308.181076" transform="rotate(-0 125.32 308.181076)">Nueva Maitencillo 500 (28,6° S)</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_36"/>
+     <g id="text_28">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="322.592484" transform="rotate(-0 125.32 322.592484)">Nueva Pan de Azúcar 500 (30,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_37"/>
+     <g id="text_29">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="336.887642" transform="rotate(-0 125.32 336.887642)">Quillota 500 (32,9° S)</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_38"/>
+     <g id="text_30">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="351.240925" transform="rotate(-0 125.32 351.240925)">Polpaico 500 (33,1° S)</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_39"/>
+     <g id="text_31">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="365.594208" transform="rotate(-0 125.32 365.594208)">Alto Jahuel 500 (33,7° S)</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_40"/>
+     <g id="text_32">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="379.947491" transform="rotate(-0 125.32 379.947491)">Candelaria 500 (34,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_41"/>
+     <g id="text_33">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="394.300774" transform="rotate(-0 125.32 394.300774)">Rapel 500 (34,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_42"/>
+     <g id="text_34">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="408.604916" transform="rotate(-0 125.32 408.604916)">Ancoa 500 (35,8° S)</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_43"/>
+     <g id="text_35">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="423.065465" transform="rotate(-0 125.32 423.065465)">Concepción 500 (36,8° S)</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_44"/>
+     <g id="text_36">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="437.418748" transform="rotate(-0 125.32 437.418748)">Nueva Charrúa 500 (37,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_45"/>
+     <g id="text_37">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="451.772031" transform="rotate(-0 125.32 451.772031)">Mulchén 500 (37,7° S)</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_46"/>
+     <g id="text_38">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="466.125314" transform="rotate(-0 125.32 466.125314)">Río Malleco 500 (38,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_47"/>
+     <g id="text_39">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="480.420472" transform="rotate(-0 125.32 480.420472)">Pichirropulli 500 (40,0° S)</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_48"/>
+     <g id="text_40">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="494.724614" transform="rotate(-0 125.32 494.724614)">Nueva Puerto Montt 500 (41,4° S)</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_49"/>
+     <g id="text_41">
+      <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="125.32" y="509.127038" transform="rotate(-0 125.32 509.127038)">Nueva Ancud 500 (41,9° S)</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 129.32 80.016816 
+L 598.868377 80.016816 
+L 598.868377 71.11778 
+L 129.32 71.11778 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 129.32 94.370099 
+L 598.868377 94.370099 
+L 598.868377 85.471063 
+L 129.32 85.471063 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 129.32 108.723382 
+L 599.66055 108.723382 
+L 599.66055 99.824346 
+L 129.32 99.824346 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 129.32 123.076665 
+L 595.464507 123.076665 
+L 595.464507 114.177629 
+L 129.32 114.177629 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 129.32 137.429948 
+L 591.317974 137.429948 
+L 591.317974 128.530912 
+L 129.32 128.530912 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 129.32 151.783231 
+L 591.317974 151.783231 
+L 591.317974 142.884195 
+L 129.32 142.884195 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 129.32 166.136514 
+L 591.317974 166.136514 
+L 591.317974 157.237478 
+L 129.32 157.237478 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 129.32 180.489797 
+L 595.464507 180.489797 
+L 595.464507 171.590761 
+L 129.32 171.590761 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 129.32 194.84308 
+L 595.464507 194.84308 
+L 595.464507 185.944044 
+L 129.32 185.944044 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 129.32 209.196363 
+L 595.464507 209.196363 
+L 595.464507 200.297327 
+L 129.32 200.297327 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 129.32 223.549646 
+L 591.949238 223.549646 
+L 591.949238 214.65061 
+L 129.32 214.65061 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 129.32 237.902929 
+L 589.39943 237.902929 
+L 589.39943 229.003893 
+L 129.32 229.003893 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 129.32 252.256212 
+L 589.39943 252.256212 
+L 589.39943 243.357176 
+L 129.32 243.357176 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 129.32 266.609495 
+L 592.828055 266.609495 
+L 592.828055 257.710459 
+L 129.32 257.710459 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 129.32 280.962778 
+L 592.828055 280.962778 
+L 592.828055 272.063742 
+L 129.32 272.063742 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 129.32 295.316061 
+L 595.464507 295.316061 
+L 595.464507 286.417025 
+L 129.32 286.417025 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 129.32 309.669344 
+L 599.648172 309.669344 
+L 599.648172 300.770308 
+L 129.32 300.770308 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 129.32 324.022627 
+L 603.014909 324.022627 
+L 603.014909 315.123591 
+L 129.32 315.123591 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 129.32 338.37591 
+L 603.014909 338.37591 
+L 603.014909 329.476874 
+L 129.32 329.476874 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 129.32 352.729193 
+L 603.014909 352.729193 
+L 603.014909 343.830157 
+L 129.32 343.830157 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 129.32 367.082476 
+L 596.219547 367.082476 
+L 596.219547 358.18344 
+L 129.32 358.18344 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 129.32 381.435759 
+L 598.608445 381.435759 
+L 598.608445 372.536723 
+L 129.32 372.536723 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 129.32 395.789042 
+L 596.219547 395.789042 
+L 596.219547 386.890006 
+L 129.32 386.890006 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 129.32 410.142325 
+L 578.717467 410.142325 
+L 578.717467 401.243289 
+L 129.32 401.243289 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 129.32 424.495608 
+L 455.237446 424.495608 
+L 455.237446 415.596572 
+L 129.32 415.596572 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 129.32 438.848891 
+L 451.499378 438.848891 
+L 451.499378 429.949855 
+L 129.32 429.949855 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 129.32 453.202174 
+L 442.946381 453.202174 
+L 442.946381 444.303138 
+L 129.32 444.303138 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #c9c7bf"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 129.32 467.555457 
+L 440.743149 467.555457 
+L 440.743149 458.656421 
+L 129.32 458.656421 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #1c5cab"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 129.32 481.90874 
+L 425.444301 481.90874 
+L 425.444301 473.009704 
+L 129.32 473.009704 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #1c5cab"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 129.32 496.262023 
+L 416.532351 496.262023 
+L 416.532351 487.362987 
+L 129.32 487.362987 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #1c5cab"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 129.32 510.615306 
+L 411.705045 510.615306 
+L 411.705045 501.71627 
+L 129.32 501.71627 
+z
+" clip-path="url(#paa8e183eb2)" style="fill: #1c5cab"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 129.32 516.213086 
+L 626.699654 516.213086 
+" style="fill: none; stroke: #c3c2b7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="600.41559" y="120.69746" transform="rotate(-0 600.41559 120.69746)">37,7</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="607.965992" y="335.996704" transform="rotate(-0 607.965992 335.996704)">38,3</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="607.965992" y="350.349987" transform="rotate(-0 607.965992 350.349987)">38,3</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="601.17063" y="364.70327" transform="rotate(-0 601.17063 364.70327)">37,7</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="445.694232" y="465.176251" transform="rotate(-0 445.694232 465.176251)">25,2</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="430.395385" y="479.529534" transform="rotate(-0 430.395385 479.529534)">23,9</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="421.483434" y="493.882817" transform="rotate(-0 421.483434 493.882817)">23,2</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="416.656128" y="508.2361" transform="rotate(-0 416.656128 508.2361)">22,8</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_35">
+     <path d="M 480.323014 481.948955 
+L 488.823014 481.948955 
+L 488.823014 474.893955 
+L 480.323014 474.893955 
+z
+" style="fill: #1c5cab"/>
+    </g>
+    <g id="text_50">
+     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start" x="495.623014" y="481.353955" transform="rotate(-0 495.623014 481.353955)">Zonas que elige el modelo (libre)</text>
+    </g>
+    <g id="patch_36">
+     <path d="M 480.323014 494.659111 
+L 488.823014 494.659111 
+L 488.823014 487.604111 
+L 480.323014 487.604111 
+z
+" style="fill: #eb6834"/>
+    </g>
+    <g id="text_51">
+     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start" x="495.623014" y="494.064111" transform="rotate(-0 495.623014 494.064111)">Zonas de la proyección (base)</text>
+    </g>
+    <g id="patch_37">
+     <path d="M 480.323014 507.369268 
+L 488.823014 507.369268 
+L 488.823014 500.314268 
+L 480.323014 500.314268 
+z
+" style="fill: #c9c7bf"/>
+    </g>
+    <g id="text_52">
+     <text style="font-size: 8.5px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start" x="495.623014" y="506.774268" transform="rotate(-0 495.623014 506.774268)">Resto</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_53">
+   <text style="font-weight: 600; font-size: 12px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="7.6032" y="19.138125" transform="rotate(-0 7.6032 19.138125)">En 2040, abastecer 1 MW plano cuesta 23–25 USD/MWh en el sur y unos 38 donde los ubica la proyección</text>
+  </g>
+  <g id="text_54">
+   <text style="font-size: 9px; font-family: 'Segoe UI', 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="7.6032" y="37.753594" transform="rotate(-0 7.6032 37.753594)">Promedio horario del costo marginal de la zona (dual del balance): incluye la inversión que exige 1 MW más.</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 7.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #898781" transform="translate(7.6032 573.247236)">Zonas de norte (arriba) a sur, con latitud aproximada de su subestación. Los polos PDGE se ubican junto a la subestación a la que se conectan.</text>
+   <text style="font-size: 7.5px; font-family: 'Segoe UI', 'DejaVu Sans'; fill: #898781" transform="translate(7.6032 583.121162)">Fuente: elaboración propia con Switch 2.0.9, red de 31 zonas de la PELP 2023-2027, escenario Carbono Neutralidad.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paa8e183eb2">
+   <rect x="129.32" y="65.52" width="497.379654" height="450.693086"/>
+  </clipPath>
+ </defs>
+</svg>

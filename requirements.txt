@@ -1,0 +1,10 @@
+# Python 3.11
+switch_model==2.0.9.post0
+pyomo==6.9.1
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+openpyxl>=3.1
+# Solvers (al menos uno):
+gurobipy>=13,<14     # recomendado; requiere licencia (académica gratuita en gurobi.com)
+highspy>=1.7         # alternativa libre, bastante más lenta en estos casos

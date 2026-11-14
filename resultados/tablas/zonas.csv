@@ -1,0 +1,32 @@
+orden,zona,nombre,latitud_aprox_sur,region,macrozona,candidata_dc
+1,Parinacota220,Parinacota 220,18.5,Arica y Parinacota,Norte Grande,True
+2,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,20.3,Tarapacá,Norte Grande,True
+3,Lagunas220,Lagunas 220,21.0,Tarapacá,Norte Grande,True
+4,Kimal220,Kimal 220,22.3,Antofagasta,Norte Grande,True
+5,Kimal500,Kimal 500,22.3,Antofagasta,Norte Grande,True
+6,PDGE-TOC-A1,Polo Tocopilla A1,22.3,Antofagasta,Norte Grande,False
+7,PDGE-TOC-A2,Polo Tocopilla A2,22.3,Antofagasta,Norte Grande,False
+8,LosChangos500,Los Changos 500,23.1,Antofagasta,Norte Grande,True
+9,LosChangos220,Los Changos 220,23.1,Antofagasta,Norte Grande,True
+10,PDGE-ANF-B1,Polo Antofagasta B1,23.1,Antofagasta,Norte Grande,False
+11,NuevaZaldivar220,Nueva Zaldívar 220,24.3,Antofagasta,Norte Grande,True
+12,Parinas500,Parinas 500,25.0,Antofagasta,Norte Grande,True
+13,PDGE-ANF-B2,Polo Antofagasta B2,25.0,Antofagasta,Norte Grande,False
+14,Cumbre500,Cumbre 500,26.4,Atacama,Norte Chico,True
+15,PDGE-ANF-B3,Polo Antofagasta B3,26.4,Atacama,Norte Chico,False
+16,NuevaCardones500,Nueva Cardones 500,27.5,Atacama,Norte Chico,True
+17,NuevaMaitencillo500,Nueva Maitencillo 500,28.6,Atacama,Norte Chico,True
+18,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,30.0,Coquimbo,Norte Chico,True
+19,Quillota500,Quillota 500,32.9,Valparaíso,Centro,True
+20,Polpaico500,Polpaico 500,33.1,Metropolitana,Centro,True
+21,AltoJahuel500,Alto Jahuel 500,33.7,Metropolitana,Centro,True
+22,Candelaria500,Candelaria 500,34.0,O'Higgins,Centro,True
+23,Rapel500,Rapel 500,34.0,O'Higgins,Centro,True
+24,Ancoa500,Ancoa 500,35.8,Maule,Centro-Sur,True
+25,Concepcion500,Concepción 500,36.8,Biobío,Centro-Sur,True
+26,NuevaCharrua500,Nueva Charrúa 500,37.0,Biobío,Centro-Sur,True
+27,Mulchen500,Mulchén 500,37.7,Biobío,Centro-Sur,True
+28,RioMalleco500,Río Malleco 500,38.0,Araucanía,Sur,True
+29,Pichirropulli500,Pichirropulli 500,40.0,Los Ríos,Sur,True
+30,NuevaPuertoMontt500,Nueva Puerto Montt 500,41.4,Los Lagos,Sur,True
+31,NuevaAncud500,Nueva Ancud 500,41.9,Los Lagos,Sur,True

@@ -1,0 +1,46 @@
+escenario,modo,macrozona,orden,generacion_MW,almacenamiento_MW
+CEN,base,Norte Grande,1,44082.786,11079.452
+CEN,base,Norte Chico,2,10224.724,4112.975
+CEN,base,Centro,3,4842.393,436.714
+CEN,base,Centro-Sur,4,11304.693,100.0
+CEN,base,Sur,5,12383.873,0.0
+CEN,libre,Norte Grande,1,43528.7,10693.712
+CEN,libre,Norte Chico,2,10132.708,4241.264
+CEN,libre,Centro,3,4739.529,419.248
+CEN,libre,Centro-Sur,4,12003.837,100.0
+CEN,libre,Sur,5,12501.753,0.0
+PELP_E2,base,Norte Grande,1,43456.915,10751.605
+PELP_E2,base,Norte Chico,2,9986.864,4198.74
+PELP_E2,base,Centro,3,4773.708,397.322
+PELP_E2,base,Centro-Sur,4,11272.587,100.0
+PELP_E2,base,Sur,5,12389.423,0.0
+PELP_E2,libre,Norte Grande,1,42360.708,10361.49
+PELP_E2,libre,Norte Chico,2,10348.189,4182.096
+PELP_E2,libre,Centro,3,4720.32,445.893
+PELP_E2,libre,Centro-Sur,4,11946.215,100.0
+PELP_E2,libre,Sur,5,12570.055,0.0
+PELP_N1,base,Norte Grande,1,46533.163,12111.509
+PELP_N1,base,Norte Chico,2,9194.469,3603.819
+PELP_N1,base,Centro,3,4747.332,431.29
+PELP_N1,base,Centro-Sur,4,11894.434,100.0
+PELP_N1,base,Sur,5,12394.005,0.0
+PELP_N1,libre,Norte Grande,1,44021.617,10774.049
+PELP_N1,libre,Norte Chico,2,9963.367,3941.418
+PELP_N1,libre,Centro,3,4484.984,566.283
+PELP_N1,libre,Centro-Sur,4,13515.902,100.0
+PELP_N1,libre,Sur,5,12760.66,0.0
+PROPIO,base,Norte Grande,1,47838.36,12411.433
+PROPIO,base,Norte Chico,2,10969.395,4011.22
+PROPIO,base,Centro,3,4639.845,714.958
+PROPIO,base,Centro-Sur,4,12868.536,100.0
+PROPIO,base,Sur,5,12562.375,0.0
+PROPIO,libre,Norte Grande,1,44206.879,10926.03
+PROPIO,libre,Norte Chico,2,11048.658,4009.757
+PROPIO,libre,Centro,3,4373.936,692.272
+PROPIO,libre,Centro-Sur,4,14792.005,100.0
+PROPIO,libre,Sur,5,14010.35,0.0
+SIN_DC,base,Norte Grande,1,42232.187,10326.876
+SIN_DC,base,Norte Chico,2,10168.337,4208.612
+SIN_DC,base,Centro,3,4588.025,375.65
+SIN_DC,base,Centro-Sur,4,11266.856,100.0
+SIN_DC,base,Sur,5,12413.614,0.0
