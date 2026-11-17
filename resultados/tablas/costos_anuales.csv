@@ -1,385 +1,449 @@
 PERIOD,Component,Component_type,AnnualCost_NPV,AnnualCost_Real,escenario,modo,tipo
-2026,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,34986067.58805517,34986067.58805517,PELP_E2,base,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1283715485.8387592,1283715485.8387592,PELP_E2,base,Combustible
-2026,GenVariableOMCostsInTP,timepoint,120877723.28328387,120877723.28328387,PELP_E2,base,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,370327491.90588397,370327491.90588397,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,192156673.1020102,192156673.1020102,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,PELP_E2,base,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1050594717.0176764,1050594717.0176764,PELP_E2,base,Combustible
+2025,GenVariableOMCostsInTP,timepoint,101853244.63570724,101853244.63570724,PELP_E2,base,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,545382898.3261094,545382898.3261094,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,190910310.5322198,190910310.5322198,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,38031729.237617135,42732450.97138662,PELP_E2,base,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1038611723.0249486,1166984131.9908323,PELP_E2,base,Combustible
+2027,GenVariableOMCostsInTP,timepoint,101675190.29457314,114242243.8149824,PELP_E2,base,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,563492475.9427632,633140145.9692888,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,172642052.72862265,193980610.44588044,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,18623946.45768041,23512303.30709514,PELP_E2,base,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,133075152.15931548,168004313.54963008,PELP_E2,base,Combustible
-2030,GenVariableOMCostsInTP,timepoint,28121671.327116195,35502962.12717683,PELP_E2,base,O&M variable
+2030,EmissionsCosts,annual,19422861.60736252,25992170.193157576,PELP_E2,base,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,150473756.61095074,201367829.85433143,PELP_E2,base,Combustible
+2030,GenVariableOMCostsInTP,timepoint,28620531.34557911,38300727.09115652,PELP_E2,base,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,864136858.2292473,1090952873.8012114,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,232543467.2836565,293580769.6441302,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,979056573.5751064,1310198548.675624,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,218880444.8722202,292911409.7644719,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,45470721.413827494,76821827.07933474,PELP_E2,base,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,211284651.30974582,356960972.7480363,PELP_E2,base,Combustible
-2035,GenVariableOMCostsInTP,timepoint,24825149.50070138,41941567.73553119,PELP_E2,base,O&M variable
+2035,EmissionsCosts,annual,42480538.423823744,76076174.38420498,PELP_E2,base,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,196160264.99775985,351293158.72447413,PELP_E2,base,Combustible
+2035,GenVariableOMCostsInTP,timepoint,23389200.18415751,41886495.273778185,PELP_E2,base,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1434373124.1087513,2423343212.5406938,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,209062488.04435393,353206674.667688,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1503749369.1677597,2692986093.9518533,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,197408193.5325248,353528008.6664081,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,43523310.93563714,98402025.86191188,PELP_E2,base,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,150611792.62782037,340518797.7355044,PELP_E2,base,Combustible
-2040,GenVariableOMCostsInTP,timepoint,16731089.877573583,37827387.28828895,PELP_E2,base,O&M variable
+2040,EmissionsCosts,annual,41553214.881876655,99584697.57479352,PELP_E2,base,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,145561139.20220032,348845740.7519579,PELP_E2,base,Combustible
+2040,GenVariableOMCostsInTP,timepoint,15896364.66620417,38096562.98129205,PELP_E2,base,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1226362415.921977,2772687637.3465524,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,197660677.5494222,446891807.7685887,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1266374307.6130855,3034939722.4410896,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,185900479.9218472,445521318.2578677,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,32218801.079529684,97481188.50408418,PELP_E2,base,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,120766043.79250781,365389681.9677,PELP_E2,base,Combustible
-2045,GenVariableOMCostsInTP,timepoint,13957405.743000986,42229519.86645828,PELP_E2,base,O&M variable
+2045,EmissionsCosts,annual,30459667.27376408,97688279.3854896,PELP_E2,base,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,112634349.4608442,361233617.54549146,PELP_E2,base,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13054268.678729543,41866808.14335066,PELP_E2,base,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1396638994.2909796,4225670245.7229033,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,165001259.85270235,499227729.65416163,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1400642289.0075383,4492049568.957476,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,155639228.55423185,499156090.7641197,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,PELP_E2,base,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,20103818.874066923,81399048.66097578,PELP_E2,base,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,81925874.10372852,331712509.67470163,PELP_E2,base,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8896824.76224825,36022661.977152914,PELP_E2,base,O&M variable
+2050,EmissionsCosts,annual,19180856.8669462,82321757.96683721,PELP_E2,base,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,77395672.03983203,332172218.66262484,PELP_E2,base,Combustible
+2050,GenVariableOMCostsInTP,timepoint,8403160.216546781,36065277.286710486,PELP_E2,base,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1421508032.9036746,5755593117.263626,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,140377748.21243277,568380327.6004378,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1362752777.8823187,5848758745.642225,PELP_E2,base,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,132427972.10398512,568363735.9481013,PELP_E2,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,base,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,35273096.81919603,35273096.81919603,PELP_E2,libre,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1291865687.614627,1291865687.614627,PELP_E2,libre,Combustible
-2026,GenVariableOMCostsInTP,timepoint,121793311.85522091,121793311.85522091,PELP_E2,libre,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,365817459.89602375,365817459.89602375,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,192156671.83183956,192156671.83183956,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,PELP_E2,libre,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1052021566.402464,1052021566.402464,PELP_E2,libre,Combustible
+2025,GenVariableOMCostsInTP,timepoint,101976225.98966056,101976225.98966056,PELP_E2,libre,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,544459528.150304,544459528.150304,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,190910310.5322198,190910310.5322198,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,38123180.01519633,42835205.0650746,PELP_E2,libre,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1040904219.1802098,1169559980.670884,PELP_E2,libre,Combustible
+2027,GenVariableOMCostsInTP,timepoint,101976761.80379508,114581089.56274416,PELP_E2,libre,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,562039720.8249369,631507830.3188992,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,172642052.72862265,193980610.44588044,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,17100340.117466643,21588785.406465337,PELP_E2,libre,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,126908384.00558838,160218910.83788788,PELP_E2,libre,Combustible
-2030,GenVariableOMCostsInTP,timepoint,27458521.970738035,34665751.34371057,PELP_E2,libre,O&M variable
+2030,EmissionsCosts,annual,18298849.509287864,24487988.453982238,PELP_E2,libre,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,140597982.05638796,188151815.74680427,PELP_E2,libre,Combustible
+2030,GenVariableOMCostsInTP,timepoint,27257765.68624598,36477039.229562,PELP_E2,libre,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,863411758.6253862,1090037452.2576315,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,232510541.90587732,293539202.11328465,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,984207007.3197658,1317090990.8484614,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,218868944.66314015,292896019.89053327,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,44838890.916152485,75754362.7478566,PELP_E2,libre,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,206913887.18047264,349576658.7168656,PELP_E2,libre,Combustible
-2035,GenVariableOMCostsInTP,timepoint,24582954.06414434,41532383.6415016,PELP_E2,libre,O&M variable
+2035,EmissionsCosts,annual,42692082.62897632,76455017.83671945,PELP_E2,libre,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,196647475.0343693,352165677.69626874,PELP_E2,libre,Combustible
+2035,GenVariableOMCostsInTP,timepoint,23424744.707653403,41950150.10180552,PELP_E2,libre,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1429572966.9619966,2415233448.041345,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,208541911.76868996,352327172.00339776,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1496226507.066039,2679513793.685578,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,196383424.18538213,351692802.8415899,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,41480665.78871349,93783801.36902963,PELP_E2,libre,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,139600647.96663383,315623657.2136435,PELP_E2,libre,Combustible
-2040,GenVariableOMCostsInTP,timepoint,16144483.601902183,36501126.83915311,PELP_E2,libre,O&M variable
+2040,EmissionsCosts,annual,39947176.74129058,95735733.7105414,PELP_E2,libre,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,135199798.73763666,324014185.3701125,PELP_E2,libre,Combustible
+2040,GenVariableOMCostsInTP,timepoint,15345163.758253476,36775577.929298826,PELP_E2,libre,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1227038667.8418489,2774216577.9872775,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,195956566.99662048,443038977.47871643,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1267518438.8130689,3037681699.4423904,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,185045686.794334,443472756.7847207,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,31247493.012610365,94542399.30043943,PELP_E2,libre,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,117937173.60360858,356830653.73269606,PELP_E2,libre,Combustible
-2045,GenVariableOMCostsInTP,timepoint,13815054.970704043,41798823.44067487,PELP_E2,libre,O&M variable
+2045,EmissionsCosts,annual,30031675.315776847,96315651.19520693,PELP_E2,libre,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,111487254.88265727,357554729.83380514,PELP_E2,libre,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13050977.223528843,41856252.0006213,PELP_E2,libre,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1388668040.4248903,4201553331.6745005,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,163325282.59649104,494156893.7022586,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1392662796.5253637,4466458255.567637,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,154144694.67279926,494362918.13855326,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,PELP_E2,libre,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,20306572.41365792,82219984.49106535,PELP_E2,libre,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,82351974.68377736,333437763.07392555,PELP_E2,libre,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8928343.300651234,36150278.47913487,PELP_E2,libre,O&M variable
+2050,EmissionsCosts,annual,19151240.228455465,82194647.18328162,PELP_E2,libre,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,77363211.79282446,332032903.47893745,PELP_E2,libre,Combustible
+2050,GenVariableOMCostsInTP,timepoint,8386342.213937615,35993096.59374763,PELP_E2,libre,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,PELP_E2,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1416828443.0117908,5736645763.643453,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,138195732.38249716,559545488.1188176,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1359363105.4460795,5834210709.76361,PELP_E2,libre,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,130631935.74267095,560655380.0773823,PELP_E2,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_E2,libre,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,38561851.01588742,38561851.01588742,CEN,base,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1415934845.6034102,1415934845.6034102,CEN,base,Combustible
-2026,GenVariableOMCostsInTP,timepoint,130615279.18804778,130615279.18804778,CEN,base,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,390780494.74971277,390780494.74971277,CEN,base,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,192309065.14983773,192309065.14983773,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,CEN,base,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1097875602.285255,1097875602.285255,CEN,base,Combustible
+2025,GenVariableOMCostsInTP,timepoint,104802675.20111838,104802675.20111838,CEN,base,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,564885305.6552149,564885305.6552149,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,191092473.30482247,191092473.30482247,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,41559754.33551151,46696539.97138074,CEN,base,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1157191351.808908,1300220202.8924892,CEN,base,Combustible
+2027,GenVariableOMCostsInTP,timepoint,108240032.00201283,121618499.95746164,CEN,base,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,587895241.3504407,660559093.1813552,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,172800309.00904703,194158427.20256528,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,20201436.461177163,25503848.091140106,CEN,base,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,153193474.16579798,193403231.5566752,CEN,base,Combustible
-2030,GenVariableOMCostsInTP,timepoint,29691965.374148156,37485422.181979835,CEN,base,O&M variable
+2030,EmissionsCosts,annual,21765158.53941689,29126691.857966747,CEN,base,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,173623317.73304915,232347164.65813807,CEN,base,Combustible
+2030,GenVariableOMCostsInTP,timepoint,30961728.917035367,41433777.56349429,CEN,base,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,928383289.1349151,1172062512.5818489,CEN,base,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,232695215.46639994,293772348.22856563,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,1055280490.0313798,1412203343.302255,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,219716729.65214583,294030547.447126,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,46810806.559696764,79085872.73655292,CEN,base,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,216135913.45382562,365157078.06506544,CEN,base,Combustible
-2035,GenVariableOMCostsInTP,timepoint,25584572.757311027,43224597.34855049,CEN,base,O&M variable
+2035,EmissionsCosts,annual,44421160.82937198,79551533.5490405,CEN,base,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,204483381.0395333,366198591.915943,CEN,base,Combustible
+2035,GenVariableOMCostsInTP,timepoint,24249241.38567459,43426698.078447,CEN,base,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1493446613.6956208,2523146630.2325745,CEN,base,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,210612494.7327874,355825378.3541098,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1609950852.7326405,2883176776.1634536,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,200180243.7899735,358492328.4846611,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,45161901.48419449,102106721.715007,CEN,base,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,160995735.03275594,363995894.19514936,CEN,base,Combustible
-2040,GenVariableOMCostsInTP,timepoint,17554209.046781335,39688380.67400806,CEN,base,O&M variable
+2040,EmissionsCosts,annual,45059963.88601781,107988825.6318122,CEN,base,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,161355260.5520687,386697271.6757957,CEN,base,Combustible
+2040,GenVariableOMCostsInTP,timepoint,17295422.60040041,41449486.73611118,CEN,base,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1263827731.5692606,2857393117.697084,CEN,base,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,198579230.91683823,448968568.71055114,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1373124450.2300754,3290772651.344397,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,190460725.9837877,456450213.32016176,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,33380516.294181384,100996073.47910196,CEN,base,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,123400112.24948624,373359318.17959857,CEN,base,Combustible
-2045,GenVariableOMCostsInTP,timepoint,14122326.135774175,42728502.924716935,CEN,base,O&M variable
+2045,EmissionsCosts,annual,33125773.590218585,106238843.52568156,CEN,base,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,121937434.2295572,391069870.708234,CEN,base,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13711348.41884014,43974151.88593176,CEN,base,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1428344849.4090734,4321599465.181469,CEN,base,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,167530163.91274437,506879180.5190521,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1521030817.215659,4878151888.221235,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,165000097.84868214,529177666.7290993,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,CEN,base,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,20246688.627035473,81977518.95295946,CEN,base,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,82748378.32416245,335042775.50540525,CEN,base,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8982809.799621409,36370809.77360377,CEN,base,O&M variable
+2050,EmissionsCosts,annual,18411645.733115003,79020403.22424641,CEN,base,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,76318322.98857383,327548375.8145864,CEN,base,Combustible
+2050,GenVariableOMCostsInTP,timepoint,8571962.235709848,36789753.73019002,CEN,base,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,CEN,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1444724538.0956793,5849595229.3847,CEN,base,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,142244956.47249922,575940531.8070815,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1493053099.2697258,6407990879.778005,CEN,base,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,142021589.22938377,609538300.3850294,CEN,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,base,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,38750283.32026347,38750283.32026347,CEN,libre,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1422853897.0978873,1422853897.0978873,CEN,libre,Combustible
-2026,GenVariableOMCostsInTP,timepoint,131228089.98887677,131228089.98887677,CEN,libre,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,386555604.1472377,386555604.1472377,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,192268968.16213864,192268968.16213864,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,CEN,libre,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1100293606.9299796,1100293606.9299796,CEN,libre,Combustible
+2025,GenVariableOMCostsInTP,timepoint,104948948.21219014,104948948.21219014,CEN,libre,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,563371223.4265629,563371223.4265629,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,191053883.36808047,191053883.36808047,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,41830451.00535744,47000694.749619626,CEN,libre,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1164161788.0959678,1308052185.1046295,CEN,libre,Combustible
+2027,GenVariableOMCostsInTP,timepoint,108727841.7510196,122166602.99144565,CEN,libre,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,583521010.8411423,655644207.7811075,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,172839969.80185318,194202990.06936225,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,19121330.943441294,24140239.760629702,CEN,libre,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,142208486.00131226,179534937.0931393,CEN,libre,Combustible
-2030,GenVariableOMCostsInTP,timepoint,28885557.663279556,36467351.02664188,CEN,libre,O&M variable
+2030,EmissionsCosts,annual,20705427.68412032,27708532.922036957,CEN,libre,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,166256333.9018452,222488478.4654553,CEN,libre,Combustible
+2030,GenVariableOMCostsInTP,timepoint,29883684.898736432,39991111.484427966,CEN,libre,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,925885357.0038403,1168908930.8187232,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,232580559.01510003,293627597.10048413,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,1048825021.843455,1403564470.6577904,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,219155278.09189335,293279198.6086127,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,45354309.9880787,76625152.42494464,CEN,libre,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,209168661.68893778,353386052.8062131,CEN,libre,Combustible
-2035,GenVariableOMCostsInTP,timepoint,24924057.704560664,42108671.0648242,CEN,libre,O&M variable
+2035,EmissionsCosts,annual,43897097.95054276,78613016.74964556,CEN,libre,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,204247094.18661743,365775438.1496753,CEN,libre,Combustible
+2035,GenVariableOMCostsInTP,timepoint,24016023.673254967,43009040.675367326,CEN,libre,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1488527742.0800374,2514836300.1360106,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,209231362.51617706,353491984.5345459,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1586557657.6629903,2841283126.658193,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,196830778.5706468,352493946.4119796,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,43254620.672508925,97794542.9831326,CEN,libre,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,149288277.0076864,337526456.0344407,CEN,libre,Combustible
-2040,GenVariableOMCostsInTP,timepoint,16628957.582474,37596475.978288025,CEN,libre,O&M variable
+2040,EmissionsCosts,annual,41807207.65379989,100193406.03333426,CEN,libre,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,146036402.95432442,349984737.9909942,CEN,libre,Combustible
+2040,GenVariableOMCostsInTP,timepoint,16140043.57746644,38680553.672563255,CEN,libre,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1264447982.3142083,2858795445.059896,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,195836824.505665,442768251.2072433,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1353475056.8013911,3243681736.5334444,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,183184742.6665609,439012895.8884052,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,32289711.652481362,97695735.49829954,CEN,libre,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,120549111.69662188,364733332.3264007,CEN,libre,Combustible
-2045,GenVariableOMCostsInTP,timepoint,13911993.861679314,42092121.70094257,CEN,libre,O&M variable
+2045,EmissionsCosts,annual,31121984.105026405,99812419.1888746,CEN,libre,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,113275109.95650764,363288623.2603265,CEN,libre,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13107927.196090937,42038898.277766734,CEN,libre,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1420514257.9325404,4297907231.50902,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,165270776.78496093,500043179.9502074,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1483775892.359451,4758670297.200268,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,156176755.62593436,500880012.9030516,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,CEN,libre,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,19998059.39844694,80970835.45649575,CEN,libre,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,81801305.44922516,331208139.3342669,CEN,libre,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8899763.519719101,36034560.81407893,CEN,libre,O&M variable
+2050,EmissionsCosts,annual,19078947.39031993,81884375.66804056,CEN,libre,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,76572177.50115089,328637886.5641906,CEN,libre,Combustible
+2050,GenVariableOMCostsInTP,timepoint,8335459.294250635,35774713.68060803,CEN,libre,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,CEN,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1441206443.794612,5835350695.497863,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,140583382.8435979,569212928.7820065,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1462207730.612363,6275606545.197777,CEN,libre,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,134583785.4190354,577616207.9921987,CEN,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,CEN,libre,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,35515339.86359669,35515339.86359669,PELP_N1,base,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1300098388.248105,1300098388.248105,PELP_N1,base,Combustible
-2026,GenVariableOMCostsInTP,timepoint,121347406.02530758,121347406.02530758,PELP_N1,base,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,408379045.34115297,408379045.34115297,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,193481971.85014573,193481971.85014573,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,PELP_N1,base,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1058885085.5235924,1058885085.5235924,PELP_N1,base,Combustible
+2025,GenVariableOMCostsInTP,timepoint,102321082.77491713,102321082.77491713,PELP_N1,base,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,550937737.9993862,550937737.9993862,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,191143622.72667348,191143622.72667348,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,39542821.23790067,44430313.9429052,PELP_N1,base,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1088751996.1584294,1223321742.8836114,PELP_N1,base,Combustible
+2027,GenVariableOMCostsInTP,timepoint,105251434.19112135,118260511.457144,PELP_N1,base,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,588590224.4900888,661339976.2370639,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,173240786.71157292,194653347.94912332,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,22468761.307977438,28366293.471060984,PELP_N1,base,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,175485169.03178936,221545982.7243396,PELP_N1,base,Combustible
-2030,GenVariableOMCostsInTP,timepoint,31961077.686982747,40350124.19658582,PELP_N1,base,O&M variable
+2030,EmissionsCosts,annual,22697369.8780725,30374200.91508442,PELP_N1,base,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,180784622.19660208,241930605.46024564,PELP_N1,base,Combustible
+2030,GenVariableOMCostsInTP,timepoint,31971046.974590585,42784472.80404823,PELP_N1,base,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,939818315.8426391,1186498970.337335,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,233060993.83956364,294234134.9971511,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,1060344254.3876595,1418979802.2827675,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,220400868.9729604,294946080.1848819,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,47558857.106019296,80349688.39483531,PELP_N1,base,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,220250364.06264827,372108355.79652715,PELP_N1,base,Combustible
-2035,GenVariableOMCostsInTP,timepoint,25976181.408582795,43886211.92503757,PELP_N1,base,O&M variable
+2035,EmissionsCosts,annual,44466722.35257934,79633127.29792738,PELP_N1,base,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,205675377.049113,368333275.2239872,PELP_N1,base,Combustible
+2035,GenVariableOMCostsInTP,timepoint,24236972.799999684,43404726.91005126,PELP_N1,base,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1571214011.6683352,2654533012.803864,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,211658938.65182742,357593323.33710426,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1629557268.315342,2918288880.3471966,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,200750299.96276435,359513212.2686037,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,46007115.38745794,104017669.17235397,PELP_N1,base,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,163383169.78056988,369393654.8605875,PELP_N1,base,Combustible
-2040,GenVariableOMCostsInTP,timepoint,17668963.710727386,39947829.94766495,PELP_N1,base,O&M variable
+2040,EmissionsCosts,annual,44974815.459643625,107784762.4729556,PELP_N1,base,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,160637343.8911167,384976742.6200285,PELP_N1,base,Combustible
+2040,GenVariableOMCostsInTP,timepoint,17050678.937233787,40862944.30493998,PELP_N1,base,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1328561654.2787273,3003750299.622419,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,199813959.8747455,451760172.2957682,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1356861836.0762334,3251798350.152788,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,189560092.4115221,454291792.553568,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,33954427.49057012,102732498.9091382,PELP_N1,base,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,125951514.10425118,381078838.3610007,PELP_N1,base,Combustible
-2045,GenVariableOMCostsInTP,timepoint,14442404.629006024,43696932.254468165,PELP_N1,base,O&M variable
+2045,EmissionsCosts,annual,32530234.699161947,104328869.62309152,PELP_N1,base,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,119454125.82019135,383105564.2201123,PELP_N1,base,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13541301.390417174,43428788.02913208,PELP_N1,base,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1480412876.0209296,4479136460.572985,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,167473962.56091696,506709137.7369464,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1477055618.3483546,4737117468.03629,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,157530582.77012154,505221919.9604189,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,PELP_N1,base,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,19951759.253742613,80783369.19670671,PELP_N1,base,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,81907082.23327924,331636422.61946535,PELP_N1,base,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8935103.595945109,36177650.47293544,PELP_N1,base,O&M variable
+2050,EmissionsCosts,annual,18803086.82074084,80700417.76673229,PELP_N1,base,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,77598623.06994554,333043258.24631083,PELP_N1,base,Combustible
+2050,GenVariableOMCostsInTP,timepoint,8453343.738605024,36280658.475645855,PELP_N1,base,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1488966298.7898662,6028727226.850058,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,141993668.632101,574923083.7651639,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1425451165.0798512,6117852117.830455,PELP_N1,base,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,134141417.46971495,575717621.9431573,PELP_N1,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,base,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,35821305.04263731,35821305.04263731,PELP_N1,libre,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1311071066.0500789,1311071066.0500789,PELP_N1,libre,Combustible
-2026,GenVariableOMCostsInTP,timepoint,122227484.26937221,122227484.26937221,PELP_N1,libre,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,401184546.89101124,401184546.89101124,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,193480328.5676686,193480328.5676686,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,PELP_N1,libre,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1059437894.9769512,1059437894.9769512,PELP_N1,libre,Combustible
+2025,GenVariableOMCostsInTP,timepoint,102373936.0326082,102373936.0326082,PELP_N1,libre,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,550810878.3734132,550810878.3734132,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,191191729.51166576,191191729.51166576,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,39824613.97705124,44746936.264614776,PELP_N1,libre,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1095452465.0079997,1230850389.6829886,PELP_N1,libre,Combustible
+2027,GenVariableOMCostsInTP,timepoint,105801602.21442208,118878680.24812467,PELP_N1,libre,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,584029645.1592151,656215709.3008941,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,173277073.47442096,194694119.75585943,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,19289460.55885744,24352499.526386246,PELP_N1,libre,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,145255894.10835865,183382219.6160026,PELP_N1,libre,Combustible
-2030,GenVariableOMCostsInTP,timepoint,29024982.68494929,36643371.904147424,PELP_N1,libre,O&M variable
+2030,EmissionsCosts,annual,19963483.70506739,26715644.512122,PELP_N1,libre,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,156835390.24759868,209881130.70221415,PELP_N1,libre,Combustible
+2030,GenVariableOMCostsInTP,timepoint,29120031.44942283,38969170.90613404,PELP_N1,libre,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,946822313.9309167,1195341356.5516696,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,232562886.49921829,293605285.9563582,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,1065454584.0575866,1425818576.1570318,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,219848457.03133145,294206828.3952224,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,47066707.06472266,79518211.25539233,PELP_N1,libre,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,217531132.9821917,367514272.10142964,PELP_N1,libre,Combustible
-2035,GenVariableOMCostsInTP,timepoint,25313154.694609538,42766042.24252305,PELP_N1,libre,O&M variable
+2035,EmissionsCosts,annual,44135592.41155301,79040124.005784,PELP_N1,libre,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,204115629.244848,365540004.4615314,PELP_N1,libre,Combustible
+2035,GenVariableOMCostsInTP,timepoint,23671077.506973777,42391294.62805137,PELP_N1,libre,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1538903591.749146,2599945238.1938524,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,208836321.39368373,352824570.8701526,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1601175110.4620335,2867460758.332684,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,197308678.9627489,353349793.2283524,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,42304642.08006822,95646732.6256014,PELP_N1,libre,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,144703690.17076328,327161145.5193416,PELP_N1,libre,Combustible
-2040,GenVariableOMCostsInTP,timepoint,16330292.535380488,36921222.99186872,PELP_N1,libre,O&M variable
+2040,EmissionsCosts,annual,40932062.70909015,98096070.24594036,PELP_N1,libre,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,142001403.53399536,340314627.0710521,PELP_N1,libre,Combustible
+2040,GenVariableOMCostsInTP,timepoint,15806684.03377012,37881638.126869865,PELP_N1,libre,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1311822258.8856094,2965904134.361181,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,194184404.27954245,439032287.78143424,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1346236333.488963,3226333714.871463,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,183507799.74517208,439787120.9769897,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,31841470.732002024,96339537.99248196,PELP_N1,libre,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,118967090.19699143,359946768.8648269,PELP_N1,libre,Combustible
-2045,GenVariableOMCostsInTP,timepoint,13805408.274572358,41769636.40166205,PELP_N1,libre,O&M variable
+2045,EmissionsCosts,annual,30047648.149706528,96366878.23749454,PELP_N1,libre,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,110736530.43392608,355147054.8244219,PELP_N1,libre,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13011503.721343426,41729655.13154998,PELP_N1,libre,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1455778373.1175463,4404602320.854333,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,163234920.8086981,493883495.12210447,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1458906364.919413,4678910353.570152,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,154155131.0920639,494396389.1489798,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,PELP_N1,libre,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,20078930.721113436,81298278.15632525,PELP_N1,libre,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,82752341.43251958,335058821.87211955,PELP_N1,libre,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8974652.420996357,36337781.080706865,PELP_N1,libre,O&M variable
+2050,EmissionsCosts,annual,18732928.92987323,80399309.16915864,PELP_N1,libre,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,77159465.40876989,331158450.33896005,PELP_N1,libre,Combustible
+2050,GenVariableOMCostsInTP,timepoint,8404318.577652875,36070248.82282462,PELP_N1,libre,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,PELP_N1,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1471813235.1951873,5959275593.457699,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,139606420.35448068,565257271.516601,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1412037910.7906237,6060284164.490046,PELP_N1,libre,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,131978011.64602114,566432563.8335233,PELP_N1,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,PELP_N1,libre,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,35885315.521735765,35885315.521735765,PROPIO,base,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1304825589.7205703,1304825589.7205703,PROPIO,base,Combustible
-2026,GenVariableOMCostsInTP,timepoint,122233279.81083177,122233279.81083177,PROPIO,base,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,471528817.16361433,471528817.16361433,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,192265886.52107528,192265886.52107528,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,PROPIO,base,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1023397878.105433,1023397878.105433,PROPIO,base,Combustible
+2025,GenVariableOMCostsInTP,timepoint,99238101.49298292,99238101.49298292,PROPIO,base,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,569754182.6325109,569754182.6325109,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,191129540.1980994,191129540.1980994,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,39889361.23061412,44819686.27871803,PROPIO,base,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1119041433.9143095,1257354955.1461186,PROPIO,base,Combustible
+2027,GenVariableOMCostsInTP,timepoint,104766508.97624268,117715649.4857063,PROPIO,base,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,641866590.7148153,721201301.3271666,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,172679450.6209544,194022630.7177044,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,28292378.141904972,35718475.54776265,PROPIO,base,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,233096294.87115228,294278701.736196,PROPIO,base,Combustible
-2030,GenVariableOMCostsInTP,timepoint,38376155.44173173,48449012.05856494,PROPIO,base,O&M variable
+2030,EmissionsCosts,annual,30841248.57904525,41272547.69359802,PROPIO,base,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,264983440.7631629,354607618.0697192,PROPIO,base,Combustible
+2030,GenVariableOMCostsInTP,timepoint,38862826.83873995,52007228.89344156,PROPIO,base,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,1195419133.3564222,1509189113.4056509,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,234436539.42532954,295970729.60661024,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,1304988103.7777193,1746368458.9390674,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,222147584.7874815,297283579.96467245,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,51446031.14365585,86916987.14140381,PROPIO,base,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,241554354.80333143,408100999.89569956,PROPIO,base,Combustible
-2035,GenVariableOMCostsInTP,timepoint,27345269.51571167,46199257.475052625,PROPIO,base,O&M variable
+2035,EmissionsCosts,annual,50381530.79577442,90225648.37391552,PROPIO,base,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,238949499.79219463,427922161.2929191,PROPIO,base,Combustible
+2035,GenVariableOMCostsInTP,timepoint,26895219.116806228,48165241.20334778,PROPIO,base,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1764483585.365347,2981057890.980386,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,222435702.09191456,375800438.41528094,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1996104020.1993976,3574718286.634023,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,226009720.08999532,404748986.6194635,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,49402339.78131804,111693945.4351062,PROPIO,base,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,175348261.35180196,396445577.72495,PROPIO,base,Combustible
-2040,GenVariableOMCostsInTP,timepoint,19153748.58215962,43304785.93693041,PROPIO,base,O&M variable
+2040,EmissionsCosts,annual,50321564.12159995,120598556.78521185,PROPIO,base,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,187827123.28299955,450138631.1902184,PROPIO,base,Combustible
+2040,GenVariableOMCostsInTP,timepoint,19179843.969156776,45965612.20665638,PROPIO,base,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1488065355.0922706,3364372847.7492294,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,204966370.92232025,463409278.8149028,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1858511719.1280696,4454031487.448169,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,219625897.73502123,526346244.6337402,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,35287668.597926565,106766352.53971858,PROPIO,base,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,130384256.9104468,394490542.7883085,PROPIO,base,Combustible
-2045,GenVariableOMCostsInTP,timepoint,14440009.962591097,43689686.95295549,PROPIO,base,O&M variable
+2045,EmissionsCosts,annual,44703232.49596171,143369322.66037688,PROPIO,base,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,164378673.69868225,527184675.2943449,PROPIO,base,Combustible
+2045,GenVariableOMCostsInTP,timepoint,16426790.841632942,52682943.60282215,PROPIO,base,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1609602089.0647452,4870011279.233441,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,174616361.41937616,528319176.1668116,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,2117084701.6815965,6789777444.442203,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,214417549.163784,687666127.7881138,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,PROPIO,base,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,19738184.95674706,79918620.82711707,PROPIO,base,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,81529734.83002265,330108567.6466274,PROPIO,base,Combustible
-2050,GenVariableOMCostsInTP,timepoint,9229243.591833066,37368604.09166845,PROPIO,base,O&M variable
+2050,EmissionsCosts,annual,23046042.08654855,98910633.23723385,PROPIO,base,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,94571596.27979362,405889064.9926485,PROPIO,base,Combustible
+2050,GenVariableOMCostsInTP,timepoint,19899525.820212983,85406192.20455164,PROPIO,base,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,base,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1583024729.9137418,6409563666.930785,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,149848548.4000073,606726978.5604305,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,2211228561.9230843,9490307119.578186,PROPIO,base,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,179640926.6998069,770995633.3704875,PROPIO,base,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,base,Energía no suministrada (VOLL)
-2026,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
-2026,EmissionsCosts,annual,38076167.62299669,38076167.62299669,PROPIO,libre,Impuesto al CO2
-2026,FuelCostsPerTP,timepoint,1395353348.604474,1395353348.604474,PROPIO,libre,Combustible
-2026,GenVariableOMCostsInTP,timepoint,128908944.98639582,128908944.98639582,PROPIO,libre,O&M variable
-2026,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2026,TotalGenFixedCosts,annual,414264223.52103513,414264223.52103513,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
-2026,TxFixedCosts,annual,192665572.75187895,192665572.75187895,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
-2026,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
+2025,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
+2025,EmissionsCosts,annual,0.0,0.0,PROPIO,libre,Impuesto al CO2
+2025,FuelCostsPerTP,timepoint,1030392520.1596584,1030392520.1596584,PROPIO,libre,Combustible
+2025,GenVariableOMCostsInTP,timepoint,99942880.03180867,99942880.03180867,PROPIO,libre,O&M variable
+2025,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2025,TotalGenFixedCosts,annual,564927817.4562621,564927817.4562621,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2025,TxFixedCosts,annual,191107494.0295916,191107494.0295916,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2025,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
+2027,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
+2027,EmissionsCosts,annual,40924207.70980465,45982439.7827365,PROPIO,libre,Impuesto al CO2
+2027,FuelCostsPerTP,timepoint,1154653901.1766248,1297369123.3620558,PROPIO,libre,Combustible
+2027,GenVariableOMCostsInTP,timepoint,107365307.27204928,120635659.25087458,PROPIO,libre,O&M variable
+2027,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
+2027,TotalGenFixedCosts,annual,620124094.796886,696771432.9137812,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2027,TxFixedCosts,annual,172626894.7180025,193963578.90514764,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2027,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
 2030,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
-2030,EmissionsCosts,annual,22447271.634071693,28339163.252877068,PROPIO,libre,Impuesto al CO2
-2030,FuelCostsPerTP,timepoint,171713906.06340197,216784850.11664933,PROPIO,libre,Combustible
-2030,GenVariableOMCostsInTP,timepoint,31732667.011639006,40061760.981546305,PROPIO,libre,O&M variable
+2030,EmissionsCosts,annual,25035775.306479305,33503514.87017709,PROPIO,libre,Impuesto al CO2
+2030,FuelCostsPerTP,timepoint,202842084.95494357,271448466.30041766,PROPIO,libre,Combustible
+2030,GenVariableOMCostsInTP,timepoint,33674350.67090485,45063877.3768766,PROPIO,libre,O&M variable
 2030,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2030,TotalGenFixedCosts,annual,1140100439.2927523,1439350536.6929789,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
-2030,TxFixedCosts,annual,234650207.16203597,296240480.20129746,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2030,TotalGenFixedCosts,annual,1255513912.6575725,1680160830.9510162,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2030,TxFixedCosts,annual,221172873.0521448,295979195.78965795,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2030,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
 2035,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
-2035,EmissionsCosts,annual,50086352.4715772,84619838.6339222,PROPIO,libre,Impuesto al CO2
-2035,FuelCostsPerTP,timepoint,234167806.8327228,395621582.51969224,PROPIO,libre,Combustible
-2035,GenVariableOMCostsInTP,timepoint,26712295.825432457,45129861.74372361,PROPIO,libre,O&M variable
+2035,EmissionsCosts,annual,45524672.118766114,81527754.19976102,PROPIO,libre,Impuesto al CO2
+2035,FuelCostsPerTP,timepoint,212880369.39408943,381236319.1685971,PROPIO,libre,Combustible
+2035,GenVariableOMCostsInTP,timepoint,24903483.451591868,44598345.9751764,PROPIO,libre,O&M variable
 2035,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2035,TotalGenFixedCosts,annual,1695527078.9610355,2864557324.323967,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
-2035,TxFixedCosts,annual,210862972.45349792,356248555.1929492,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2035,TotalGenFixedCosts,annual,1894534584.8248603,3392822897.2543745,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2035,TxFixedCosts,annual,204978209.5742192,367084754.457469,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2035,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
 2040,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
-2040,EmissionsCosts,annual,42194180.73664385,95396990.13729529,PROPIO,libre,Impuesto al CO2
-2040,FuelCostsPerTP,timepoint,145577914.19102466,329137682.064966,PROPIO,libre,Combustible
-2040,GenVariableOMCostsInTP,timepoint,16655305.524608988,37656046.14488701,PROPIO,libre,O&M variable
+2040,EmissionsCosts,annual,41216162.881967165,98776932.8429098,PROPIO,libre,Impuesto al CO2
+2040,FuelCostsPerTP,timepoint,143158812.8765515,343088425.91372514,PROPIO,libre,Combustible
+2040,GenVariableOMCostsInTP,timepoint,16653658.962950004,39911462.83274595,PROPIO,libre,O&M variable
 2040,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2040,TotalGenFixedCosts,annual,1428997542.2835832,3230826196.1123056,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
-2040,TxFixedCosts,annual,195606678.37971678,442247912.92068547,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2040,TotalGenFixedCosts,annual,1701885457.889525,4078667537.822361,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2040,TxFixedCosts,annual,189356994.92980996,453805057.61977273,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2040,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
 2045,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
-2045,EmissionsCosts,annual,33772808.001838334,102182991.0744619,PROPIO,libre,Impuesto al CO2
-2045,FuelCostsPerTP,timepoint,122150395.03691371,369578174.4034888,PROPIO,libre,Combustible
-2045,GenVariableOMCostsInTP,timepoint,14077660.149742343,42593361.53961877,PROPIO,libre,O&M variable
+2045,EmissionsCosts,annual,33315027.376273133,106845806.05618767,PROPIO,libre,Impuesto al CO2
+2045,FuelCostsPerTP,timepoint,124525436.63169704,399369945.0143087,PROPIO,libre,Combustible
+2045,GenVariableOMCostsInTP,timepoint,13626047.649012623,43700580.76121087,PROPIO,libre,O&M variable
 2045,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2045,TotalGenFixedCosts,annual,1539387349.279717,4657569597.50065,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
-2045,TxFixedCosts,annual,167561318.4540744,506973441.68378806,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2045,TotalGenFixedCosts,annual,1876475755.0384407,6018111956.73117,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2045,TxFixedCosts,annual,169054988.80254492,542182251.3431876,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2045,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)
 2050,DCCostoAnual,annual,0.0,0.0,PROPIO,libre,Ubicación de data centers (conexión/terreno)
-2050,EmissionsCosts,annual,19938030.245029423,80727781.33773762,PROPIO,libre,Impuesto al CO2
-2050,FuelCostsPerTP,timepoint,83147437.63277261,336658540.56395715,PROPIO,libre,Combustible
-2050,GenVariableOMCostsInTP,timepoint,8993961.084209207,36415960.59606594,PROPIO,libre,O&M variable
+2050,EmissionsCosts,annual,26964943.96727654,115730053.472678,PROPIO,libre,Impuesto al CO2
+2050,FuelCostsPerTP,timepoint,117031888.19587111,502285734.2241528,PROPIO,libre,Combustible
+2050,GenVariableOMCostsInTP,timepoint,10639050.035541335,45661427.33342578,PROPIO,libre,O&M variable
 2050,StorageEnergyFixedCost,annual,0.0,0.0,PROPIO,libre,Almacenamiento: inversión + O&M fijo en energía (MWh)
-2050,TotalGenFixedCosts,annual,1542989362.8159032,6247463082.212487,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
-2050,TxFixedCosts,annual,144232731.14725327,583988901.5467273,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
+2050,TotalGenFixedCosts,annual,1996581011.0701368,8569067581.00777,PROPIO,libre,Generación y almacenamiento: inversión + O&M fijo
+2050,TxFixedCosts,annual,147249952.8772908,631977761.2376528,PROPIO,libre,Transmisión: inversión + O&M fijo (incluye la existente)
 2050,UnservedLoadPenalty,timepoint,0.0,0.0,PROPIO,libre,Energía no suministrada (VOLL)

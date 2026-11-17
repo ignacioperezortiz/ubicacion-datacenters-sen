@@ -2,10 +2,11 @@
 
 Para cada escenario compara el caso base (data centers donde dicen las proyecciones) con el libre
 (el modelo elige su ubicación) y escribe tablas en resultados/:
-  - costos.csv           costo total en VP 2026 y diferencia base - libre (el ahorro de ubicar bien)
-  - costos_por_componente.csv   VP 2026 de cada componente del objetivo y su diferencia base - libre
+  - costos.csv           costo total en VP y diferencia base - libre (el ahorro de ubicar bien)
+  - costos_por_componente.csv   VP de cada componente del objetivo y su diferencia base - libre
   - costos_anuales.csv          costo anual (USD reales del año) por componente y período
-  - costos_por_tecnologia.csv   VP 2026 por tecnología: inversión, O&M fijo y costo variable
+  - costos_por_tecnologia.csv   VP por tecnología: inversión, O&M fijo y costo variable
+El valor presente (VP) se calcula al año base de financials.csv (2025 desde el 17-nov-2026).
   - ubicacion_dc.csv     MW medios de data centers agregados por zona y período, en cada caso
   - capacidad.csv        capacidad instalada por tecnología y período (MW), base y libre
   - transmision.csv      capacidad por corredor y período (MW), base y libre, y su diferencia
@@ -70,7 +71,7 @@ costos['energia_dc_vp_TWh'] = costos['escenario'].map(energia_vp) / 1e6
 costos['extra_base_usd_mwh'] = costos['extra_base_MMUSD'] * 1e6 / (costos['energia_dc_vp_TWh'] * 1e6)
 costos['extra_libre_usd_mwh'] = costos['extra_libre_MMUSD'] * 1e6 / (costos['energia_dc_vp_TWh'] * 1e6)
 costos.to_csv(SALIDA / 'costos.csv', index=False)
-print('== Costo total (VP 2026, millones de USD)\n', costos.round(2).to_string(index=False))
+print(f'== Costo total (VP {base_y:.0f}, millones de USD)\n', costos.round(2).to_string(index=False))
 
 # ---- Costos por tipo: componentes del objetivo de Switch ----
 NOMBRES = {
@@ -107,7 +108,7 @@ if componentes:
     tabla = tabla.reindex(columns=sorted(tabla.columns, key=lambda c: (orden.index(c[0]), c[1])))
     tabla.loc['TOTAL'] = tabla.sum()
     tabla.to_csv(SALIDA / 'costos_por_componente.csv')
-    print('\n== Costos por tipo (VP 2026, millones de USD)\n', tabla.round(1).to_string())
+    print(f'\n== Costos por tipo (VP {base_y:.0f}, millones de USD)\n', tabla.round(1).to_string())
 
 # ---- Costo anual por período (USD reales de cada año) ----
 anuales = []
@@ -124,8 +125,8 @@ if anuales:
                                                          values='AnnualCost_Real', aggfunc='sum') / 1e6
     print('\n== Costo anual por período, casos base (millones de USD reales por año)\n', tabla.round(0).to_string())
 
-# ---- Costos por tecnología (VP 2026) ----
-# Factor que lleva un costo anual constante de cada período a VP 2026, con la misma fórmula de Switch
+# ---- Costos por tecnología (VP del año base) ----
+# Factor que lleva un costo anual constante de cada período a VP del año base, con la misma fórmula de Switch
 # (financials.py): serie uniforme pagada a fin de año x valor presente del inicio del período.
 periodos = pd.read_csv(CASOS / ESCENARIOS[0] / 'inputs' / 'periods.csv')
 financiero = pd.read_csv(CASOS / ESCENARIOS[0] / 'inputs' / 'financials.csv').iloc[0]
@@ -171,7 +172,7 @@ if por_tec:
     por_tec = pd.concat(por_tec)
     por_tec.to_csv(SALIDA / 'costos_por_tecnologia.csv', index=False)
     tabla = por_tec[por_tec.modo == 'base'].pivot_table(index='gen_tech', columns='escenario', values='total')
-    print('\n== Costo por tecnología, casos base (VP 2026, millones de USD)\n',
+    print(f'\n== Costo por tecnología, casos base (VP {anio_base:.0f}, millones de USD)\n',
           tabla.round(0).sort_values(ESCENARIOS[0], ascending=False).to_string())
 
 # ---- Ubicación de los data centers ----

@@ -1,2 +1,0 @@
-PROPIO   libre  código 0    8.1 min  costo total 46789806119.785
-PROPIO   base   código 0    8.1 min  costo total 48572705364.56522

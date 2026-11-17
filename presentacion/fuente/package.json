@@ -1,0 +1,10 @@
+{
+  "name": "presentacion-avance-ubicacion-dc",
+  "private": true,
+  "description": "Genera la presentación de avance (pptxgenjs). Ver ../README.md.",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jszip": "3.10.2",
+    "pptxgenjs": "4.0.1"
+  }
+}

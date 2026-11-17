@@ -15,3 +15,13 @@ casos/*/outputs_*/*.pickle
 # Licencias y archivos locales
 gurobi.lic
 *.log
+
+# Presentación de avance (presentacion/)
+presentacion/fuente/node_modules/
+# Límites GADM: su licencia no permite redistribuirlos; mapa_dc_2050_fig.py los descarga
+presentacion/fuente/graficos/geo/
+# Catastro privado del equipo (solo se publican las filas usadas, en datos/campus_escenario_propio.csv)
+presentacion/fuente/datos/*.xlsx
+# Archivos temporales de Office y de construcción
+presentacion/**/~$*
+presentacion/**/*.eqs.json

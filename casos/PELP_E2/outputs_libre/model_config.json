@@ -23,7 +23,7 @@
         "solver": "gurobi_direct",
         "solver_manager": "serial",
         "solver_io": null,
-        "solver_options_string": "Method=2 Threads=5",
+        "solver_options_string": "Method=2 Threads=14",
         "keepfiles": null,
         "tee": true,
         "symbolic_solver_labels": null,

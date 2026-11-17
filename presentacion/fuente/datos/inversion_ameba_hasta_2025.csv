@@ -1,0 +1,8 @@
+TRANSMISSION_LINE,ameba_construido_hasta_2025_mw,max_build_mw_2025,existing_trans_cap,holgura_mw
+Cumbre500_NuevaCardones500,445.628,500.0,2090.0,54.372
+Lagunas220_Kimal220,59.667,500.0,789.0,440.333
+NuevaCardones500_NuevaMaitencillo500,255.024,500.0,2368.0,244.976
+NuevaMaitencillo500_NuevaPandeAzucar500,421.7,500.0,2375.0,78.3
+NuevaPandeAzucar500_Polpaico500,500.0,500.0,2500.0,0.0
+Parinas500_Cumbre500,500.0,500.0,1500.0,0.0
+Polpaico500_AltoJahuel500,490.117,500.0,1880.0,9.883

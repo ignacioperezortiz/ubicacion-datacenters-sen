@@ -2,7 +2,9 @@
 
 Cada fase del trabajo la revisó al menos un agente independiente de quien la hizo. Los revisores recalcularon con código propio, desde las fuentes (archivos de AMEBA, código de Switch, láminas del curso), en vez de reutilizar los scripts revisados. Las dos traducciones con más juicio, la ubicación de los data centers de la PELP 2028–2032 y el escenario propio, se hicieron dos veces por separado y se compararon. Cada hallazgo se corrigió o quedó declarado como limitación en [DATOS_Y_SUPUESTOS.md](DATOS_Y_SUPUESTOS.md).
 
-Siglas: PELP, Planificación Energética de Largo Plazo; AMEBA, modelo con que se hizo la PELP 2023–2027; CEN, Coordinador Eléctrico Nacional; DC, data centers; ENS, energía no suministrada; VP, valor presente a 2026; HVDC, enlace de corriente continua Kimal–Alto Jahuel; KKT, condiciones de optimalidad de Karush-Kuhn-Tucker; CMg, costo marginal; FP, factor de planta.
+**Inicio en 2025.** Las fases 1 a 7 se hicieron con la versión del modelo que partía en 2026 y tomaba como existentes las inversiones que AMEBA decidió hasta 2025. El 17-nov-2026 el modelo pasó a partir en 2025, con siete períodos (2025, 2027, 2030, …, 2050) y sin ninguna inversión de AMEBA como dato. La sección 8 resume las autocomprobaciones de la traducción con el inicio en 2025. Las comprobaciones de resultados de las fases 6 y 7 se repitieron sobre las 9 corridas nuevas, salvo la réplica de AMEBA.
+
+Siglas: PELP, Planificación Energética de Largo Plazo; AMEBA, modelo con que se hizo la PELP 2023–2027; CEN, Coordinador Eléctrico Nacional; DC, data centers; ENS, energía no suministrada; VP, valor presente a 2025; HVDC, enlace de corriente continua Kimal–Alto Jahuel; KKT, condiciones de optimalidad de Karush-Kuhn-Tucker; CMg, costo marginal; FP, factor de planta; FV, fotovoltaica; BESS, sistema de almacenamiento en baterías.
 
 ## Resumen
 
@@ -10,11 +12,12 @@ Siglas: PELP, Planificación Energética de Largo Plazo; AMEBA, modelo con que s
 |---|---|---|---|
 | 1. Auditoría de datos de la PELP | Cifras y método del análisis previo de ambas PELP | Cifras reproducidas; un error de contabilidad | Contabilidad de anualidades; declarar el sesgo del transporte |
 | 2. Formulación | Ejemplo de la Clase 8 en Switch; 6 afirmaciones sobre el código; 12 ecuaciones contra las láminas | Clase 8 reproducida exacta; 6 de 6 y 12 de 12 correctas | Topes de transmisión acumulados por período; reserva propia; 31 zonas |
-| 3. Traducción y datos | Cada entrada de Switch contra los datos crudos de AMEBA | Diferencias de 0,000 % en demanda, costos, perfiles, hidro y red | Inversiones AMEBA de 2025 como existentes; clases de recurso eólicas |
+| 3. Traducción y datos | Cada entrada de Switch contra los datos crudos de AMEBA | Diferencias de 0,000 % en demanda, costos, perfiles, hidro y red | Clases de recurso eólicas. Las inversiones AMEBA de 2025, que esta fase agregó como existentes, se quitaron con el inicio en 2025 |
 | 4. Módulos propios | 25 casos mínimos con respuesta a mano; código línea por línea | 63 de 63 comprobaciones | Control del caso base; impuesto al CO₂ promedio; salida de duales |
 | 5. Escenarios de DC | Doble traducción independiente | Resultados idénticos | — |
-| 6. Resultados | Consistencia interna, réplica de AMEBA, optimalidad de la ubicación | Consistentes; réplica razonable | Ubicación fija hasta 2029; script de resultados |
-| 7. Comparaciones | Costos, ahorros y restricciones de las 9 corridas | Coinciden a 10⁻¹¹ | Tabla de ubicación |
+| 6. Resultados | Consistencia interna, réplica de AMEBA, optimalidad de la ubicación | Inicio 2026: consistentes; réplica razonable. Inicio 2025: consistentes; ubicación óptima en los 4 escenarios | Ubicación fija antes de 2030; script de resultados |
+| 7. Comparaciones | Costos, ahorros y restricciones de las 9 corridas | Inicio 2026: coinciden a 10⁻¹¹. Inicio 2025: coinciden a 10⁻¹¹ | Tabla de ubicación |
+| 8. Inicio en 2025 | Autocomprobaciones de cada parte de la traducción con siete períodos | Demanda, capacidad térmica, hidro y transmisión iguales a AMEBA | Sin inversiones AMEBA como dato; BESS «ley» candidatas; topes de FV y eólica en 2025 |
 
 ---
 
@@ -91,7 +94,7 @@ El flujo DC no se programó, por el problema de las reactancias (punto 3): el tr
 
 **Qué se corrigió:**
 
-- (1) Las inversiones de 2025 pasaron a existentes.
+- (1) Las inversiones de 2025 pasaron a existentes. Con el inicio en 2025 se revirtió: son una salida de AMEBA, no un dato, y el modelo las decide (sección 8).
 - (2) Los candidatos FV y eólicos se partieron en clases de recurso; la energía de lo que AMEBA construyó quedó dentro de ±1 %.
 - (3), (4) y (5) quedaron declarados.
 - Después se cambiaron tres cosas más: el impuesto al CO₂ pasó al promedio del período (fase 4), se redujo a 6 días típicos y se agregaron las inversiones de 2025. La fase 6 verificó esos cambios:
@@ -144,65 +147,86 @@ La corrida siempre declara `--dc-modo`, porque sin la opción el módulo corre e
 
 ## 6. Resultados
 
-Un agente validó la primera tanda de corridas (`PELP_E2`, `CEN` y `PELP_N1`, base y libre), resueltas todavía con ubicación libre desde 2026.
+Un agente validó la primera tanda de corridas (`PELP_E2`, `CEN` y `PELP_N1`, base y libre), resueltas con la versión que partía en 2026 y todavía con ubicación libre desde 2026. Las mismas comprobaciones se repitieron con código propio sobre las 9 corridas con inicio en 2025, desde sus salidas (`load_balance.csv`, `dc_ubicacion.csv`, `cost_components.csv`, `costs_itemized.csv`, `precios_nodales.csv`, `BuildTx.csv`) y sus registros.
 
-**Consistencia interna.**
+**Consistencia interna** (inicio en 2025).
 
-- El balance, rehecho desde las variables, cierra a 0,0005 MW en las 26.784 celdas zona-hora.
-- La carga de DC entra exactamente donde dice `dc_ubicacion.csv`.
-- Cada componente del costo se reconstruye desde las variables y los precios de entrada con error relativo < 10⁻¹⁴.
-- No hay ENS ni flujos o despachos sobre su capacidad. Las seis corridas terminaron en óptimo.
+- El balance, rehecho con los términos de `load_balance.csv` (generación, flujo neto, ENS, demanda, carga neta del almacenamiento y carga de DC), cierra a 0,09 MW en las 31.248 celdas zona-hora de cada corrida: un error relativo < 10⁻⁵, el redondeo del archivo.
+- La carga de DC de cada zona y hora es la de `dc_ubicacion.csv`, con diferencia ≤ 0,005 MW (redondeo).
+- Los componentes de `cost_components.csv` suman el total de `total_cost.txt` con diferencia ≤ 10⁻⁴ USD, y el costo anual de `costs_itemized.csv` por el factor de VP de cada período reproduce el total con error relativo < 2·10⁻¹⁵.
+- No hay ENS en ninguna de las 9 corridas, y las 9 terminaron en óptimo.
 
-**Réplica de AMEBA** (`PELP_E2` base): razonable y sin errores de datos a la vista.
-
-- La capacidad térmica, hidro y existente es idéntica. FV −15 % y eólica +4 % en 2030; ambas dentro de ±3 % en 2050.
-- La transmisión es −2 % en 2030, corredor por corredor, y +8 % en 2050.
-- Las emisiones de 2030–2050 son 8–34 % mayores (0,2–0,8 Mt/año), y el CMg medio, 2–8 USD/MWh más alto, con el mismo orden entre zonas.
-- Todo se explica por la formulación: período 2026 con datos de 2026, 6 días, transporte y LP sin compromiso de unidades.
+**Réplica de AMEBA** (`PELP_E2` base). Con el inicio en 2025 el modelo decide también lo que AMEBA construyó en 2024–2025. La comparación con la solución de AMEBA (capacidad FV, eólica y de almacenamiento; transmisión corredor por corredor; emisiones y CMg medio por zona) se hace con sus archivos crudos, que no están en el repositorio, y no se repitió con las corridas nuevas. Las diferencias esperables por formulación son las mismas: períodos representados con los datos de su año de inicio, 6 días, transporte y LP sin compromiso de unidades.
 
 **Optimalidad de la ubicación libre.**
 
-- En los tres escenarios y en todos los períodos con crecimiento, la zona que recibe la carga es la de menor costo acumulado de abastecerla, y ese costo es igual a la suma de los duales del total ubicable (la condición de FORMULACION.md, sección 5).
-- El ahorro cae entre las cotas que dan los precios: por convexidad, el ahorro está entre $\sum\rho_{\text{libre}}\,(\hat x-x_{\text{libre}})$ y $\sum\rho_{\text{base}}\,(\hat x-x_{\text{libre}})$.
-- La zona del sur que el modelo elige desde 2030 es también la de menor CMg en la solución de AMEBA.
+- La condición de FORMULACION.md, sección 5: la zona que recibe la carga es la de menor costo acumulado de abastecerla, y ese costo es igual a la suma de los duales del total ubicable. En la primera tanda se cumplió en los tres escenarios y en todos los períodos con crecimiento. Inicio 2025: se cumple en los 4 escenarios, en las 30 combinaciones de zona y período que reciben crecimiento desde 2030, con diferencia relativa ≤ 3·10⁻⁷.
+- Por convexidad, el ahorro está entre $\sum\rho_{\text{libre}}\,(\hat x-x_{\text{libre}})$ y $\sum\rho_{\text{base}}\,(\hat x-x_{\text{libre}})$. Inicio 2025: se cumple en los 4 escenarios, en MMUSD: 175,3 ≤ 179,1 ≤ 183,1 (PELP E2), 703,6 ≤ 772,0 ≤ 843,2 (CEN), 574,4 ≤ 619,7 ≤ 665,7 (PELP N1) y 2.647,0 ≤ 4.549,0 ≤ 6.402,9 (PROPIO).
 
-**Qué se encontró y qué se hizo:**
+**Qué se encontró y qué se hizo** (primera tanda, inicio en 2026):
 
-- **Artefacto del período 2026.** El caso libre ponía la carga de 2026 en Parinas500 (norte). En el período 2026 el norte está desacoplado: sin HVDC y con Parinas–Cumbre en su tope. Con los CMg anuales de AMEBA, donde ese bolsón dura solo 2026–2028, la mejor zona para instalar en 2026 está en el sur. **Corregido:** la ubicación queda fija hasta 2029 (`--dc-libre-desde 2030`).
-- **Script de resultados.** El factor de VP salía un 6 % alto y el costo variable por tecnología omitía combustible e impuesto. **Corregido**, con un control que compara la suma por tecnología con los componentes del objetivo.
-- **El sur barato depende del tope de Ancoa–Charrúa**, que está en su máximo de ampliación desde 2030, igual que en AMEBA. La ventaja de Nueva Ancud sobre Nueva Puerto Montt es de ~1 %: el resultado se lee como «zona de Los Lagos». Declarado.
-- **En `PELP_N1`, unos 820 MW de DC en Nueva Ancud importan hasta 1.005 MW**, más que los 660 MW existentes: dependen de ampliar un enlace radial, sin criterio N−1. Declarado.
+- **Artefacto del primer período.** El caso libre ponía la carga de 2026 en Parinas500 (norte). En el período 2026 el norte está desacoplado: sin HVDC y con Parinas–Cumbre en su tope. Con los CMg anuales de AMEBA, donde ese bolsón dura solo 2026–2028, la mejor zona para instalar en 2026 está en el sur. **Corregido:** la ubicación queda fija antes de 2030 (`--dc-libre-desde 2030`). Con el inicio en 2025 se mantiene: los períodos 2025 y 2027 quedan con la ubicación proyectada.
+- **Script de resultados.** El factor de VP salía un 6 % alto y el costo variable por tecnología omitía combustible e impuesto. **Corregido**, con un control que compara la suma por tecnología con los componentes del objetivo. El script toma el año base del VP de `financials.csv`.
+- **El sur barato dependía del tope de Ancoa–Charrúa**, en su máximo de ampliación desde 2030, igual que en AMEBA, y de una ventaja pequeña de Nueva Ancud sobre Nueva Puerto Montt. Con el inicio en 2025 se repite: Ancoa–Charrúa está en su tope en las 9 corridas desde 2030 (500 MW ampliados en 2030 y 4.500 MW en 2050), igual que Río Malleco–Mulchén en 2050. En PELP E2, CEN y PELP N1 todo el crecimiento va a Nueva Ancud, con una ventaja de 0,1–1,6 % sobre Nueva Puerto Montt en el costo acumulado. En PROPIO, el crecimiento de 2030 a 2045 va al sur (Río Malleco, Pichirropulli, Nueva Puerto Montt y Nueva Ancud), y el de 2050, en un 97 %, al norte grande: Nueva Pozo Almonte, Nueva Zaldívar, Parinacota y Lagunas.
+- **En `PELP_N1`, la carga de DC ubicada en Nueva Ancud dependía de ampliar un enlace radial, sin criterio N−1.** Con el inicio en 2025 se repite en los casos libres de CEN, PELP N1 y PROPIO. Nueva Ancud tiene un solo enlace, Nueva Puerto Montt–Nueva Ancud (660 MW existentes), y en 2050 importa hasta 943 MW (PELP N1), 1.692 MW (CEN) y 3.995 MW (PROPIO). El enlace se amplía también sin data centers, a 3.191 MW en 2050. Declarado.
 - **12 días típicos.** La corrida no terminó: la barrera se quedó sin memoria y el simplex no convergió. Se usan 6 días; su efecto sobre los insumos está medido (DATOS_Y_SUPUESTOS.md, sección 2).
 
 ## 7. Comparaciones entre casos
 
-Un agente recalculó, con código propio, las tablas de comparación de las 9 corridas finales de esa etapa: 4 escenarios × (base, libre) más `SIN_DC`, con `--dc-libre-desde 2030`.
+Un agente recalculó, con código propio, las tablas de comparación de las 9 corridas: 4 escenarios × (base, libre) más `SIN_DC`, con `--dc-libre-desde 2030`. Con el inicio en 2026 todos los controles se cumplieron, con diferencias del orden de 10⁻¹¹ millones de USD o menores. Los mismos controles sobre las 9 corridas con inicio en 2025:
 
 | Control | Resultado |
 |---|---|
-| Costos totales, ahorros y costo extra frente a `SIN_DC` | Diferencia máxima 3,6·10⁻¹² millones de USD |
-| Descomposición por componente | Diferencia máxima 7,3·10⁻¹² millones de USD |
-| Configuración de cada corrida | Modo y `--dc-libre-desde 2030` correctos en las 9 |
-| Ubicación libre en 2026 = ubicación base, por zona | Diferencia 0 MW en los 4 escenarios |
-| Total de DC por período, base = libre | Diferencia ≤ 2,3·10⁻¹³ MW |
+| Costos totales, ahorros y costo extra frente a `SIN_DC` | Diferencia máxima 7,3·10⁻¹² millones de USD |
+| Descomposición por componente | Diferencia máxima 3,6·10⁻¹² millones de USD |
+| Configuración de cada corrida | Modo, `--dc-libre-desde 2030` y `--retire late` correctos en las 9; Gurobi por barrera (`Method=2`) |
+| Ubicación libre en 2025 y 2027 = ubicación base, por zona | Diferencia 0 MW en los 4 escenarios |
+| Total de DC por período, base = libre | Diferencia ≤ 10⁻³ MW, el redondeo de `dc_ubicacion.csv` |
 | Ninguna zona decrece entre períodos | Se cumple |
-| `SIN_DC` sin carga de DC | `loads.csv` idéntico byte a byte al de los escenarios |
-| Costo total = suma de componentes | Diferencia ≤ 7·10⁻⁵ USD |
-| Factor de VP y largo de cada período | Igual a la regla de Switch (4 años en 2026, 5 en los demás) |
+| `SIN_DC` sin carga de DC | `loads.csv` idéntico byte a byte al de los escenarios; `dc_*.csv` en 0 y carga de DC nula en las 31.248 celdas zona-hora |
+| Costo total = suma de componentes | Diferencia ≤ 10⁻⁴ USD |
+| Factor de VP y largo de cada período | Igual a la regla de Switch: 2 años en 2025, 3 en 2027 y 5 en los demás. Los días típicos suman 8.760 h por año en cada período, y el costo anual por el factor de VP reproduce el total con error relativo < 2·10⁻¹⁵ |
 | Ahorro ≥ 0 | En los 4 escenarios, como debe ser: la ubicación base es factible en el caso libre |
 
 La tabla de ubicación del script de resultados omitía la carga fija de DC; hoy usa la carga total.
 
-## 8. Lo que no está validado
+## 8. Inicio en 2025: autocomprobaciones de la traducción
 
-- **`PROPIO` con el llenado de campus conectados.** Las corridas actuales de `PROPIO` (con 115,2 MW medios de carga fija) se hicieron después de la fase 7. La parte fija del módulo se probó en los casos mínimos de la fase 4, pero los costos y el ahorro de estas corridas no se recalcularon por separado.
-- **La condición de optimalidad de la ubicación** se verificó en la primera tanda (fase 6). En las corridas con ubicación fija hasta 2029, la fase 7 verificó restricciones y contabilidad, no ese criterio.
+El 17-nov-2026 se cambió el inicio del modelo de 2026 a 2025. Los períodos son 2025 (2025–2026), 2027 (2027–2029), 2030, 2035, 2040, 2045 y 2050, y cada uno usa los datos de AMEBA de su año de inicio. Existente es toda unidad de los datos de entrada de AMEBA en servicio el 1-ene-2025; ninguna inversión que decidió AMEBA entra como dato. Cada parte de la traducción repitió sus autocomprobaciones con los siete períodos:
+
+| Parte | Comprobación | Resultado |
+|---|---|---|
+| Demanda | Energía de `loads.csv` con los pesos de los días típicos frente a la demanda servida + ENS de AMEBA, en los 7 años de datos | 0,000 %; error máximo por bloque y zona de 5·10⁻⁵ MW |
+| Térmica | Capacidad existente frente a AMEBA en 2025 (12.363,3 MW) y 2027 (10.746,5 MW) | 0,0 %; disponible neta +0,04 % y +0,05 % |
+| Térmica | Identidad del costo variable en las 285 centrales y los 7 años | Se cumple |
+| Térmica | Ninguna térmica en el archivo de inversiones de AMEBA | Se cumple |
+| FV y eólica | Existentes frente a las unidades AMEBA conectadas, en los 7 años | 0,0 % |
+| FV y eólica | FP de los existentes | +0,15 % (FV) y +0,01 % (eólica) |
+| FV y eólica | Energía de los candidatos que AMEBA construyó | Dentro de ±1 %, salvo eólica 2025: −6,9 % (−1,7 % en el parque total) |
+| Hidro | Energía de 2025 y 2027 frente a la generación AMEBA neta | 0,0 % |
+| Almacenamiento | Existente desde 2027 frente a `Capacidad_total.csv` de AMEBA | −3,0 %, el duplicado de Polpaico (60 MW) |
+| Transmisión | Inversiones crudas frente a `Transmision_anual.csv`; costo por corredor frente a `Inv_Cost` | 0 MW; 3·10⁻¹⁴ millones de USD |
+| Transmisión | La solución AMEBA cabe en los límites de los 7 períodos, y lo que construyó hasta 2025 cabe en el tope de 2025 | Se cumple |
+
+- **Eólica 2025.** Lo que AMEBA construyó ese año es casi solo Pampa Fidelia (915 MW), un sitio con FP 0,484 dentro de una clase de recurso con FP 0,452. Solo afecta la comparación con lo que AMEBA eligió, no la traducción.
+- **Almacenamiento existente en 2025.** Con la regla del 1 de enero, 848 MW que AMEBA cuenta en 2025 entran durante ese año y operan en Switch desde el período 2027: el período 2025 tiene 951,8 MW de almacenamiento existente, frente a 1.859,9 MW en AMEBA.
+- **Carbón que cierra el 1-ene-2026.** 2.116,8 MW operan en todo el período 2025, también en 2026, cuando AMEBA ya no los tiene; las reconversiones de 2026 (500 MW) operan desde 2027. Es la consecuencia de la regla del 1 de enero con un período de dos años.
+- **BESS «ley»** (2.000 MW): candidatas con inversión y O&M fijo 0 desde el período 2027. Con vida de 15 años, construidas en 2027 se retiran en 2042 y pueden reconstruirse sin costo en 2045.
+- **Módulo `topes_tecnologia`** (≤ 3.000 MW FV y ≤ 1.000 MW eólicos nuevos en 2025): no pasó por los casos mínimos de la fase 4.
+
+## 9. Lo que no está validado
+
+- **Réplica de AMEBA con el inicio en 2025.** La comparación de capacidad, transmisión, emisiones y CMg con la solución de AMEBA (fase 6) no se repitió con las corridas nuevas.
+- **Módulo `topes_tecnologia`.** Tiene la autocomprobación de la parte de FV y eólica, pero no casos mínimos con respuesta a mano como los de la fase 4.
+- **`PROPIO` con el llenado de campus conectados.** La parte fija del módulo se probó en los casos mínimos de la fase 4, pero los costos y el ahorro de `PROPIO` no se recalcularon por separado.
+- **Flujos y despachos horarios frente a su capacidad.** Los archivos horarios de despacho y flujo no están en el repositorio; con el inicio en 2025 se verificó el balance por zona y hora, no cada flujo ni cada despacho.
 - **Si la reserva ata.** No se exportan sus duales.
 - **6 frente a 12 días** en los resultados: solo se midió el efecto sobre los insumos.
 - **Sensibilidades recomendadas que no se corrieron:**
   - vida útil con `--retire mid`;
   - El Salto o Lo Aguirre en la otra zona de Santiago;
   - flujo DC en la red existente.
+- **Salidas de AMEBA que se siguen usando como dato** (pendientes documentados): la energía hidro por día típico, el perfil del consumo de H₂ y NH₃, y el factor 1,031 de la demanda.
 - **Supuestos sin confirmación en las fuentes:**
   - el origen del factor 1,031 de la demanda;
   - la unidad del O&M fijo de AMEBA (confianza media);

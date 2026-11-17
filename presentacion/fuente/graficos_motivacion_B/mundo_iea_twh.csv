@@ -1,0 +1,12 @@
+anio,caso,twh,pagina_pdf,origen
+2020,historico,269,258,Tabla A.1 / A.4
+2023,historico,361,258,Tabla A.1 / A.4
+2024,historico,416,258,Tabla A.1 / A.4 (texto p.14 y p.49: ~415)
+2030,Base,946,258,Tabla A.1 (texto p.49: ~945)
+2035,Base,1193,258,Tabla A.1 (texto p.14: ~1 200)
+2030,Lift-Off,1264,258,Tabla A.1 (texto p.49: >1 260)
+2035,Lift-Off,1719,258,Tabla A.1 (texto p.49: 1 720)
+2030,High Efficiency,792,258,Tabla A.1 (texto p.49: ~800)
+2035,High Efficiency,972,258,Tabla A.1 (texto p.68: ~970)
+2030,Headwinds,669,258,Tabla A.1 (texto p.49: ~670)
+2035,Headwinds,707,258,Tabla A.1 (texto p.49: 700)

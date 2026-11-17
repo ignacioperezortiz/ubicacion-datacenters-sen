@@ -1,0 +1,36 @@
+clase,id_solicitud_cen,grupo_catastro,proyecto_cen,subestacion_conexion,tension_kv,comuna,potencia_mw,fecha_estimada_conexion,categoria_estado
+existente,537,G02,PROYECTO ODATA DATACENTER ST01,S/E Nueva Lampa 220 kV,220,Lampa,30,2022-06-30,Declarada en construcción
+existente,1126,G14,Data Center Padre Hurtado Fase 1,S/E Padre Hurtado 23 kV,23,Padre Hurtado,20,2023-01-06,Declarada en construcción
+existente,1023,G01,Elec Sta Teresa - Mega Data Center Lampa,S/E Nueva Lampa 220 kV,220,Lampa,200,2023-02-28,Declarada en construcción
+existente,1056,G12,Ampliación Data Center – Tercera Etapa,S/E Seccionadora Colina 110 kV,110,Colina,40,2023-07-15,Declarada en construcción
+existente,1085,G03,ODATA SAN BERNARDO ST02,S/E PANAMERICANA 110 kV,110,San Bernardo,60,2024-06-30,Declarada en construcción
+existente,1118,G12,Ampliación Data Center Cuarta Etapa,S/E Seccionadora Colina 110 kV,110,Colina,40,2024-07-31,Declarada en construcción
+existente,1648,G02,PROYECTO ODATA ST01 EXPANSIÓN,S/E Nueva Lampa 220 kV,220,Lampa,30,2024-12-31,Declarada en construcción
+existente,2322,G08,Conexión Nuevo Alimentador Ascenty a Paño E53 en SE Chacabuco,S/E CHACABUCO 23 kV,23,Quilicura,8.4,2025-05-05,Obra menor (autorizada)
+existente,2494,G08,Conexión Nuevo Alimentador 1 Ascenty a Paño E62 en SE Chacabuco,S/E Chacabuco,23,Quilicura,,2025-12-27,Obra menor (autorizada)
+existente,2495,G08,Conexión Nuevo Alimentador 2 Ascenty a Paño E63 en SE Chacabuco,S/E Chacabuco,23,Quilicura,,2025-12-28,Obra menor (autorizada)
+existente,2496,G08,Conexión Nuevo Alimentador 3 Ascenty a Paño E64 en SE Chacabuco,S/E Chacabuco,23,Quilicura,,2025-12-29,Obra menor (autorizada)
+existente,2497,G08,Conexión Nuevo Alimentador 4 Ascenty a Paño E65 en SE Chacabuco,S/E Chacabuco,23,Quilicura,,2025-12-30,Obra menor (autorizada)
+incluida,2216,G10,Nuevo Alimentador 23 kV Scala en S/E Chacabuco,S/E Chacabuco 23 kV,23,Quilicura,12,2026-03-31,Declarada en construcción
+incluida,2847,G10,Nuevo Alimentador 23 kV Scala2 en S/E Quilicura,S/E Quilicura 23 kV,23,Quilicura,12,2027-05-31,Autorizada (por declarar en construcción)
+incluida,2377,G24,DC Valparaiso 1,SE La Polvora,220,Valparaíso,200,2028-04-01,En tramitación
+incluida,2378,G24,DC Valparaiso 2,SE La Polvora,220,Valparaíso,100,2028-04-01,En tramitación
+repetida,2853,G29,ACS DC SANTIAGO I Alimentador No. 2,S/E Chacabuco,23,Quilicura,14,2028-07-31,En tramitación
+incluida,2856,G29,ACS DC SANTIAGO I Alimentador No.1,S/E Chacabuco,23,Quilicura,14,2028-07-31,En tramitación
+incluida,3005,G15,Proyecto Rivera,S/E Bajos de Mena 110 kV,110,Puente Alto,200,2028-09-30,En tramitación
+repetida,2718,G09,Data Center Santiago Chile 4 (SCL4),S/E seccionadora Punta Verde,110,Quilicura,,2028-12-04,Detenida
+incluida,2719,G09,Data Center Santiago Chile 4 (SCL4),S/E seccionadora Punta Verde,110,Quilicura,150,2028-12-04,En tramitación
+incluida,2850,G16,Datacenter Campus Norte Etapa II,S/E Chicureo 220 kV,220,Colina,200,2028-12-31,En tramitación
+incluida,2426,G28,Data Center SC1 (exBESS Ladera Sur 1),Manuel Rodriguez 220 kV,220,Tiltil,300,2029-03-30,Detenida
+incluida,2823,G03,Odata San Bernardo Expansión,Odata San Bernardo,110,San Bernardo,48,2029-03-30,Autorizada (por declarar en construcción)
+incluida,2855,G29,ACS DC SANTIAGO II,S/E Punta Verde,110,Quilicura,40,2029-07-31,Detenida
+sin_mw,2711,G01,Ampliación Mega Data Center Lampa,S/E Santa Teresa,220,Lampa,,2029-09-30,Autorizada (por declarar en construcción)
+incluida,3119,G19,DC Hermes,S/E Nueva Lampa 220 kV,220,Lampa,100,2029-12-31,En tramitación
+sin_mw,2740,G13,Data Center Huechuraba,S/E Recoleta,12,Huechuraba,,2030-03-30,Autorizada (por declarar en construcción)
+incluida,3088,G27,Data Center SC2,SE Polpaico 500 kV,500,Tiltil,500,2030-07-01,En tramitación
+incluida,3065,G21,Data Center Noviciado I,Seccionadora Lo Aguirre 500 kV,500,Pudahuel,500,2030-11-01,En tramitación
+incluida,3103,G22,DATACENTER PACÍFICO 33-S,S/E LA PÓLVORA,220,Valparaíso,500,2030-11-29,En tramitación
+incluida,3096,G20,Data Center Lo Aguirre,S/E Seccionadora Lo Aguirre 500,500,Pudahuel,500,2031-01-31,En tramitación
+incluida,3131,G20,Data Center Lo Aguirre A,Lo Prado 44 kV,44,Pudahuel,25,2031-01-31,En tramitación
+incluida,3165,G26,Data Center Moreras,Alto Jahuel 110 kV,110,Buin,90,2031-05-31,En tramitación
+incluida,2879,G01,AMPLIACION MEGA DATA CENTER LAMPA ETAPA 2,Santa Teresa,220,Lampa,300,2032-10-15,Autorizada (por declarar en construcción)

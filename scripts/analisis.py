@@ -10,10 +10,10 @@ Escribe en resultados/tablas/:
   - inversiones_por_tecnologia.csv       MW construidos en cada período: comprometidos y decididos por el modelo
   - inversiones_libre_menos_base.csv     MW construidos por grupo, base y libre, y su diferencia por período
   - transmision_ampliaciones.csv         MW ampliados por corredor y período, e inversión overnight
-  - transmision_libre_menos_base.csv     ampliación 2026-2050 por corredor, base y libre, y su diferencia
+  - transmision_libre_menos_base.csv     ampliación del horizonte (2025-2050) por corredor, base y libre, y su diferencia
   - expansion_por_zona.csv               MW nuevos de generación y almacenamiento por zona y período
-  - expansion_zona_libre_menos_base.csv  MW nuevos 2026-2050 por zona, base y libre, y su diferencia
-  - expansion_por_macrozona.csv          MW nuevos 2026-2050 por macrozona, en los 9 casos
+  - expansion_zona_libre_menos_base.csv  MW nuevos del horizonte (2025-2050) por zona, base y libre, y su diferencia
+  - expansion_por_macrozona.csv          MW nuevos del horizonte (2025-2050) por macrozona, en los 9 casos
   - emisiones_vertimiento.csv            emisiones, demanda, vertimiento y energía no suministrada por período
   - balance_por_macrozona.csv            inyección, demanda y exportación neta de energía por macrozona y período
   - precios_zonales.csv                  precio de una carga plana por zona y período, en los 9 casos
@@ -41,6 +41,7 @@ ESCENARIOS = ['PELP_E2', 'CEN', 'PELP_N1', 'PROPIO']   # de menor a mayor demand
 REFERENCIA = 'SIN_DC'                                  # Carbono Neutralidad sin data centers (solo base)
 CASOS_MODOS = [(REFERENCIA, 'base')] + [(e, m) for e in ESCENARIOS for m in ('base', 'libre')]
 ENTRADAS = CASOS / REFERENCIA / 'inputs'               # los datos comunes son iguales en los 5 casos
+DC_LIBRE_DESDE = 2030   # igual a --dc-libre-desde de correr_casos.py: primer período con ubicación libre
 
 
 def leer(escenario, modo, archivo, **opciones):
@@ -169,6 +170,8 @@ periodos = pd.read_csv(ENTRADAS / 'periods.csv')
 periodos['anios'] = periodos['period_end'] - periodos['period_start'] + 1
 ANIOS = periodos.set_index('INVESTMENT_PERIOD')['anios']
 PERIODOS = list(ANIOS.index)
+# Último período con la ubicación proyectada de los data centers (el anterior a DC_LIBRE_DESDE).
+ULTIMO_FIJO = max(p for p in PERIODOS if p < DC_LIBRE_DESDE)
 financiero = pd.read_csv(ENTRADAS / 'financials.csv').iloc[0]
 tasa, anio_base = financiero['discount_rate'], financiero['base_financial_year']
 # Factor que lleva un costo anual constante de cada período a VP del año base (como financials.py)
@@ -200,8 +203,9 @@ guardar(zonas, 'zonas.csv')
 # 4. Escenarios de data centers: demanda total, comprometida y reubicable
 # =====================================================================================================
 # Demanda de un período = parte fija (dc_fijo) + parte ubicable (dc_libre). En modo libre, lo ubicado en
-# 2026 queda donde lo pone la proyección y un data center no se traslada, así que solo es reubicable lo
-# que se agrega después de 2026: dc_libre[p] - dc_libre[2026]. El resto es comprometido.
+# los períodos anteriores a DC_LIBRE_DESDE queda donde lo pone la proyección y un data center no se
+# traslada, así que solo es reubicable lo que se agrega después del último de ellos (ULTIMO_FIJO, 2027):
+# dc_libre[p] - dc_libre[ULTIMO_FIJO], y 0 hasta ULTIMO_FIJO. El resto es comprometido.
 costo_total = {(e, m): float((CASOS / e / f'outputs_{m}' / 'total_cost.txt').read_text()) / 1e6
                for e, m in CASOS_MODOS}
 filas = []
@@ -210,9 +214,9 @@ for e in ESCENARIOS:
     libre = pd.read_csv(entradas / 'dc_libre.csv').set_index('PERIOD')['dc_libre_mw']
     fijo = pd.read_csv(entradas / 'dc_fijo.csv').groupby('PERIOD')['dc_fijo_mw'].sum().reindex(PERIODOS, fill_value=0)
     for p in PERIODOS:
-        reubicable = libre[p] - libre[PERIODOS[0]]
+        reubicable = libre[p] - libre[ULTIMO_FIJO] if p > ULTIMO_FIJO else 0.0
         filas.append({'escenario': e, 'periodo': p, 'dc_total_MW': fijo[p] + libre[p],
-                      'dc_comprometido_MW': fijo[p] + libre[PERIODOS[0]], 'dc_reubicable_MW': reubicable,
+                      'dc_comprometido_MW': fijo[p] + libre[p] - reubicable, 'dc_reubicable_MW': reubicable,
                       'dc_energia_GWh_anio': (fijo[p] + libre[p]) * 8.76,
                       'dc_energia_vp_TWh': (fijo[p] + libre[p]) * 8760 * FACTOR_VP[p] / 1e6,
                       'dc_reubicable_vp_TWh': reubicable * 8760 * FACTOR_VP[p] / 1e6})
@@ -227,9 +231,9 @@ escenarios_dc['dc_reubicable_pct'] = 100 * escenarios_dc['dc_reubicable_MW'] / e
 guardar(escenarios_dc, 'escenarios_dc.csv')
 
 # Resumen por escenario: ahorro de ubicar bien (base - libre), por MWh de data centers y por MWh
-# reubicable, ambos con la energía en VP 2026 (la misma tasa con que Switch descuenta los costos).
+# reubicable, ambos con la energía en VP del año base (la misma tasa con que Switch descuenta los costos).
 resumen_dc = escenarios_dc.groupby('escenario', sort=False).agg(
-    dc_2026_MW=('dc_total_MW', 'first'), dc_2050_MW=('dc_total_MW', 'last'),
+    **{f'dc_{PERIODOS[0]}_MW': ('dc_total_MW', 'first')}, dc_2050_MW=('dc_total_MW', 'last'),
     reubicable_2050_MW=('dc_reubicable_MW', 'last'), reubicable_2050_pct=('dc_reubicable_pct', 'last'),
     energia_dc_vp_TWh=('dc_energia_vp_TWh', 'sum'), energia_reubicable_vp_TWh=('dc_reubicable_vp_TWh', 'sum'))
 resumen_dc['costo_base_MMUSD'] = [costo_total[(e, 'base')] for e in resumen_dc.index]
@@ -280,7 +284,7 @@ guardar(matriz[columnas], 'matriz_generacion.csv')
 # 6. Inversiones nuevas: MW construidos en cada período
 # =====================================================================================================
 # BuildGen.csv trae los MW construidos por proyecto y año de construcción (incluye los existentes, con
-# años anteriores a 2026). Un año de construcción se asigna al período que lo contiene (p. ej. 2033 ->
+# años anteriores al primer período). Un año de construcción se asigna al período que lo contiene (p. ej. 2033 ->
 # 2030). gen_build_predetermined.csv dice qué parte es obra comprometida (fija en el modelo); el resto
 # lo decide el modelo. BuildStorageEnergy.csv trae los MWh de almacenamiento construidos.
 predet = pd.read_csv(ENTRADAS / 'gen_build_predetermined.csv', na_values='.')
@@ -308,7 +312,7 @@ inversiones = (construcciones.groupby(['escenario', 'modo', 'periodo', 'familia'
 inversiones = inversiones[inversiones['MW_construidos'] > 0.001]
 guardar(inversiones, 'inversiones_por_tecnologia.csv')
 
-# Diferencia libre - base por grupo: total 2026-2050 y por período (columnas dif_<período>)
+# Diferencia libre - base por grupo: total del horizonte y por período (columnas dif_<período>)
 mw = construcciones.pivot_table(index=['escenario', 'familia', 'grupo'], columns=['modo', 'periodo'],
                                 values='MW', aggfunc='sum', fill_value=0.0)
 filas = []
@@ -369,7 +373,7 @@ columnas = ['escenario', 'modo', 'corredor', 'nombre', 'zona_norte', 'zona_sur',
 guardar(tx.loc[tx['MW_ampliados'] > 0.01, columnas].sort_values(['escenario', 'modo', 'orden', 'periodo']),
         'transmision_ampliaciones.csv')
 
-# Libre - base por corredor: total 2026-2050, primer período con ampliación y diferencia por período
+# Libre - base por corredor: total del horizonte, primer período con ampliación y diferencia por período
 total_tx = tx.pivot_table(index='corredor', columns=['escenario', 'modo'], values='MW_ampliados', aggfunc='sum')
 inv_tx = tx.pivot_table(index='corredor', columns=['escenario', 'modo'], values='inversion_overnight_MMUSD', aggfunc='sum')
 por_periodo = tx.pivot_table(index=['corredor', 'periodo'], columns=['escenario', 'modo'], values='MW_ampliados')
@@ -401,7 +405,7 @@ guardar(dif_tx, 'transmision_libre_menos_base.csv')
 
 
 # =====================================================================================================
-# 8. Expansión por zona: MW nuevos de generación y almacenamiento (2026-2050)
+# 8. Expansión por zona: MW nuevos de generación y almacenamiento (horizonte completo)
 # =====================================================================================================
 por_zona = (construcciones.groupby(['escenario', 'modo', 'zona', 'periodo', 'tipo', 'familia'])['MW'].sum()
             .reset_index())

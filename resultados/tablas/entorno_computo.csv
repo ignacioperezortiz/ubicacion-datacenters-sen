@@ -1,10 +1,10 @@
 escenario,modo,gurobi_version,procesador,nucleos_fisicos,procesadores_logicos,hilos,metodo
-SIN_DC,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,4,2
-PELP_E2,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,6,2
-PELP_E2,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,5,2
-CEN,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,6,2
-CEN,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,5,2
-PELP_N1,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,6,2
-PELP_N1,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,5,2
+SIN_DC,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,8,2
+PELP_E2,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2
+PELP_E2,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2
+CEN,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2
+CEN,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2
+PELP_N1,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2
+PELP_N1,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2
 PROPIO,base,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,8,2
-PROPIO,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,8,2
+PROPIO,libre,13.0.3,Intel(R) Core(TM) Ultra 9 185H,16,22,14,2

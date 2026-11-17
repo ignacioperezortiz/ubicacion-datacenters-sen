@@ -24,7 +24,9 @@ Siglas: PELP, Planificación Energética de Largo Plazo; AMEBA, modelo de optimi
 
 - **Inversión** (`gen_inv_cost`, `branch_inv_cost`): USD/kW, es decir, miles de USD por MW. En la salida `Transmision_anual.csv`, el costo de inversión en millones de USD es exactamente capacidad (MW) × `branch_inv_cost` / 1.000 en las 402 obras del escenario. Las curvas de costo de baterías del Informe Definitivo (figuras 21 y 22, en USD/kW) coinciden con la variante `Medio`: BESS 4 h, 1.114 USD/kW en 2026 y 667 en 2050. Los órdenes de magnitud calzan: FV 662, eólica 1.173 y ciclo combinado a gas 1.053 USD/kW en 2030. En Switch se multiplican por 1.000.
 - **O&M fijo** (`fom_cost`): USD/kW-año, por orden de magnitud (confianza media; ninguna salida lo reporta). Se multiplica por 1.000.
-- **Costo variable**: USD/MWh. La identidad precio × tasa de calor + O&M variable reproduce el costo variable de la salida de AMEBA en las 276 térmicas y los seis años de datos.
+- **Costo variable**: USD/MWh. La identidad precio × tasa de calor + O&M variable reproduce el costo variable de la salida de AMEBA en las 285 térmicas y los siete años de datos.
+
+**Entradas y salidas de AMEBA.** Las entradas del modelo eléctrico (unidades, fechas, costos, perfiles, demanda) son datos. Las salidas (lo que AMEBA decidió construir y cómo operó) se usan solo para validar la traducción, salvo tres excepciones documentadas como pendientes en la sección 10.
 
 ---
 
@@ -34,16 +36,18 @@ Siglas: PELP, Planificación Energética de Largo Plazo; AMEBA, modelo de optimi
 
 **Zonas: 31.** Son las 26 barras eléctricas de AMEBA (500 kV y algunas de 220 kV en el norte) y los 5 polos PDGE. Las 6 barras auxiliares de hidrógeno y amoníaco (`*_H2`, `*_NH3`) no son zonas: su consumo se carga en la barra eléctrica que las alimenta.
 
-**Períodos: 6.** 2026 (2026–2029), 2030, 2035, 2040, 2045 y 2050 (2050–2054). Cada período usa los datos AMEBA de su año de inicio, el «año de datos»; AMEBA tiene datos anuales hasta 2035 y luego cada 5 años. Hay dos excepciones, que usan el promedio de los años del período: el impuesto al CO₂ (sección 7) y los data centers (sección 8).
+**Períodos: 7.** 2025 (2025–2026), 2027 (2027–2029), 2030, 2035, 2040, 2045 y 2050 (2050–2054). El modelo parte en 2025, como AMEBA. Cada período usa los datos AMEBA de su año de inicio, el «año de datos»; AMEBA tiene datos anuales hasta 2035 y luego cada 5 años. Hay dos excepciones, que usan el promedio de los años del período: el impuesto al CO₂ (sección 7) y los data centers (sección 8).
+
+**Regla del 1 de enero.** Una unidad, existente o comprometida en los datos de entrada, opera en un período si está en servicio el 1 de enero de su año de inicio. Una entrada a mitad de año cuenta desde el año siguiente. La misma regla fija el primer período de cada candidato: el primero cuyo año de inicio es mayor o igual que el año de su `start_time`.
 
 **Días típicos: 6 por período**, los de los meses impares. AMEBA representa cada mes con un día de 24 bloques horarios. Cada día que se conserva (enero, marzo, mayo, julio, septiembre y noviembre) representa también al mes siguiente: su peso es (días del mes + días del mes siguiente) × años del período. Febrero tiene siempre 28 días, como en AMEBA, y cada período suma 8.760 h por año. Son 144 horas por año, la misma resolución del modelo de la PELP 2028–2032.
 
-**Por qué 6 y no 12 días.** Con 12 días el problema tiene 2,68 millones de restricciones, 2,35 millones de variables y 13,8 millones de coeficientes. La barrera de Gurobi se quedó sin memoria en un equipo de 63 GB, y el simplex dual seguía sin converger a los 110 minutos. Con 6 días el problema es la mitad (1,35 millones de restricciones) y cada caso se resuelve en 8 a 16 minutos.
+**Por qué 6 y no 12 días.** Con 12 días y seis períodos (2026–2050), el problema tenía 2,68 millones de restricciones, 2,35 millones de variables y 13,8 millones de coeficientes. La barrera de Gurobi se quedó sin memoria en un equipo de 63 GB, y el simplex dual seguía sin converger a los 110 minutos. Con 6 días el problema es la mitad. Con los siete períodos actuales, cada caso tiene 1,54 millones de restricciones, 1,35 millones de variables y 8,07 millones de coeficientes, y se resuelve en 10 a 18 minutos ([ANALISIS.md, sección 8](ANALISIS.md#8-tiempos-de-cómputo)).
 
 Efecto de usar 6 días sobre los insumos (mes par igual al impar anterior):
 
-- demanda: −0,04 a −0,09 %;
-- energía hidro: +4,9 % en 2035, +4,6 % en 2045, +6,6 % en 2050 y −1,8 % en 2030;
+- demanda: −0,04 a −0,09 % (−0,09 % en 2025 y −0,08 % en 2027);
+- energía hidro: −0,6 % en 2025, +1,6 % en 2027, −1,8 % en 2030, +4,9 % en 2035, +4,6 % en 2045 y +6,6 % en 2050;
 - FP eólico: −5,3 % en 2035 y −1,2 a −1,4 % en 2030 y 2040–2045.
 
 ---
@@ -55,9 +59,9 @@ D_{z,t}=1{,}031\times\sum(\text{cargas eléctricas conectadas de }z)+\sum(\text{
 $$
 
 - **Cargas incluidas.** Todas las conectadas: nodales, clientes regulados y no regulados, y electromovilidad (138 cargas con serie). Los factores de `factor.csv` no se aplican: las series ya traen el crecimiento, y la solución de AMEBA abastece exactamente 1,031 × la serie en todas las barras.
-- **Factor 1,031.** Es uniforme en todas las barras y bloques de los años de datos; se encontró rehaciendo el balance de cada barra en la solución de AMEBA (generación neta de servicios auxiliares, almacenamiento, flujos y ENS). No figura en ningún archivo de entrada. Como AMEBA resuelve la red con pérdidas nulas, se interpreta como un margen de pérdidas (hipótesis). Con él, Switch, sin pérdidas, abastece la misma energía que AMEBA.
-- **Hidrógeno y amoníaco.** Tres barras (LosChangos500, Polpaico500 y NuevaCharrua500) alimentan cada una una barra auxiliar de H₂ y otra de NH₃. Su consumo entra como carga fija en la barra eléctrica, igual al flujo que AMEBA mandó por cada enlace en cada hora. Así se conservan la energía y la forma horaria (el H₂ sigue un perfil solar) que dimensionaron la red y la generación de AMEBA. Las cargas planas desconectadas `L_*_H2_ESS` y `L_*_NH3_ESS` son una copia de la misma energía y no se incluyen.
-- **Energía resultante** (TWh/año): 100,4 (2026), 110,5 (2030), 154,2 (2035), 181,9 (2040), 226,0 (2045) y 272,2 (2050). H₂ y NH₃ son 1,6 TWh en 2026 y 108,6 TWh en 2050 (40 %). Sumar todas las columnas del archivo de demanda da 369 TWh en 2050, pero eso cuenta el hidrógeno dos veces; AMEBA abastece 272 TWh.
+- **Factor 1,031.** Es uniforme en todas las barras y bloques de los años de datos; se encontró rehaciendo el balance de cada barra en la solución de AMEBA (generación neta de servicios auxiliares, almacenamiento, flujos y ENS). No figura en ningún archivo de entrada. Como AMEBA resuelve la red con pérdidas nulas, se interpreta como un margen de pérdidas (hipótesis). Con él, Switch, sin pérdidas, abastece la misma energía que AMEBA. Sale de una salida de AMEBA (sección 10).
+- **Hidrógeno y amoníaco.** Tres barras (LosChangos500, Polpaico500 y NuevaCharrua500) alimentan cada una una barra auxiliar de H₂ y otra de NH₃. Su consumo entra como carga fija en la barra eléctrica, igual al flujo que AMEBA mandó por cada enlace en cada hora. Así se conservan la energía y la forma horaria (el H₂ sigue un perfil solar) que dimensionaron la red y la generación de AMEBA. Las cargas planas desconectadas `L_*_H2_ESS` y `L_*_NH3_ESS` son una copia de la misma energía y no se incluyen. El flujo por los enlaces es una salida de AMEBA (sección 10).
+- **Energía resultante** (TWh/año): 97,6 (2025), 102,9 (2027), 110,5 (2030), 154,2 (2035), 181,9 (2040), 226,0 (2045) y 272,2 (2050). H₂ y NH₃ son 0,6 TWh en 2025, 2,6 TWh en 2027 y 108,6 TWh en 2050 (40 %). Sumar todas las columnas del archivo de demanda da 369 TWh en 2050, pero eso cuenta el hidrógeno dos veces; AMEBA abastece 272 TWh.
 - La demanda **ya incluye los data centers que operan hoy** (sección 8.1).
 
 ---
@@ -72,26 +76,29 @@ $$
 
 Potencias, límites y costos por MW quedan en bruto.
 
-**Inversiones de AMEBA hasta 2025: existentes.** El primer período del modelo es 2026, así que lo que AMEBA decidió construir antes ya es pasado. Entra como capacidad predeterminada, sin costo de inversión, y se descuenta del potencial de cada candidato:
+**Ninguna inversión de AMEBA entra como dato.** Lo existente son las unidades de los datos de entrada de AMEBA en servicio el 1 de enero de 2025 (regla de la sección 2). Lo que AMEBA decidió construir es una salida de su optimización y no se usa: vuelve al potencial candidato y lo decide Switch. Son:
 
 - 3.000 MW FV y 1.000 MW eólicos construidos en 2025;
-- 92,1 MW de BESS construidos en 2024;
-- 2.000 MW de BESS «ley», que AMEBA construye enteros en 2026 a costo 0, como comprometidos;
+- 92,1 MW de BESS `ESS_NuevaPozoAlmonte220_8h` construidos en 2024 (el tope del candidato vuelve a 600 MW);
 - 2.672 MW de transmisión en 7 corredores (sección 6).
+
+**Topes de inversión de 2025.** Los datos de entrada de AMEBA limitan los MW nuevos de FV y eólica de cada año en todo el sistema (`max_pv_penetration`, `max_wind_penetration`): 0 hasta 2024, 3.000 y 1.000 MW en 2025 y 50.000 MW desde 2026. El tope de un período es la suma de los topes anuales de sus años: en el período 2025 (2025–2026) da 53.000 MW FV y 51.000 MW eólicos, y desde 2027 es aún mayor. No restringe en ningún período, así que el módulo `topes_tecnologia.py` queda disponible pero no se carga. Imponer 3.000 y 1.000 MW a todo el período 2025 acopla en una fila todos los proyectos FV y eólicos, y la factorización de la barrera supera los 88 GB de memoria.
 
 ### 4.1 Térmica
 
-- **Proyectos.** 276 centrales individuales: 226 existentes o comprometidas y 50 candidatas.
-- **Entradas y retiros.** Una central opera en un período si está en servicio el 1 de enero de su año de inicio. El retiro es la fecha más temprana entre `end_time` y la fecha en que la serie de potencia máxima (`pmax.zip`) la lleva a 0. Esa serie trae el cierre del carbón: 1.573 MW en 2026, 1.297 MW en 2030 y 0 desde 2035; Guacolda pasa por etapas de co-combustión con amoníaco (275 MW en 2030 y 701 MW desde 2035).
+- **Proyectos.** 285 centrales individuales: 235 existentes o comprometidas y 50 candidatas.
+- **Entradas y retiros.** Una central opera en un período si está en servicio el 1 de enero de su año de inicio. El retiro es la fecha más temprana entre `end_time` y la fecha en que la serie de potencia máxima (`pmax.zip`) la lleva a 0. Esa serie trae el cierre del carbón: 3.690 MW en 2025, 1.573 MW en 2027, 1.297 MW en 2030 y 0 desde 2035; Guacolda pasa por etapas de co-combustión con amoníaco (275 MW en 2030 y 701 MW desde 2035). Las 9 unidades a carbón que `pmax.zip` cierra el 1-ene-2026 (2.117 MW) operan en el período 2025 y no en el 2027.
+- **Reconversiones comprometidas.** IEM a gas (300 MW) y Hornitos y Andina a biomasa (100 + 100 MW) tienen fecha 1-ene-2026 en los datos de entrada; operan desde el período 2027.
+- **Capacidad existente:** 12.363 MW en 2025 y 10.747 MW en 2027, igual a AMEBA en ambos años.
 - **Disponibilidad.** Una tasa de falla equivalente que combina la falla forzada, el mantenimiento promedio del año y los servicios auxiliares. La capacidad disponible neta queda a ±0,1 % de la de AMEBA.
 - **Combustibles.** Uno por central, con su precio por año de datos y su intensidad de CO₂, de modo que las emisiones de Switch dan generación bruta × emisión de AMEBA. 28 centrales sin costo de combustible ni emisiones (geotermia, biomasa residual, calor residual) van sin combustible.
-- **Candidatos.** Gas natural licuado (ciclo combinado, ciclo abierto, con captura de carbono), diésel y geotermia desde 2030; biomasa desde 2026. Los de gas y diésel tienen 10.000 MW por sitio: en la práctica, sin límite. AMEBA no construyó térmicas en este escenario.
-- **Excluidas.** 23 unidades fuera de servicio el 1-ene-2026 y 5 desconectadas en AMEBA (dos condensadores síncronos y la reconversión de Santa María a amoníaco, que el informe no menciona).
+- **Candidatos.** Gas natural licuado (ciclo combinado, ciclo abierto, con captura de carbono), diésel y geotermia desde 2030; biomasa desde 2027, porque su `start_time` es 2026. Ninguna térmica candidata se puede construir en el período 2025. Los de gas y diésel tienen 10.000 MW por sitio: en la práctica, sin límite. AMEBA no construyó térmicas en este escenario.
+- **Excluidas.** 14 unidades fuera de servicio el 1-ene-2025 (carbón cerrado entre 2019 y marzo de 2024 y diésel con `end_time` en 2021) y 5 desconectadas en AMEBA (dos condensadores síncronos y la reconversión de Santa María a amoníaco, que el informe no menciona).
 
 ### 4.2 Solar FV y eólica
 
-- **Existentes.** Un proyecto por zona y tecnología, con el perfil ponderado por capacidad disponible: 7.699 MW FV y 3.939 MW eólicos, más lo construido en 2025. Se excluyen 1.582 MW de unidades desconectadas que AMEBA lista pero no despacha. AMEBA no retira ninguna central, así que llevan vida de 100 años.
-- **Candidatos.** Se agrupan por zona, tecnología, clase de costo y primer período permitido. Dentro de cada grupo se parten en **clases de recurso**: las unidades se ordenan por FP y una clase se divide mientras su rango de FP supere el 12 % (FV) o el 15 % (eólica) de su FP medio. La regla usa solo datos de entrada. Sin clases, el grupo promediaba los mejores sitios con los peores, y la energía de lo que AMEBA construyó quedaba hasta 7,5 % bajo AMEBA en eólica (2030); con clases queda dentro de ±1 % en todos los años.
+- **Existentes.** Un proyecto por zona y tecnología, con el perfil ponderado por capacidad disponible: 7.699 MW FV y 3.939 MW eólicos, todos en servicio antes de 2025. Se excluyen 1.582 MW de unidades desconectadas que AMEBA lista pero no despacha. AMEBA no retira ninguna central, así que llevan vida de 100 años.
+- **Candidatos.** Se agrupan por zona, tecnología, clase de costo y primer período permitido: FV y eólicos con nombre desde 2025, eólicos genéricos desde 2030 y CSP desde 2030 (polos) o 2035 (resto). Dentro de cada grupo se parten en **clases de recurso**: las unidades se ordenan por FP y una clase se divide mientras su rango de FP supere el 12 % (FV) o el 15 % (eólica) de su FP medio. La regla usa solo datos de entrada. Sin clases, el grupo promediaba los mejores sitios con los peores, y la energía de lo que AMEBA construyó quedaba hasta 7,5 % bajo AMEBA en eólica (2030); con clases queda dentro de ±1 % en todos los años, salvo la eólica de 2025 (−6,9 %): lo construido ese año es casi solo Pampa Fidelia (915 MW), un sitio con FP 0,484 dentro de un grupo con FP 0,452.
 - **Costos.** Inversión `Medio` del año de datos de cada período; O&M fijo 0 y vida eólica de 50 años, como en AMEBA.
 
 ### 4.3 CSP: perfil fijo
@@ -105,14 +112,15 @@ AMEBA modela la CSP con campo solar, almacenamiento térmico y turbina. En Switc
 ### 5.1 Hidro existente: energía de AMEBA por día típico
 
 - **Proyectos.** 21, uno por zona y tipo (5 de embalse y 16 de pasada), con 7.935 MW, igual que AMEBA.
-- **Energía.** La potencia media de cada día típico es la generación que AMEBA despachó ese mes, neta de servicios auxiliares. Con los 12 meses, la energía anual coincide con AMEBA al 0,0 %; con 6 días cambia como se indica en la sección 2. Es la misma en todos los escenarios: la hidro puede mover su energía dentro del día, pero no entre meses.
+- **Energía.** La potencia media de cada día típico es la generación que AMEBA despachó ese mes, neta de servicios auxiliares: 21.619 GWh en 2025 y 19.031 GWh en 2027 con los 12 meses. Con los 12 meses, la energía anual coincide con AMEBA al 0,0 %; con 6 días cambia como se indica en la sección 2. Es la misma en todos los escenarios: la hidro puede mover su energía dentro del día, pero no entre meses. Es una salida de AMEBA (sección 10).
 - **«Embalse» quiere decir regulada.** Incluye las 10 centrales de embalse y 17 centrales aguas abajo de un embalse (1.559 MW), que en AMEBA siguen hora a hora el despacho del embalse. Su mínimo horario es el mínimo que AMEBA despachó.
 - **Pasada.** Mínimo de 0,9 × la media del día: casi plana. Con el mínimo observado, Switch podría usarla como almacenamiento.
 - **Candidatas.** 8 proyectos de pasada (6.313 MW, desde 2035), como generación variable con el caudal de la hidrología MIROC. AMEBA no construyó ninguna.
 
 ### 5.2 Almacenamiento con duración fija
 
-- **Existente.** 26 proyectos, 4.063 MW y 16.232 MWh entregables, incluidos los 2.000 MW «ley» y los 92,1 MW de 2024.
+- **Existente.** 23 proyectos: 951,8 MW y 3.315 MWh entregables en 2025, y 1.971,2 MW y 7.851 MWh desde 2027. La diferencia son 8 unidades de los datos de entrada que entran entre febrero de 2025 y el 1-ene-2026 (1.019,4 MW): por la regla del 1 de enero operan desde el período 2027.
+- **BESS «ley».** `ESS_Kimal_4h_ley` (1.000 MW), `ESS_NuevaCardones_4h_ley` (500 MW) y `ESS_Cumbres_4H_ley` (500 MW): 2.000 MW que en los datos de entrada de AMEBA son candidatos con inversión 0, O&M fijo 0 e inicio en 2026. En Switch son candidatos con esos costos desde el período 2027, uno por unidad, con tope igual a su potencia, y no se juntan con los BESS de 4 h de la zona porque tienen otros costos.
 - **Candidatos.** BESS de 1, 2, 4, 6 y 8 h; CAES de 4 h; baterías Carnot de 4 y 12 h en carboneras reconvertidas; bombeo hidráulico desde 2030.
 - **Duración fija.** Cada candidato tiene su razón energía/potencia y todo su costo va por MW.
 - **Energía entregable.** En AMEBA el estado de carga baja en descarga/eficiencia de descarga, así que la energía entregable con el estanque lleno es la energía nominal × eficiencia de descarga. Por eso una batería «de 4 h» queda con 3,84 h.
@@ -125,13 +133,13 @@ AMEBA modela la CSP con campo solar, almacenamiento térmico y turbina. En Switc
 ## 6. Transmisión
 
 - **Red de transporte sin pérdidas.** Las 161 líneas de AMEBA quedan en 34 corredores: 29 de red y 5 de enlace a los polos PDGE. Las líneas paralelas se suman en un solo corredor, porque Switch ignora la capacidad de un segundo tramo entre las mismas zonas. Se excluyen 6 enlaces a barras de H₂/NH₃ y 2 líneas desconectadas. La eficiencia es 1 (sección 3).
-- **Existente.** 38.519 MW, más 2.672 MW que AMEBA construyó en 2025.
+- **Existente.** 38.519 MW: las líneas de los datos de entrada en servicio el 1-ene-2025. Los 2.672 MW que AMEBA construyó hasta 2025 en 7 corredores no se suman y quedan como candidatos; caben en el tope de 2025 de cada corredor.
 - **Obras comprometidas** (`trans_build_limits.csv`):
-  - **HVDC Kimal–Alto Jahuel, desde 2030.** Es el HVDC Kimal–Lo Aguirre, de 2.000 MW en AMEBA, con fecha enero de 2029. El período 2026 se representa con los datos de 2026, cuando no existe, así que entra en el período 2030. La red de AMEBA lleva su terminal a la barra AltoJahuel500.
+  - **HVDC Kimal–Alto Jahuel, 2.000 MW, en 2030.** Es el HVDC Kimal–Lo Aguirre, con fecha enero de 2029 en los datos de entrada. No está en servicio el 1-ene-2027, así que entra en el período 2030. La red de AMEBA lleva su terminal a la barra AltoJahuel500.
   - Río Malleco–Pichirropulli, 660 MW, en 2030.
-- **Topes acumulados.** Cada corredor puede ampliarse hasta la suma de sus candidatos disponibles hasta ese período. Los candidatos de AMEBA entran en 2025 (aquí, 2026), 2035, 2040 y 2050. Kimal220–LosChangos220 no tiene candidatos y no se amplía. La expansión que hizo AMEBA cabe en estos topes en todos los corredores y períodos.
+- **Topes acumulados.** Cada corredor puede ampliarse hasta la suma de sus candidatos disponibles hasta ese período. Los candidatos de AMEBA entran en 2025, 2035, 2040 y 2050. Kimal220–LosChangos220 no tiene candidatos y no se amplía. La expansión que hizo AMEBA cabe en estos topes en todos los corredores y períodos.
 - **Costos.** Costo overnight por corredor = `branch_inv_cost` × 1.000 USD/MW (entre 17.950 y 625.600 USD/MW), anualizado con vida de 40 años al 6 %, sin O&M, como en AMEBA. La evidencia de la unidad está en `Transmision_anual.csv` (sección 1). Los enlaces PDGE cuestan 1 USD/MW, como en AMEBA.
-- **Red existente.** Switch cobra la anualidad de toda la capacidad, también la existente y la comprometida: unos 188 MUSD/año en 2026–2029 y 279 MUSD/año desde 2030. Es un costo constante que no cambia ninguna decisión y se cancela en las diferencias entre casos.
+- **Red existente.** Switch cobra la anualidad de toda la capacidad, también la existente y la comprometida: 175,6 MUSD/año en 2025–2029 y 265,9 MUSD/año desde 2030. Es un costo constante que no cambia ninguna decisión y se cancela en las diferencias entre casos.
 - **Fuera del modelo.** Los enlaces que AMEBA construye hacia las barras de H₂/NH₃ (19.892 MW, unos 995 MUSD) no existen en Switch, porque esa demanda se carga en la barra eléctrica.
 
 ---
@@ -139,9 +147,9 @@ AMEBA modela la CSP con campo solar, almacenamiento térmico y turbina. En Switc
 ## 7. Reserva, CO₂, ENS y finanzas
 
 - **Reserva sistémica.** AMEBA usa un área única (SEN): primaria 331/85 MW y secundaria 220/322 MW (subir/bajar), constantes. Se suman en 551 MW de subida y 407 MW de bajada. Dan reserva los 104 proyectos que contienen al menos una unidad con reserva en AMEBA: 60 térmicos (existentes y geotermia candidata), 6 hidro que agrupan las 15 centrales con reserva, 34 CSP y 4 baterías Carnot. Cada uno aporta toda su holgura (sin el tope por unidad de AMEBA). Ni FV, ni eólica, ni BESS aportan reserva en AMEBA.
-- **Impuesto al CO₂: promedio del período.** AMEBA lo cobra año a año: 0 hasta 2027, 5 USD/t desde 2028 y 35 USD/t desde 2040. Con el valor del año de inicio, el período 2026 tendría 0 y el 2035 tendría 15,8 USD/t, aunque dentro de ese período llega a 31,1. Como el impuesto cambia los precios relativos entre zonas, que es lo que decide la ubicación, se usa el promedio de cada período: 2,5; 10; 23,48; 35; 35 y 35 USD/t.
+- **Impuesto al CO₂: promedio del período.** AMEBA lo cobra año a año: 0 hasta 2027, 5 USD/t desde 2028 y 35 USD/t desde 2040. Con el valor del año de inicio, el período 2027 tendría 0 y el 2035 tendría 15,8 USD/t, aunque dentro de ese período llega a 31,1. Como el impuesto cambia los precios relativos entre zonas, que es lo que decide la ubicación, se usa el promedio de cada período: 0; 3,33; 10; 23,48; 35; 35 y 35 USD/t.
 - **ENS.** 650 USD/MWh, el VOLL de AMEBA (igual para las 153 cargas).
-- **Finanzas.** Tasa de descuento e interés de 6 %, la de AMEBA; valor presente a 2026.
+- **Finanzas.** Tasa de descuento e interés de 6 %, la de AMEBA; valor presente a 2025.
 
 ---
 
@@ -153,30 +161,32 @@ Los data centers que operan hoy suman unos **99 MW medios**: los 198 MW instalad
 
 ### 8.2 Escenarios
 
-Carga media agregada al modelo por encima de lo existente, en MW medios. Cada período usa el **promedio** de la trayectoria anual en sus años, y no el valor del año de inicio: 2026–2029 es el tramo de crecimiento más rápido, y el año de inicio subestimaría la carga del período hasta en 43 %.
+Carga media agregada al modelo por encima de lo existente, en MW medios. Cada período usa el **promedio** de la trayectoria anual en sus años, y no el valor del año de inicio: 2025–2029 es el tramo de crecimiento más rápido, y el año de inicio subestimaría la carga de los períodos 2025 y 2027.
 
 | Período | `PELP_E2` | `PELP_N1` | `CEN` | `PROPIO`, ubicable | `PROPIO`, fija | `PROPIO`, total |
 |---|---:|---:|---:|---:|---:|---:|
-| 2026 | 74,2 | 261,8 | 330,4 | 297,5 | 57,6 | 355,1 |
-| 2030 | 224,8 | 749,8 | 591,0 | 1.784,0 | 115,2 | 1.899,2 |
-| 2035 | 272,8 | 1.022,8 | 591,0 | 1.905,5 | 115,2 | 2.020,7 |
-| 2040 | 292,4 | 1.042,4 | 591,0 | 1.905,5 | 115,2 | 2.020,7 |
-| 2045 | 311,9 | 1.061,9 | 591,0 | 1.905,5 | 115,2 | 2.020,7 |
-| 2050 | 331,5 | 1.081,5 | 591,0 | 1.905,5 | 115,2 | 2.020,7 |
+| 2025 | 0,0 | 37,5 | 138,3 | 8,0 | 11,5 | 19,5 |
+| 2027 | 99,0 | 324,0 | 381,7 | 391,3 | 69,1 | 460,4 |
+| 2030 | 224,8 | 749,8 | 663,5 | 1.888,5 | 115,2 | 2.003,7 |
+| 2035 | 272,8 | 1.022,8 | 874,2 | 2.918,8 | 115,2 | 3.034,0 |
+| 2040 | 292,4 | 1.042,4 | 1.143,1 | 4.389,2 | 115,2 | 4.504,4 |
+| 2045 | 311,9 | 1.061,9 | 1.486,3 | 6.549,7 | 115,2 | 6.664,9 |
+| 2050 | 331,5 | 1.081,5 | 1.924,2 | 9.724,2 | 115,2 | 9.839,4 |
 
 - La carga total de data centers del sistema es la de la tabla más los 99 MW existentes.
 - En `PELP_E2`, `PELP_N1` y `CEN`, toda la carga agregada es ubicable.
 - En `PROPIO`, la parte fija es el llenado de campus ya conectados (sección 8.5) y no se mueve en ningún caso.
+- **Reubicable.** En el modo libre, la carga ubicable de los períodos 2025 y 2027 queda en la ubicación base: son proyectos comprometidos (`--dc-libre-desde 2030`). Desde 2030 el modelo elige la zona de lo que se agrega por sobre el nivel de 2027, y un data center ya ubicado no se traslada.
 - El caso `SIN_DC` no agrega nada (sección 8.6).
 
-**Ubicación base** (dónde la ponen las proyecciones), desde 2035, en % del total agregado o en MW medios:
+**Ubicación base** (dónde la ponen las proyecciones), desde 2035, en % del total ubicable agregado o en MW medios:
 
 | Escenario | Polpaico500 | Quillota500 | AltoJahuel500 | Kimal220 |
 |---|---|---|---|---|
 | `PELP_E2` | 85 % | 15 % | — | — |
-| `PELP_N1` | como E2 | como E2 | — | 75 MW medios en 2026, 375 en 2030 y 750 desde 2035 (promedio por período: 187,5; 525; 750) |
+| `PELP_N1` | como E2 | como E2 | — | 75 MW medios por año desde 2026 hasta 750 en 2035 (promedio por período: 37,5; 225; 525; 750 desde 2035) |
 | `CEN` | 89 % | 11 % | — | — |
-| `PROPIO` | 824 + 93,7 fija | 400 | 681,5 + 21,5 fija | — |
+| `PROPIO` | 43 % + 93,7 fija | 21 % | 36 % + 21,5 fija | — |
 
 Las zonas candidatas del caso libre son las 26 barras eléctricas; los polos PDGE no lo son, porque son polos de generación sin ubicación propia. No hay tope por zona ni costo de conexión o de terreno.
 
@@ -191,6 +201,7 @@ La PELP 2028–2032 trae los data centers como tres cargas planas (el mismo valo
 | Antofagasta (solo N1) | S/E Kimal 220 kV (María Elena) | Kimal220 |
 
 - **Trayectoria.** RM + Valparaíso: 99 MW medios en 2026, 297 en 2030, 364 en 2035 y 450 en 2057, siempre 85 % / 15 %. Es idéntica en los escenarios E1, E2, E3 y N2. N1 agrega Antofagasta: 75 MW más por año desde 2026 hasta 750 MW en 2035.
+- **2025.** Las trayectorias de la PELP 2028–2032 parten en 2026. Para 2025 se usa el nivel de 2026 en RM + Valparaíso, que es el existente (sección 8.1), y 0 en Antofagasta: no se agrega nada sobre lo existente en ese año.
 - **E2 y N1.** E2 es el escenario de demanda media. En N1, el informe agrega la carga de Antofagasta como medida para aprovechar el vertimiento del norte; coincide en nodo y tamaño con el campus de IA anunciado en Kimal.
 - **Asignación a zonas.** La hicieron dos agentes por separado, con métodos distintos, y llegaron a la misma zona en los tres nodos:
   - uno con distancia geográfica, camino de menor reactancia, reactancia efectiva y reparto de Kron en la red de 234 nodos;
@@ -199,9 +210,10 @@ La PELP 2028–2032 trae los data centers como tres cargas planas (el mismo valo
 
 ### 8.4 `CEN`: Coordinador Eléctrico Nacional
 
-- **Capacidad.** La identificada por el CEN en su Proyección de Demanda 2026–2046 (figura 5-13): 552 MW en 2026, 642 en 2027, 963 en 2028, 1.281 en 2029 y **1.381 MW en 2030**, plana después. El CEN la deja plana porque se agota la cartera de proyectos informados por las empresas.
-- **Utilización: 50 %**, la misma con que la PELP pasa de capacidad a demanda. Da 690 MW medios desde 2030.
-- **Reparto.** El del CEN al 2030: RM 1.225 MW (a Polpaico500) y Valparaíso 155 MW (a Quillota500). Como esos dos suman 1.380 y no 1.381, el total queda en 690,0 y no en 690,5 MW medios.
+- **Capacidad hasta 2030.** La identificada por el CEN en su Proyección de Demanda 2026–2046 (figura 5-13): 398 MW en 2025, 552 en 2026, 642 en 2027, 963 en 2028, 1.281 en 2029 y **1.381 MW en 2030**. El CEN la deja plana después, porque se agota la cartera de proyectos informados por las empresas.
+- **Crecimiento desde 2031: 5 % anual.** Una cartera agotada no implica que la industria deje de crecer. Se supone un crecimiento conservador de la capacidad de 5 % anual desde 2031: 1.381 MW en 2030 y unos 3.660 MW en 2050.
+- **Utilización: 50 %**, la misma con que la PELP pasa de capacidad a demanda. Da 690 MW medios en 2030.
+- **Reparto.** El del CEN al 2030, en todos los años: RM 1.225 MW (a Polpaico500) y Valparaíso 155 MW (a Quillota500), 89 % y 11 %.
 
 ### 8.5 `PROPIO`: catastro de solicitudes de conexión
 
@@ -214,11 +226,13 @@ Proyección construida desde proyectos con solicitud de conexión, no desde anun
 3. **Catálogo.** Un proyecto del catálogo se suma solo si no corresponde a un grupo del catastro (mismo titular, sitio o subestación; la comuna sola no basta). El único adicional es Cirion SAN2 (Quilicura, 20 MW en 2026), que se conecta en distribución y no aparece en el CEN. Los anuncios sin año de conexión (Atacama Data, campus de Grenergy, Solutions 2) quedan fuera.
 4. **Utilización: 50 %** de los MW solicitados, en el año estimado de conexión, como carga plana.
 
-**Resultado:** 19 solicitudes nuevas (3.791 MW) más Cirion = 3.811 MW solicitados, 1.905,5 MW medios desde 2032.
+**Resultado:** 19 solicitudes nuevas (3.791 MW) más Cirion = 3.811 MW solicitados, 1.905,5 MW medios en 2032.
 
-| Año | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 en adelante |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| MW medios acumulados | 16 | 22 | 454 | 698 | 1.448 | 1.755,5 | 1.905,5 |
+| Año | 2025 | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| MW medios acumulados | 0 | 16 | 22 | 454 | 698 | 1.448 | 1.755,5 | 1.905,5 |
+
+**Crecimiento desde 2033: 8 % anual.** Las solicitudes llegan hasta 2032. Desde 2033, la demanda total de data centers crece 8 % anual: lo que ya está en la demanda (99 MW medios), el llenado de los campus conectados (115,2) y lo solicitado (1.905,5), 2.119,7 MW medios en 2032. El aumento es carga nueva y ubicable; su ubicación base reparte el aumento en proporción a lo solicitado en cada zona.
 
 **Ubicación por subestación de conexión** (criterio: la barra de 500/220 kV que la abastece, verificada con la red de 234 nodos):
 
@@ -239,7 +253,7 @@ Dos agentes hicieron la conciliación por separado, con las mismas reglas, y lle
 **Llenado de los campus ya conectados: 115,2 MW medios fijos.** Las conexiones existentes (regla 1) suman 428,4 MW. Con la misma utilización de 50 %, a plena ocupación consumirían 214,2 MW medios. Hoy consumen unos 99–103 MW medios, según dos fuentes: la PELP (198 MW instalados × 50 %) y el CEN (0,9 TWh en 2025). La diferencia, 214,2 − 99 = 115,2 MW medios, es crecimiento dentro de conexiones que ya existen y que no aparece en ninguna solicitud nueva.
 
 - **Fija.** Entra como carga fija, porque esos campus ya están construidos: 93,7 MW medios en Polpaico500 (Lampa, Colina, Quilicura) y 21,5 en AltoJahuel500 (San Bernardo, Padre Hurtado), en proporción a sus MW conectados.
-- **Rampa.** Sube linealmente hasta 2030, un 20 % por año desde 2026, así que el período 2026 promedia 57,6 MW medios.
+- **Rampa.** Sube linealmente hasta 2030, un 20 % por año desde 2026, así que el período 2025 promedia 11,5 MW medios y el 2027, 69,1.
 
 **Es una cota superior.** Toma toda la cartera vigente sin probabilidad de realización: en 2030 son 2.896 MW solicitados, frente a los 1.381 MW que identifica el CEN. Según el historial del propio catastro, en las cohortes de 2018–2023 solo el 25 % de los MW solicitados llegó a declararse en construcción. El catastro trae además un escenario con probabilidades que da 695 MW al 2030.
 
@@ -258,7 +272,19 @@ Carbono Neutralidad con la demanda de AMEBA tal cual (que incluye los ~99 MW exi
 - **Red de 26 barras.** Es la red de AMEBA: agrega subestaciones que en la realidad están separadas (toda la demanda de Santiago está en dos barras, AltoJahuel500 y Polpaico500) y no tiene criterio N−1.
 - **6 días típicos.** Más energía hidro en 2035–2050 y menos FP eólico en 2035 (sección 2).
 - **Hidro sin embalse entre meses.** La energía mensual es la que despachó AMEBA, la misma en todos los casos.
-- **Período 2026 con datos de 2026.** El norte queda sin HVDC en 2026–2029. Por eso la ubicación es fija hasta 2029 (`--dc-libre-desde 2030`).
+- **Períodos 2025 y 2027 con datos de su año de inicio.** El norte queda sin HVDC en 2025–2029. La ubicación de los data centers es fija en esos dos períodos (`--dc-libre-desde 2030`).
+- **Regla del 1 de enero con períodos de dos y tres años.** Las 9 unidades a carbón que cierran el 1-ene-2026 (2.117 MW) operan todo el período 2025, también en 2026, cuando AMEBA ya no las tiene. Al revés, las reconversiones de 2026 (500 MW) y 848 MW de baterías que entran durante 2025 no están en el período 2025.
+- **BESS «ley» con costo 0 y vida de 15 años.** Construidas en 2027, se retiran en 2042 y pueden reconstruirse sin costo en 2045. En la práctica operan siempre, como en AMEBA, que no las retira.
 - **Vida útil por períodos completos** (`--retire late`). Santa María y Guacolda 3–5 (805 MW de carbón) operan 2–3 años más que en AMEBA dentro del período 2030. Afecta igual al caso base y al libre.
 - **Carga de data centers plana**, con 50 % de utilización y sin flexibilidad horaria.
 - **Reserva simplificada.** Sin tope de reserva por unidad (sección 4.6 de la formulación).
+
+---
+
+## 10. Pendientes: salidas de AMEBA usadas como dato
+
+Tres entradas de Switch salen todavía de la solución de AMEBA y no de sus datos de entrada. Son las mismas en todos los casos, así que no favorecen al caso base ni al libre, pero fijan decisiones de operación que Switch debería tomar por sí mismo:
+
+1. **Energía hidro por día típico** (sección 5.1): la generación que AMEBA despachó cada mes, neta de servicios auxiliares.
+2. **Perfil del consumo de H₂ y NH₃** (sección 3): el flujo horario que AMEBA mandó a las barras auxiliares.
+3. **Factor 1,031 de la demanda** (sección 3): se obtuvo del balance de la solución de AMEBA y no figura en ningún archivo de entrada.

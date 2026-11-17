@@ -1,0 +1,28 @@
+escenario,modo,region,mw_medios,mw_capacidad
+PELP_E2,base,Metropolitana,281.736,563.472
+PELP_E2,base,Valparaíso,49.718,99.436
+PELP_E2,libre,Los Lagos,232.455,464.910
+PELP_E2,libre,Metropolitana,84.150,168.300
+PELP_E2,libre,Valparaíso,14.850,29.700
+CEN,base,Metropolitana,1711.840,3423.680
+CEN,base,Valparaíso,212.398,424.796
+CEN,libre,Los Lagos,1542.586,3085.172
+CEN,libre,Metropolitana,342.515,685.030
+CEN,libre,Valparaíso,39.136,78.272
+PELP_N1,base,Antofagasta,750.000,1500.000
+PELP_N1,base,Metropolitana,281.736,563.472
+PELP_N1,base,Valparaíso,49.718,99.436
+PELP_N1,libre,Los Lagos,757.455,1514.910
+PELP_N1,libre,Antofagasta,225.000,450.000
+PELP_N1,libre,Metropolitana,84.150,168.300
+PELP_N1,libre,Valparaíso,14.850,29.700
+PROPIO,base,Metropolitana,7798.146,15596.292
+PROPIO,base,Valparaíso,2041.301,4082.602
+PROPIO,libre,Los Lagos,4878.382,9756.764
+PROPIO,libre,Tarapacá,2046.122,4092.244
+PROPIO,libre,Antofagasta,805.216,1610.432
+PROPIO,libre,Araucanía,749.469,1498.938
+PROPIO,libre,Los Ríos,620.027,1240.054
+PROPIO,libre,Metropolitana,406.533,813.066
+PROPIO,libre,Arica y Parinacota,233.699,467.398
+PROPIO,libre,Valparaíso,100.000,200.000

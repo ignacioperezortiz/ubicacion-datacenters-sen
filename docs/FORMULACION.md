@@ -1,11 +1,11 @@
 # Formulación del modelo
 
-El modelo es Switch 2.0.9: un programa lineal (LP) de expansión de generación, almacenamiento y transmisión en varios períodos, con cuatro módulos propios en `modulos/`. Aquí se escribe en la notación del curso «Economía, Resiliencia y Mercados Energéticos». Hay dos cambios para evitar choques de símbolos:
+El modelo es Switch 2.0.9: un programa lineal (LP) de expansión de generación, almacenamiento y transmisión en varios períodos, con cinco módulos propios en `modulos/`. Aquí se escribe en la notación del curso «Economía, Resiliencia y Mercados Energéticos». Hay dos cambios para evitar choques de símbolos:
 
 - el período de inversión se indexa con $y$, porque en el curso $p$ es potencia producida;
 - todo lo de data centers lleva el superíndice $\mathrm{DC}$, porque en el curso $x$ es la inversión en generación.
 
-Siglas: VP, valor presente; ENS, energía no suministrada; VOLL, valor de la carga perdida; CRF, factor de recuperación de capital; O&M, operación y mantenimiento; PDGE, polos de desarrollo de generación eléctrica; HVDC, enlace de corriente continua en alta tensión.
+Siglas: VP, valor presente; ENS, energía no suministrada; VOLL, valor de la carga perdida; CRF, factor de recuperación de capital; O&M, operación y mantenimiento; PDGE, polos de desarrollo de generación eléctrica; HVDC, enlace de corriente continua en alta tensión; BESS, sistema de almacenamiento en baterías; FV, fotovoltaica; AMEBA, modelo con que se hizo la PELP 2023–2027; PELP, Planificación Energética de Largo Plazo.
 
 Los valores de cada parámetro y su origen están en [DATOS_Y_SUPUESTOS.md](DATOS_Y_SUPUESTOS.md). Cómo se validó, en [VALIDACION.md](VALIDACION.md).
 
@@ -15,7 +15,8 @@ Los valores de cada parámetro y su origen están en [DATOS_Y_SUPUESTOS.md](DATO
 
 | Símbolo | Significado | Componente de Switch o archivo |
 |---|---|---|
-| $y\in Y$ | período de inversión: 2026 (2026–2029), 2030, 2035, 2040, 2045 y 2050 (2050–2054); $s_y$ es su año de inicio y $L_y$ su largo en años | `PERIODS`, `periods.csv` |
+| $y\in Y$ | período de inversión: 2025 (2025–2026), 2027 (2027–2029), 2030, 2035, 2040, 2045 y 2050 (2050–2054); $s_y$ es su año de inicio y $L_y$ su largo en años | `PERIODS`, `periods.csv` |
+| $\mathcal Q\subseteq\Theta\times Y$ | pares (tecnología, período) con tope de inversión; $G_\theta$ son los proyectos de la tecnología $\theta$ | `topes_tecnologia.csv`, `GENS_BY_TECHNOLOGY` |
 | $d\in\mathcal D_y$ | día típico del período (6 por período) | `TIMESERIES` |
 | $t\in T_d$; $T_y$ | hora del día típico (24); horas del período $y$. $y(t)$ es el período de $t$ y $t^-$ la hora anterior, circular dentro del día | `TIMEPOINTS`, `tp_previous` |
 | $\Delta T_t$ | horas del año que representa la hora $t$ | `tp_weight_in_year` |
@@ -44,7 +45,7 @@ Los valores de cada parámetro y su origen están en [DATOS_Y_SUPUESTOS.md](DATO
 
 | Símbolo | Significado | Archivo |
 |---|---|---|
-| $r$; $i$; $y_0$ | tasa de descuento y de interés (6 %); año base del VP (2026) | `financials.csv` |
+| $r$; $i$; $y_0$ | tasa de descuento y de interés (6 %); año base del VP (2025) | `financials.csv` |
 | $B_y$ | factor que lleva un costo anual constante del período $y$ a VP | calculado por Switch |
 | $c^{ov}_{g,v}$; $FOM_{g,v}$ | costo de inversión (USD/MW) y O&M fijo (USD/MW-año) | `gen_build_costs.csv` |
 | $\ell_g$ | vida útil | `gen_info.csv` |
@@ -57,6 +58,7 @@ Los valores de cada parámetro y su origen están en [DATOS_Y_SUPUESTOS.md](DATO
 | $VOLL$ | costo de la ENS (650 USD/MWh) | `lost_load_cost.csv` |
 | $F^0_k$; $c^{T}_k$ | capacidad existente (MW) y costo de inversión del corredor (USD/MW) | `transmission_lines.csv` |
 | $\underline T_{k,y}$; $\bar T_{k,y}$ | obra comprometida que entra en $y$; ampliación acumulada máxima hasta $y$ | `trans_build_limits.csv` |
+| $\bar N_{\theta,y}$ | MW nuevos máximos de la tecnología $\theta$ en el período $y$, sumando todas las zonas | `topes_tecnologia.csv` |
 | $\eta_s$; $h_s$ | eficiencia de ida y vuelta; razón energía/potencia | `gen_info.csv` |
 | $A_{h,d}$; $\underline P_{h,d}$ | potencia media y mínima de la hidro en el día $d$ | `hydro_timeseries.csv` |
 | $R^{+}_y$; $R^{-}_y$ | reserva de subida y de bajada | `reserva_requerimiento.csv` |
@@ -79,7 +81,8 @@ con $\tau_t=1$ h y $\sigma_d$ = `ts_scale_to_period`, el número de veces que el
 
 - Los días típicos no se conectan entre sí. Almacenamiento e hidro cierran su ciclo dentro de cada día.
 - Demanda y perfiles son los mismos en todos los años de un período.
-- $L_y$ es 4 en el período 2026 y 5 en los demás.
+- $L_y$ es 2 en el período 2025, 3 en el 2027 y 5 en los demás.
+- Cada período usa los datos de AMEBA de su año de inicio.
 
 El factor de VP de un costo anual constante del período es
 
@@ -87,7 +90,7 @@ $$
 B_y=\frac{1-(1+r)^{-L_y}}{r}\,(1+r)^{-(s_y-y_0)},
 $$
 
-que da 3,4651; 3,3366; 2,4933; 1,8631; 1,3922 y 1,0404 para 2026, …, 2050.
+que da 1,8334; 2,3790; 3,1477; 2,3522; 1,7577; 1,3134 y 0,9815 para 2025, 2027, …, 2050.
 
 **Frente al curso.** $\Delta T_t$ cumple el papel de $\Delta T_j$ de la Clase 8, pero los bloques son horas cronológicas y no tramos de la curva de duración. Así se conservan la secuencia del día (almacenamiento, solar) y la coincidencia horaria entre zonas.
 
@@ -101,7 +104,7 @@ $$
 
 - **Inversión.** $I_{g,v}=c^{ov}_{g,v}\,CRF(i,\ell_g)$ en USD/MW-año, con $CRF(i,n)=\dfrac{i}{1-(1+i)^{-n}}$. Los existentes tienen $c^{ov}=0$ y solo pagan O&M fijo. El costo de conexión es 0. En almacenamiento todo el costo va por MW (el costo por MWh es 0).
 - **Costo variable.** $MC_{g,y}=VOM_g+HR_g\,c^{f}_{g,y}$, en USD/MWh neto.
-- **Emisiones.** $\varepsilon_g=HR_g\,\phi_{f(g)}$, en tCO₂/MWh. El costo es emisiones anuales × impuesto del período (módulo `carbon_policies`).
+- **Emisiones.** $\varepsilon_g=HR_g\,\phi_{f(g)}$, en tCO₂/MWh. El costo es emisiones anuales × impuesto del período (módulo `carbon_policies`). El impuesto de cada período es el promedio de sus años: 0; 3,33; 10; 23,48; 35; 35 y 35 USD/t para 2025, 2027, …, 2050.
 - **Transmisión.** $I^{T}_k=c^{T}_k\,CRF(i,40)$, sin O&M, y $F_{k,y}=F^0_k+\sum_{v\le y}T_{k,v}$. Es la estructura $VATT=AVI+COMA$ de la Clase 13, con $COMA=0$.
 - **Cosechas vivas.** $\mathcal V_{g,y}$ son las cosechas de $g$ en servicio en $y$ (sección 4.2).
 
@@ -109,7 +112,7 @@ En Switch, los términos por período son `TotalGenFixedCosts`, `TxFixedCosts`, 
 
 **Horizonte.** No hay valor terminal: cada cosecha paga su anualidad solo en los períodos del horizonte en que está viva. Como $i=r$, esto equivale a acreditar como valor residual el VP de las anualidades que quedan después de 2054.
 
-**Constantes.** Switch cobra la anualidad de toda la capacidad de transmisión, también la existente y la comprometida, que no son decisiones: unos 188 MUSD/año en 2026–2029 y 279 MUSD/año desde 2030. Lo mismo pasa con el O&M fijo del almacenamiento y la CSP existentes. Son iguales en todos los casos y se cancelan en las diferencias de costo.
+**Constantes.** Switch cobra la anualidad de toda la capacidad de transmisión, también la existente y la comprometida, que no son decisiones: unos 176 MUSD/año en 2025–2029 y 266 MUSD/año desde 2030, cuando entran el HVDC Kimal–Alto Jahuel y Río Malleco–Pichirropulli. Lo mismo pasa con el O&M fijo del almacenamiento y la CSP existentes. Son iguales en todos los casos y se cancelan en las diferencias de costo.
 
 **Frente al curso.** Con un solo período de un año, $B_y$ es una constante; dividiendo por 8.760 h, $I_{g,v}/8.760$ es el costo horario de inversión $I_i$ de la Clase 8 y $\Delta T_t/8.760$ la fracción de tiempo $\Delta T_j$. El objetivo es entonces el del modelo de expansión con demanda inelástica y VOLL (VOLLP, Clase 8), al que se suman la transmisión co-optimizada (Clase 13) y el impuesto al CO₂.
 
@@ -135,7 +138,8 @@ $$
 \end{aligned}
 $$
 
-- **Cosechas admisibles.** Son las filas de `gen_build_costs.csv`; así se fija desde qué período puede entrar cada candidato.
+- **Existentes.** Son las unidades de los datos de entrada de AMEBA en servicio el 1 de enero de 2025. Una unidad opera en un período si está en servicio el 1 de enero de su año de inicio; lo comprometido con fecha entra en el primer período que cumple esa regla. Ninguna inversión que decidió AMEBA entra como dato: el modelo decide todas las inversiones desde 2025.
+- **Cosechas admisibles.** Son las filas de `gen_build_costs.csv`; así se fija desde qué período puede entrar cada candidato. Un candidato puede construirse desde el primer período cuyo año de inicio es mayor o igual que su fecha de entrada en AMEBA. Por ejemplo, las tres BESS «ley» (2.000 MW) son candidatas con inversión y O&M fijo 0 desde el período 2027.
 - **Cosechas vivas.** Una cosecha entra en $s_v$, que es el inicio del período si $v$ es un período y el año $v$ si no lo es. Con la regla `--retire late`, por omisión, opera en $y$ si $s_v\le s_y<s_v+\ell_g$.
 - **Sin compromiso de unidades.** No hay mínimos técnicos, rampas ni costos de partida (`no_commit`). El despacho mínimo es 0.
 - Es la restricción $p_{ij}\le x_i$ de la Clase 8, con disponibilidad $\alpha_g$ y perfil $\kappa_{g,t}$.
@@ -158,7 +162,7 @@ $$
 p_{h,t}\ge\underline P_{h,d(t)},\qquad \sum_{t\in T_d}\big(p_{h,t}+sp_{h,t}\big)=24\,A_{h,d},\qquad p_{h,t}\le\alpha_h X_{h,y(t)}\qquad\forall h\in H,\ d,\ t
 $$
 
-Es un presupuesto de energía por día típico (`hydro_simple`). El vertimiento no tiene costo, así que $A_{h,d}$ es un tope de energía. No hay volúmenes ni afluentes ni acople entre días: la regulación entre meses de la Clase 7 viene dada desde afuera, con la energía mensual que despachó AMEBA. La hidro candidata se modela como generación variable con su perfil $\kappa_{g,t}$.
+Es un presupuesto de energía por día típico (`hydro_simple`). El vertimiento no tiene costo, así que $A_{h,d}$ es un tope de energía. No hay volúmenes ni afluentes ni acople entre días: la regulación entre meses de la Clase 7 viene dada desde afuera, con la energía mensual que despachó AMEBA. Es una salida de AMEBA usada como dato, declarada como pendiente en DATOS_Y_SUPUESTOS.md. La hidro candidata se modela como generación variable con su perfil $\kappa_{g,t}$.
 
 ### 4.5 Transmisión como transporte
 
@@ -176,7 +180,7 @@ $$
 
 - El mínimo es **incremental**: la obra comprometida que entra en $y$ se construye en $y$. Con un mínimo acumulado, una ampliación candidata anterior podría contarse como parte de la obra comprometida.
 - El máximo es **acumulado**: el tope de un candidato vale para todo el horizonte. Con un tope por período se podría construir el mismo candidato en cada período.
-- Ejemplo: el HVDC Kimal–Alto Jahuel tiene $\underline T=\bar T=2.000$ MW en 2030.
+- Hay dos obras comprometidas, ambas en 2030: el HVDC Kimal–Alto Jahuel (Kimal–Lo Aguirre), con $\underline T=\bar T=2.000$ MW, y Río Malleco–Pichirropulli, con $\underline T=660$ MW.
 
 ### 4.6 Reserva sistémica
 
@@ -204,6 +208,18 @@ La reserva nativa de Switch no sirve aquí: exige el módulo de compromiso de un
 
 $ls_{z,t}\ge 0$ entra como inyección en el balance de cada zona, con costo $VOLL$ por MWh (`unserved_load`). Es el $ls_j$ de la Clase 8 y cubre también la carga de data centers.
 
+### 4.8 Topes de inversión por tecnología
+
+Módulo `topes_tecnologia`. AMEBA limita cada año los MW nuevos de FV y eólica en todo el sistema. En Switch, $\bar X_g$ es un tope por proyecto sobre la capacidad en servicio, así que el módulo agrega, para cada fila $(\theta,y)\in\mathcal Q$ de `topes_tecnologia.csv`:
+
+$$
+\sum_{g\in G_\theta}x_{g,y}\le\bar N_{\theta,y}\qquad\forall(\theta,y)\in\mathcal Q .
+$$
+
+- Solo suma las cosechas nuevas del propio período; lo existente no cuenta.
+- Con los datos de entrada de AMEBA, el tope de un período es la suma de los topes anuales de sus años: $\bar N_{\text{FV},2025}=3.000+50.000$ MW y $\bar N_{\text{Eolica},2025}=1.000+50.000$ MW, y desde 2027 es mayor. No restringe, así que en los casos de este estudio el módulo no se carga.
+- Un período que no aparece en el archivo no tiene tope. Sin el archivo, el módulo no agrega restricciones.
+
 ---
 
 ## 5. Data centers
@@ -212,6 +228,8 @@ Módulo `data_centers`. La carga de data centers de cada zona tiene dos partes:
 
 - **fija**, $\bar D^{\mathrm{DC}}_{z,y}$: no se mueve en ningún caso;
 - **ubicable**, $x^{\mathrm{DC}}_{z,y}$: su total por período $D^{\mathrm{DC}}_y$ es un dato; su reparto entre zonas es un dato en el caso base y una decisión en el caso libre.
+
+$D^{\mathrm{DC}}_y$ sale de cada escenario (DATOS_Y_SUPUESTOS.md): las trayectorias de la PELP 2028–2032 (E2 y N1) sin cambios; la del CEN, que crece 5 % anual desde 2031; y la propia, cuya demanda total de data centers crece 8 % anual desde 2033, con todo ese crecimiento ubicable.
 
 $$
 \begin{aligned}
@@ -226,10 +244,10 @@ $$
 
 **Caso libre** (`--dc-modo libre`): el modelo elige la zona de la carga ubicable, con el mismo total por período.
 
-**Ubicación fija antes de 2030** (`--dc-libre-desde 2030`). En el caso libre, los períodos anteriores a $y^{\mathrm{libre}}=2030$ quedan con la ubicación base. Con la regla de no traslado, lo ubicado en 2026 sigue en su zona después; el modelo solo decide dónde va el crecimiento desde 2030. Es lo que se usa en todas las corridas. Las razones:
+**Ubicación fija antes de 2030** (`--dc-libre-desde 2030`). En el caso libre, los períodos anteriores a $y^{\mathrm{libre}}=2030$ (2025 y 2027) quedan con la ubicación base. Con la regla de no traslado, lo ubicado en 2027 sigue en su zona después; el modelo solo decide dónde va el crecimiento desde 2030. Por eso la carga **reubicable** de un período $y\ge 2030$ es $D^{\mathrm{DC}}_y-D^{\mathrm{DC}}_{2027}$, lo agregado después del último período anterior a $y^{\mathrm{libre}}$. Es lo que se usa en todas las corridas. Las razones:
 
-- lo que entra en 2026–2029 ya tiene sitio y solicitud de conexión;
-- el período 2026 se representa con los datos de 2026, sin el HVDC Kimal–Alto Jahuel, que entra en 2030. Con ubicación libre desde 2026, el modelo aprovechaba un norte desacoplado y barato que en la realidad dura hasta 2028 (VALIDACION.md, fase 6).
+- lo que entra en 2025–2029 ya tiene sitio y solicitud de conexión;
+- los períodos 2025 y 2027 se representan con los datos de su año de inicio, sin el HVDC Kimal–Alto Jahuel, que entra en 2030. En la primera versión del modelo, que partía en 2026, la ubicación libre desde el primer período aprovechaba un norte desacoplado y barato que en la realidad dura hasta 2028 (VALIDACION.md, fase 6).
 
 **Costo.** $B_y\sum_z c^{\mathrm{DC}}_z x^{\mathrm{DC}}_{z,y}$ entra en el objetivo (`DCCostoAnual`). En este estudio $c^{\mathrm{DC}}_z=0$ y no hay topes $\bar X^{\mathrm{DC}}_z$: el resultado es la ubicación óptima para el sistema eléctrico, sin costos de terreno ni de conexión.
 
@@ -303,7 +321,7 @@ $C^{*}$ es `total_cost.txt`. El archivo `costs_itemized.csv` de Switch da el cos
 | Embalse y valor del agua | 7 | Energía fija por día típico | Sin acople entre meses |
 | Bombeo con eficiencia | 7 | Almacenamiento con $\eta$ en la carga | Ciclo diario |
 | Predespacho | 6 | No está | LP sin variables binarias |
-| Un año, sin descuento | 8 | 6 períodos con $B_y$ | — |
+| Un año, sin descuento | 8 | 7 períodos con $B_y$ | — |
 
 ---
 
@@ -387,6 +405,7 @@ modulos.precios
 | Módulo propio | Qué agrega | Sección |
 |---|---|---|
 | `limites_transmision` | obras comprometidas con fecha y topes acumulados por corredor y período | 4.5 |
+| `topes_tecnologia` | MW nuevos máximos por tecnología y período, sumando todas las zonas; disponible, no se carga en estos casos | 4.8 |
 | `reserva_simple` | reserva sistémica de subida y bajada sin compromiso de unidades | 4.6 |
 | `data_centers` | carga de data centers fija y ubicable; casos base y libre | 5 |
 | `precios` | precios por zona y hora, precio de carga plana y dual del total ubicable | 6 |
@@ -404,4 +423,4 @@ switch solve --inputs-dir inputs --outputs-dir outputs_libre --solver gurobi_dir
 
 - `--dc-libre-desde` no tiene efecto en el caso base.
 - La regla de vida útil es `--retire late`, la de Switch por omisión; queda registrada en `model_config.json` de cada salida.
-- Cada caso es un LP de unos 1,35 millones de restricciones, 1,18 millones de variables y 6,9 millones de coeficientes. Con Gurobi (barrera y crossover, 5 o 6 hilos), cada corrida tarda entre 8 y 16 minutos. HiGHS (`--solver appsi_highs`) es la alternativa libre, bastante más lenta.
+- Cada caso es un LP de unos 1,54 millones de restricciones, 1,35 millones de variables y 8,07 millones de coeficientes. Con Gurobi (barrera y crossover, 8 a 14 hilos), cada corrida tarda entre 10 y 18 minutos. HiGHS (`--solver appsi_highs`) es la alternativa libre, bastante más lenta.

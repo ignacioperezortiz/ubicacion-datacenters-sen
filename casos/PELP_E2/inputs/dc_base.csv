@@ -1,7 +1,10 @@
 DC_ZONE,PERIOD,dc_base_mw
-Kimal220,2026,0.0
-Polpaico500,2026,63.1125
-Quillota500,2026,11.1375
+Kimal220,2025,0.0
+Polpaico500,2025,0.0
+Quillota500,2025,0.0
+Kimal220,2027,0.0
+Polpaico500,2027,84.15
+Quillota500,2027,14.85
 Kimal220,2030,0.0
 Polpaico500,2030,191.08
 Quillota500,2030,33.72

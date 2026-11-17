@@ -1,15 +1,15 @@
 """Figuras del análisis: PNG (150 dpi) y SVG en resultados/figuras/.
 
-Lee solo las tablas de resultados/tablas (las escriben resultados.py, tiempos_computo.py y
-analisis.py; correrlos antes). Cada figura lleva un título con la conclusión, unidades en los ejes y
+Lee las tablas de resultados/tablas (las escriben resultados.py, tiempos_computo.py y
+analisis.py; correrlos antes) y, de casos/SIN_DC/inputs, los períodos y el año base del valor presente. Cada figura lleva un título con la conclusión, unidades en los ejes y
 una nota con la fuente. Las cifras de los títulos se calculan de las tablas, no se escriben a mano.
   a_costo_extra_y_ahorro          costo extra de los data centers, ubicación proyectada frente a óptima
   b_ahorro_relativo               ahorro como % del costo extra, USD/MWh de data centers y por MWh reubicado
   c_ahorro_por_tipo_de_costo      de qué componentes del costo sale el ahorro
   d_matriz_capacidad              capacidad instalada por tecnología y período, en los 9 casos
   d2_capacidad_extra_2050         capacidad que agregan los data centers en 2050 frente al caso sin ellos
-  e_inversion_libre_menos_base    MW construidos 2026-2050 por tecnología, libre - base
-  f_transmision_por_corredor      MW ampliados por corredor 2026-2050, base frente a libre
+  e_inversion_libre_menos_base    MW construidos en el horizonte por tecnología, libre - base
+  f_transmision_por_corredor      MW ampliados por corredor en el horizonte, base frente a libre
   g_ubicacion_dc_por_zona         MW de data centers por zona en 2050, base frente a libre
   h_precio_carga_plana_2040       precio de una carga plana por zona en 2040, sin data centers
   i_demanda_dc                    trayectorias de demanda de data centers
@@ -32,10 +32,26 @@ TABLAS = RAIZ / 'resultados' / 'tablas'
 FIGURAS = RAIZ / 'resultados' / 'figuras'
 FIGURAS.mkdir(parents=True, exist_ok=True)
 
+# Períodos y año base del valor presente (VP), de las entradas comunes a los 5 casos.
+ENTRADAS = RAIZ / 'casos' / 'SIN_DC' / 'inputs'
+PERIODOS_MODELO = pd.read_csv(ENTRADAS / 'periods.csv').sort_values('INVESTMENT_PERIOD')
+ANIO_BASE = int(pd.read_csv(ENTRADAS / 'financials.csv').iloc[0]['base_financial_year'])
+VP = f'VP {ANIO_BASE}'
+PRIMER_PERIODO, ULTIMO_PERIODO = int(PERIODOS_MODELO['INVESTMENT_PERIOD'].min()), int(PERIODOS_MODELO['INVESTMENT_PERIOD'].max())
+HORIZONTE = f'{PRIMER_PERIODO}-{ULTIMO_PERIODO}'                         # p. ej. 2025-2050
+HORIZONTE_ANIOS = f"{PRIMER_PERIODO}-{int(PERIODOS_MODELO['period_end'].max())}"   # p. ej. 2025-2054
+DC_LIBRE_DESDE = 2030   # igual a --dc-libre-desde de correr_casos.py
+PERIODOS_FIJOS = [int(p) for p in PERIODOS_MODELO['INVESTMENT_PERIOD'] if p < DC_LIBRE_DESDE]
+ULTIMO_FIJO = PERIODOS_FIJOS[-1]   # último período con la ubicación proyectada (2027)
+_rangos = [f'{r.period_start}-{r.period_end}' for r in PERIODOS_MODELO.itertuples()]
+RANGOS_PERIODOS = ', '.join(_rangos[:2] + ['…', _rangos[-1]])   # p. ej. 2025-2026, 2027-2029, …, 2050-2054
+TEXTO_FIJOS = ' y '.join([', '.join(map(str, PERIODOS_FIJOS[:-1])), str(ULTIMO_FIJO)]) if len(PERIODOS_FIJOS) > 1 else str(ULTIMO_FIJO)
+
 ESCENARIOS = ['PELP_E2', 'CEN', 'PELP_N1', 'PROPIO']   # de menor a mayor demanda de data centers
 NOMBRE = {'SIN_DC': 'Sin data centers', 'PELP_E2': 'PELP E2', 'CEN': 'CEN', 'PELP_N1': 'PELP N1', 'PROPIO': 'PROPIO'}
 FUENTE = 'Fuente: elaboración propia con Switch 2.0.9, red de 31 zonas de la PELP 2023-2027, escenario Carbono Neutralidad.'
-NOTA_LIBRE = 'Libre: el modelo elige la zona de los data centers que se agregan desde 2030; lo de 2026 queda donde dice la proyección.'
+NOTA_LIBRE = (f'Libre: el modelo elige la zona de los data centers que se agregan desde {DC_LIBRE_DESDE}; '
+              f'lo de {TEXTO_FIJOS} queda donde dice la proyección.')
 
 
 # =====================================================================================================
@@ -51,7 +67,7 @@ POSITIVO, NEGATIVO = '#2a78d6', '#e34948'           # polos divergentes azul / r
 GRIS_DATO = '#c9c7bf'                               # dato de contexto (énfasis: el resto en gris)
 COLOR_BASE, COLOR_LIBRE = AZUL_CLARO, AZUL_OSCURO
 ETIQUETA_BASE = 'Base: ubicación proyectada'
-ETIQUETA_LIBRE = 'Libre: ubicación óptima desde 2030'
+ETIQUETA_LIBRE = f'Libre: ubicación óptima desde {DC_LIBRE_DESDE}'
 FAMILIAS = ['Hidro', 'Gas', 'Eólica', 'Solar', 'Almacenamiento', 'Biomasa y otras', 'Carbón', 'Diésel']
 COLOR_FAMILIA = dict(zip(FAMILIAS, CATEGORICA))     # orden fijo de la paleta, igual en todas las figuras
 
@@ -82,6 +98,12 @@ def rango(minimo, maximo, decimales=0):
     """'a–b' con formato español; si al redondear quedan iguales, 'unos a'."""
     a, b = num(minimo, decimales), num(maximo, decimales)
     return f'unos {a}' if a == b else f'{a}–{b}'
+
+
+def enumerar(elementos):
+    """'a', 'a y b', 'a, b y c'."""
+    elementos = list(elementos)
+    return elementos[0] if len(elementos) == 1 else f"{', '.join(elementos[:-1])} y {elementos[-1]}"
 
 
 FORMATO_MILES = FuncFormatter(lambda v, _: num(v))
@@ -177,13 +199,13 @@ for yi, (e, fila) in zip(y, costos.iterrows()):
 ax.set_yticks(y, [f"{NOMBRE[e]}\n{num(resumen_dc.loc[e, 'dc_2050_MW'])} MW en 2050" for e in ESCENARIOS])
 ax.set_xlim(0, maximo * 1.45)
 ax.xaxis.set_major_formatter(FORMATO_MILES)
-ax.set_xlabel('Costo extra frente al sistema sin data centers (millones de USD, VP 2026)')
+ax.set_xlabel(f'Costo extra frente al sistema sin data centers (millones de USD, {VP})')
 grilla(ax, 'x')
 leyenda_arriba(fig, [('Costo extra con la ubicación óptima (libre)', COLOR_LIBRE),
                      ('Ahorro de ubicar bien (base − libre)', COLOR_BASE)])
 titular(fig, f"Ubicar bien los data centers ahorra entre {num(costos['ahorro_MMUSD'].min())} y "
              f"{num(costos['ahorro_MMUSD'].max())} millones de USD",
-        'Barra completa: costo extra con la ubicación proyectada (base). Valor presente 2026 a tasa de 6 %.')
+        f'Barra completa: costo extra con la ubicación proyectada (base). Valor presente {ANIO_BASE} a tasa de 6 %.')
 anotar(fig, NOTA_LIBRE)
 guardar(fig, 'a_costo_extra_y_ahorro')
 
@@ -192,11 +214,11 @@ guardar(fig, 'a_costo_extra_y_ahorro')
 # (b) Ahorro relativo: % del costo extra, USD/MWh de data centers y USD por MWh reubicado
 # =====================================================================================================
 # Tres medidas de escala distinta: tres paneles con su propio eje, nunca un eje doble.
-fig, ejes = figura(10.5, 4.0, 1, 3, sharey=True, titulo_in=1.05, nota_in=0.62)
+fig, ejes = figura(10.5, 4.0, 1, 3, sharey=True, titulo_in=1.05, nota_in=0.78)
 paneles = [
     (ejes[0], 'Ahorro como % del costo extra', '% del costo extra con ubicación proyectada',
      costos['ahorro_pct_del_extra'], lambda v: f'{num(v)} %'),
-    (ejes[2], 'Ahorro por MWh reubicado', 'USD por MWh reubicable (VP 2026)',
+    (ejes[2], 'Ahorro por MWh reubicado', f'USD por MWh reubicable ({VP})',
      resumen_dc['ahorro_usd_por_mwh_reubicable'], lambda v: num(v, 1)),
 ]
 for ax, titulo, etiqueta, valores, formato in paneles:   # medidas del ahorro: otro tono, para no confundir con base/libre
@@ -215,7 +237,7 @@ for desplazamiento, columna, color in [(0.17, 'extra_base_usd_mwh', COLOR_BASE),
         ax.text(v + 0.8, yi + desplazamiento, num(v, 1), ha='left', va='center', color=TINTA, fontsize=8)
 ax.set_xlim(0, costos['extra_base_usd_mwh'].max() * 1.25)
 ax.set_title('Costo extra por MWh de data centers')
-ax.set_xlabel('USD por MWh de data centers (VP 2026)')
+ax.set_xlabel(f'USD por MWh de data centers ({VP})')
 grilla(ax, 'x')
 leyenda_arriba(fig, [(ETIQUETA_BASE, COLOR_BASE), (ETIQUETA_LIBRE, COLOR_LIBRE)])
 ejes[0].set_yticks(y, [NOMBRE[e] for e in ESCENARIOS])
@@ -223,11 +245,10 @@ por_mwh = resumen_dc['ahorro_usd_por_mwh_reubicable']
 titular(fig, f"Ubicar bien recorta entre {num(costos['ahorro_pct_del_extra'].min())} % y "
              f"{num(costos['ahorro_pct_del_extra'].max())} % del costo extra: "
              f"{rango(por_mwh.min(), por_mwh.max(), 1)} USD por cada MWh reubicado",
-        'El costo por MWh reparte el costo extra en la energía de data centers 2026-2054, ambos en valor presente 2026.')
-menos_reubicable = resumen_dc['reubicable_2050_pct'].idxmin()
-anotar(fig, 'MWh reubicable: demanda de data centers agregada después de 2026, la única que el modelo puede ubicar. '
-            f"{NOMBRE[menos_reubicable]} reubica solo el {num(resumen_dc.loc[menos_reubicable, 'reubicable_2050_pct'])} % "
-            'de su demanda de 2050.')
+        f'El costo por MWh reparte el costo extra en la energía de data centers {HORIZONTE_ANIOS}, ambos en valor presente {ANIO_BASE}.')
+anotar(fig, f'MWh reubicable: demanda de data centers agregada después de {ULTIMO_FIJO}, la única que el modelo puede ubicar.',
+       f'Parte reubicable de la demanda de {ULTIMO_PERIODO}: '
+       + enumerar([f"{num(resumen_dc.loc[e, 'reubicable_2050_pct'])} % en {NOMBRE[e]}" for e in ESCENARIOS]) + '.')
 guardar(fig, 'b_ahorro_relativo')
 
 
@@ -266,7 +287,7 @@ for yi, e in zip(y, ESCENARIOS):
 ax.set_yticks(y, [NOMBRE[e] for e in ESCENARIOS])
 ax.set_xlim(min(0, participacion[participacion < 0].sum().min() if (participacion < 0).any().any() else 0), 116)
 ax.set_xticks(range(0, 101, 20))
-ax.set_xlabel('% del ahorro total (base − libre, VP 2026)')
+ax.set_xlabel(f'% del ahorro total (base − libre, {VP})')
 grilla(ax, 'x')
 leyenda_arriba(fig, [(c, CATEGORICA[i]) for i, c in enumerate(COMPONENTES.values())], ncols=3)
 inversion_y_combustible = participacion.iloc[:2].sum()
@@ -311,10 +332,21 @@ leyenda(ejes[0, 1], [(f, COLOR_FAMILIA[f]) for f in reversed(FAMILIAS)], loc='ce
 nueva = tabla('inversiones_por_tecnologia.csv')
 decidida = nueva.groupby('familia')['MW_decididos'].sum()
 familias_decididas = [f for f in FAMILIAS if decidida.get(f, 0) > 1]
-titular(fig, 'La expansión eficiente es eólica, solar y almacenamiento en los 9 casos',
+# Casos en que el modelo decide invertir en algo más que eólica, solar y almacenamiento.
+NUCLEO = ['Eólica', 'Solar', 'Almacenamiento']
+decidida_caso = nueva.groupby(['escenario', 'modo', 'familia'])['MW_decididos'].sum().unstack('familia').fillna(0)
+otras_decididas = decidida_caso.drop(columns=NUCLEO, errors='ignore')
+otras_decididas = otras_decididas[otras_decididas.gt(1).any(axis=1)]
+if otras_decididas.empty:
+    titulo_d = f'La expansión eficiente es eólica, solar y almacenamiento en los {len(casos)} casos'
+else:
+    agregados = [f"en {NOMBRE[e]} {m} se suman {num(mw)} MW de {f.lower()}"
+                 for (e, m), fila in otras_decididas.iterrows() for f, mw in fila.items() if mw > 1]
+    titulo_d = f"La expansión eficiente es eólica, solar y almacenamiento; {enumerar(agregados)}"
+titular(fig, titulo_d,
         'Capacidad instalada por tecnología y período (GW). Los data centers agrandan la matriz; su ubicación mueve '
         'el peso entre eólica y solar.')
-anotar(fig, f"El modelo solo decide inversión nueva en {', '.join(f.lower() for f in familias_decididas)}; "
+anotar(fig, f"El modelo solo decide inversión nueva en {enumerar([f.lower() for f in familias_decididas])}; "
             'el resto es parque existente u obra comprometida.',
        'Almacenamiento en MW de descarga (baterías, bombeo). Biomasa y otras: biomasa, biogás, geotermia y cogeneración.')
 guardar(fig, 'd_matriz_capacidad')
@@ -327,8 +359,7 @@ ultimo = periodos[-1]
 cap_ultimo = capacidad.xs(ultimo, level='periodo').unstack('familia').fillna(0)
 extra = cap_ultimo.sub(cap_ultimo.loc[('SIN_DC', 'base')], axis=1).drop(index=('SIN_DC', 'base'))
 cambian = [f for f in FAMILIAS if (extra[f].abs() > 0.01).any()]
-if (extra[cambian] < -0.01).any().any():
-    raise ValueError('La figura d2 apila aumentos de capacidad; hay familias que disminuyen frente a SIN_DC')
+# Las familias que aumentan se apilan a la derecha de 0 y las que disminuyen, a la izquierda.
 dc_2050 = resumen_dc['dc_2050_MW'] / 1000
 fig, ax = figura(8.4, 4.8, titulo_in=1.05)
 filas = [(e, m) for e in ESCENARIOS for m in ('base', 'libre')]
@@ -336,11 +367,16 @@ yy = []
 for i, (e, m) in enumerate(filas):
     yi = -(i * 1.0 + (i // 2) * 0.6)
     yy.append(yi)
-    izquierda = 0.0
+    derecha, izquierda_neg = 0.0, 0.0
     for familia in cambian:
         valor = extra.loc[(e, m), familia]
-        ax.barh(yi, valor, left=izquierda, height=0.62, color=COLOR_FAMILIA[familia], edgecolor=SUPERFICIE, linewidth=1.2)
-        izquierda += valor
+        if valor >= 0:
+            ax.barh(yi, valor, left=derecha, height=0.62, color=COLOR_FAMILIA[familia], edgecolor=SUPERFICIE, linewidth=1.2)
+            derecha += valor
+        else:
+            ax.barh(yi, valor, left=izquierda_neg, height=0.62, color=COLOR_FAMILIA[familia], edgecolor=SUPERFICIE, linewidth=1.2)
+            izquierda_neg += valor
+    izquierda = derecha
     razon = extra.loc[(e, m)].sum() / dc_2050[e]
     ax.text(izquierda + 0.12, yi, f"{num(extra.loc[(e, m)].sum(), 1)} GW · {num(razon, 1)} MW por MW de data center",
             ha='left', va='center', fontsize=8, color=TINTA)
@@ -360,10 +396,12 @@ guardar(fig, 'd2_capacidad_extra_2050')
 
 
 # =====================================================================================================
-# (e) Cambios en inversión por tecnología, libre - base (MW construidos 2026-2050)
+# (e) Cambios en inversión por tecnología, libre - base (MW construidos en el horizonte)
 # =====================================================================================================
 dif_inv = tabla('inversiones_libre_menos_base.csv')
-dif_inv = dif_inv[dif_inv.groupby('grupo')['dif_MW'].transform(lambda s: s.abs().max()) > 1]
+cambio_max = dif_inv.groupby('grupo')['dif_MW'].transform(lambda s: s.abs().max())
+sin_cambio = list(dict.fromkeys(dif_inv.loc[cambio_max <= 1, 'grupo']))
+dif_inv = dif_inv[cambio_max > 1]
 grupos = list(dict.fromkeys(dif_inv['grupo']))
 alcance = dif_inv['dif_MW'].abs().max() / 1000
 fig, ejes = figura(10.2, 3.6, 1, 4, sharey=True, titulo_in=1.05, nota_in=0.62)
@@ -385,10 +423,11 @@ leyenda_arriba(fig, [('Se construye más con ubicación óptima', POSITIVO), ('S
 eolica = dif_inv[dif_inv.grupo == 'Eólica'].set_index('escenario')['dif_MW'] / 1000
 solar = dif_inv[dif_inv.grupo == 'Solar FV'].set_index('escenario')['dif_MW'] / 1000
 titular(fig, 'Con ubicación óptima se construye más eólica y menos solar y bombeo',
-        f"Capacidad construida 2026-2050, libre − base (GW). Eólica: {con_signo(eolica.min(), 1)} a {con_signo(eolica.max(), 1)} GW; "
+        f"Capacidad construida {HORIZONTE}, libre − base (GW). Eólica: {con_signo(eolica.min(), 1)} a {con_signo(eolica.max(), 1)} GW; "
         f"solar FV: {con_signo(solar.max(), 1)} a {con_signo(solar.min(), 1)} GW.")
-anotar(fig, 'Incluye reposiciones dentro del horizonte (las baterías duran 15 años). Gas, carbón, biomasa e hidro no cambian. '
-            'Sin etiqueta: menos de 50 MW.')
+anotar(fig, 'Incluye reposiciones dentro del horizonte (las baterías duran 15 años). '
+            + (f"No cambian: {', '.join(g.lower() for g in sin_cambio)}. " if sin_cambio else '')
+            + 'Sin etiqueta: menos de 50 MW.')
 guardar(fig, 'e_inversion_libre_menos_base')
 
 
@@ -412,7 +451,7 @@ for ax, e in zip(ejes, ESCENARIOS):
     total_base, total_libre = d['base_MW'].sum() / 1000, d['libre_MW'].sum() / 1000
     ax.set_title(f"{NOMBRE[e]}\nbase {num(total_base, 1)} GW · libre {num(total_libre, 1)} GW", fontsize=9)
     ax.set_xlim(0, tope_tx * 1.08)
-    ax.set_xlabel('GW ampliados 2026-2050')
+    ax.set_xlabel(f'GW ampliados {HORIZONTE}')
     grilla(ax, 'x')
     ax.grid(axis='y', color=GRILLA, linewidth=0.4)
 ejes[0].set_yticks(yc, nombres, fontsize=7.5)
@@ -421,7 +460,7 @@ leyenda_arriba(fig, [(ETIQUETA_BASE, COLOR_BASE), (ETIQUETA_LIBRE, COLOR_LIBRE)]
 ahorro_tx = (dif_tx.groupby('escenario')['base_MW'].sum() - dif_tx.groupby('escenario')['libre_MW'].sum()) / 1000
 titular(fig, f'Con ubicación óptima se amplían entre {num(ahorro_tx.min(), 1)} y {num(ahorro_tx.max(), 1)} GW menos '
              'de transmisión',
-        'MW agregados a cada corredor entre 2026 y 2050, incluidas las obras comprometidas. Corredores de norte (arriba) a sur.')
+        f'MW agregados a cada corredor entre {PRIMER_PERIODO} y {ULTIMO_PERIODO}, incluidas las obras comprometidas. Corredores de norte (arriba) a sur.')
 ampl = tabla('transmision_ampliaciones.csv')
 hvdc = ampl[(ampl.corredor == 'Kimal500_AltoJahuel500') & (ampl.escenario == 'SIN_DC') & (ampl.MW_comprometidos > 0)].iloc[0]
 anotar(fig, 'Corredor ordenado por la posición media de sus dos zonas (zonas.csv). Kimal 500 – Alto Jahuel 500 es la línea '
@@ -432,13 +471,52 @@ guardar(fig, 'f_transmision_por_corredor')
 # =====================================================================================================
 # (g) Ubicación de los data centers por zona en 2050 (base frente a libre), de norte a sur
 # =====================================================================================================
-ubic = tabla('ubicacion_dc.csv')
-ubic = ubic[ubic['PERIOD'] == ultimo]
+ubic_todo = tabla('ubicacion_dc.csv')
+ubic = ubic_todo[ubic_todo['PERIOD'] == ultimo]
 con_dc = ubic.groupby('LOAD_ZONE')['dc_total_mw'].sum()
 zonas_dc = list(zonas.loc[con_dc[con_dc > 0.5].index].sort_values('orden').index)
 yz = np.arange(len(zonas_dc))[::-1]
 tope_dc = ubic['dc_total_mw'].max()
-fig, ejes = figura(10.8, 4.6, 1, 4, sharey=True, titulo_in=1.05, nota_in=0.62)
+
+# Destino de lo reubicable: lo que el modo libre agrega en cada zona después de ULTIMO_FIJO.
+ubicado = ubic_todo.pivot_table(index=['escenario', 'modo', 'LOAD_ZONE'], columns='PERIOD', values='dc_ubicado_mw', aggfunc='sum').fillna(0)
+aumento = (ubicado[ultimo] - ubicado[ULTIMO_FIJO])
+destino = aumento.xs('libre', level='modo')
+destino = destino[destino > 0.5].rename_axis(['escenario', 'zona']).reset_index(name='MW')
+destino['macrozona'] = zonas.loc[destino['zona'], 'macrozona'].values
+destino['orden'] = zonas.loc[destino['zona'], 'orden'].values
+destino['nombre'] = zonas.loc[destino['zona'], 'nombre'].str.replace(r'\s\d+$', '', regex=True).values
+destino['pct'] = 100 * destino['MW'] / destino.groupby('escenario')['MW'].transform('sum')
+por_macro = destino.groupby(['escenario', 'macrozona'])['pct'].sum()
+macro_comun = set.intersection(*[set(por_macro.loc[e].index) for e in ESCENARIOS])
+
+
+def a_la(macrozona):
+    return f'al {macrozona.lower()}'
+
+
+def descripcion_destino(e):
+    d = destino[destino.escenario == e].sort_values('orden')
+    if len(d) == 1:
+        return f"el 100 % de lo reubicable va a {d['nombre'].iloc[0]}"
+    partes = []
+    for macro, pct in por_macro.loc[e].sort_values(ascending=False).items():
+        verbo = '' if partes else 'va '
+        partes.append(f"el {num(pct)} % {verbo}{a_la(macro)} ({enumerar(d.loc[d.macrozona == macro, 'nombre'])})")
+    return enumerar(partes)
+
+
+grupos_destino = {}   # escenarios con el mismo destino, en una sola frase
+for e in ESCENARIOS:
+    grupos_destino.setdefault(descripcion_destino(e), []).append(NOMBRE[e])
+lineas_destino = [f'En {enumerar(es)}, {texto}.' for texto, es in grupos_destino.items()]
+titulo_g = 'Libre de elegir, el modelo lleva el crecimiento de los data centers ' + enumerar([a_la(m) for m in sorted(macro_comun)])
+for e in ESCENARIOS:
+    for macro, pct in por_macro.loc[e].items():
+        if macro not in macro_comun:
+            titulo_g += f'; en {NOMBRE[e]}, el {num(pct)} % va {a_la(macro)}'
+
+fig, ejes = figura(10.8, 4.6, 1, 4, sharey=True, titulo_in=1.05, nota_in=0.62 + 0.15 * (len(lineas_destino) - 1))
 for ax, e in zip(ejes, ESCENARIOS):
     for desplazamiento, m, color in [(0.18, 'base', COLOR_BASE), (-0.18, 'libre', COLOR_LIBRE)]:
         valores = ubic[(ubic.escenario == e) & (ubic.modo == m)].set_index('LOAD_ZONE')['dc_total_mw'].reindex(zonas_dc).fillna(0)
@@ -454,24 +532,21 @@ for ax, e in zip(ejes, ESCENARIOS):
     grilla(ax, 'x')
 ejes[0].set_yticks(yz, [f"{zonas.loc[z, 'nombre']} ({num(zonas.loc[z, 'latitud_aprox_sur'], 1)}° S)" for z in zonas_dc])
 leyenda_arriba(fig, [(ETIQUETA_BASE, COLOR_BASE), (ETIQUETA_LIBRE, COLOR_LIBRE)])
-titular(fig, 'Libre de elegir, el modelo lleva todo el crecimiento de los data centers al sur',
-        f'Data centers por zona en {ultimo} (MW medios), de norte (arriba) a sur. Lo instalado en 2026 se queda donde está.')
-anotar(fig, 'Latitud aproximada de cada subestación (zonas.csv). En los 4 escenarios, el 100 % de lo reubicable va a '
-            'Río Malleco, Pichirropulli, Nueva Puerto Montt y Nueva Ancud.')
+titular(fig, titulo_g,
+        f'Data centers por zona en {ultimo} (MW medios), de norte (arriba) a sur. Lo instalado hasta {ULTIMO_FIJO} se queda donde está.')
+anotar(fig, 'Latitud aproximada de cada subestación (zonas.csv). ' + lineas_destino[0], *lineas_destino[1:])
 guardar(fig, 'g_ubicacion_dc_por_zona')
 
 
 # =====================================================================================================
-# (h) Precio de una carga plana por zona en 2040 (sin data centers): por qué el sur
+# (h) Precio de una carga plana por zona en 2040 (sin data centers): zonas elegidas frente a proyectadas
 # =====================================================================================================
 ANIO_PRECIO = 2040
 precios = tabla('precios_zonales.csv')
 p = precios[(precios.escenario == 'SIN_DC') & (precios.periodo == ANIO_PRECIO)].sort_values('orden')
-ubic_todo = tabla('ubicacion_dc.csv')
-# Zonas elegidas: donde el modo libre agrega data centers después de 2026. Proyectadas: las del modo base.
-ubicado = ubic_todo.pivot_table(index=['escenario', 'modo', 'LOAD_ZONE'], columns='PERIOD', values='dc_ubicado_mw', aggfunc='sum').fillna(0)
-aumento = (ubicado[ultimo] - ubicado[periodos[0]])
-elegidas = set(aumento[(aumento.index.get_level_values('modo') == 'libre') & (aumento > 0.5)].index.get_level_values('LOAD_ZONE'))
+# Zonas elegidas: donde el modo libre agrega data centers después de ULTIMO_FIJO (destino, figura g).
+# Proyectadas: las del modo base.
+elegidas = set(destino['zona'])
 proyectadas = set(ubic_todo.loc[(ubic_todo.modo == 'base') & (ubic_todo.dc_total_mw > 0.5), 'LOAD_ZONE'])
 color_zona = [COLOR_LIBRE if z in elegidas else CATEGORICA[1] if z in proyectadas else GRIS_DATO for z in p['zona']]
 yp = np.arange(len(p))[::-1]
@@ -487,13 +562,21 @@ ax.set_xlabel(f'USD/MWh de una carga plana en {ANIO_PRECIO}, sistema sin data ce
 grilla(ax, 'x')
 leyenda(ax, [('Zonas que elige el modelo (libre)', COLOR_LIBRE), ('Zonas de la proyección (base)', CATEGORICA[1]),
              ('Resto', GRIS_DATO)], loc='lower right')
-sur = p[p.zona.isin(elegidas)]['precio_carga_plana_usd_mwh']
 base_p = p[p.zona.isin(proyectadas)]['precio_carga_plana_usd_mwh']
-titular(fig, f'En {ANIO_PRECIO}, abastecer 1 MW plano cuesta {rango(sur.min(), sur.max())} USD/MWh en el sur '
+# Macrozonas a las que va lo reubicable en los 4 escenarios (título) y en solo algunos (nota).
+comun = p[p.zona.isin(elegidas) & p.macrozona.isin(macro_comun)]['precio_carga_plana_usd_mwh']
+titular(fig, f"En {ANIO_PRECIO}, abastecer 1 MW plano cuesta {rango(comun.min(), comun.max())} USD/MWh "
+             f"{enumerar(['en el ' + m.lower() for m in sorted(macro_comun)])} "
              f'y {rango(base_p.min(), base_p.max())} donde los ubica la proyección',
         'Promedio horario del costo marginal de la zona (dual del balance): incluye la inversión que exige 1 MW más.')
+lineas_h = []
+for macro, d in destino[~destino.macrozona.isin(macro_comun)].groupby('macrozona'):
+    v = p[p.zona.isin(d['zona'])]['precio_carga_plana_usd_mwh']
+    lineas_h.append(f"{enumerar([NOMBRE[e] for e in ESCENARIOS if e in set(d['escenario'])])} libre elige también zonas del "
+                    f"{macro.lower()} ({enumerar(d.sort_values('orden')['nombre'].unique())}): "
+                    f"{rango(v.min(), v.max(), 1)} USD/MWh en {ANIO_PRECIO} sin data centers.")
 anotar(fig, 'Zonas de norte (arriba) a sur, con latitud aproximada de su subestación. Los polos PDGE se ubican junto a la '
-            'subestación a la que se conectan.')
+            'subestación a la que se conectan.', *lineas_h)
 guardar(fig, 'h_precio_carga_plana_2040')
 
 
@@ -523,7 +606,7 @@ pelp_e2, propio = dc[dc.periodo == periodos[-1]].set_index('escenario')['dc_tota
 titular(fig, f'Los escenarios van de {num(pelp_e2)} a {num(propio)} MW medios de data centers en {periodos[-1]}',
         'Demanda plana de data centers en cada período del modelo (fija + ubicable).')
 fijo_propio = ubic_todo[(ubic_todo.escenario == 'PROPIO') & (ubic_todo.modo == 'base') & (ubic_todo.PERIOD == periodos[-1])]
-anotar(fig, 'Cada valor rige todo su período (2026-2029, 2030-2034, …, 2050-2054). PROPIO incluye '
+anotar(fig, f'Cada valor rige todo su período ({RANGOS_PERIODOS}). PROPIO incluye '
             f"{num(fijo_propio['dc_fijo_mw'].sum())} MW de data centers con ubicación fija (dc_fijo.csv).")
 guardar(fig, 'i_demanda_dc')
 
@@ -543,7 +626,7 @@ ETAPAS = {
 }
 ETAPAS['Otros (arranque)'] = (t['reloj_total_min'] - sum(ETAPAS.values())).clip(lower=0)
 yt = np.arange(len(t))[::-1]
-fig, ax = figura(8.6, 5.0, titulo_in=1.35)
+fig, ax = figura(8.6, 5.0, titulo_in=1.35, nota_in=0.62)
 izquierda = np.zeros(len(t))
 for i, (etapa, minutos) in enumerate(ETAPAS.items()):
     ax.barh(yt, minutos.values, left=izquierda, height=0.55, color=CATEGORICA[i], edgecolor=SUPERFICIE, linewidth=1)
@@ -562,7 +645,13 @@ titular(fig, f"Cada corrida tarda {rango(t['reloj_total_min'].min(), t['reloj_to
              f"entre {num(100 * barrera.min())} % y {num(100 * barrera.max())} % es el presolve y la barrera de Gurobi",
         f"Tiempo de reloj por etapa, de los logs de Switch y Gurobi {tabla('entorno_computo.csv')['gurobi_version'].iloc[0]} "
         '(método de barrera).')
+hilos = sorted(int(h) for h in t['hilos'].unique())
+con_menos = t[t['hilos'] == hilos[0]]
+# En la corrida publicada, las de menos hilos se resolvieron juntas y las demás de a una (casos/corrida_2025.txt).
+texto_hilos = (f"{enumerar([NOMBRE[e] if e == 'SIN_DC' else f'{NOMBRE[e]} {m}' for e, m in zip(con_menos['escenario'], con_menos['modo'])])} "
+               f"corrieron a la vez con {hilos[0]} hilos cada una; las demás, de a una con {hilos[-1]}: "
+               'el tiempo de reloj no es comparable entre ambos grupos.') if len(hilos) == 2 else \
+              f"Hilos por corrida: {enumerar(map(str, hilos)).replace(' y ', ' o ')}."
 anotar(fig, f"Problema de {num(t['filas'].iloc[0] / 1e6, 2)} M filas × {num(t['columnas'].iloc[0] / 1e6, 2)} M columnas "
-            f"({num(t['no_ceros'].iloc[0] / 1e6, 1)} M no ceros). Corridas simultáneas en lotes, con 4 a 8 hilos cada una: "
-            'el tiempo de reloj no es comparable entre lotes.')
+            f"({num(t['no_ceros'].iloc[0] / 1e6, 1)} M no ceros).", texto_hilos)
 guardar(fig, 'j_tiempos_computo')
