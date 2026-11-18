@@ -56,7 +56,7 @@ El script se detiene si falla alguna. Todas pasaron:
 - PELP_N1: suma de dc_base = dc_libre en los 7 períodos y dc_libre + dc_fijo = resumen de escenarios
 - CEN: suma de dc_base = dc_libre en los 7 períodos y dc_libre + dc_fijo = resumen de escenarios
 - PROPIO: suma de dc_base = dc_libre en los 7 períodos
-- E2, N1 y CEN reconstruidos desde las trayectorias anuales (promedio por período − 99), con CEN +5 %/año desde 2031
+- E2, N1 y CEN reconstruidos desde las trayectorias anuales (promedio por período − 99), con CEN +3 %/año desde 2031
 - E2: 0 en 2025 (sin crecimiento sobre los 99 existentes); 85 % Polpaico500 y 15 % Quillota500 desde 2027
 - N1 = E2 + Kimal220 (37,5 / 225 / 525 / 750 MW medios)
 - CEN por zona: Polpaico500 = capacidad × 1.225/1.381 × 50 % − 84,15 y Quillota500 = × 155/1.381 × 50 % − 14,85
@@ -73,7 +73,7 @@ El script se detiene si falla alguna. Todas pasaron:
 - 14 subestaciones de conexión distintas (sin contar la conexión en distribución de Cirion)
 - MW medios acumulados 2025–2032: 0, 16, 22, 454, 698, 1.448, 1.755,5, 1.905,5 (tabla de la sección 8.5)
 - base del crecimiento: 99 + 115,2 + 1.905,5 = 2.119,7 MW medios en 2032
-- promedio por período de la trayectoria anual (con +8 %/año desde 2033) = dc_libre de PROPIO, a 2·10⁻³ MW
+- promedio por período de la trayectoria anual (con +3 %/año desde 2033) = dc_libre de PROPIO, a 2·10⁻³ MW
 - reparto por zona y período = dc_base de PROPIO (el aumento desde 2033 se reparte como lo solicitado en 2032)
 - existentes: 348,4 MW en Lampa/Colina/Quilicura y 80 en San Bernardo/Padre Hurtado
 - llenado 115,2 MW medios = 93,69 Polpaico500 + 21,51 AltoJahuel500 (dc_fijo 2030)
@@ -125,10 +125,10 @@ El script se detiene si falla alguna. Todas pasaron:
 | Transmisión | HVDC: tope acumulado 0 / 0 / 2.000 / 3.500 / 5.000 / 5.000 / 6.000 MW; mínimo 2.000 en 2030 | `trans_build_limits.csv`, filas de `Kimal500_AltoJahuel500` |
 | Data centers | PELP_E2: 0,0 / 99,0 / 224,8 / 272,8 / 292,4 / 311,9 / 331,5 MW medios | por período: `dc_libre_mw` + suma de `dc_fijo_mw` de las zonas (inputs nuevos); igual a la suma de `dc_base_mw` + fija; igual a `agregado_al_modelo_mw` de `resumen_escenarios_dc.csv` |
 | Data centers | PELP_N1: 37,5 / 324,0 / 749,8 / 1.022,8 / 1.042,4 / 1.061,9 / 1.081,5 MW medios | por período: `dc_libre_mw` + suma de `dc_fijo_mw` de las zonas (inputs nuevos); igual a la suma de `dc_base_mw` + fija; igual a `agregado_al_modelo_mw` de `resumen_escenarios_dc.csv` |
-| Data centers | CEN: 138,3 / 381,7 / 663,5 / 874,2 / 1.143,1 / 1.486,3 / 1.924,2 MW medios | por período: `dc_libre_mw` + suma de `dc_fijo_mw` de las zonas (inputs nuevos); igual a la suma de `dc_base_mw` + fija; igual a `agregado_al_modelo_mw` de `resumen_escenarios_dc.csv` |
-| Data centers | PROPIO: 19,5 / 460,5 / 2.003,7 / 3.034,0 / 4.504,4 / 6.664,9 / 9.839,4 MW medios | por período: `dc_libre_mw` + suma de `dc_fijo_mw` de las zonas (inputs nuevos); igual a la suma de `dc_base_mw` + fija |
+| Data centers | CEN: 138,3 / 381,7 / 633,7 / 750,4 / 885,6 / 1.042,5 / 1.224,3 MW medios | por período: `dc_libre_mw` + suma de `dc_fijo_mw` de las zonas (inputs nuevos); igual a la suma de `dc_base_mw` + fija; igual a `agregado_al_modelo_mw` de `resumen_escenarios_dc.csv` |
+| Data centers | PROPIO: 19,5 / 460,5 / 1.937,7 / 2.360,5 / 2.752,2 / 3.206,3 / 3.732,8 MW medios | por período: `dc_libre_mw` + suma de `dc_fijo_mw` de las zonas (inputs nuevos); igual a la suma de `dc_base_mw` + fija |
 | Data centers | Propio, fija: 11,5 / 69,1 / 115,2 / 115,2 / 115,2 / 115,2 / 115,2 | suma de `dc_fijo_mw` de PROPIO por período |
-| Data centers | reconstrucción de E2, N1 y CEN | E2: RM+Valparaíso 99 (2025 y 2026), 297 (2030), 364 (2035), 450 (2057) MW medios con interpolación lineal; promedio de los años del período − 99. N1: E2 + 75 MW medios por año desde 2026 hasta 750. CEN: 398, 552, 642, 963, 1.281 y 1.381 MW de capacidad en 2025–2030 y 1.381 × 1,05^(año − 2030) desde 2031 (`CRECIMIENTO_CEN` del script de escenarios), × 50 % × 1.380/1.381 (reparto RM 1.225 + Valparaíso 155), − 99. Coinciden con `dc_libre.csv` a 10⁻³ MW |
+| Data centers | reconstrucción de E2, N1 y CEN | E2: RM+Valparaíso 99 (2025 y 2026), 297 (2030), 364 (2035), 450 (2057) MW medios con interpolación lineal; promedio de los años del período − 99. N1: E2 + 75 MW medios por año desde 2026 hasta 750. CEN: 398, 552, 642, 963, 1.281 y 1.381 MW de capacidad en 2025–2030 y 1.381 × 1,03^(año − 2030) desde 2031 (`CRECIMIENTO_CEN` del script de escenarios), × 50 % × 1.380/1.381 (reparto RM 1.225 + Valparaíso 155), − 99. Coinciden con `dc_libre.csv` a 10⁻³ MW |
 | Data centers | E2 85 % / 15 %; N1 + Kimal 220; CEN RM 1.225 MW y Valparaíso 155 MW (al 2030) | cocientes de `dc_base_mw` por zona; CEN: promedio de capacidad × 1.225/1.381 (o 155/1.381) × 0,5, − 84,15 (o − 14,85) |
 | Propio | 4.233,4 MW = 428,4 existentes + 14 repetidos + 0 sin MW + 3.791 incluidos | hoja «Solicitudes CEN» del catastro, Vigente = «Sí» y con fecha estimada (35 solicitudes, igual a la fila Total de «Cronograma MW»); regla 1: año ≤ 2025; regla 2: mismo grupo, misma S/E, misma fecha y misma potencia o sin MW (IDs 2853 y 2718; DC Valparaíso 1 y 2 tienen 200 y 100 MW: dos edificios); sin MW: IDs 2711 y 2740 |
 | Propio (tabla) | Estado y fecha estimada de cada campus | columnas «Categoría estado» (En tramitación, Detenida, Autorizada (por declarar en construcción) → autorizada, Declarada en construcción → en construcción) y «Fecha estimada de conexión» de cada solicitud incluida; S/E y tensión desde «Subestación de conexión» y «Tensión (kV)»; zona según la tabla de ubicación de §8.5 |
@@ -148,7 +148,7 @@ El script se detiene si falla alguna. Todas pasaron:
 | Propio (tabla) | Moreras (Orion Power): 90 MW, AltoJahuel500 | CEN 3165 «Data Center Moreras», Alto Jahuel 110 kV, 90 MW, 31-05-2031, en tramitación |
 | Propio (tabla) | Mega Data Center Lampa, etapa 2 (Scala): 300 MW, Polpaico500 | CEN 2879 «AMPLIACION MEGA DATA CENTER LAMPA ETAPA 2», Santa Teresa 220 kV, 300 MW, 15-10-2032, autorizada |
 | Propio (tabla) | SAN2 (Cirion): 20 MW, Polpaico500 | catálogo propio; DATOS_Y_SUPUESTOS §8.5, regla 3: Quilicura, 20 MW en 2026, conexión en distribución |
-| Propio | MW medios = 50 % de los MW solicitados; +8 %/año desde 2033 | carga plana desde el año de la fecha estimada (año completo); acumulado anual 0 (2025), 16 … 1.905,5 (2032); desde 2033, + 2.119,7 × (1,08^(año − 2032) − 1), repartido como lo solicitado en 2032 (`CRECIMIENTO` del script del escenario propio); promedio de los años del período = `dc_libre.csv` (8,0; 391,3; 1.888,5; 2.918,8; 4.389,2; 6.549,7; 9.724,2) y, por zona, `dc_base.csv` |
+| Propio | MW medios = 50 % de los MW solicitados; +3 %/año desde 2033 | carga plana desde el año de la fecha estimada (año completo); acumulado anual 0 (2025), 16 … 1.905,5 (2032); desde 2033, + 2.119,7 × (1,03^(año − 2032) − 1), repartido como lo solicitado en 2032 (`CRECIMIENTO` del script del escenario propio); promedio de los años del período = `dc_libre.csv` (8,0; 391,3; 1.822,5; 2.245,3; 2.637,0; 3.091,1; 3.617,6) y, por zona, `dc_base.csv` |
 | Propio | llenado 115,2 = 428,4 × 50 % − 99; 93,7 Polpaico 500 y 21,5 Alto Jahuel 500; 11,5 en 2025–2026 y 69,1 en 2027–2029 | MW de las 12 existentes por comuna (Lampa, Colina, Quilicura → Polpaico500; San Bernardo, Padre Hurtado → AltoJahuel500); rampa 0, 20, 40, 60 y 80 % en 2025–2029; coincide con `dc_fijo.csv` |
 
 ## Formato

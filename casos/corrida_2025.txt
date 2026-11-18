@@ -1,11 +1,12 @@
-# Corridas con inicio en 2025 (17-nov-2026). SIN_DC y PROPIO base corrieron juntas con 8 hilos;
-# las otras 7, una a la vez con 14 hilos (scripts/51_correr_escalonado.py del modelo).
+# Corridas con inicio en 2025 (17-nov-2026). SIN_DC base corrió junto a una corrida anterior de PROPIO base,
+# con 8 hilos; las demás, una a la vez con 14 hilos (scripts/51_correr_escalonado.py del modelo).
+# CEN y PROPIO se volvieron a correr el 17-nov a las 22:44-23:37, con crecimiento de 3 % anual de los data centers.
 SIN_DC   base   código 0   17.6 min  costo total 42618797674.651436
-PROPIO   base   código 0   15.5 min  costo total 58802866311.50897
+PROPIO   base   código 0   11.3 min  costo total 52343158536.88348
 PELP_N1  base   código 0   12.0 min  costo total 46121638252.89702
-CEN      base   código 0   14.8 min  costo total 46882242494.76244
+CEN      base   código 0   13.8 min  costo total 46115042833.02324
 PELP_E2  base   código 0   13.3 min  costo total 43658693481.91487
-PROPIO   libre  código 0   11.0 min  costo total 54253864066.54566
+PROPIO   libre  código 0   14.7 min  costo total 49941271205.49166
 PELP_N1  libre  código 0   10.2 min  costo total 45501962680.95773
-CEN      libre  código 0   10.7 min  costo total 46110274765.54533
+CEN      libre  código 0   12.8 min  costo total 45615356552.443375
 PELP_E2  libre  código 0   10.0 min  costo total 43479548923.90926

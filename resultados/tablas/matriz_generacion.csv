@@ -1,242 +1,242 @@
 escenario,modo,periodo,familia,grupo,capacidad_MW,almacenamiento_MWh,energia_GWh,carga_GWh,participacion_generacion_pct,emisiones_MtCO2
-CEN,base,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.744,0.0
+CEN,base,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.745,0.0
 CEN,base,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.0,0.0
-CEN,base,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,1189.899,0.0,1.204,0.745
-CEN,base,2025,Gas,Gas ciclo combinado,3157.16,0.0,9381.218,0.0,9.489,5.262
+CEN,base,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,1197.049,0.0,1.211,0.748
+CEN,base,2025,Gas,Gas ciclo combinado,3157.16,0.0,9396.364,0.0,9.504,5.271
 CEN,base,2025,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2025,Eólica,Eólica,9005.24,0.0,30128.397,0.0,30.473,0.0
-CEN,base,2025,Solar,Solar CSP,110.0,0.0,453.593,0.0,0.459,0.0
-CEN,base,2025,Solar,Solar FV,10759.677,0.0,24488.047,0.0,24.768,0.0
+CEN,base,2025,Eólica,Eólica,9016.67,0.0,30023.092,0.0,30.368,0.0
+CEN,base,2025,Solar,Solar CSP,110.0,0.0,451.182,0.0,0.456,0.0
+CEN,base,2025,Solar,Solar FV,10717.238,0.0,24555.739,0.0,24.838,0.0
 CEN,base,2025,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2025,Almacenamiento,Baterías,951.8,3314.951,1721.706,1871.288,,0.0
+CEN,base,2025,Almacenamiento,Baterías,951.8,3314.951,1677.433,1823.168,,0.0
 CEN,base,2025,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4253.002,0.0,4.302,0.0
-CEN,base,2025,Biomasa y otras,Cogeneración,129.66,0.0,521.944,0.0,0.528,0.0
-CEN,base,2025,Biomasa y otras,Geotermia,81.0,0.0,379.827,0.0,0.384,0.0
-CEN,base,2025,Carbón,Carbón,3689.68,0.0,5839.683,0.0,5.907,5.664
+CEN,base,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4254.583,0.0,4.303,0.0
+CEN,base,2025,Biomasa y otras,Cogeneración,129.66,0.0,527.219,0.0,0.533,0.0
+CEN,base,2025,Biomasa y otras,Geotermia,81.0,0.0,375.378,0.0,0.38,0.0
+CEN,base,2025,Carbón,Carbón,3689.68,0.0,5853.161,0.0,5.92,5.677
 CEN,base,2025,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2025,Diésel,Diésel,3254.18,0.0,734.764,0.0,0.743,0.85
-CEN,base,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.527,0.0
+CEN,base,2025,Diésel,Diésel,3254.18,0.0,732.76,0.0,0.741,0.848
+CEN,base,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.528,0.0
 CEN,base,2027,Hidro,Hidro pasada,2949.423,0.0,5964.89,0.0,5.586,0.0
-CEN,base,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3306.353,0.0,3.096,2.265
-CEN,base,2027,Gas,Gas ciclo combinado,3157.16,0.0,12205.69,0.0,11.429,6.852
+CEN,base,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3323.674,0.0,3.112,2.279
+CEN,base,2027,Gas,Gas ciclo combinado,3157.16,0.0,12224.807,0.0,11.448,6.862
 CEN,base,2027,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2027,Eólica,Eólica,9600.74,0.0,33941.728,0.0,31.783,0.0
-CEN,base,2027,Solar,Solar CSP,110.0,0.0,417.983,0.0,0.391,0.0
-CEN,base,2027,Solar,Solar FV,11524.29,0.0,27427.868,0.0,25.684,0.0
+CEN,base,2027,Eólica,Eólica,9600.74,0.0,33529.052,0.0,31.398,0.0
+CEN,base,2027,Solar,Solar CSP,110.0,0.0,422.719,0.0,0.396,0.0
+CEN,base,2027,Solar,Solar FV,11498.074,0.0,27793.67,0.0,26.027,0.0
 CEN,base,2027,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2027,Almacenamiento,Baterías,3971.2,15524.798,6703.139,7285.506,,0.0
+CEN,base,2027,Almacenamiento,Baterías,3971.2,15524.798,6655.074,7233.265,,0.0
 CEN,base,2027,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4478.515,0.0,4.194,0.0
-CEN,base,2027,Biomasa y otras,Cogeneración,129.66,0.0,547.155,0.0,0.512,0.0
+CEN,base,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4482.088,0.0,4.197,0.0
+CEN,base,2027,Biomasa y otras,Cogeneración,129.66,0.0,547.162,0.0,0.512,0.0
 CEN,base,2027,Biomasa y otras,Geotermia,81.0,0.0,396.431,0.0,0.371,0.0
-CEN,base,2027,Carbón,Carbón,1572.83,0.0,4022.158,0.0,3.766,4.077
+CEN,base,2027,Carbón,Carbón,1572.83,0.0,4027.497,0.0,3.772,4.082
 CEN,base,2027,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2027,Diésel,Diésel,3254.18,0.0,704.809,0.0,0.66,0.815
-CEN,base,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,7.473,0.0
-CEN,base,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,4.186,0.0
-CEN,base,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,113.994,0.0,0.097,0.067
-CEN,base,2030,Gas,Gas ciclo combinado,3157.16,0.0,3540.083,0.0,3.019,1.868
+CEN,base,2027,Diésel,Diésel,3254.18,0.0,697.415,0.0,0.653,0.807
+CEN,base,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,7.49,0.0
+CEN,base,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,4.195,0.0
+CEN,base,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,97.181,0.0,0.083,0.058
+CEN,base,2030,Gas,Gas ciclo combinado,3157.16,0.0,3524.818,0.0,3.013,1.857
 CEN,base,2030,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2030,Eólica,Eólica,18613.704,0.0,67269.268,0.0,57.374,0.0
-CEN,base,2030,Solar,Solar CSP,110.0,0.0,453.523,0.0,0.387,0.0
-CEN,base,2030,Solar,Solar FV,11524.29,0.0,27722.453,0.0,23.645,0.0
+CEN,base,2030,Eólica,Eólica,18574.621,0.0,66970.701,0.0,57.248,0.0
+CEN,base,2030,Solar,Solar CSP,110.0,0.0,453.523,0.0,0.388,0.0
+CEN,base,2030,Solar,Solar FV,11498.074,0.0,27811.711,0.0,23.774,0.0
 CEN,base,2030,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2030,Almacenamiento,Baterías,3971.2,15524.798,7631.986,8295.051,,0.0
-CEN,base,2030,Almacenamiento,Bombeo,552.113,5222.11,1635.669,2019.345,,0.0
-CEN,base,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,2994.407,0.0,2.554,0.0
-CEN,base,2030,Biomasa y otras,Cogeneración,129.66,0.0,251.325,0.0,0.214,0.0
-CEN,base,2030,Biomasa y otras,Geotermia,81.0,0.0,385.723,0.0,0.329,0.0
-CEN,base,2030,Carbón,Carbón,1297.46,0.0,98.078,0.0,0.084,0.111
+CEN,base,2030,Almacenamiento,Baterías,3971.2,15524.798,7771.836,8447.051,,0.0
+CEN,base,2030,Almacenamiento,Bombeo,529.164,5036.22,1578.618,1948.911,,0.0
+CEN,base,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,2978.18,0.0,2.546,0.0
+CEN,base,2030,Biomasa y otras,Cogeneración,129.66,0.0,251.325,0.0,0.215,0.0
+CEN,base,2030,Biomasa y otras,Geotermia,81.0,0.0,384.393,0.0,0.329,0.0
+CEN,base,2030,Carbón,Carbón,1297.46,0.0,97.818,0.0,0.084,0.111
 CEN,base,2030,Carbón,Carbón con co-combustión de amoníaco,275.37,0.0,0.0,0.0,0.0,0.0
-CEN,base,2030,Diésel,Diésel,3254.18,0.0,747.823,0.0,0.638,0.866
-CEN,base,2035,Hidro,Hidro embalse,4985.82,0.0,8594.176,0.0,5.232,0.0
-CEN,base,2035,Hidro,Hidro pasada,2949.423,0.0,4157.948,0.0,2.531,0.0
-CEN,base,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,580.744,0.0,0.354,0.367
-CEN,base,2035,Gas,Gas ciclo combinado,3157.16,0.0,4309.89,0.0,2.624,2.32
+CEN,base,2030,Diésel,Diésel,3254.18,0.0,744.078,0.0,0.636,0.861
+CEN,base,2035,Hidro,Hidro embalse,4985.82,0.0,8594.176,0.0,5.27,0.0
+CEN,base,2035,Hidro,Hidro pasada,2949.423,0.0,4157.302,0.0,2.549,0.0
+CEN,base,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,578.269,0.0,0.355,0.364
+CEN,base,2035,Gas,Gas ciclo combinado,3157.16,0.0,4302.983,0.0,2.639,2.318
 CEN,base,2035,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2035,Eólica,Eólica,30854.72,0.0,94287.293,0.0,57.405,0.0
-CEN,base,2035,Solar,Solar CSP,110.0,0.0,393.353,0.0,0.239,0.0
-CEN,base,2035,Solar,Solar FV,19631.645,0.0,47768.515,0.0,29.083,0.0
+CEN,base,2035,Eólica,Eólica,30773.656,0.0,94567.9,0.0,57.994,0.0
+CEN,base,2035,Solar,Solar CSP,110.0,0.0,393.353,0.0,0.241,0.0
+CEN,base,2035,Solar,Solar FV,19268.807,0.0,46360.766,0.0,28.431,0.0
 CEN,base,2035,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2035,Almacenamiento,Baterías,3971.2,15524.798,8631.641,9381.555,,0.0
-CEN,base,2035,Almacenamiento,Bombeo,2552.186,25316.703,7136.227,8810.157,,0.0
-CEN,base,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2752.714,0.0,1.676,0.0
-CEN,base,2035,Biomasa y otras,Cogeneración,129.66,0.0,328.148,0.0,0.2,0.0
-CEN,base,2035,Biomasa y otras,Geotermia,81.0,0.0,336.097,0.0,0.205,0.0
+CEN,base,2035,Almacenamiento,Baterías,3971.2,15524.798,8752.827,9513.271,,0.0
+CEN,base,2035,Almacenamiento,Bombeo,2440.21,24080.49,6672.158,8237.232,,0.0
+CEN,base,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2736.665,0.0,1.678,0.0
+CEN,base,2035,Biomasa y otras,Cogeneración,129.66,0.0,332.874,0.0,0.204,0.0
+CEN,base,2035,Biomasa y otras,Geotermia,81.0,0.0,336.097,0.0,0.206,0.0
 CEN,base,2035,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,239.475,0.0,0.146,0.123
-CEN,base,2035,Diésel,Diésel,3254.18,0.0,500.12,0.0,0.304,0.579
-CEN,base,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,5.257,0.0
-CEN,base,2040,Hidro,Hidro pasada,2949.423,0.0,5021.103,0.0,2.583,0.0
-CEN,base,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,489.806,0.0,0.252,0.309
-CEN,base,2040,Gas,Gas ciclo combinado,3157.16,0.0,4235.895,0.0,2.179,2.143
+CEN,base,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,206.609,0.0,0.127,0.106
+CEN,base,2035,Diésel,Diésel,3254.18,0.0,498.161,0.0,0.305,0.576
+CEN,base,2040,Hidro,Hidro embalse,4985.82,0.0,10217.426,0.0,5.323,0.0
+CEN,base,2040,Hidro,Hidro pasada,2949.423,0.0,5012.05,0.0,2.611,0.0
+CEN,base,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,444.565,0.0,0.232,0.275
+CEN,base,2040,Gas,Gas ciclo combinado,3157.16,0.0,4252.544,0.0,2.215,2.146
 CEN,base,2040,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2040,Eólica,Eólica,35790.37,0.0,119672.346,0.0,61.566,0.0
-CEN,base,2040,Solar,Solar CSP,110.0,0.0,365.362,0.0,0.188,0.0
-CEN,base,2040,Solar,Solar FV,19904.725,0.0,50273.325,0.0,25.863,0.0
-CEN,base,2040,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,-0.0,,0.0
-CEN,base,2040,Almacenamiento,Baterías,3971.2,15524.798,7921.813,8610.058,,0.0
-CEN,base,2040,Almacenamiento,Bombeo,3090.712,31003.61,7873.036,9719.798,,0.0
-CEN,base,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2487.526,0.0,1.28,0.0
-CEN,base,2040,Biomasa y otras,Cogeneración,129.66,0.0,397.687,0.0,0.205,0.0
-CEN,base,2040,Biomasa y otras,Geotermia,81.0,0.0,348.051,0.0,0.179,0.0
+CEN,base,2040,Eólica,Eólica,35436.524,0.0,119440.545,0.0,62.221,0.0
+CEN,base,2040,Solar,Solar CSP,110.0,0.0,379.556,0.0,0.198,0.0
+CEN,base,2040,Solar,Solar FV,19280.667,0.0,48113.935,0.0,25.064,0.0
+CEN,base,2040,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
+CEN,base,2040,Almacenamiento,Baterías,3971.2,15524.798,8017.609,8714.177,,0.0
+CEN,base,2040,Almacenamiento,Bombeo,2828.741,28276.64,7143.456,8819.082,,0.0
+CEN,base,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2492.363,0.0,1.298,0.0
+CEN,base,2040,Biomasa y otras,Cogeneración,129.66,0.0,391.269,0.0,0.204,0.0
+CEN,base,2040,Biomasa y otras,Geotermia,81.0,0.0,348.051,0.0,0.181,0.0
 CEN,base,2040,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,429.551,0.0,0.221,0.126
-CEN,base,2040,Diésel,Diésel,3254.18,0.0,441.552,0.0,0.227,0.509
-CEN,base,2045,Hidro,Hidro embalse,4985.82,0.0,9561.974,0.0,3.914,0.0
-CEN,base,2045,Hidro,Hidro pasada,2949.423,0.0,5269.833,0.0,2.157,0.0
-CEN,base,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,482.427,0.0,0.197,0.288
-CEN,base,2045,Gas,Gas ciclo combinado,3157.16,0.0,4018.889,0.0,1.645,2.024
+CEN,base,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,429.498,0.0,0.224,0.126
+CEN,base,2040,Diésel,Diésel,3254.18,0.0,441.27,0.0,0.23,0.508
+CEN,base,2045,Hidro,Hidro embalse,4985.82,0.0,9567.125,0.0,3.984,0.0
+CEN,base,2045,Hidro,Hidro pasada,2949.423,0.0,5268.729,0.0,2.194,0.0
+CEN,base,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,486.731,0.0,0.203,0.291
+CEN,base,2045,Gas,Gas ciclo combinado,3157.16,0.0,3952.741,0.0,1.646,1.976
 CEN,base,2045,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2045,Eólica,Eólica,38438.025,0.0,126437.59,0.0,51.752,0.0
-CEN,base,2045,Solar,Solar CSP,110.0,0.0,346.752,0.0,0.142,0.0
-CEN,base,2045,Solar,Solar FV,38675.18,0.0,93850.123,0.0,38.413,0.0
+CEN,base,2045,Eólica,Eólica,38309.922,0.0,125451.569,0.0,52.247,0.0
+CEN,base,2045,Solar,Solar CSP,110.0,0.0,346.752,0.0,0.144,0.0
+CEN,base,2045,Solar,Solar FV,36590.999,0.0,90656.664,0.0,37.756,0.0
 CEN,base,2045,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2045,Almacenamiento,Baterías,5185.466,22440.137,11692.771,12708.636,,0.0
-CEN,base,2045,Almacenamiento,Bombeo,7377.395,76229.01,18843.996,23264.192,,0.0
-CEN,base,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2505.354,0.0,1.025,0.0
-CEN,base,2045,Biomasa y otras,Cogeneración,129.66,0.0,351.373,0.0,0.144,0.0
-CEN,base,2045,Biomasa y otras,Geotermia,81.0,0.0,320.319,0.0,0.131,0.0
+CEN,base,2045,Almacenamiento,Baterías,5114.847,22106.717,11888.493,12921.362,,0.0
+CEN,base,2045,Almacenamiento,Bombeo,6941.274,71492.04,17430.977,21519.725,,0.0
+CEN,base,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2468.389,0.0,1.028,0.0
+CEN,base,2045,Biomasa y otras,Cogeneración,129.66,0.0,354.675,0.0,0.148,0.0
+CEN,base,2045,Biomasa y otras,Geotermia,81.0,0.0,323.524,0.0,0.135,0.0
 CEN,base,2045,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,727.519,0.0,0.298,0.213
-CEN,base,2045,Diésel,Diésel,3254.18,0.0,443.674,0.0,0.182,0.51
-CEN,base,2050,Hidro,Hidro embalse,4985.82,0.0,10254.786,0.0,3.463,0.0
-CEN,base,2050,Hidro,Hidro pasada,2949.423,0.0,4899.683,0.0,1.655,0.0
-CEN,base,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,659.549,0.0,0.223,0.457
-CEN,base,2050,Gas,Gas ciclo combinado,3157.16,0.0,2621.182,0.0,0.885,1.43
+CEN,base,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,787.137,0.0,0.328,0.23
+CEN,base,2045,Diésel,Diésel,3254.18,0.0,449.672,0.0,0.187,0.517
+CEN,base,2050,Hidro,Hidro embalse,4985.82,0.0,10236.956,0.0,3.535,0.0
+CEN,base,2050,Hidro,Hidro pasada,2949.423,0.0,4907.63,0.0,1.694,0.0
+CEN,base,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,676.215,0.0,0.233,0.468
+CEN,base,2050,Gas,Gas ciclo combinado,3157.16,0.0,2714.332,0.0,0.937,1.505
 CEN,base,2050,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2050,Eólica,Eólica,44474.962,0.0,140635.027,0.0,47.496,0.0
-CEN,base,2050,Solar,Solar CSP,110.0,0.0,387.512,0.0,0.131,0.0
-CEN,base,2050,Solar,Solar FV,53597.152,0.0,132387.058,0.0,44.711,0.0
+CEN,base,2050,Eólica,Eólica,43954.913,0.0,139409.467,0.0,48.134,0.0
+CEN,base,2050,Solar,Solar CSP,110.0,0.0,394.222,0.0,0.136,0.0
+CEN,base,2050,Solar,Solar FV,51385.076,0.0,127115.065,0.0,43.889,0.0
 CEN,base,2050,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,base,2050,Almacenamiento,Baterías,9792.395,45037.68,20130.971,21879.944,,0.0
-CEN,base,2050,Almacenamiento,Bombeo,9224.38,96176.38,23257.01,28712.358,,0.0
-CEN,base,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2650.863,0.0,0.895,0.0
-CEN,base,2050,Biomasa y otras,Cogeneración,129.66,0.0,281.597,0.0,0.095,0.0
-CEN,base,2050,Biomasa y otras,Geotermia,81.0,0.0,351.368,0.0,0.119,0.0
+CEN,base,2050,Almacenamiento,Baterías,9391.393,40496.111,19215.695,20885.15,,0.0
+CEN,base,2050,Almacenamiento,Bombeo,8818.743,91768.67,22162.867,27361.565,,0.0
+CEN,base,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2604.0,0.0,0.899,0.0
+CEN,base,2050,Biomasa y otras,Cogeneración,129.66,0.0,280.803,0.0,0.097,0.0
+CEN,base,2050,Biomasa y otras,Geotermia,81.0,0.0,355.186,0.0,0.123,0.0
 CEN,base,2050,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,base,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,637.595,0.0,0.215,0.0
-CEN,base,2050,Diésel,Diésel,3254.18,0.0,330.116,0.0,0.111,0.37
-CEN,libre,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.744,0.0
-CEN,libre,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.0,0.0
-CEN,libre,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,1196.929,0.0,1.211,0.748
-CEN,libre,2025,Gas,Gas ciclo combinado,3157.16,0.0,9396.122,0.0,9.504,5.271
+CEN,base,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,637.595,0.0,0.22,0.0
+CEN,base,2050,Diésel,Diésel,3254.18,0.0,296.95,0.0,0.103,0.328
+CEN,libre,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.745,0.0
+CEN,libre,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.001,0.0
+CEN,libre,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,1199.586,0.0,1.213,0.75
+CEN,libre,2025,Gas,Gas ciclo combinado,3157.16,0.0,9403.406,0.0,9.512,5.275
 CEN,libre,2025,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2025,Eólica,Eólica,9016.67,0.0,30022.69,0.0,30.367,0.0
+CEN,libre,2025,Eólica,Eólica,9016.67,0.0,30085.44,0.0,30.432,0.0
 CEN,libre,2025,Solar,Solar CSP,110.0,0.0,451.182,0.0,0.456,0.0
-CEN,libre,2025,Solar,Solar FV,10717.794,0.0,24553.57,0.0,24.835,0.0
+CEN,libre,2025,Solar,Solar FV,10702.326,0.0,24465.29,0.0,24.747,0.0
 CEN,libre,2025,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2025,Almacenamiento,Baterías,951.8,3314.951,1696.589,1843.989,,0.0
+CEN,libre,2025,Almacenamiento,Baterías,951.8,3314.951,1655.545,1799.378,,0.0
 CEN,libre,2025,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4258.551,0.0,4.307,0.0
-CEN,libre,2025,Biomasa y otras,Cogeneración,129.66,0.0,528.138,0.0,0.534,0.0
+CEN,libre,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4261.225,0.0,4.31,0.0
+CEN,libre,2025,Biomasa y otras,Cogeneración,129.66,0.0,528.599,0.0,0.535,0.0
 CEN,libre,2025,Biomasa y otras,Geotermia,81.0,0.0,375.378,0.0,0.38,0.0
-CEN,libre,2025,Carbón,Carbón,3689.68,0.0,5852.873,0.0,5.92,5.676
+CEN,libre,2025,Carbón,Carbón,3689.68,0.0,5861.699,0.0,5.929,5.685
 CEN,libre,2025,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2025,Diésel,Diésel,3254.18,0.0,732.76,0.0,0.741,0.848
-CEN,libre,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.529,0.0
+CEN,libre,2025,Diésel,Diésel,3254.18,0.0,732.822,0.0,0.741,0.848
+CEN,libre,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.528,0.0
 CEN,libre,2027,Hidro,Hidro pasada,2949.423,0.0,5964.89,0.0,5.586,0.0
-CEN,libre,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3330.019,0.0,3.119,2.284
-CEN,libre,2027,Gas,Gas ciclo combinado,3157.16,0.0,12268.619,0.0,11.49,6.892
+CEN,libre,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3335.98,0.0,3.124,2.289
+CEN,libre,2027,Gas,Gas ciclo combinado,3157.16,0.0,12282.71,0.0,11.503,6.901
 CEN,libre,2027,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2027,Eólica,Eólica,9600.74,0.0,33460.773,0.0,31.337,0.0
-CEN,libre,2027,Solar,Solar CSP,110.0,0.0,431.646,0.0,0.404,0.0
-CEN,libre,2027,Solar,Solar FV,11436.375,0.0,27754.78,0.0,25.993,0.0
+CEN,libre,2027,Eólica,Eólica,9600.74,0.0,33614.147,0.0,31.479,0.0
+CEN,libre,2027,Solar,Solar CSP,110.0,0.0,433.499,0.0,0.406,0.0
+CEN,libre,2027,Solar,Solar FV,11415.894,0.0,27568.882,0.0,25.818,0.0
 CEN,libre,2027,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2027,Almacenamiento,Baterías,3971.2,15524.798,6556.938,7126.603,,0.0
+CEN,libre,2027,Almacenamiento,Baterías,3971.2,15524.798,6584.734,7156.814,,0.0
 CEN,libre,2027,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4482.14,0.0,4.198,0.0
-CEN,libre,2027,Biomasa y otras,Cogeneración,129.66,0.0,550.919,0.0,0.516,0.0
-CEN,libre,2027,Biomasa y otras,Geotermia,81.0,0.0,397.358,0.0,0.372,0.0
-CEN,libre,2027,Carbón,Carbón,1572.83,0.0,4050.874,0.0,3.794,4.104
+CEN,libre,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4484.964,0.0,4.2,0.0
+CEN,libre,2027,Biomasa y otras,Cogeneración,129.66,0.0,552.974,0.0,0.518,0.0
+CEN,libre,2027,Biomasa y otras,Geotermia,81.0,0.0,399.248,0.0,0.374,0.0
+CEN,libre,2027,Carbón,Carbón,1572.83,0.0,4056.218,0.0,3.799,4.109
 CEN,libre,2027,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2027,Diésel,Diésel,3254.18,0.0,708.859,0.0,0.664,0.82
-CEN,libre,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,7.478,0.0
-CEN,libre,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,4.189,0.0
+CEN,libre,2027,Diésel,Diésel,3254.18,0.0,709.781,0.0,0.665,0.821
+CEN,libre,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,7.497,0.0
+CEN,libre,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,4.199,0.0
 CEN,libre,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2030,Gas,Gas ciclo combinado,3157.16,0.0,3502.33,0.0,2.989,1.822
+CEN,libre,2030,Gas,Gas ciclo combinado,3157.16,0.0,3519.913,0.0,3.012,1.831
 CEN,libre,2030,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2030,Eólica,Eólica,18798.554,0.0,67302.008,0.0,57.443,0.0
-CEN,libre,2030,Solar,Solar CSP,110.0,0.0,447.902,0.0,0.382,0.0
-CEN,libre,2030,Solar,Solar FV,11436.375,0.0,27758.344,0.0,23.692,0.0
+CEN,libre,2030,Eólica,Eólica,18719.844,0.0,67246.943,0.0,57.537,0.0
+CEN,libre,2030,Solar,Solar CSP,110.0,0.0,447.074,0.0,0.383,0.0
+CEN,libre,2030,Solar,Solar FV,11415.894,0.0,27510.364,0.0,23.538,0.0
 CEN,libre,2030,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2030,Almacenamiento,Baterías,3971.2,15524.798,7762.42,8436.817,,0.0
-CEN,libre,2030,Almacenamiento,Bombeo,412.298,4089.61,1232.543,1521.658,,0.0
-CEN,libre,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,3027.012,0.0,2.584,0.0
-CEN,libre,2030,Biomasa y otras,Cogeneración,129.66,0.0,251.22,0.0,0.214,0.0
-CEN,libre,2030,Biomasa y otras,Geotermia,81.0,0.0,383.134,0.0,0.327,0.0
-CEN,libre,2030,Carbón,Carbón,1297.46,0.0,95.317,0.0,0.081,0.108
+CEN,libre,2030,Almacenamiento,Baterías,3971.2,15524.798,7506.282,8158.425,,0.0
+CEN,libre,2030,Almacenamiento,Bombeo,401.866,4005.11,1217.79,1503.444,,0.0
+CEN,libre,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,3020.855,0.0,2.585,0.0
+CEN,libre,2030,Biomasa y otras,Cogeneración,129.66,0.0,251.22,0.0,0.215,0.0
+CEN,libre,2030,Biomasa y otras,Geotermia,81.0,0.0,388.888,0.0,0.333,0.0
+CEN,libre,2030,Carbón,Carbón,1297.46,0.0,95.779,0.0,0.082,0.109
 CEN,libre,2030,Carbón,Carbón con co-combustión de amoníaco,275.37,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2030,Diésel,Diésel,3254.18,0.0,726.182,0.0,0.62,0.841
-CEN,libre,2035,Hidro,Hidro embalse,4985.82,0.0,8584.992,0.0,5.235,0.0
-CEN,libre,2035,Hidro,Hidro pasada,2949.423,0.0,4157.474,0.0,2.535,0.0
-CEN,libre,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,635.804,0.0,0.388,0.391
-CEN,libre,2035,Gas,Gas ciclo combinado,3157.16,0.0,4341.54,0.0,2.647,2.308
+CEN,libre,2030,Diésel,Diésel,3254.18,0.0,724.982,0.0,0.62,0.839
+CEN,libre,2035,Hidro,Hidro embalse,4985.82,0.0,8594.176,0.0,5.277,0.0
+CEN,libre,2035,Hidro,Hidro pasada,2949.423,0.0,4150.712,0.0,2.549,0.0
+CEN,libre,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,654.322,0.0,0.402,0.403
+CEN,libre,2035,Gas,Gas ciclo combinado,3157.16,0.0,4335.877,0.0,2.662,2.314
 CEN,libre,2035,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2035,Eólica,Eólica,31618.664,0.0,96876.758,0.0,59.071,0.0
-CEN,libre,2035,Solar,Solar CSP,110.0,0.0,393.353,0.0,0.24,0.0
-CEN,libre,2035,Solar,Solar FV,18642.4,0.0,44953.717,0.0,27.411,0.0
+CEN,libre,2035,Eólica,Eólica,31319.632,0.0,95939.248,0.0,58.912,0.0
+CEN,libre,2035,Solar,Solar CSP,110.0,0.0,393.353,0.0,0.242,0.0
+CEN,libre,2035,Solar,Solar FV,18537.129,0.0,44716.846,0.0,27.459,0.0
 CEN,libre,2035,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2035,Almacenamiento,Baterías,3971.2,15524.798,8743.894,9503.561,,0.0
-CEN,libre,2035,Almacenamiento,Bombeo,2163.504,21400.567,6034.389,7449.863,,0.0
-CEN,libre,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2733.941,0.0,1.667,0.0
-CEN,libre,2035,Biomasa y otras,Cogeneración,129.66,0.0,335.047,0.0,0.204,0.0
-CEN,libre,2035,Biomasa y otras,Geotermia,81.0,0.0,335.965,0.0,0.205,0.0
+CEN,libre,2035,Almacenamiento,Baterías,3971.2,15524.798,8636.16,9386.468,,0.0
+CEN,libre,2035,Almacenamiento,Bombeo,2106.111,20869.292,5805.713,7167.546,,0.0
+CEN,libre,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2720.709,0.0,1.671,0.0
+CEN,libre,2035,Biomasa y otras,Cogeneración,129.66,0.0,333.957,0.0,0.205,0.0
+CEN,libre,2035,Biomasa y otras,Geotermia,81.0,0.0,335.977,0.0,0.206,0.0
 CEN,libre,2035,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,161.569,0.0,0.099,0.083
-CEN,libre,2035,Diésel,Diésel,3254.18,0.0,489.609,0.0,0.299,0.566
-CEN,libre,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,5.269,0.0
-CEN,libre,2040,Hidro,Hidro pasada,2949.423,0.0,5012.199,0.0,2.584,0.0
-CEN,libre,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,368.69,0.0,0.19,0.225
-CEN,libre,2040,Gas,Gas ciclo combinado,3157.16,0.0,4002.05,0.0,2.063,2.033
+CEN,libre,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,182.721,0.0,0.112,0.093
+CEN,libre,2035,Diésel,Diésel,3254.18,0.0,493.88,0.0,0.303,0.571
+CEN,libre,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,5.332,0.0
+CEN,libre,2040,Hidro,Hidro pasada,2949.423,0.0,5011.981,0.0,2.615,0.0
+CEN,libre,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,357.521,0.0,0.187,0.218
+CEN,libre,2040,Gas,Gas ciclo combinado,3157.16,0.0,3942.883,0.0,2.057,2.009
 CEN,libre,2040,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2040,Eólica,Eólica,37085.856,0.0,123574.89,0.0,63.715,0.0
-CEN,libre,2040,Solar,Solar CSP,110.0,0.0,398.85,0.0,0.206,0.0
-CEN,libre,2040,Solar,Solar FV,18642.4,0.0,46405.052,0.0,23.927,0.0
+CEN,libre,2040,Eólica,Eólica,36315.002,0.0,121667.015,0.0,63.483,0.0
+CEN,libre,2040,Solar,Solar CSP,110.0,0.0,398.85,0.0,0.208,0.0
+CEN,libre,2040,Solar,Solar FV,18537.129,0.0,46088.07,0.0,24.048,0.0
 CEN,libre,2040,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2040,Almacenamiento,Baterías,3971.2,15524.798,7841.795,8523.088,,0.0
-CEN,libre,2040,Almacenamiento,Bombeo,2481.492,24834.83,6057.224,7478.055,,0.0
-CEN,libre,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2452.636,0.0,1.265,0.0
-CEN,libre,2040,Biomasa y otras,Cogeneración,129.66,0.0,391.269,0.0,0.202,0.0
-CEN,libre,2040,Biomasa y otras,Geotermia,81.0,0.0,348.051,0.0,0.179,0.0
+CEN,libre,2040,Almacenamiento,Baterías,3971.2,15524.798,7654.743,8319.785,,0.0
+CEN,libre,2040,Almacenamiento,Bombeo,2511.714,25249.81,5955.576,7352.563,,0.0
+CEN,libre,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2454.553,0.0,1.281,0.0
+CEN,libre,2040,Biomasa y otras,Cogeneración,129.66,0.0,391.161,0.0,0.204,0.0
+CEN,libre,2040,Biomasa y otras,Geotermia,81.0,0.0,348.051,0.0,0.182,0.0
 CEN,libre,2040,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,335.3,0.0,0.173,0.097
-CEN,libre,2040,Diésel,Diésel,3254.18,0.0,440.334,0.0,0.227,0.507
-CEN,libre,2045,Hidro,Hidro embalse,4985.82,0.0,9595.726,0.0,3.939,0.0
-CEN,libre,2045,Hidro,Hidro pasada,2949.423,0.0,5274.633,0.0,2.165,0.0
-CEN,libre,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,471.964,0.0,0.194,0.279
-CEN,libre,2045,Gas,Gas ciclo combinado,3157.16,0.0,3886.471,0.0,1.596,1.89
+CEN,libre,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,333.448,0.0,0.174,0.097
+CEN,libre,2040,Diésel,Diésel,3254.18,0.0,440.361,0.0,0.23,0.507
+CEN,libre,2045,Hidro,Hidro embalse,4985.82,0.0,9595.726,0.0,4.002,0.0
+CEN,libre,2045,Hidro,Hidro pasada,2949.423,0.0,5268.772,0.0,2.197,0.0
+CEN,libre,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,474.232,0.0,0.198,0.28
+CEN,libre,2045,Gas,Gas ciclo combinado,3157.16,0.0,3846.104,0.0,1.604,1.851
 CEN,libre,2045,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2045,Eólica,Eólica,40789.607,0.0,132376.508,0.0,54.345,0.0
-CEN,libre,2045,Solar,Solar CSP,110.0,0.0,353.313,0.0,0.145,0.0
-CEN,libre,2045,Solar,Solar FV,35449.125,0.0,87476.29,0.0,35.912,0.0
+CEN,libre,2045,Eólica,Eólica,39559.342,0.0,128788.785,0.0,53.715,0.0
+CEN,libre,2045,Solar,Solar CSP,110.0,0.0,353.313,0.0,0.147,0.0
+CEN,libre,2045,Solar,Solar FV,35328.317,0.0,87293.013,0.0,36.408,0.0
 CEN,libre,2045,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2045,Almacenamiento,Baterías,5304.543,22830.294,12065.212,13113.435,,0.0
-CEN,libre,2045,Almacenamiento,Bombeo,6185.318,63636.156,15593.567,19251.318,,0.0
-CEN,libre,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2445.004,0.0,1.004,0.0
-CEN,libre,2045,Biomasa y otras,Cogeneración,129.66,0.0,350.023,0.0,0.144,0.0
-CEN,libre,2045,Biomasa y otras,Geotermia,81.0,0.0,326.531,0.0,0.134,0.0
+CEN,libre,2045,Almacenamiento,Baterías,5135.074,21949.561,11607.897,12616.388,,0.0
+CEN,libre,2045,Almacenamiento,Bombeo,6320.159,65181.06,16037.336,19799.181,,0.0
+CEN,libre,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2460.284,0.0,1.026,0.0
+CEN,libre,2045,Biomasa y otras,Cogeneración,129.66,0.0,350.077,0.0,0.146,0.0
+CEN,libre,2045,Biomasa y otras,Geotermia,81.0,0.0,326.531,0.0,0.136,0.0
 CEN,libre,2045,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,582.771,0.0,0.239,0.17
-CEN,libre,2045,Diésel,Diésel,3254.18,0.0,446.502,0.0,0.183,0.513
-CEN,libre,2050,Hidro,Hidro embalse,4985.82,0.0,10254.786,0.0,3.47,0.0
-CEN,libre,2050,Hidro,Hidro pasada,2949.423,0.0,4907.708,0.0,1.661,0.0
-CEN,libre,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,729.76,0.0,0.247,0.512
-CEN,libre,2050,Gas,Gas ciclo combinado,3157.16,0.0,2596.434,0.0,0.879,1.479
+CEN,libre,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,550.244,0.0,0.229,0.161
+CEN,libre,2045,Diésel,Diésel,3254.18,0.0,455.346,0.0,0.19,0.524
+CEN,libre,2050,Hidro,Hidro embalse,4985.82,0.0,10254.786,0.0,3.548,0.0
+CEN,libre,2050,Hidro,Hidro pasada,2949.423,0.0,4898.116,0.0,1.694,0.0
+CEN,libre,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,685.164,0.0,0.237,0.476
+CEN,libre,2050,Gas,Gas ciclo combinado,3157.16,0.0,2699.657,0.0,0.934,1.482
 CEN,libre,2050,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2050,Eólica,Eólica,47350.798,0.0,147859.665,0.0,50.03,0.0
-CEN,libre,2050,Solar,Solar CSP,110.0,0.0,394.222,0.0,0.133,0.0
-CEN,libre,2050,Solar,Solar FV,50191.003,0.0,124900.883,0.0,42.262,0.0
+CEN,libre,2050,Eólica,Eólica,45806.23,0.0,143620.875,0.0,49.684,0.0
+CEN,libre,2050,Solar,Solar CSP,110.0,0.0,394.222,0.0,0.136,0.0
+CEN,libre,2050,Solar,Solar FV,49306.579,0.0,122549.944,0.0,42.395,0.0
 CEN,libre,2050,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-CEN,libre,2050,Almacenamiento,Baterías,9236.435,38404.606,18192.373,19772.922,,0.0
-CEN,libre,2050,Almacenamiento,Bombeo,8451.345,88109.25,21609.0,26677.778,,0.0
-CEN,libre,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2354.717,0.0,0.797,0.0
-CEN,libre,2050,Biomasa y otras,Cogeneración,129.66,0.0,235.974,0.0,0.08,0.0
-CEN,libre,2050,Biomasa y otras,Geotermia,81.0,0.0,355.186,0.0,0.12,0.0
+CEN,libre,2050,Almacenamiento,Baterías,9359.53,39080.438,18000.472,19564.348,,0.0
+CEN,libre,2050,Almacenamiento,Bombeo,8029.664,83643.76,20216.297,24958.391,,0.0
+CEN,libre,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2378.834,0.0,0.823,0.0
+CEN,libre,2050,Biomasa y otras,Cogeneración,129.66,0.0,281.705,0.0,0.097,0.0
+CEN,libre,2050,Biomasa y otras,Geotermia,81.0,0.0,355.186,0.0,0.123,0.0
 CEN,libre,2050,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-CEN,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,639.294,0.0,0.216,0.0
-CEN,libre,2050,Diésel,Diésel,3254.18,0.0,312.714,0.0,0.106,0.348
+CEN,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,637.595,0.0,0.221,0.0
+CEN,libre,2050,Diésel,Diésel,3254.18,0.0,310.155,0.0,0.107,0.345
 PELP_E2,base,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.929,0.0
 PELP_E2,base,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.088,0.0
 PELP_E2,base,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,1040.218,0.0,1.065,0.662
@@ -715,242 +715,242 @@ PELP_N1,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,637
 PELP_N1,libre,2050,Diésel,Diésel,3254.18,0.0,309.337,0.0,0.107,0.344
 PROPIO,base,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.9,0.0
 PROPIO,base,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.074,0.0
-PROPIO,base,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,945.072,0.0,0.966,0.608
-PROPIO,base,2025,Gas,Gas ciclo combinado,3157.16,0.0,8886.676,0.0,9.084,4.983
+PROPIO,base,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,948.56,0.0,0.97,0.61
+PROPIO,base,2025,Gas,Gas ciclo combinado,3157.16,0.0,8916.146,0.0,9.114,4.999
 PROPIO,base,2025,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2025,Eólica,Eólica,9035.78,0.0,30540.676,0.0,31.217,0.0
+PROPIO,base,2025,Eólica,Eólica,9035.78,0.0,30522.352,0.0,31.199,0.0
 PROPIO,base,2025,Solar,Solar CSP,110.0,0.0,452.969,0.0,0.463,0.0
-PROPIO,base,2025,Solar,Solar FV,10768.801,0.0,24176.064,0.0,24.712,0.0
+PROPIO,base,2025,Solar,Solar FV,10759.855,0.0,24170.771,0.0,24.706,0.0
 PROPIO,base,2025,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2025,Almacenamiento,Baterías,951.8,3314.951,1779.854,1934.488,,0.0
+PROPIO,base,2025,Almacenamiento,Baterías,951.8,3314.951,1779.205,1933.782,,0.0
 PROPIO,base,2025,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4168.024,0.0,4.26,0.0
-PROPIO,base,2025,Biomasa y otras,Cogeneración,129.66,0.0,506.741,0.0,0.518,0.0
+PROPIO,base,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4161.658,0.0,4.254,0.0
+PROPIO,base,2025,Biomasa y otras,Cogeneración,129.66,0.0,508.868,0.0,0.52,0.0
 PROPIO,base,2025,Biomasa y otras,Geotermia,81.0,0.0,367.979,0.0,0.376,0.0
-PROPIO,base,2025,Carbón,Carbón,3689.68,0.0,5551.614,0.0,5.675,5.395
+PROPIO,base,2025,Carbón,Carbón,3689.68,0.0,5546.238,0.0,5.669,5.39
 PROPIO,base,2025,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2025,Diésel,Diésel,3254.18,0.0,738.852,0.0,0.755,0.855
+PROPIO,base,2025,Diésel,Diésel,3254.18,0.0,739.071,0.0,0.755,0.855
 PROPIO,base,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.44,0.0
 PROPIO,base,2027,Hidro,Hidro pasada,2949.423,0.0,5964.89,0.0,5.547,0.0
-PROPIO,base,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3364.427,0.0,3.129,2.309
-PROPIO,base,2027,Gas,Gas ciclo combinado,3157.16,0.0,11373.758,0.0,10.576,6.338
+PROPIO,base,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3379.368,0.0,3.142,2.321
+PROPIO,base,2027,Gas,Gas ciclo combinado,3157.16,0.0,11427.14,0.0,10.626,6.357
 PROPIO,base,2027,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2027,Eólica,Eólica,9446.08,0.0,32584.459,0.0,30.3,0.0
+PROPIO,base,2027,Eólica,Eólica,9425.04,0.0,32363.244,0.0,30.094,0.0
 PROPIO,base,2027,Solar,Solar CSP,110.0,0.0,407.422,0.0,0.379,0.0
-PROPIO,base,2027,Solar,Solar FV,12827.647,0.0,30513.686,0.0,28.375,0.0
+PROPIO,base,2027,Solar,Solar FV,12797.074,0.0,30628.069,0.0,28.48,0.0
 PROPIO,base,2027,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2027,Almacenamiento,Baterías,3971.2,15524.798,7352.054,7990.798,,0.0
+PROPIO,base,2027,Almacenamiento,Baterías,3971.2,15524.798,7390.767,8032.875,,0.0
 PROPIO,base,2027,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4369.229,0.0,4.063,0.0
-PROPIO,base,2027,Biomasa y otras,Cogeneración,129.66,0.0,573.517,0.0,0.533,0.0
-PROPIO,base,2027,Biomasa y otras,Geotermia,81.0,0.0,372.774,0.0,0.347,0.0
-PROPIO,base,2027,Carbón,Carbón,1572.83,0.0,3929.519,0.0,3.654,3.982
+PROPIO,base,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4384.876,0.0,4.077,0.0
+PROPIO,base,2027,Biomasa y otras,Cogeneración,129.66,0.0,577.061,0.0,0.537,0.0
+PROPIO,base,2027,Biomasa y otras,Geotermia,81.0,0.0,370.567,0.0,0.345,0.0
+PROPIO,base,2027,Carbón,Carbón,1572.83,0.0,3956.073,0.0,3.679,4.017
 PROPIO,base,2027,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2027,Diésel,Diésel,3254.18,0.0,706.582,0.0,0.657,0.817
-PROPIO,base,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,6.764,0.0
-PROPIO,base,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,3.788,0.0
-PROPIO,base,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,389.529,0.0,0.301,0.222
-PROPIO,base,2030,Gas,Gas ciclo combinado,3157.16,0.0,5016.041,0.0,3.872,2.699
+PROPIO,base,2027,Diésel,Diésel,3254.18,0.0,704.915,0.0,0.655,0.815
+PROPIO,base,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,6.795,0.0
+PROPIO,base,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,3.806,0.0
+PROPIO,base,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,389.529,0.0,0.302,0.222
+PROPIO,base,2030,Gas,Gas ciclo combinado,3157.16,0.0,4905.796,0.0,3.805,2.643
 PROPIO,base,2030,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2030,Eólica,Eólica,20343.175,0.0,72766.765,0.0,56.17,0.0
-PROPIO,base,2030,Solar,Solar CSP,110.0,0.0,454.392,0.0,0.351,0.0
-PROPIO,base,2030,Solar,Solar FV,13248.767,0.0,32292.747,0.0,24.927,0.0
+PROPIO,base,2030,Eólica,Eólica,20289.071,0.0,72729.774,0.0,56.406,0.0
+PROPIO,base,2030,Solar,Solar CSP,110.0,0.0,454.392,0.0,0.352,0.0
+PROPIO,base,2030,Solar,Solar FV,13077.114,0.0,31832.317,0.0,24.688,0.0
 PROPIO,base,2030,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2030,Almacenamiento,Baterías,3971.2,15524.798,7386.967,8028.744,,0.0
-PROPIO,base,2030,Almacenamiento,Bombeo,1428.86,12997.059,4121.732,5088.558,,0.0
-PROPIO,base,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,3189.799,0.0,2.462,0.0
-PROPIO,base,2030,Biomasa y otras,Cogeneración,129.66,0.0,288.54,0.0,0.223,0.0
-PROPIO,base,2030,Biomasa y otras,Geotermia,81.0,0.0,405.263,0.0,0.313,0.0
-PROPIO,base,2030,Carbón,Carbón,1297.46,0.0,247.313,0.0,0.191,0.248
+PROPIO,base,2030,Almacenamiento,Baterías,3971.2,15524.798,7339.133,7976.755,,0.0
+PROPIO,base,2030,Almacenamiento,Bombeo,1374.732,12452.689,4007.136,4947.081,,0.0
+PROPIO,base,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,3193.789,0.0,2.477,0.0
+PROPIO,base,2030,Biomasa y otras,Cogeneración,129.66,0.0,288.54,0.0,0.224,0.0
+PROPIO,base,2030,Biomasa y otras,Geotermia,81.0,0.0,405.263,0.0,0.314,0.0
+PROPIO,base,2030,Carbón,Carbón,1297.46,0.0,244.311,0.0,0.189,0.246
 PROPIO,base,2030,Carbón,Carbón con co-combustión de amoníaco,275.37,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2030,Diésel,Diésel,3254.18,0.0,827.62,0.0,0.639,0.957
-PROPIO,base,2035,Hidro,Hidro embalse,4985.82,0.0,8594.176,0.0,4.657,0.0
-PROPIO,base,2035,Hidro,Hidro pasada,2949.423,0.0,4162.811,0.0,2.256,0.0
-PROPIO,base,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,767.61,0.0,0.416,0.518
-PROPIO,base,2035,Gas,Gas ciclo combinado,3157.16,0.0,4677.102,0.0,2.534,2.477
+PROPIO,base,2030,Diésel,Diésel,3254.18,0.0,825.778,0.0,0.64,0.955
+PROPIO,base,2035,Hidro,Hidro embalse,4985.82,0.0,8594.176,0.0,4.825,0.0
+PROPIO,base,2035,Hidro,Hidro pasada,2949.423,0.0,4154.435,0.0,2.332,0.0
+PROPIO,base,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,764.481,0.0,0.429,0.515
+PROPIO,base,2035,Gas,Gas ciclo combinado,3157.16,0.0,4576.875,0.0,2.569,2.435
 PROPIO,base,2035,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2035,Eólica,Eólica,33733.73,0.0,101690.53,0.0,55.105,0.0
-PROPIO,base,2035,Solar,Solar CSP,110.0,0.0,393.133,0.0,0.213,0.0
-PROPIO,base,2035,Solar,Solar FV,24223.838,0.0,59795.636,0.0,32.402,0.0
+PROPIO,base,2035,Eólica,Eólica,32982.683,0.0,100172.955,0.0,56.234,0.0
+PROPIO,base,2035,Solar,Solar CSP,110.0,0.0,389.246,0.0,0.219,0.0
+PROPIO,base,2035,Solar,Solar FV,22334.587,0.0,55113.095,0.0,30.939,0.0
 PROPIO,base,2035,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2035,Almacenamiento,Baterías,3971.2,15524.798,8707.793,9464.324,,0.0
-PROPIO,base,2035,Almacenamiento,Bombeo,4582.133,46274.853,12959.532,15999.422,,0.0
-PROPIO,base,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2838.288,0.0,1.538,0.0
-PROPIO,base,2035,Biomasa y otras,Cogeneración,129.66,0.0,288.186,0.0,0.156,0.0
-PROPIO,base,2035,Biomasa y otras,Geotermia,81.0,0.0,347.237,0.0,0.188,0.0
+PROPIO,base,2035,Almacenamiento,Baterías,3971.2,15524.798,8608.98,9356.926,,0.0
+PROPIO,base,2035,Almacenamiento,Bombeo,3911.24,39241.398,10845.321,13389.285,,0.0
+PROPIO,base,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2843.448,0.0,1.596,0.0
+PROPIO,base,2035,Biomasa y otras,Cogeneración,129.66,0.0,309.159,0.0,0.174,0.0
+PROPIO,base,2035,Biomasa y otras,Geotermia,81.0,0.0,351.055,0.0,0.197,0.0
 PROPIO,base,2035,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,461.325,0.0,0.25,0.24
-PROPIO,base,2035,Diésel,Diésel,3254.18,0.0,524.872,0.0,0.284,0.607
-PROPIO,base,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,4.514,0.0
-PROPIO,base,2040,Hidro,Hidro pasada,2949.423,0.0,5013.054,0.0,2.214,0.0
-PROPIO,base,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,843.974,0.0,0.373,0.563
-PROPIO,base,2040,Gas,Gas ciclo combinado,3157.16,0.0,4403.251,0.0,1.945,2.288
+PROPIO,base,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,357.275,0.0,0.201,0.185
+PROPIO,base,2035,Diésel,Diésel,3254.18,0.0,509.879,0.0,0.286,0.59
+PROPIO,base,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,4.872,0.0
+PROPIO,base,2040,Hidro,Hidro pasada,2949.423,0.0,5013.054,0.0,2.39,0.0
+PROPIO,base,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,578.566,0.0,0.276,0.381
+PROPIO,base,2040,Gas,Gas ciclo combinado,3157.16,0.0,4178.853,0.0,1.992,2.141
 PROPIO,base,2040,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2040,Eólica,Eólica,38077.578,0.0,124721.809,0.0,55.091,0.0
-PROPIO,base,2040,Solar,Solar CSP,110.0,0.0,357.738,0.0,0.158,0.0
-PROPIO,base,2040,Solar,Solar FV,30694.639,0.0,76331.905,0.0,33.716,0.0
+PROPIO,base,2040,Eólica,Eólica,37310.91,0.0,122822.814,0.0,58.561,0.0
+PROPIO,base,2040,Solar,Solar CSP,110.0,0.0,360.023,0.0,0.172,0.0
+PROPIO,base,2040,Solar,Solar FV,24949.63,0.0,62383.152,0.0,29.744,0.0
 PROPIO,base,2040,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2040,Almacenamiento,Baterías,3971.2,15524.798,8604.453,9352.005,,0.0
-PROPIO,base,2040,Almacenamiento,Bombeo,7065.473,72107.123,18563.164,22917.486,,0.0
-PROPIO,base,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2885.353,0.0,1.274,0.0
-PROPIO,base,2040,Biomasa y otras,Cogeneración,129.66,0.0,356.199,0.0,0.157,0.0
-PROPIO,base,2040,Biomasa y otras,Geotermia,81.0,0.0,358.499,0.0,0.158,0.0
+PROPIO,base,2040,Almacenamiento,Baterías,3971.2,15524.798,8522.704,9263.154,,0.0
+PROPIO,base,2040,Almacenamiento,Bombeo,5035.202,50884.437,13020.007,16074.083,,0.0
+PROPIO,base,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2510.88,0.0,1.197,0.0
+PROPIO,base,2040,Biomasa y otras,Cogeneración,129.66,0.0,354.39,0.0,0.169,0.0
+PROPIO,base,2040,Biomasa y otras,Geotermia,81.0,0.0,356.235,0.0,0.17,0.0
 PROPIO,base,2040,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,517.305,0.0,0.228,0.151
-PROPIO,base,2040,Diésel,Diésel,3254.18,0.0,385.247,0.0,0.17,0.443
-PROPIO,base,2045,Hidro,Hidro embalse,4985.82,0.0,9595.726,0.0,3.27,0.0
-PROPIO,base,2045,Hidro,Hidro pasada,2949.423,0.0,5268.772,0.0,1.795,0.0
-PROPIO,base,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,979.331,0.0,0.334,0.652
-PROPIO,base,2045,Gas,Gas ciclo combinado,3157.16,0.0,4648.722,0.0,1.584,2.583
+PROPIO,base,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,509.243,0.0,0.243,0.149
+PROPIO,base,2040,Diésel,Diésel,3254.18,0.0,450.197,0.0,0.215,0.519
+PROPIO,base,2045,Hidro,Hidro embalse,4985.82,0.0,9595.726,0.0,3.678,0.0
+PROPIO,base,2045,Hidro,Hidro pasada,2949.423,0.0,5268.772,0.0,2.019,0.0
+PROPIO,base,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,682.685,0.0,0.262,0.421
+PROPIO,base,2045,Gas,Gas ciclo combinado,3157.16,0.0,4302.035,0.0,1.649,2.214
 PROPIO,base,2045,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2045,Eólica,Eólica,39822.818,0.0,127340.201,0.0,43.392,0.0
-PROPIO,base,2045,Solar,Solar CSP,110.0,0.0,332.803,0.0,0.113,0.0
-PROPIO,base,2045,Solar,Solar FV,60621.402,0.0,140276.329,0.0,47.8,0.0
+PROPIO,base,2045,Eólica,Eólica,39543.77,0.0,127007.686,0.0,48.681,0.0
+PROPIO,base,2045,Solar,Solar CSP,110.0,0.0,346.752,0.0,0.133,0.0
+PROPIO,base,2045,Solar,Solar FV,45718.667,0.0,108959.194,0.0,41.763,0.0
 PROPIO,base,2045,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2045,Almacenamiento,Baterías,7323.127,38315.819,17570.174,19096.665,,0.0
-PROPIO,base,2045,Almacenamiento,Bombeo,11842.974,122204.15,32805.381,40500.471,,0.0
-PROPIO,base,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2880.163,0.0,0.981,0.0
-PROPIO,base,2045,Biomasa y otras,Cogeneración,129.66,0.0,328.336,0.0,0.112,0.0
-PROPIO,base,2045,Biomasa y otras,Geotermia,81.0,0.0,324.4,0.0,0.111,0.0
+PROPIO,base,2045,Almacenamiento,Baterías,5235.504,22316.227,12359.801,13433.617,,0.0
+PROPIO,base,2045,Almacenamiento,Bombeo,9285.05,96078.557,25046.237,30921.28,,0.0
+PROPIO,base,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2814.286,0.0,1.079,0.0
+PROPIO,base,2045,Biomasa y otras,Cogeneración,129.66,0.0,359.733,0.0,0.138,0.0
+PROPIO,base,2045,Biomasa y otras,Geotermia,81.0,0.0,323.481,0.0,0.124,0.0
 PROPIO,base,2045,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,1000.605,0.0,0.341,0.293
-PROPIO,base,2045,Diésel,Diésel,3254.18,0.0,491.198,0.0,0.167,0.569
-PROPIO,base,2050,Hidro,Hidro embalse,4985.82,0.0,10216.006,0.0,2.765,0.0
-PROPIO,base,2050,Hidro,Hidro pasada,2949.423,0.0,4917.277,0.0,1.331,0.0
-PROPIO,base,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,880.339,0.0,0.238,0.617
-PROPIO,base,2050,Gas,Gas ciclo combinado,3157.16,0.0,3481.215,0.0,0.942,1.802
+PROPIO,base,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,844.663,0.0,0.324,0.247
+PROPIO,base,2045,Diésel,Diésel,3254.18,0.0,391.248,0.0,0.15,0.45
+PROPIO,base,2050,Hidro,Hidro embalse,4985.82,0.0,10251.291,0.0,3.273,0.0
+PROPIO,base,2050,Hidro,Hidro pasada,2949.423,0.0,4913.626,0.0,1.569,0.0
+PROPIO,base,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,591.432,0.0,0.189,0.401
+PROPIO,base,2050,Gas,Gas ciclo combinado,3157.16,0.0,2660.572,0.0,0.85,1.457
 PROPIO,base,2050,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2050,Eólica,Eólica,45417.102,0.0,144976.154,0.0,39.232,0.0
-PROPIO,base,2050,Solar,Solar CSP,2672.73,0.0,12160.078,0.0,3.291,0.0
-PROPIO,base,2050,Solar,Solar FV,80281.691,0.0,188218.235,0.0,50.934,0.0
+PROPIO,base,2050,Eólica,Eólica,45505.188,0.0,142367.991,0.0,45.457,0.0
+PROPIO,base,2050,Solar,Solar CSP,110.0,0.0,366.293,0.0,0.117,0.0
+PROPIO,base,2050,Solar,Solar FV,60864.9,0.0,147628.415,0.0,47.137,0.0
 PROPIO,base,2050,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,base,2050,Almacenamiento,Baterías,14560.277,72178.578,29318.158,31865.312,,0.0
-PROPIO,base,2050,Almacenamiento,Bombeo,13204.678,136910.5,37331.751,46088.582,,0.0
-PROPIO,base,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,3043.26,0.0,0.824,0.0
-PROPIO,base,2050,Biomasa y otras,Cogeneración,129.66,0.0,349.372,0.0,0.095,0.0
-PROPIO,base,2050,Biomasa y otras,Geotermia,81.0,0.0,404.693,0.0,0.11,0.0
+PROPIO,base,2050,Almacenamiento,Baterías,11088.688,55398.656,24004.589,26090.102,,0.0
+PROPIO,base,2050,Almacenamiento,Bombeo,10413.9,108270.157,27160.262,33531.187,,0.0
+PROPIO,base,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2776.292,0.0,0.886,0.0
+PROPIO,base,2050,Biomasa y otras,Cogeneración,129.66,0.0,279.438,0.0,0.089,0.0
+PROPIO,base,2050,Biomasa y otras,Geotermia,81.0,0.0,343.607,0.0,0.11,0.0
 PROPIO,base,2050,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,base,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,535.037,0.0,0.145,0.0
-PROPIO,base,2050,Diésel,Diésel,3254.18,0.0,351.568,0.0,0.095,0.407
+PROPIO,base,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,601.213,0.0,0.192,0.0
+PROPIO,base,2050,Diésel,Diésel,3254.18,0.0,410.935,0.0,0.131,0.47
 PROPIO,libre,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.9,0.0
 PROPIO,libre,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.074,0.0
-PROPIO,libre,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,962.174,0.0,0.984,0.618
-PROPIO,libre,2025,Gas,Gas ciclo combinado,3157.16,0.0,8992.566,0.0,9.192,5.04
+PROPIO,libre,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,985.588,0.0,1.007,0.631
+PROPIO,libre,2025,Gas,Gas ciclo combinado,3157.16,0.0,9016.06,0.0,9.216,5.054
 PROPIO,libre,2025,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2025,Eólica,Eólica,9018.1,0.0,30495.892,0.0,31.172,0.0
-PROPIO,libre,2025,Solar,Solar CSP,110.0,0.0,455.092,0.0,0.465,0.0
-PROPIO,libre,2025,Solar,Solar FV,10733.913,0.0,24077.183,0.0,24.611,0.0
+PROPIO,libre,2025,Eólica,Eólica,9016.67,0.0,30269.723,0.0,30.941,0.0
+PROPIO,libre,2025,Solar,Solar CSP,110.0,0.0,455.265,0.0,0.465,0.0
+PROPIO,libre,2025,Solar,Solar FV,10691.892,0.0,24217.689,0.0,24.755,0.0
 PROPIO,libre,2025,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2025,Almacenamiento,Baterías,951.8,3314.951,1749.517,1901.515,,0.0
+PROPIO,libre,2025,Almacenamiento,Baterías,951.8,3314.951,1750.249,1902.31,,0.0
 PROPIO,libre,2025,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4183.503,0.0,4.276,0.0
-PROPIO,libre,2025,Biomasa y otras,Cogeneración,129.66,0.0,517.307,0.0,0.529,0.0
-PROPIO,libre,2025,Biomasa y otras,Geotermia,81.0,0.0,375.144,0.0,0.383,0.0
-PROPIO,libre,2025,Carbón,Carbón,3689.68,0.0,5530.177,0.0,5.653,5.375
+PROPIO,libre,2025,Biomasa y otras,Biomasa y biogás,637.42,0.0,4199.655,0.0,4.293,0.0
+PROPIO,libre,2025,Biomasa y otras,Cogeneración,129.66,0.0,512.261,0.0,0.524,0.0
+PROPIO,libre,2025,Biomasa y otras,Geotermia,81.0,0.0,376.092,0.0,0.384,0.0
+PROPIO,libre,2025,Carbón,Carbón,3689.68,0.0,5560.261,0.0,5.684,5.402
 PROPIO,libre,2025,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2025,Diésel,Diésel,3254.18,0.0,742.992,0.0,0.759,0.86
-PROPIO,libre,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.442,0.0
+PROPIO,libre,2025,Diésel,Diésel,3254.18,0.0,739.502,0.0,0.756,0.855
+PROPIO,libre,2027,Hidro,Hidro embalse,4985.82,0.0,13378.029,0.0,12.443,0.0
 PROPIO,libre,2027,Hidro,Hidro pasada,2949.423,0.0,5964.89,0.0,5.548,0.0
-PROPIO,libre,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3457.19,0.0,3.215,2.384
-PROPIO,libre,2027,Gas,Gas ciclo combinado,3157.16,0.0,11843.179,0.0,11.015,6.559
+PROPIO,libre,2027,Gas,Gas ciclo abierto y motores,1714.22,0.0,3466.963,0.0,3.225,2.391
+PROPIO,libre,2027,Gas,Gas ciclo combinado,3157.16,0.0,11961.157,0.0,11.125,6.657
 PROPIO,libre,2027,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2027,Eólica,Eólica,9600.74,0.0,33078.19,0.0,30.765,0.0
-PROPIO,libre,2027,Solar,Solar CSP,110.0,0.0,407.422,0.0,0.379,0.0
-PROPIO,libre,2027,Solar,Solar FV,12181.643,0.0,29283.263,0.0,27.235,0.0
+PROPIO,libre,2027,Eólica,Eólica,9600.74,0.0,33193.338,0.0,30.872,0.0
+PROPIO,libre,2027,Solar,Solar CSP,110.0,0.0,408.792,0.0,0.38,0.0
+PROPIO,libre,2027,Solar,Solar FV,12037.055,0.0,28945.574,0.0,26.922,0.0
 PROPIO,libre,2027,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2027,Almacenamiento,Baterías,3971.2,15524.798,7145.871,7766.702,,0.0
+PROPIO,libre,2027,Almacenamiento,Baterías,3971.2,15524.798,7114.682,7732.804,,0.0
 PROPIO,libre,2027,Almacenamiento,Bombeo,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4459.352,0.0,4.147,0.0
-PROPIO,libre,2027,Biomasa y otras,Cogeneración,129.66,0.0,592.463,0.0,0.551,0.0
-PROPIO,libre,2027,Biomasa y otras,Geotermia,81.0,0.0,375.582,0.0,0.349,0.0
-PROPIO,libre,2027,Carbón,Carbón,1572.83,0.0,3973.502,0.0,3.696,4.035
+PROPIO,libre,2027,Biomasa y otras,Biomasa y biogás,837.42,0.0,4485.967,0.0,4.172,0.0
+PROPIO,libre,2027,Biomasa y otras,Cogeneración,129.66,0.0,595.56,0.0,0.554,0.0
+PROPIO,libre,2027,Biomasa y otras,Geotermia,81.0,0.0,378.659,0.0,0.352,0.0
+PROPIO,libre,2027,Carbón,Carbón,1572.83,0.0,4031.266,0.0,3.749,4.103
 PROPIO,libre,2027,Carbón,Carbón con co-combustión de amoníaco,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2027,Diésel,Diésel,3254.18,0.0,707.314,0.0,0.658,0.817
-PROPIO,libre,2030,Hidro,Hidro embalse,4985.82,0.0,8754.938,0.0,6.79,0.0
-PROPIO,libre,2030,Hidro,Hidro pasada,2949.423,0.0,4907.003,0.0,3.806,0.0
-PROPIO,libre,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2030,Gas,Gas ciclo combinado,3157.16,0.0,4231.635,0.0,3.282,2.233
+PROPIO,libre,2027,Diésel,Diésel,3254.18,0.0,707.473,0.0,0.658,0.818
+PROPIO,libre,2030,Hidro,Hidro embalse,4985.82,0.0,8761.973,0.0,6.825,0.0
+PROPIO,libre,2030,Hidro,Hidro pasada,2949.423,0.0,4907.596,0.0,3.823,0.0
+PROPIO,libre,2030,Gas,Gas ciclo abierto y motores,1714.22,0.0,18.149,0.0,0.014,0.012
+PROPIO,libre,2030,Gas,Gas ciclo combinado,3157.16,0.0,4250.125,0.0,3.311,2.242
 PROPIO,libre,2030,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2030,Eólica,Eólica,21819.594,0.0,76670.18,0.0,59.462,0.0
-PROPIO,libre,2030,Solar,Solar CSP,110.0,0.0,446.306,0.0,0.346,0.0
-PROPIO,libre,2030,Solar,Solar FV,12181.643,0.0,29192.369,0.0,22.64,0.0
+PROPIO,libre,2030,Eólica,Eólica,21793.989,0.0,76536.422,0.0,59.618,0.0
+PROPIO,libre,2030,Solar,Solar CSP,110.0,0.0,447.902,0.0,0.349,0.0
+PROPIO,libre,2030,Solar,Solar FV,12037.055,0.0,28949.771,0.0,22.551,0.0
 PROPIO,libre,2030,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2030,Almacenamiento,Baterías,3971.2,15524.798,7589.375,8248.738,,0.0
-PROPIO,libre,2030,Almacenamiento,Bombeo,496.443,4771.19,1451.974,1792.56,,0.0
-PROPIO,libre,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,3064.355,0.0,2.377,0.0
-PROPIO,libre,2030,Biomasa y otras,Cogeneración,129.66,0.0,286.296,0.0,0.222,0.0
-PROPIO,libre,2030,Biomasa y otras,Geotermia,81.0,0.0,390.81,0.0,0.303,0.0
-PROPIO,libre,2030,Carbón,Carbón,1297.46,0.0,228.26,0.0,0.177,0.23
+PROPIO,libre,2030,Almacenamiento,Baterías,3971.2,15524.798,7885.603,8570.702,,0.0
+PROPIO,libre,2030,Almacenamiento,Bombeo,466.525,4528.85,1410.714,1741.622,,0.0
+PROPIO,libre,2030,Biomasa y otras,Biomasa y biogás,837.42,0.0,2917.07,0.0,2.272,0.0
+PROPIO,libre,2030,Biomasa y otras,Cogeneración,129.66,0.0,288.223,0.0,0.225,0.0
+PROPIO,libre,2030,Biomasa y otras,Geotermia,81.0,0.0,390.81,0.0,0.304,0.0
+PROPIO,libre,2030,Carbón,Carbón,1297.46,0.0,167.741,0.0,0.131,0.174
 PROPIO,libre,2030,Carbón,Carbón con co-combustión de amoníaco,275.37,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2030,Diésel,Diésel,3254.18,0.0,766.771,0.0,0.595,0.887
-PROPIO,libre,2035,Hidro,Hidro embalse,4985.82,0.0,8595.224,0.0,4.693,0.0
-PROPIO,libre,2035,Hidro,Hidro pasada,2949.423,0.0,4148.22,0.0,2.265,0.0
-PROPIO,libre,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,593.188,0.0,0.324,0.369
-PROPIO,libre,2035,Gas,Gas ciclo combinado,3157.16,0.0,4657.734,0.0,2.543,2.395
+PROPIO,libre,2030,Diésel,Diésel,3254.18,0.0,741.716,0.0,0.578,0.859
+PROPIO,libre,2035,Hidro,Hidro embalse,4985.82,0.0,8586.041,0.0,4.846,0.0
+PROPIO,libre,2035,Hidro,Hidro pasada,2949.423,0.0,4150.443,0.0,2.343,0.0
+PROPIO,libre,2035,Gas,Gas ciclo abierto y motores,1714.22,0.0,664.94,0.0,0.375,0.409
+PROPIO,libre,2035,Gas,Gas ciclo combinado,3157.16,0.0,4749.591,0.0,2.681,2.523
 PROPIO,libre,2035,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2035,Eólica,Eólica,37667.538,0.0,112093.236,0.0,61.201,0.0
-PROPIO,libre,2035,Solar,Solar CSP,110.0,0.0,349.365,0.0,0.191,0.0
-PROPIO,libre,2035,Solar,Solar FV,19843.673,0.0,48573.287,0.0,26.52,0.0
+PROPIO,libre,2035,Eólica,Eólica,35611.14,0.0,106938.767,0.0,60.356,0.0
+PROPIO,libre,2035,Solar,Solar CSP,110.0,0.0,393.353,0.0,0.222,0.0
+PROPIO,libre,2035,Solar,Solar FV,19624.021,0.0,47589.96,0.0,26.86,0.0
 PROPIO,libre,2035,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2035,Almacenamiento,Baterías,3971.2,15524.798,8513.909,9253.595,,0.0
-PROPIO,libre,2035,Almacenamiento,Bombeo,2594.516,26596.828,7126.565,8798.228,,0.0
-PROPIO,libre,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2754.441,0.0,1.504,0.0
-PROPIO,libre,2035,Biomasa y otras,Cogeneración,129.66,0.0,328.793,0.0,0.18,0.0
-PROPIO,libre,2035,Biomasa y otras,Geotermia,81.0,0.0,348.695,0.0,0.19,0.0
+PROPIO,libre,2035,Almacenamiento,Baterías,3971.2,15524.798,8660.242,9412.642,,0.0
+PROPIO,libre,2035,Almacenamiento,Bombeo,2417.571,24680.331,6745.562,8327.855,,0.0
+PROPIO,libre,2035,Biomasa y otras,Biomasa y biogás,837.42,0.0,2750.667,0.0,1.552,0.0
+PROPIO,libre,2035,Biomasa y otras,Cogeneración,129.66,0.0,333.24,0.0,0.188,0.0
+PROPIO,libre,2035,Biomasa y otras,Geotermia,81.0,0.0,351.368,0.0,0.198,0.0
 PROPIO,libre,2035,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,182.721,0.0,0.1,0.093
-PROPIO,libre,2035,Diésel,Diésel,3254.18,0.0,530.929,0.0,0.29,0.614
-PROPIO,libre,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,4.565,0.0
-PROPIO,libre,2040,Hidro,Hidro pasada,2949.423,0.0,5019.806,0.0,2.242,0.0
-PROPIO,libre,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,432.053,0.0,0.193,0.276
-PROPIO,libre,2040,Gas,Gas ciclo combinado,3157.16,0.0,3716.568,0.0,1.66,1.915
+PROPIO,libre,2035,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,182.721,0.0,0.103,0.093
+PROPIO,libre,2035,Diésel,Diésel,3254.18,0.0,487.768,0.0,0.275,0.564
+PROPIO,libre,2040,Hidro,Hidro embalse,4985.82,0.0,10219.012,0.0,4.909,0.0
+PROPIO,libre,2040,Hidro,Hidro pasada,2949.423,0.0,5019.469,0.0,2.411,0.0
+PROPIO,libre,2040,Gas,Gas ciclo abierto y motores,1714.22,0.0,372.973,0.0,0.179,0.227
+PROPIO,libre,2040,Gas,Gas ciclo combinado,3157.16,0.0,3755.369,0.0,1.804,1.935
 PROPIO,libre,2040,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2040,Eólica,Eólica,45457.733,0.0,146348.418,0.0,65.376,0.0
-PROPIO,libre,2040,Solar,Solar CSP,110.0,0.0,434.244,0.0,0.194,0.0
-PROPIO,libre,2040,Solar,Solar FV,21672.469,0.0,53524.5,0.0,23.91,0.0
+PROPIO,libre,2040,Eólica,Eólica,41676.248,0.0,135475.709,0.0,65.077,0.0
+PROPIO,libre,2040,Solar,Solar CSP,110.0,0.0,366.733,0.0,0.176,0.0
+PROPIO,libre,2040,Solar,Solar FV,19808.521,0.0,48991.932,0.0,23.534,0.0
 PROPIO,libre,2040,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2040,Almacenamiento,Baterías,3971.2,15524.798,7412.233,8056.206,,0.0
-PROPIO,libre,2040,Almacenamiento,Bombeo,3313.89,34072.007,8187.583,10108.127,,0.0
-PROPIO,libre,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2591.675,0.0,1.158,0.0
-PROPIO,libre,2040,Biomasa y otras,Cogeneración,129.66,0.0,294.792,0.0,0.132,0.0
-PROPIO,libre,2040,Biomasa y otras,Geotermia,81.0,0.0,412.954,0.0,0.184,0.0
+PROPIO,libre,2040,Almacenamiento,Baterías,3971.2,15524.798,7180.801,7804.667,,0.0
+PROPIO,libre,2040,Almacenamiento,Bombeo,2829.325,29127.28,6867.793,8478.757,,0.0
+PROPIO,libre,2040,Biomasa y otras,Biomasa y biogás,837.42,0.0,2448.868,0.0,1.176,0.0
+PROPIO,libre,2040,Biomasa y otras,Cogeneración,129.66,0.0,360.214,0.0,0.173,0.0
+PROPIO,libre,2040,Biomasa y otras,Geotermia,81.0,0.0,357.045,0.0,0.172,0.0
 PROPIO,libre,2040,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,421.317,0.0,0.188,0.123
-PROPIO,libre,2040,Diésel,Diésel,3254.18,0.0,440.65,0.0,0.197,0.507
-PROPIO,libre,2045,Hidro,Hidro embalse,4985.82,0.0,9595.726,0.0,3.309,0.0
-PROPIO,libre,2045,Hidro,Hidro pasada,2949.423,0.0,5269.141,0.0,1.817,0.0
-PROPIO,libre,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,441.953,0.0,0.152,0.263
-PROPIO,libre,2045,Gas,Gas ciclo combinado,3157.16,0.0,4057.143,0.0,1.399,2.093
+PROPIO,libre,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,369.093,0.0,0.177,0.107
+PROPIO,libre,2040,Diésel,Diésel,3254.18,0.0,440.307,0.0,0.212,0.507
+PROPIO,libre,2045,Hidro,Hidro embalse,4985.82,0.0,9500.585,0.0,3.668,0.0
+PROPIO,libre,2045,Hidro,Hidro pasada,2949.423,0.0,5275.89,0.0,2.037,0.0
+PROPIO,libre,2045,Gas,Gas ciclo abierto y motores,1714.22,0.0,471.494,0.0,0.182,0.28
+PROPIO,libre,2045,Gas,Gas ciclo combinado,3157.16,0.0,3917.042,0.0,1.512,1.958
 PROPIO,libre,2045,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2045,Eólica,Eólica,52044.95,0.0,168092.128,0.0,57.96,0.0
-PROPIO,libre,2045,Solar,Solar CSP,110.0,0.0,409.532,0.0,0.141,0.0
-PROPIO,libre,2045,Solar,Solar FV,39999.619,0.0,97565.306,0.0,33.641,0.0
+PROPIO,libre,2045,Eólica,Eólica,45411.851,0.0,145169.406,0.0,56.052,0.0
+PROPIO,libre,2045,Solar,Solar CSP,110.0,0.0,349.203,0.0,0.135,0.0
+PROPIO,libre,2045,Solar,Solar FV,36616.901,0.0,90076.463,0.0,34.78,0.0
 PROPIO,libre,2045,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2045,Almacenamiento,Baterías,5786.389,25720.936,11940.794,12978.207,,0.0
-PROPIO,libre,2045,Almacenamiento,Bombeo,7999.802,83201.826,20179.841,24913.384,,0.0
-PROPIO,libre,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2701.017,0.0,0.931,0.0
-PROPIO,libre,2045,Biomasa y otras,Cogeneración,129.66,0.0,350.619,0.0,0.121,0.0
-PROPIO,libre,2045,Biomasa y otras,Geotermia,81.0,0.0,377.527,0.0,0.13,0.0
+PROPIO,libre,2045,Almacenamiento,Baterías,4993.06,20585.061,10478.759,11389.151,,0.0
+PROPIO,libre,2045,Almacenamiento,Bombeo,6917.606,72080.69,17617.586,21750.106,,0.0
+PROPIO,libre,2045,Biomasa y otras,Biomasa y biogás,837.42,0.0,2423.92,0.0,0.936,0.0
+PROPIO,libre,2045,Biomasa y otras,Cogeneración,129.66,0.0,354.903,0.0,0.137,0.0
+PROPIO,libre,2045,Biomasa y otras,Geotermia,81.0,0.0,327.448,0.0,0.126,0.0
 PROPIO,libre,2045,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,739.483,0.0,0.255,0.216
-PROPIO,libre,2045,Diésel,Diésel,3254.18,0.0,416.386,0.0,0.144,0.479
-PROPIO,libre,2050,Hidro,Hidro embalse,4985.82,0.0,10254.786,0.0,2.785,0.0
-PROPIO,libre,2050,Hidro,Hidro pasada,2949.423,0.0,4924.037,0.0,1.337,0.0
-PROPIO,libre,2050,Gas,Gas ciclo abierto y motores,2474.39,0.0,1759.086,0.0,0.478,1.231
-PROPIO,libre,2050,Gas,Gas ciclo combinado,3157.16,0.0,2826.421,0.0,0.768,1.694
+PROPIO,libre,2045,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,683.283,0.0,0.264,0.2
+PROPIO,libre,2045,Diésel,Diésel,3254.18,0.0,440.676,0.0,0.17,0.507
+PROPIO,libre,2050,Hidro,Hidro embalse,4985.82,0.0,10254.786,0.0,3.289,0.0
+PROPIO,libre,2050,Hidro,Hidro pasada,2949.423,0.0,4922.031,0.0,1.579,0.0
+PROPIO,libre,2050,Gas,Gas ciclo abierto y motores,1714.22,0.0,864.74,0.0,0.277,0.604
+PROPIO,libre,2050,Gas,Gas ciclo combinado,3157.16,0.0,2350.89,0.0,0.754,1.4
 PROPIO,libre,2050,Gas,Gas con captura de CO2,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2050,Eólica,Eólica,56666.04,0.0,178316.521,0.0,48.43,0.0
-PROPIO,libre,2050,Solar,Solar CSP,110.0,0.0,400.932,0.0,0.109,0.0
-PROPIO,libre,2050,Solar,Solar FV,67485.516,0.0,165482.207,0.0,44.945,0.0
+PROPIO,libre,2050,Eólica,Eólica,50412.821,0.0,158001.122,0.0,50.676,0.0
+PROPIO,libre,2050,Solar,Solar CSP,110.0,0.0,396.739,0.0,0.127,0.0
+PROPIO,libre,2050,Solar,Solar FV,53301.345,0.0,131016.823,0.0,42.021,0.0
 PROPIO,libre,2050,Almacenamiento,Aire comprimido y Carnot,0.0,0.0,0.0,0.0,,0.0
-PROPIO,libre,2050,Almacenamiento,Baterías,12764.044,65635.85,27125.31,29481.95,,0.0
-PROPIO,libre,2050,Almacenamiento,Bombeo,12057.42,127024.076,32424.011,40029.643,,0.0
-PROPIO,libre,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2644.558,0.0,0.718,0.0
-PROPIO,libre,2050,Biomasa y otras,Cogeneración,129.66,0.0,250.544,0.0,0.068,0.0
-PROPIO,libre,2050,Biomasa y otras,Geotermia,81.0,0.0,359.004,0.0,0.098,0.0
+PROPIO,libre,2050,Almacenamiento,Baterías,10252.638,45005.714,20543.254,22328.046,,0.0
+PROPIO,libre,2050,Almacenamiento,Bombeo,8780.543,92200.48,22461.119,27729.777,,0.0
+PROPIO,libre,2050,Biomasa y otras,Biomasa y biogás,837.42,0.0,2442.813,0.0,0.783,0.0
+PROPIO,libre,2050,Biomasa y otras,Cogeneración,129.66,0.0,238.562,0.0,0.077,0.0
+PROPIO,libre,2050,Biomasa y otras,Geotermia,81.0,0.0,359.004,0.0,0.115,0.0
 PROPIO,libre,2050,Carbón,Carbón,0.0,0.0,0.0,0.0,0.0,0.0
-PROPIO,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,606.495,0.0,0.165,0.0
-PROPIO,libre,2050,Diésel,Diésel,3254.18,0.0,366.932,0.0,0.1,0.382
+PROPIO,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,0.0,637.595,0.0,0.204,0.0
+PROPIO,libre,2050,Diésel,Diésel,3254.18,0.0,303.012,0.0,0.097,0.337
 SIN_DC,base,2025,Hidro,Hidro embalse,4985.82,0.0,14577.124,0.0,14.929,0.0
 SIN_DC,base,2025,Hidro,Hidro pasada,2949.423,0.0,6920.943,0.0,7.088,0.0
 SIN_DC,base,2025,Gas,Gas ciclo abierto y motores,1414.22,0.0,1067.013,0.0,1.093,0.677

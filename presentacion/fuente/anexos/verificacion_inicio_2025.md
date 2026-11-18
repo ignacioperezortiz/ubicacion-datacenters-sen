@@ -1,5 +1,7 @@
 # Verificación de los anexos: cambio a inicio 2025 (17-nov-2026)
 
+> **Versión anterior.** Esta verificación corresponde al crecimiento de 5 % (CEN) y 8 % (PROPIO) del commit `52e1882`. Las cifras vigentes de los anexos, con 3 % anual, están en `verificacion_transmision_dc.md`, que regenera `anexos_tx_dc.py`.
+
 Los anexos se actualizaron al cambio de modelo descrito en `modelo_switch\CAMBIO_INICIO_2025.md` (decisiones 1–13). Los inputs vienen de `modelo_switch (proyecto privado del equipo)\casos_2025\<CASO>\inputs\`. Las comprobaciones de abajo pasan en los dos scripts. La copia del repositorio (`ubicacion-datacenters-sen\casos\`) todavía tiene los inputs anteriores.
 
 - **Respaldo de la versión anterior de los 6 archivos y su verificación:** scratchpad de la sesión, carpeta `bak_anexos_pre_inicio2025\`.

@@ -21,11 +21,11 @@ Valor presente a 2025, en millones de USD, con tasa de 6 %. El sistema sin data 
 | Escenario de data centers | Costo extra, ubicación proyectada | Costo extra, ubicación óptima | Ahorro | Ahorro / costo extra | Costo extra por MWh de data centers |
 |---|---:|---:|---:|---:|---:|
 | PELP 2028–2032, E2 | 1.039,9 | 860,8 | 179,1 | 17,2 % | 41,9 → 34,7 USD/MWh |
-| Coordinador (CEN 2026) | 4.263,4 | 3.491,5 | 772,0 | 18,1 % | 43,6 → 35,7 USD/MWh |
+| Coordinador (CEN 2026) | 3.496,2 | 2.996,6 | 499,7 | 14,3 % | 44,1 → 37,8 USD/MWh |
 | PELP 2028–2032, N1 | 3.502,8 | 2.883,2 | 619,7 | 17,7 % | 40,4 → 33,3 USD/MWh |
-| Proyección propia (solicitudes CEN) | 16.184,1 | 11.635,1 | 4.549,0 | 28,1 % | 45,2 → 32,5 USD/MWh |
+| Proyección propia (solicitudes CEN) | 9.724,4 | 7.322,5 | 2.401,9 | 24,7 % | 43,5 → 32,8 USD/MWh |
 
-Ubicar bien los data centers evita entre el 17 % y el 28 % del costo que le agregan al sistema, de 11,9 a 14,9 USD por MWh reubicado. Zonas que elige el modelo: Nueva Ancud en los cuatro escenarios; en la proyección propia, también Río Malleco, Pichirropulli y Nueva Puerto Montt y, en 2050, el norte grande (Nueva Pozo Almonte, Nueva Zaldívar, Parinacota y Lagunas), que recibe un tercio de lo reubicable. Las proyecciones los ponen sobre todo en Santiago y Valparaíso. El análisis completo, con la matriz eficiente, la transmisión, las inversiones, los precios y las emisiones, está en **[docs/ANALISIS.md](docs/ANALISIS.md)**.
+Ubicar bien los data centers evita entre el 14 % y el 25 % del costo que le agregan al sistema, de 11,9 a 14,0 USD por MWh reubicado. Zonas que elige el modelo: Nueva Ancud en los cuatro escenarios; en la proyección propia, también Río Malleco, Pichirropulli y Nueva Puerto Montt. Las proyecciones los ponen sobre todo en Santiago y Valparaíso. El análisis completo, con la matriz eficiente, la transmisión, las inversiones, los precios y las emisiones, está en **[docs/ANALISIS.md](docs/ANALISIS.md)**.
 
 ## Contenido
 
@@ -141,13 +141,13 @@ Cada caso es un programa lineal de **1,54 millones de restricciones, 1,35 millon
 
 | Etapa | Tiempo por corrida |
 |---|---|
-| Lectura de datos y construcción del modelo (Pyomo) | 20–33 s |
+| Lectura de datos y construcción del modelo (Pyomo) | 20–26 s |
 | Barrera de Gurobi | 7–13 min |
 | Crossover | 15–55 s |
-| Escritura de resultados | 42–77 s |
+| Escritura de resultados | 43–77 s |
 | **Total por corrida** | **10–18 min** |
 
-- **Estudio completo:** son 9 corridas (sin data centers, más 4 escenarios × base y libre). En serie suman 115 min de reloj. `SIN_DC` y PROPIO base corrieron a la vez, con 8 hilos cada una; las otras 7, de a una y con 14 hilos.
+- **Estudio completo:** son 9 corridas (sin data centers, más 4 escenarios × base y libre). En serie suman 116 min de reloj. `SIN_DC` corrió a la vez que otra corrida, con 8 hilos; las otras 8, de a una y con 14 hilos.
 - **Memoria:** con 7 períodos, el ordenamiento de la barrera llega a unos 20–60 GB por corrida. Por eso se recomienda una corrida a la vez (`--paralelo 1`).
 - **Detalle por corrida:** en `resultados/tablas/tiempos_computo.csv`.
 - **Por qué 6 días típicos:** con 12 días típicos por año, como la PELP 2023–2027, el problema duplica su tamaño y la barrera de Gurobi se queda sin memoria con 63 GB. Por eso se usan 6 días típicos, uno por mes impar, que cuenta también por el mes siguiente, igual que la PELP 2028–2032.
@@ -157,7 +157,7 @@ Cada caso es un programa lineal de **1,54 millones de restricciones, 1,35 millon
 - **Planificación** con previsión perfecta, sin compromiso de unidades ni inercia, con reserva sistémica, de 2025 a 2054 y con valor presente a 2025.
 - **Punto de partida:** la capacidad existente es la de los datos de entrada de AMEBA en servicio el 1 de enero de 2025. Lo que AMEBA decidió construir (3.000 MW solares fotovoltaicos y 1.000 MW eólicos en 2025, 92,1 MW de baterías en 2024 y 2.672 MW de transmisión en 2025) vuelve a ser candidato. Las baterías «ley» (2.000 MW) son candidatas a costo 0 desde 2027, y las obras de transmisión comprometidas (enlace de corriente continua Kimal–Lo Aguirre, 2.000 MW, y Río Malleco–Pichirropulli, 660 MW) entran en 2030.
 - **Red:** modelo de transporte sin pérdidas. La red de 31 zonas tiene solo 3–4 lazos.
-- **Demanda de data centers:** plana, igual al 50 % de la capacidad instalada o solicitada, el mismo factor de la PELP. Las proyecciones del CEN y la propia, que terminan en 2030 y 2032, crecen después 5 % y 8 % anual.
+- **Demanda de data centers:** plana, igual al 50 % de la capacidad instalada o solicitada, el mismo factor de la PELP. Las proyecciones del CEN y la propia, que terminan en 2030 y 2032, crecen después 3 % anual.
 - **Salidas de AMEBA que se usan como dato:** la energía hidro por día típico, el perfil de consumo de hidrógeno y amoníaco y el factor 1,031 de la demanda. Son pendientes documentados.
 - **Sin costos de conexión ni de terreno** de los data centers: el ahorro es solo del sistema eléctrico.
 - **Escenario propio:** viene de un catastro de solicitudes de conexión al Coordinador Eléctrico Nacional (Acceso Abierto) cruzado con el SEIA, elaborado por Raúl Ugarte (CENTRA UAI), conciliado sin duplicados con la demanda de la PELP y con un catálogo propio de proyectos.

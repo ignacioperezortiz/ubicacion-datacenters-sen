@@ -229,7 +229,7 @@ Módulo `data_centers`. La carga de data centers de cada zona tiene dos partes:
 - **fija**, $\bar D^{\mathrm{DC}}_{z,y}$: no se mueve en ningún caso;
 - **ubicable**, $x^{\mathrm{DC}}_{z,y}$: su total por período $D^{\mathrm{DC}}_y$ es un dato; su reparto entre zonas es un dato en el caso base y una decisión en el caso libre.
 
-$D^{\mathrm{DC}}_y$ sale de cada escenario (DATOS_Y_SUPUESTOS.md): las trayectorias de la PELP 2028–2032 (E2 y N1) sin cambios; la del CEN, que crece 5 % anual desde 2031; y la propia, cuya demanda total de data centers crece 8 % anual desde 2033, con todo ese crecimiento ubicable.
+$D^{\mathrm{DC}}_y$ sale de cada escenario (DATOS_Y_SUPUESTOS.md): las trayectorias de la PELP 2028–2032 (E2 y N1) sin cambios; la del CEN, que crece 3 % anual desde 2031; y la propia, cuya demanda total de data centers crece 3 % anual desde 2033, con todo ese crecimiento ubicable.
 
 $$
 \begin{aligned}

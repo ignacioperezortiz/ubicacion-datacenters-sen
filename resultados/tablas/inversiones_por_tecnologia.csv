@@ -1,57 +1,57 @@
 escenario,modo,periodo,familia,grupo,MW_construidos,MW_comprometidos,MW_decididos,MWh_almacenamiento
 CEN,base,2025,Almacenamiento,Baterías,1019.4,1019.4,0.0,4536.249
 CEN,base,2025,Biomasa y otras,Biomasa y biogás,200.0,200.0,0.0,0.0
-CEN,base,2025,Eólica,Eólica,5066.237,0.0,5066.237,0.0
+CEN,base,2025,Eólica,Eólica,5077.668,0.0,5077.668,0.0
 CEN,base,2025,Gas,Gas ciclo abierto y motores,300.0,300.0,0.0,0.0
-CEN,base,2025,Solar,Solar FV,3061.073,0.0,3061.073,0.0
+CEN,base,2025,Solar,Solar FV,3018.635,0.0,3018.635,0.0
 CEN,base,2027,Almacenamiento,Baterías,2000.0,0.0,2000.0,7673.6
-CEN,base,2027,Eólica,Eólica,595.503,0.0,595.503,0.0
-CEN,base,2027,Solar,Solar FV,764.62,0.0,764.62,0.0
-CEN,base,2030,Almacenamiento,Bombeo,552.112,0.0,552.112,5222.111
+CEN,base,2027,Eólica,Eólica,584.072,0.0,584.072,0.0
+CEN,base,2027,Solar,Solar FV,780.843,0.0,780.843,0.0
+CEN,base,2030,Almacenamiento,Bombeo,529.163,0.0,529.163,5036.224
 CEN,base,2030,Carbón,Carbón con co-combustión de amoníaco,976.67,976.67,0.0,0.0
-CEN,base,2030,Eólica,Eólica,9012.965,0.0,9012.965,0.0
-CEN,base,2035,Almacenamiento,Bombeo,2000.073,0.0,2000.073,20094.596
-CEN,base,2035,Eólica,Eólica,12241.013,0.0,12241.013,0.0
-CEN,base,2035,Solar,Solar FV,8107.353,0.0,8107.353,0.0
-CEN,base,2040,Almacenamiento,Bombeo,538.527,0.0,538.527,5686.897
+CEN,base,2030,Eólica,Eólica,8973.881,0.0,8973.881,0.0
+CEN,base,2035,Almacenamiento,Bombeo,1911.047,0.0,1911.047,19044.277
+CEN,base,2035,Eólica,Eólica,12199.031,0.0,12199.031,0.0
+CEN,base,2035,Solar,Solar FV,7770.738,0.0,7770.738,0.0
+CEN,base,2040,Almacenamiento,Bombeo,388.532,0.0,388.532,4196.145
 CEN,base,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-CEN,base,2040,Eólica,Eólica,4935.647,0.0,4935.647,0.0
-CEN,base,2040,Solar,Solar FV,273.08,0.0,273.08,0.0
-CEN,base,2045,Almacenamiento,Baterías,3214.266,0.0,3214.266,14588.939
-CEN,base,2045,Almacenamiento,Bombeo,4286.684,0.0,4286.684,45225.381
-CEN,base,2045,Eólica,Eólica,2647.657,0.0,2647.657,0.0
-CEN,base,2045,Solar,Solar FV,18770.454,0.0,18770.454,0.0
-CEN,base,2050,Almacenamiento,Baterías,4606.933,0.0,4606.933,22597.531
-CEN,base,2050,Almacenamiento,Bombeo,1846.982,0.0,1846.982,19947.401
+CEN,base,2040,Eólica,Eólica,4662.867,0.0,4662.867,0.0
+CEN,base,2040,Solar,Solar FV,11.859,0.0,11.859,0.0
+CEN,base,2045,Almacenamiento,Baterías,3143.647,0.0,3143.647,14255.519
+CEN,base,2045,Almacenamiento,Bombeo,4112.538,0.0,4112.538,43215.41
+CEN,base,2045,Eólica,Eólica,2873.387,0.0,2873.387,0.0
+CEN,base,2045,Solar,Solar FV,17310.326,0.0,17310.326,0.0
+CEN,base,2050,Almacenamiento,Baterías,4276.543,0.0,4276.543,18389.387
+CEN,base,2050,Almacenamiento,Bombeo,1877.464,0.0,1877.464,20276.617
 CEN,base,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-CEN,base,2050,Eólica,Eólica,6036.943,0.0,6036.943,0.0
-CEN,base,2050,Solar,Solar FV,17983.088,0.0,17983.088,0.0
+CEN,base,2050,Eólica,Eólica,5644.998,0.0,5644.998,0.0
+CEN,base,2050,Solar,Solar FV,17812.711,0.0,17812.711,0.0
 CEN,libre,2025,Almacenamiento,Baterías,1019.4,1019.4,0.0,4536.249
 CEN,libre,2025,Biomasa y otras,Biomasa y biogás,200.0,200.0,0.0,0.0
 CEN,libre,2025,Eólica,Eólica,5077.668,0.0,5077.668,0.0
 CEN,libre,2025,Gas,Gas ciclo abierto y motores,300.0,300.0,0.0,0.0
-CEN,libre,2025,Solar,Solar FV,3019.19,0.0,3019.19,0.0
+CEN,libre,2025,Solar,Solar FV,3003.722,0.0,3003.722,0.0
 CEN,libre,2027,Almacenamiento,Baterías,2000.0,0.0,2000.0,7673.6
 CEN,libre,2027,Eólica,Eólica,584.072,0.0,584.072,0.0
-CEN,libre,2027,Solar,Solar FV,718.588,0.0,718.588,0.0
-CEN,libre,2030,Almacenamiento,Bombeo,412.298,0.0,412.298,4089.611
+CEN,libre,2027,Solar,Solar FV,713.575,0.0,713.575,0.0
+CEN,libre,2030,Almacenamiento,Bombeo,401.865,0.0,401.865,4005.11
 CEN,libre,2030,Carbón,Carbón con co-combustión de amoníaco,976.67,976.67,0.0,0.0
-CEN,libre,2030,Eólica,Eólica,9197.813,0.0,9197.813,0.0
-CEN,libre,2035,Almacenamiento,Bombeo,1751.206,0.0,1751.206,17310.959
-CEN,libre,2035,Eólica,Eólica,12820.104,0.0,12820.104,0.0
-CEN,libre,2035,Solar,Solar FV,7206.021,0.0,7206.021,0.0
-CEN,libre,2040,Almacenamiento,Bombeo,317.988,0.0,317.988,3434.268
+CEN,libre,2030,Eólica,Eólica,9119.104,0.0,9119.104,0.0
+CEN,libre,2035,Almacenamiento,Bombeo,1704.246,0.0,1704.246,16864.189
+CEN,libre,2035,Eólica,Eólica,12599.795,0.0,12599.795,0.0
+CEN,libre,2035,Solar,Solar FV,7121.233,0.0,7121.233,0.0
+CEN,libre,2040,Almacenamiento,Bombeo,405.603,0.0,405.603,4380.513
 CEN,libre,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-CEN,libre,2040,Eólica,Eólica,5467.198,0.0,5467.198,0.0
-CEN,libre,2045,Almacenamiento,Baterías,3333.343,0.0,3333.343,14979.096
-CEN,libre,2045,Almacenamiento,Bombeo,3703.83,0.0,3703.83,38801.367
-CEN,libre,2045,Eólica,Eólica,3703.757,0.0,3703.757,0.0
-CEN,libre,2045,Solar,Solar FV,16806.719,0.0,16806.719,0.0
-CEN,libre,2050,Almacenamiento,Baterías,3931.89,0.0,3931.89,15574.317
-CEN,libre,2050,Almacenamiento,Bombeo,2266.019,0.0,2266.019,24473.002
+CEN,libre,2040,Eólica,Eólica,4995.371,0.0,4995.371,0.0
+CEN,libre,2045,Almacenamiento,Baterías,3163.874,0.0,3163.874,14098.362
+CEN,libre,2045,Almacenamiento,Bombeo,3808.445,0.0,3808.445,39931.21
+CEN,libre,2045,Eólica,Eólica,3244.331,0.0,3244.331,0.0
+CEN,libre,2045,Solar,Solar FV,16791.188,0.0,16791.188,0.0
+CEN,libre,2050,Almacenamiento,Baterías,4224.458,0.0,4224.458,17130.887
+CEN,libre,2050,Almacenamiento,Bombeo,1709.508,0.0,1709.508,18462.682
 CEN,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-CEN,libre,2050,Eólica,Eólica,6561.181,0.0,6561.181,0.0
-CEN,libre,2050,Solar,Solar FV,17761.079,0.0,17761.079,0.0
+CEN,libre,2050,Eólica,Eólica,6246.892,0.0,6246.892,0.0
+CEN,libre,2050,Solar,Solar FV,16981.968,0.0,16981.968,0.0
 PELP_E2,base,2025,Almacenamiento,Baterías,1019.4,1019.4,0.0,4536.249
 PELP_E2,base,2025,Biomasa y otras,Biomasa y biogás,200.0,200.0,0.0,0.0
 PELP_E2,base,2025,Eólica,Eólica,5062.121,0.0,5062.121,0.0
@@ -160,59 +160,57 @@ PROPIO,base,2025,Almacenamiento,Baterías,1019.4,1019.4,0.0,4536.249
 PROPIO,base,2025,Biomasa y otras,Biomasa y biogás,200.0,200.0,0.0,0.0
 PROPIO,base,2025,Eólica,Eólica,5096.781,0.0,5096.781,0.0
 PROPIO,base,2025,Gas,Gas ciclo abierto y motores,300.0,300.0,0.0,0.0
-PROPIO,base,2025,Solar,Solar FV,3070.201,0.0,3070.201,0.0
+PROPIO,base,2025,Solar,Solar FV,3061.255,0.0,3061.255,0.0
 PROPIO,base,2027,Almacenamiento,Baterías,2000.0,0.0,2000.0,7673.6
-PROPIO,base,2027,Eólica,Eólica,410.295,0.0,410.295,0.0
-PROPIO,base,2027,Solar,Solar FV,2058.853,0.0,2058.853,0.0
-PROPIO,base,2030,Almacenamiento,Bombeo,1428.859,0.0,1428.859,12997.054
+PROPIO,base,2027,Eólica,Eólica,389.263,0.0,389.263,0.0
+PROPIO,base,2027,Solar,Solar FV,2037.22,0.0,2037.22,0.0
+PROPIO,base,2030,Almacenamiento,Bombeo,1374.732,0.0,1374.732,12452.685
 PROPIO,base,2030,Carbón,Carbón con co-combustión de amoníaco,976.67,976.67,0.0,0.0
-PROPIO,base,2030,Eólica,Eólica,10897.097,0.0,10897.097,0.0
-PROPIO,base,2030,Solar,Solar FV,421.113,0.0,421.113,0.0
-PROPIO,base,2035,Almacenamiento,Bombeo,3153.275,0.0,3153.275,33277.794
-PROPIO,base,2035,Eólica,Eólica,13390.547,0.0,13390.547,0.0
-PROPIO,base,2035,Solar,Solar FV,10975.071,0.0,10975.071,0.0
-PROPIO,base,2040,Almacenamiento,Bombeo,2483.341,0.0,2483.341,25832.28
+PROPIO,base,2030,Eólica,Eólica,10864.028,0.0,10864.028,0.0
+PROPIO,base,2030,Solar,Solar FV,280.043,0.0,280.043,0.0
+PROPIO,base,2035,Almacenamiento,Bombeo,2536.509,0.0,2536.509,26788.712
+PROPIO,base,2035,Eólica,Eólica,12693.609,0.0,12693.609,0.0
+PROPIO,base,2035,Solar,Solar FV,9257.472,0.0,9257.472,0.0
+PROPIO,base,2040,Almacenamiento,Bombeo,1123.963,0.0,1123.963,11643.038
 PROPIO,base,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-PROPIO,base,2040,Eólica,Eólica,4343.853,0.0,4343.853,0.0
-PROPIO,base,2040,Solar,Solar FV,6470.804,0.0,6470.804,0.0
-PROPIO,base,2045,Almacenamiento,Baterías,5351.927,0.0,5351.927,30464.621
-PROPIO,base,2045,Almacenamiento,Bombeo,4777.499,0.0,4777.499,50096.994
-PROPIO,base,2045,Eólica,Eólica,1745.237,0.0,1745.237,0.0
-PROPIO,base,2045,Solar,Solar FV,29926.768,0.0,29926.768,0.0
-PROPIO,base,2050,Almacenamiento,Baterías,7237.151,0.0,7237.151,33862.768
-PROPIO,base,2050,Almacenamiento,Bombeo,1361.702,0.0,1361.702,14706.381
+PROPIO,base,2040,Eólica,Eólica,4328.235,0.0,4328.235,0.0
+PROPIO,base,2040,Solar,Solar FV,2615.039,0.0,2615.039,0.0
+PROPIO,base,2045,Almacenamiento,Baterías,3264.304,0.0,3264.304,14465.03
+PROPIO,base,2045,Almacenamiento,Bombeo,4249.852,0.0,4249.852,45194.157
+PROPIO,base,2045,Eólica,Eólica,2232.855,0.0,2232.855,0.0
+PROPIO,base,2045,Solar,Solar FV,20769.048,0.0,20769.048,0.0
+PROPIO,base,2050,Almacenamiento,Baterías,5853.184,0.0,5853.184,33082.435
+PROPIO,base,2050,Almacenamiento,Bombeo,1128.846,0.0,1128.846,12191.54
 PROPIO,base,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-PROPIO,base,2050,Eólica,Eólica,5594.297,0.0,5594.297,0.0
-PROPIO,base,2050,Solar,Solar CSP,2562.733,0.0,2562.733,0.0
-PROPIO,base,2050,Solar,Solar FV,22730.469,0.0,22730.469,0.0
+PROPIO,base,2050,Eólica,Eólica,5961.409,0.0,5961.409,0.0
+PROPIO,base,2050,Solar,Solar FV,18207.473,0.0,18207.473,0.0
 PROPIO,libre,2025,Almacenamiento,Baterías,1019.4,1019.4,0.0,4536.249
 PROPIO,libre,2025,Biomasa y otras,Biomasa y biogás,200.0,200.0,0.0,0.0
-PROPIO,libre,2025,Eólica,Eólica,5079.102,0.0,5079.102,0.0
+PROPIO,libre,2025,Eólica,Eólica,5077.668,0.0,5077.668,0.0
 PROPIO,libre,2025,Gas,Gas ciclo abierto y motores,300.0,300.0,0.0,0.0
-PROPIO,libre,2025,Solar,Solar FV,3035.317,0.0,3035.317,0.0
+PROPIO,libre,2025,Solar,Solar FV,2993.294,0.0,2993.294,0.0
 PROPIO,libre,2027,Almacenamiento,Baterías,2000.0,0.0,2000.0,7673.6
-PROPIO,libre,2027,Eólica,Eólica,582.638,0.0,582.638,0.0
-PROPIO,libre,2027,Solar,Solar FV,1447.725,0.0,1447.725,0.0
-PROPIO,libre,2030,Almacenamiento,Bombeo,496.443,0.0,496.443,4771.189
+PROPIO,libre,2027,Eólica,Eólica,584.072,0.0,584.072,0.0
+PROPIO,libre,2027,Solar,Solar FV,1345.162,0.0,1345.162,0.0
+PROPIO,libre,2030,Almacenamiento,Bombeo,466.525,0.0,466.525,4528.85
 PROPIO,libre,2030,Carbón,Carbón con co-combustión de amoníaco,976.67,976.67,0.0,0.0
-PROPIO,libre,2030,Eólica,Eólica,12218.857,0.0,12218.857,0.0
-PROPIO,libre,2035,Almacenamiento,Bombeo,2098.072,0.0,2098.072,21825.636
-PROPIO,libre,2035,Eólica,Eólica,15847.944,0.0,15847.944,0.0
-PROPIO,libre,2035,Solar,Solar FV,7662.037,0.0,7662.037,0.0
-PROPIO,libre,2040,Almacenamiento,Bombeo,719.374,0.0,719.374,7475.167
+PROPIO,libre,2030,Eólica,Eólica,12193.245,0.0,12193.245,0.0
+PROPIO,libre,2035,Almacenamiento,Bombeo,1951.046,0.0,1951.046,20151.48
+PROPIO,libre,2035,Eólica,Eólica,13817.154,0.0,13817.154,0.0
+PROPIO,libre,2035,Solar,Solar FV,7586.971,0.0,7586.971,0.0
+PROPIO,libre,2040,Almacenamiento,Bombeo,411.754,0.0,411.754,4446.948
 PROPIO,libre,2040,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-PROPIO,libre,2040,Eólica,Eólica,7790.198,0.0,7790.198,0.0
-PROPIO,libre,2040,Solar,Solar FV,1828.789,0.0,1828.789,0.0
-PROPIO,libre,2045,Almacenamiento,Baterías,3815.189,0.0,3815.189,17869.738
-PROPIO,libre,2045,Almacenamiento,Bombeo,4685.91,0.0,4685.91,49129.87
-PROPIO,libre,2045,Eólica,Eólica,6587.214,0.0,6587.214,0.0
-PROPIO,libre,2045,Solar,Solar FV,18327.156,0.0,18327.156,0.0
-PROPIO,libre,2050,Almacenamiento,Baterías,6977.655,0.0,6977.655,39914.907
-PROPIO,libre,2050,Almacenamiento,Bombeo,4057.618,0.0,4057.618,43822.277
+PROPIO,libre,2040,Eólica,Eólica,6065.118,0.0,6065.118,0.0
+PROPIO,libre,2040,Solar,Solar FV,184.498,0.0,184.498,0.0
+PROPIO,libre,2045,Almacenamiento,Baterías,3021.861,0.0,3021.861,12733.862
+PROPIO,libre,2045,Almacenamiento,Bombeo,4088.281,0.0,4088.281,42953.433
+PROPIO,libre,2045,Eólica,Eólica,3735.601,0.0,3735.601,0.0
+PROPIO,libre,2045,Solar,Solar FV,16808.384,0.0,16808.384,0.0
+PROPIO,libre,2050,Almacenamiento,Baterías,5259.574,0.0,5259.574,24420.667
+PROPIO,libre,2050,Almacenamiento,Bombeo,1862.94,0.0,1862.94,20119.753
 PROPIO,libre,2050,Carbón,Carbón con co-combustión de amoníaco,701.3,701.3,0.0,0.0
-PROPIO,libre,2050,Eólica,Eólica,4621.087,0.0,4621.087,0.0
-PROPIO,libre,2050,Gas,Gas ciclo abierto y motores,760.169,0.0,760.169,0.0
-PROPIO,libre,2050,Solar,Solar FV,30521.208,0.0,30521.208,0.0
+PROPIO,libre,2050,Eólica,Eólica,5000.968,0.0,5000.968,0.0
+PROPIO,libre,2050,Solar,Solar FV,19677.727,0.0,19677.727,0.0
 SIN_DC,base,2025,Almacenamiento,Baterías,1019.4,1019.4,0.0,4536.249
 SIN_DC,base,2025,Biomasa y otras,Biomasa y biogás,200.0,200.0,0.0,0.0
 SIN_DC,base,2025,Eólica,Eólica,5062.121,0.0,5062.121,0.0

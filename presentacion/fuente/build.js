@@ -447,12 +447,12 @@ K.literatura.forEach((lam) => {
   tb(s, bullets([
     "Datos de la PELP 2023–2027 (Carbono Neutralidad), iguales en todos los casos: red y topes de ampliación, demanda, proyectos existentes y candidatos, costos de inversión y de O&M, combustibles, perfiles renovables, hidrología, impuesto al CO₂, reserva, VOLL y tasa de descuento",
     "Solo cambia la demanda de data centers: los que ya operan (~100 MW medios) están en la demanda de la PELP y se agrega lo proyectado, con 50 % de utilización",
-    "Después de cada proyección la demanda sigue creciendo: CEN 5 % anual desde 2031 y escenario propio 8 % anual desde 2033; la PELP trae su propio crecimiento",
+    "Después de cada proyección la demanda sigue creciendo 3 % anual: CEN desde 2031 y escenario propio desde 2033; la PELP trae su propio crecimiento",
     "Escenario propio: solicitudes de conexión vigentes al Coordinador, cada campus una vez, más el llenado de los campus ya conectados",
   ], { size: 13, after: 3 }), { x: X0, y: 4.68, w: W, h: 1.75 });
   fuenteLinea(s, "Promedio de cada período. Fuentes: Ministerio de Energía (2025; 2026a), CEN (2026a) y CEN (s. f.).", X0, 6.45, W);
   s.addNotes("Ubicación proyectada en el modelo: El Salto 220 (RM) → zona Polpaico 500; Torquemada 110 (Valparaíso) → Quillota 500; Kimal 220 (Antofagasta) → Kimal 220. Escenario propio: además Alto Jahuel 500 (RM).\n" +
-    "Crecimiento después del horizonte: CEN, la capacidad crece 5 % anual desde 2031 (antes quedaba plana en 1.381 MW); propio, la demanda total de data centers crece 8 % anual desde 2033 y el aumento es ubicable. La PELP 2028–2032 ya crece después de 2030 (E2 ~1,4 % anual; N1 ~0,4 % anual desde 2035).\n" +
+    "Crecimiento después del horizonte: CEN, la capacidad crece 3 % anual desde 2031 (la proyección del CEN termina en 2030 con 1.381 MW); propio, la demanda total de data centers crece 3 % anual desde 2033 y el aumento es ubicable. La PELP 2028–2032 ya crece después de 2030 (E2 ~1,4 % anual; N1 ~0,4 % anual desde 2035).\n" +
     `Hasta ${PER.filter((p) => p < 2030).join(" y ")} la ubicación es la proyectada también en el caso libre.`);
 }
 
@@ -508,11 +508,13 @@ K.literatura.forEach((lam) => {
   const altoTabla = (filas.length + 1) * (fsz <= 12 ? 0.29 : 0.31);
   tb(s, "MW medios: proyectada → óptima.", { x: X0, y: YC + 0.12 + altoTabla, w: 7.6, h: 0.3, fontSize: 12, color: C.text2 });
   const pe = CF.precio_2040_elegidas, pp = CF.precio_2040_proyectadas;
+  // Si la ubicación óptima es el sur, solo cuentan los corredores que traen energía del sur al centro.
+  const CORR_TOPE = SUR ? CF.corredores_sur_en_tope_todos : CF.corredores_en_tope_todos;
   tb(s, [
     label(SUR ? "Por qué el sur" : "Por qué esas zonas", { fontSize: 16 }),
     ...bullets([
       `En 2040, sin data centers, 1 MW plano cuesta ${lista([...PRECIO_MZ, `${rango(pp, 1)} USD/MWh en las zonas proyectadas`])}`,
-      ...(CF.corredores_en_tope_todos.length ? [`Los corredores ${lista(CF.corredores_en_tope_todos)} llegan a su tope de ampliación en los ${CF.n_corridas} casos`] : []),
+      ...(CORR_TOPE.length ? [`${CORR_TOPE.length > 1 ? "Los corredores" : "El corredor"} ${lista(CORR_TOPE)} ${CORR_TOPE.length > 1 ? "llegan" : "llega"} a su tope de ampliación en los ${CF.n_corridas} casos`] : []),
       SUR ? "Todo lo reubicable va al sur en los 4 escenarios" : DONDE,
     ], { size: 14, after: 7 }),
   ], { x: 8.75, y: YC, w: XR - 8.75, h: 4.7 });
@@ -554,7 +556,7 @@ K.literatura.forEach((lam) => {
     SUR ? "La ubicación óptima está en el sur, donde la energía es más barata y los corredores hacia el centro están al tope"
       : `${DONDE}. Las proyecciones, en cambio, concentran los data centers en la RM`,
     ...(QUE_CAMBIA ? [`Cambia la expansión eficiente: ${QUE_CAMBIA}`] : []),
-    `Con las solicitudes vigentes y 8 % anual desde 2033, el escenario propio llega a ${fnum(CF.dc_ultimo_periodo[iProp])} MW medios en ${ULT}–${FIN}`,
+    `Con las solicitudes vigentes y 3 % anual desde 2033, el escenario propio llega a ${fnum(CF.dc_ultimo_periodo[iProp])} MW medios en ${ULT}–${FIN}`,
   ], { size: 17, after: 10 }), { x: X0, y: YC, w: W, h: 4.8 });
 }
 

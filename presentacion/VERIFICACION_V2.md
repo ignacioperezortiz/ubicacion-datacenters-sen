@@ -1,5 +1,7 @@
 # Verificación independiente del deck v2 (inicio 2025)
 
+> **Versión anterior.** Esta verificación corresponde al crecimiento de 5 % (CEN) y 8 % (PROPIO) del commit `52e1882`. La de la versión vigente, con 3 % anual, está en `VERIFICACION_3PCT.md`.
+
 17-nov-2026. Deck: `Presentacion de avance - Ubicacion de data centers en el SEN.pptx` (pptx de las 20:23:03). Todas las cifras de las láminas 9–15 se recalcularon desde `casos\<CASO>\outputs_*\total_cost.txt`, `costos_anuales.csv` (con el factor de Switch: anualidad de fin de año × descuento al inicio del período, base 2025), `ubicacion_dc.csv`, `escenarios_dc.csv`, `inversiones_libre_menos_base.csv`, `transmision.csv`, `BuildTx.csv`, `emisiones_vertimiento.csv`, `precios_zonales.csv`, `transmision_libre_menos_base.csv` y `tiempos_computo.csv`. No se usó `cifras.json`.
 
 ## Cifras y afirmaciones

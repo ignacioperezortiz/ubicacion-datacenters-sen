@@ -1,154 +1,152 @@
 escenario,modo,zona,nombre,orden,macrozona,periodo,tipo,familia,MW
-CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,235.459
-CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,Almacenamiento,Almacenamiento,5.5
-CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,126.192
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,353.146
+CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,14.004
 CEN,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,Generación,Solar,19.942
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,307.331
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,1710.242
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Almacenamiento,Almacenamiento,119.626
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Generación,Solar,273.08
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1517.488
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,8016.678
-CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Almacenamiento,Almacenamiento,372.309
-CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,2282.85
-CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Generación,Solar,277.649
-CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,1476.957
-CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Generación,Solar,2734.812
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,189.74
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,1714.063
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Generación,Solar,11.859
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1754.704
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,7783.547
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Almacenamiento,Almacenamiento,388.756
+CEN,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Generación,Solar,490.531
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,1726.594
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,1527.786
+CEN,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Generación,Solar,589.528
 CEN,base,Kimal220,Kimal 220,4,Norte Grande,2025,Generación,Eólica,150.0
 CEN,base,Kimal220,Kimal 220,4,Norte Grande,2030,Generación,Eólica,746.9
-CEN,base,Kimal220,Kimal 220,4,Norte Grande,2040,Generación,Eólica,205.2
-CEN,base,Kimal220,Kimal 220,4,Norte Grande,2045,Almacenamiento,Almacenamiento,21.071
-CEN,base,Kimal220,Kimal 220,4,Norte Grande,2050,Almacenamiento,Almacenamiento,978.929
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2040,Generación,Eólica,66.483
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2045,Almacenamiento,Almacenamiento,70.28
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2045,Generación,Eólica,138.717
+CEN,base,Kimal220,Kimal 220,4,Norte Grande,2050,Almacenamiento,Almacenamiento,101.213
 CEN,base,Kimal500,Kimal 500,5,Norte Grande,2025,Almacenamiento,Almacenamiento,470.1
 CEN,base,Kimal500,Kimal 500,5,Norte Grande,2025,Generación,Biomasa y otras,200.0
 CEN,base,Kimal500,Kimal 500,5,Norte Grande,2027,Almacenamiento,Almacenamiento,1000.0
-CEN,base,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento,473.179
-CEN,base,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1360.154
-CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,Generación,Solar,684.214
-CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,Generación,Solar,131.552
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento,389.823
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2040,Almacenamiento,Almacenamiento,32.152
+CEN,base,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1411.358
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,Generación,Solar,618.554
+CEN,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,Generación,Solar,197.212
 CEN,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,Generación,Solar,2460.38
 CEN,base,LosChangos500,Los Changos 500,8,Norte Grande,2025,Generación,Gas,300.0
 CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2025,Almacenamiento,Almacenamiento,48.0
 CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2025,Generación,Eólica,156.0
-CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,Almacenamiento,Almacenamiento,55.139
-CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Almacenamiento,Almacenamiento,41.697
-CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Generación,Solar,139.974
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,Almacenamiento,Almacenamiento,73.367
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Almacenamiento,Almacenamiento,42.739
+CEN,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Generación,Solar,449.746
 CEN,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,Generación,Solar,4173.9
 CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Almacenamiento,Almacenamiento,391.3
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Generación,Solar,205.196
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,724.914
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,327.7
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,3252.517
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,Generación,Eólica,5.8
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Generación,Solar,229.195
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,741.136
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,304.293
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Eólica,23.407
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,2977.741
 CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Almacenamiento,Almacenamiento,400.0
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,5136.85
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,1248.324
-CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,4017.357
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Eólica,5.8
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,4877.295
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,1769.488
+CEN,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,4660.628
 CEN,base,Parinas500,Parinas 500,12,Norte Grande,2025,Generación,Eólica,3065.0
-CEN,base,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,552.112
-CEN,base,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,634.511
-CEN,base,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,557.847
-CEN,base,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,5607.21
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,529.163
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,622.914
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,590.751
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,5575.572
 CEN,base,Parinas500,Parinas 500,12,Norte Grande,2045,Almacenamiento,Almacenamiento,100.0
-CEN,base,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,686.88
-CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2025,Generación,Eólica,1695.237
-CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,595.503
+CEN,base,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,730.113
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2025,Generación,Eólica,1706.668
+CEN,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,584.072
 CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
 CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,Generación,Eólica,88.9
 CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,Almacenamiento,Almacenamiento,277.778
 CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,Almacenamiento,Almacenamiento,600.0
 CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,Generación,Eólica,42.6
-CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,759.531
+CEN,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,746.812
 CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2025,Generación,Solar,1451.306
 CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2027,Generación,Solar,39.707
-CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,929.681
-CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,3138.152
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,278.372
+CEN,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,3789.462
 CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2025,Almacenamiento,Almacenamiento,110.0
 CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
-CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,600.0
-CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Generación,Solar,104.144
-CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Generación,Solar,522.373
-CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,224.704
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,500.0
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,236.808
+CEN,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Generación,Solar,924.414
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,165.896
 CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Carbón,976.67
 CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Eólica,161.0
-CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Almacenamiento,Almacenamiento,77.422
 CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Generación,Eólica,23.8
-CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Almacenamiento,Almacenamiento,53.726
 CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Carbón,701.3
 CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Eólica,202.8
-CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,100.0
-CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,1184.984
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,305.877
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,741.797
 CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Carbón,701.3
-CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,2950.702
+CEN,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,2002.224
 CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2025,Generación,Solar,205.5
 CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,Generación,Eólica,674.2
-CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,Almacenamiento,Almacenamiento,152.954
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,Almacenamiento,Almacenamiento,202.922
 CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Almacenamiento,Almacenamiento,100.0
-CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,379.319
+CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,428.096
 CEN,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Generación,Solar,205.5
-CEN,base,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,444.367
+CEN,base,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,436.737
 CEN,base,Quillota500,Quillota 500,19,Centro,2030,Generación,Eólica,183.2
-CEN,base,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,71.057
-CEN,base,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,206.721
+CEN,base,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,109.809
+CEN,base,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,153.457
 CEN,base,Quillota500,Quillota 500,19,Centro,2040,Generación,Eólica,14.6
-CEN,base,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,4178.224
+CEN,base,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,4150.737
 CEN,base,Polpaico500,Polpaico 500,20,Centro,2025,Generación,Solar,23.1
 CEN,base,Polpaico500,Polpaico 500,20,Centro,2030,Generación,Eólica,25.4
 CEN,base,Polpaico500,Polpaico 500,20,Centro,2045,Almacenamiento,Almacenamiento,100.0
 CEN,base,Polpaico500,Polpaico 500,20,Centro,2050,Generación,Solar,23.1
 CEN,base,Candelaria500,Candelaria 500,22,Centro,2025,Generación,Solar,506.9
-CEN,base,Candelaria500,Candelaria 500,22,Centro,2045,Almacenamiento,Almacenamiento,38.056
-CEN,base,Candelaria500,Candelaria 500,22,Centro,2050,Almacenamiento,Almacenamiento,11.866
-CEN,base,Candelaria500,Candelaria 500,22,Centro,2050,Generación,Solar,52.953
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2050,Almacenamiento,Almacenamiento,170.514
+CEN,base,Candelaria500,Candelaria 500,22,Centro,2050,Generación,Solar,506.9
 CEN,base,Rapel500,Rapel 500,23,Centro,2030,Generación,Eólica,45.2
 CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,Generación,Eólica,978.4
 CEN,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,Almacenamiento,Almacenamiento,100.0
 CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,Generación,Eólica,432.9
-CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,1390.337
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,1349.235
 CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,Generación,Eólica,143.2
-CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,676.319
-CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,791.196
-CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1503.736
-CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,419.313
-CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,954.862
-CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,Generación,Eólica,144.623
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,596.382
+CEN,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,861.026
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1504.828
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,417.177
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,982.002
+CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,Generación,Eólica,99.048
 CEN,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,Generación,Eólica,91.9
 CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,Generación,Eólica,928.4
-CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,2439.28
-CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,1741.485
-CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,1446.519
-CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,174.941
-CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,2302.84
-CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,1347.555
-CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,977.845
-CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,236.999
-CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,1197.686
-CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Generación,Eólica,904.415
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,2468.325
+CEN,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,1387.091
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,1455.359
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,153.322
+CEN,base,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,2315.619
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,1356.671
+CEN,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,968.729
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,222.987
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,979.433
+CEN,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Generación,Eólica,1136.681
 CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,599.0
-CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,838.578
-CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,2211.499
-CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,192.821
-CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,131.677
-CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,185.822
-CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,167.53
-CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,356.39
-CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,1687.519
-CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1659.027
-CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,7632.818
-CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Generación,Solar,679.662
-CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,1590.263
-CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,1697.612
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,831.522
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,2274.35
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,124.045
+CEN,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,20.633
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,239.628
+CEN,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,113.724
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,303.161
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,1710.242
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1662.557
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,7404.628
+CEN,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Generación,Solar,621.887
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,1403.46
+CEN,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,1698.582
 CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2025,Generación,Eólica,150.0
 CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2030,Generación,Eólica,746.9
 CEN,libre,Kimal220,Kimal 220,4,Norte Grande,2045,Generación,Eólica,205.2
 CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2025,Almacenamiento,Almacenamiento,470.1
 CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2025,Generación,Biomasa y otras,200.0
 CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2027,Almacenamiento,Almacenamiento,1000.0
-CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento,284.133
-CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1308.99
-CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2050,Almacenamiento,Almacenamiento,240.21
-CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,Generación,Solar,480.901
-CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,Generación,Solar,334.865
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento,287.562
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1534.846
+CEN,libre,Kimal500,Kimal 500,5,Norte Grande,2050,Almacenamiento,Almacenamiento,10.925
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,Generación,Solar,463.828
+CEN,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2045,Generación,Solar,351.938
 CEN,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,Generación,Solar,2460.38
 CEN,libre,LosChangos500,Los Changos 500,8,Norte Grande,2025,Generación,Gas,300.0
 CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2025,Almacenamiento,Almacenamiento,48.0
@@ -156,23 +154,23 @@ CEN,libre,LosChangos220,Los Changos 220,9,Norte Grande,2025,Generación,Eólica,
 CEN,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,Generación,Solar,4173.9
 CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Almacenamiento,Almacenamiento,391.3
 CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Generación,Solar,229.195
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,678.881
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,72.601
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Eólica,255.099
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,2577.221
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,673.868
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,72.338
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Eólica,255.362
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,2486.783
 CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Almacenamiento,Almacenamiento,400.0
 CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Eólica,5.8
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,4484.53
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,1757.419
-CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,5516.169
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,4682.129
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,1858.362
+CEN,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,5246.508
 CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2025,Generación,Eólica,3065.0
-CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,412.298
-CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,566.671
-CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,593.358
-CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,5230.016
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,401.865
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,556.143
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,570.988
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,5279.201
 CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Almacenamiento,Almacenamiento,100.0
-CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,535.866
-CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2050,Generación,Eólica,596.047
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,658.723
+CEN,libre,Parinas500,Parinas 500,12,Norte Grande,2050,Generación,Eólica,434.533
 CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2025,Generación,Eólica,1706.668
 CEN,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,584.072
 CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
@@ -180,77 +178,75 @@ CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2030,Generación,Eólica,88.9
 CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2035,Almacenamiento,Almacenamiento,277.778
 CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,Almacenamiento,Almacenamiento,600.0
 CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,Generación,Eólica,42.6
-CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,778.066
+CEN,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,912.203
 CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2025,Generación,Solar,1451.306
 CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2027,Generación,Solar,39.707
-CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,180.606
-CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,3887.228
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,178.593
+CEN,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,3889.24
 CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2025,Almacenamiento,Almacenamiento,110.0
 CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
-CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,570.46
-CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,901.533
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,500.0
+CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,942.734
 CEN,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Generación,Solar,2584.6
-CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,166.646
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,153.362
 CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Carbón,976.67
 CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Eólica,161.0
 CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Generación,Eólica,23.8
 CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Carbón,701.3
 CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Eólica,202.8
-CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,148.993
-CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,330.634
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,215.133
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,147.488
 CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Carbón,701.3
-CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,572.947
+CEN,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,178.893
 CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2025,Generación,Solar,205.5
 CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,Generación,Eólica,674.2
-CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,Almacenamiento,Almacenamiento,12.467
-CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,Almacenamiento,Almacenamiento,81.467
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2040,Almacenamiento,Almacenamiento,152.954
 CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Almacenamiento,Almacenamiento,100.0
-CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,387.957
+CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,344.533
 CEN,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Generación,Solar,205.5
-CEN,libre,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,436.543
+CEN,libre,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,434.359
 CEN,libre,Quillota500,Quillota 500,19,Centro,2030,Generación,Eólica,183.2
-CEN,libre,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,41.257
-CEN,libre,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,236.521
+CEN,libre,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,25.129
+CEN,libre,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,252.649
 CEN,libre,Quillota500,Quillota 500,19,Centro,2040,Generación,Eólica,14.6
-CEN,libre,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,3784.974
+CEN,libre,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,3725.34
 CEN,libre,Polpaico500,Polpaico 500,20,Centro,2025,Generación,Solar,23.1
 CEN,libre,Polpaico500,Polpaico 500,20,Centro,2030,Generación,Eólica,25.4
 CEN,libre,Polpaico500,Polpaico 500,20,Centro,2045,Almacenamiento,Almacenamiento,100.0
 CEN,libre,Polpaico500,Polpaico 500,20,Centro,2050,Generación,Solar,23.1
 CEN,libre,Candelaria500,Candelaria 500,22,Centro,2025,Generación,Solar,506.9
-CEN,libre,Candelaria500,Candelaria 500,22,Centro,2045,Almacenamiento,Almacenamiento,191.91
-CEN,libre,Candelaria500,Candelaria 500,22,Centro,2050,Almacenamiento,Almacenamiento,104.478
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2045,Almacenamiento,Almacenamiento,142.6
+CEN,libre,Candelaria500,Candelaria 500,22,Centro,2050,Almacenamiento,Almacenamiento,19.138
 CEN,libre,Candelaria500,Candelaria 500,22,Centro,2050,Generación,Solar,506.9
 CEN,libre,Rapel500,Rapel 500,23,Centro,2030,Generación,Eólica,45.2
 CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2030,Generación,Eólica,978.4
 CEN,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,Almacenamiento,Almacenamiento,100.0
 CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2030,Generación,Eólica,432.9
-CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,1362.437
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,1397.563
 CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2040,Generación,Eólica,143.2
-CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,1154.563
-CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,1803.2
-CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1587.284
-CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,250.39
-CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,1732.84
-CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,Generación,Eólica,188.968
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,779.535
+CEN,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,1464.198
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1559.784
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,309.433
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,1363.125
+CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,Generación,Eólica,43.519
 CEN,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,Generación,Eólica,91.9
 CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,Generación,Eólica,928.4
-CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,2981.329
-CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,748.198
-CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,1703.565
-CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,188.014
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,2866.24
+CEN,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,1305.053
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,1648.364
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,114.45
 CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2040,Generación,Eólica,77.7
-CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,2143.87
-CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,1502.297
-CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,823.103
-CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,404.192
-CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,1029.907
-CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Generación,Eólica,905.001
+CEN,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,2083.786
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,1457.978
+CEN,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,867.422
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,418.975
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,786.104
+CEN,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Generación,Eólica,1134.02
 CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,599.0
-CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,1026.721
-CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,2266.151
-CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,665.759
-CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,354.864
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,895.768
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,2407.841
+CEN,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,374.934
 PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,231.735
 PELP_E2,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,121.617
 PELP_E2,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,310.735
@@ -729,28 +725,27 @@ PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,599.
 PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,1320.582
 PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,2005.568
 PELP_N1,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,268.823
-PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,Almacenamiento,Almacenamiento,6.932
-PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,154.647
-PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,Almacenamiento,Almacenamiento,197.853
-PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,Generación,Solar,9.206
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,Almacenamiento,Almacenamiento,7.322
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,376.025
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,337.682
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Almacenamiento,Almacenamiento,1561.097
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Generación,Solar,5923.68
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,3738.637
-PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Almacenamiento,Almacenamiento,376.818
-PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,Almacenamiento,Almacenamiento,102.849
-PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,Almacenamiento,Almacenamiento,631.261
-PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,3050.609
-PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Generación,Solar,6257.952
-PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,715.55
-PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Generación,Solar,2670.063
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2030,Almacenamiento,Almacenamiento,2.723
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,102.872
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2040,Almacenamiento,Almacenamiento,203.818
+PROPIO,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,43.399
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2030,Almacenamiento,Almacenamiento,11.531
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,122.086
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,267.597
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Almacenamiento,Almacenamiento,733.535
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Generación,Solar,2615.039
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1077.292
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,7117.364
+PROPIO,base,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Almacenamiento,Almacenamiento,600.0
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2035,Almacenamiento,Almacenamiento,68.758
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2040,Almacenamiento,Almacenamiento,116.996
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,2984.738
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2045,Generación,Solar,692.741
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,1128.846
+PROPIO,base,Lagunas220,Lagunas 220,3,Norte Grande,2050,Generación,Solar,4250.839
 PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2025,Generación,Eólica,150.0
 PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2030,Generación,Eólica,952.1
-PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2045,Almacenamiento,Almacenamiento,1000.0
-PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2045,Generación,Solar,3300.924
-PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2050,Almacenamiento,Almacenamiento,179.379
+PROPIO,base,Kimal220,Kimal 220,4,Norte Grande,2050,Almacenamiento,Almacenamiento,841.996
 PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2025,Almacenamiento,Almacenamiento,470.1
 PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2025,Generación,Biomasa y otras,200.0
 PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2027,Almacenamiento,Almacenamiento,1000.0
@@ -758,268 +753,252 @@ PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento
 PROPIO,base,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1000.0
 PROPIO,base,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,Generación,Solar,815.766
 PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,Generación,Solar,2460.38
-PROPIO,base,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2050,Generación,Solar,1412.84
 PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2025,Generación,Gas,300.0
-PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,Almacenamiento,Almacenamiento,611.111
-PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,Almacenamiento,Almacenamiento,555.556
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2035,Almacenamiento,Almacenamiento,412.048
+PROPIO,base,LosChangos500,Los Changos 500,8,Norte Grande,2045,Almacenamiento,Almacenamiento,18.937
 PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2025,Almacenamiento,Almacenamiento,48.0
 PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2025,Generación,Eólica,156.0
-PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,Almacenamiento,Almacenamiento,900.0
-PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2045,Generación,Solar,1449.969
-PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Generación,Solar,3364.592
-PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2040,Generación,Solar,458.12
-PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,Generación,Solar,3715.78
-PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2050,Generación,Solar,1149.893
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Almacenamiento,Almacenamiento,634.171
+PROPIO,base,LosChangos220,Los Changos 220,9,Norte Grande,2050,Generación,Solar,3261.147
+PROPIO,base,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,Generación,Solar,4173.9
 PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Almacenamiento,Almacenamiento,391.3
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,1253.905
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,333.5
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Solar,421.113
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,6443.13
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Almacenamiento,Almacenamiento,600.0
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,5138.651
-PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,594.267
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,1434.859
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,327.7
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Solar,280.043
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,5713.729
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,Generación,Eólica,5.8
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Almacenamiento,Almacenamiento,223.841
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,4451.481
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,423.775
+PROPIO,base,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,534.585
 PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2025,Generación,Eólica,3065.0
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,1179.49
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,1414.642
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,209.399
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,5239.515
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2040,Generación,Eólica,274.443
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2045,Almacenamiento,Almacenamiento,200.0
-PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2050,Almacenamiento,Almacenamiento,607.636
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,1164.6
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,1421.337
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,224.289
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,5168.804
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2045,Almacenamiento,Almacenamiento,100.0
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,338.459
+PROPIO,base,Parinas500,Parinas 500,12,Norte Grande,2050,Almacenamiento,Almacenamiento,171.842
 PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2025,Generación,Eólica,1725.781
-PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,410.295
-PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,Generación,Eólica,154.663
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,389.263
+PROPIO,base,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2035,Generación,Eólica,175.696
 PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
-PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,Almacenamiento,Almacenamiento,235.116
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,Almacenamiento,Almacenamiento,195.878
 PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2030,Generación,Eólica,131.5
-PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,Almacenamiento,Almacenamiento,42.662
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2035,Almacenamiento,Almacenamiento,81.899
 PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2045,Almacenamiento,Almacenamiento,775.556
-PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,916.289
-PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2025,Generación,Solar,986.468
-PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2027,Generación,Solar,581.495
-PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2035,Generación,Solar,241.83
-PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,631.629
-PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,2652.587
+PROPIO,base,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,574.41
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2025,Generación,Solar,1106.25
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2027,Generación,Solar,453.723
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,1314.473
+PROPIO,base,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,2339.344
 PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2025,Almacenamiento,Almacenamiento,110.0
 PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
-PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2035,Generación,Solar,676.283
-PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2040,Generación,Solar,89.004
-PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,876.37
-PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Generación,Solar,1017.769
-PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,23.63
-PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,746.065
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,600.0
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Generación,Solar,1363.933
+PROPIO,base,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,300.0
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,603.494
 PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Carbón,976.67
 PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Eólica,184.8
-PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Almacenamiento,Almacenamiento,555.556
-PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Generación,Eólica,202.8
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Almacenamiento,Almacenamiento,430.07
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Generación,Eólica,45.604
 PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Carbón,701.3
-PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Generación,Solar,917.56
-PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,987.515
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Eólica,157.196
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,225.485
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Generación,Solar,434.377
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,1007.501
 PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Carbón,701.3
-PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,2384.926
+PROPIO,base,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,3063.891
 PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2025,Generación,Solar,205.5
 PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,Generación,Eólica,674.2
-PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,Almacenamiento,Almacenamiento,83.045
-PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Almacenamiento,Almacenamiento,893.558
-PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Generación,Solar,208.299
-PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,1052.246
-PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Generación,Solar,2835.811
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,Almacenamiento,Almacenamiento,75.213
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Almacenamiento,Almacenamiento,100.0
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,471.023
+PROPIO,base,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Generación,Solar,205.5
 PROPIO,base,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,507.461
-PROPIO,base,Quillota500,Quillota 500,19,Centro,2027,Generación,Solar,223.454
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2027,Generación,Solar,148.638
 PROPIO,base,Quillota500,Quillota 500,19,Centro,2030,Generación,Eólica,183.2
-PROPIO,base,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,184.648
-PROPIO,base,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,93.13
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,185.94
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,69.613
 PROPIO,base,Quillota500,Quillota 500,19,Centro,2040,Generación,Eólica,14.6
-PROPIO,base,Quillota500,Quillota 500,19,Centro,2045,Generación,Solar,1372.785
-PROPIO,base,Quillota500,Quillota 500,19,Centro,2050,Almacenamiento,Almacenamiento,786.148
-PROPIO,base,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,2796.661
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2045,Almacenamiento,Almacenamiento,88.122
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2045,Generación,Solar,1220.78
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2050,Almacenamiento,Almacenamiento,43.028
+PROPIO,base,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,3023.482
 PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2025,Generación,Solar,23.1
 PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2030,Generación,Eólica,25.4
-PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2045,Generación,Solar,2176.813
-PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2050,Almacenamiento,Almacenamiento,100.0
-PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2050,Generación,Solar,5509.722
-PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2025,Generación,Solar,94.707
-PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,Almacenamiento,Almacenamiento,200.0
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2045,Almacenamiento,Almacenamiento,34.184
+PROPIO,base,Polpaico500,Polpaico 500,20,Centro,2050,Generación,Solar,1021.784
+PROPIO,base,AltoJahuel500,Alto Jahuel 500,21,Centro,2025,Generación,Solar,108.55
 PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2025,Generación,Solar,506.9
-PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2050,Almacenamiento,Almacenamiento,243.018
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2045,Almacenamiento,Almacenamiento,142.6
+PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2050,Almacenamiento,Almacenamiento,198.685
 PROPIO,base,Candelaria500,Candelaria 500,22,Centro,2050,Generación,Solar,506.9
 PROPIO,base,Rapel500,Rapel 500,23,Centro,2030,Generación,Eólica,45.2
 PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2030,Generación,Eólica,978.4
-PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,Almacenamiento,Almacenamiento,277.778
-PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,Almacenamiento,Almacenamiento,100.0
-PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,Generación,Eólica,702.171
-PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,2011.35
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2045,Almacenamiento,Almacenamiento,100.0
+PROPIO,base,Ancoa500,Ancoa 500,24,Centro-Sur,2050,Almacenamiento,Almacenamiento,31.557
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2030,Generación,Eólica,694.744
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,1439.702
 PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2040,Generación,Eólica,143.2
-PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,236.38
-PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,63.752
-PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1516.054
-PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,437.824
-PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,753.965
-PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,Generación,Eólica,647.15
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,815.454
+PROPIO,base,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,304.158
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1510.083
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,463.299
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,847.808
+PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2045,Generación,Eólica,390.479
 PROPIO,base,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,Generación,Eólica,91.9
 PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2030,Generación,Eólica,936.6
-PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,991.878
-PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,2926.751
-PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,1522.093
-PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,893.033
-PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2050,Almacenamiento,Almacenamiento,491.807
-PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,1509.174
-PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,2227.177
-PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Almacenamiento,Almacenamiento,200.0
-PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,98.223
-PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,578.688
-PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,Generación,Eólica,415.612
-PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,1344.8
-PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,Almacenamiento,Almacenamiento,433.866
-PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,718.549
-PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,816.695
-PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,1812.845
-PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,861.708
-PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Almacenamiento,Almacenamiento,590.685
-PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,904.497
-PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,221.395
-PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,145.756
-PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,Almacenamiento,Almacenamiento,594.657
-PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,Generación,Solar,2223.968
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,276.27
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,1270.364
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Almacenamiento,Almacenamiento,179.351
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Generación,Solar,645.143
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1488.824
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,6285.286
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Almacenamiento,Almacenamiento,935.583
-PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Generación,Solar,1799.207
-PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2035,Almacenamiento,Almacenamiento,33.957
-PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2040,Almacenamiento,Almacenamiento,31.576
-PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,1150.292
-PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,3462.961
-PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,Generación,Solar,5887.481
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,1329.909
+PROPIO,base,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,3119.116
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,1503.596
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,877.101
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2050,Almacenamiento,Almacenamiento,60.631
+PROPIO,base,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,1543.603
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,2312.535
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Almacenamiento,Almacenamiento,143.728
+PROPIO,base,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,12.865
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,540.59
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,Generación,Eólica,135.063
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,1651.211
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Generación,Eólica,12.236
+PROPIO,base,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2050,Almacenamiento,Almacenamiento,221.248
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,754.578
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,745.896
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,1508.42
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,676.228
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Almacenamiento,Almacenamiento,129.588
+PROPIO,base,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,889.766
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,236.555
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,130.595
+PROPIO,libre,Parinacota220,Parinacota 220,1,Norte Grande,2050,Generación,Solar,19.942
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Almacenamiento,Almacenamiento,301.796
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2035,Generación,Solar,1535.442
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2040,Generación,Solar,184.498
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Almacenamiento,Almacenamiento,1642.649
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2045,Generación,Solar,7618.709
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Almacenamiento,Almacenamiento,116.391
+PROPIO,libre,NuevaPozoAlmonte220,Nueva Pozo Almonte 220,2,Norte Grande,2050,Generación,Solar,661.351
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2045,Almacenamiento,Almacenamiento,1570.03
+PROPIO,libre,Lagunas220,Lagunas 220,3,Norte Grande,2050,Almacenamiento,Almacenamiento,1605.423
 PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2025,Generación,Eólica,150.0
 PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2030,Generación,Eólica,746.9
 PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2040,Generación,Eólica,205.2
-PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2050,Almacenamiento,Almacenamiento,1000.0
+PROPIO,libre,Kimal220,Kimal 220,4,Norte Grande,2050,Almacenamiento,Almacenamiento,594.098
 PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2025,Almacenamiento,Almacenamiento,470.1
 PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2025,Generación,Biomasa y otras,200.0
 PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2027,Almacenamiento,Almacenamiento,1000.0
-PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento,24.813
-PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1808.52
-PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2040,Generación,Solar,815.766
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2035,Almacenamiento,Almacenamiento,157.54
+PROPIO,libre,Kimal500,Kimal 500,5,Norte Grande,2045,Almacenamiento,Almacenamiento,1675.793
+PROPIO,libre,PDGE-TOC-A1,Polo Tocopilla A1,6,Norte Grande,2035,Generación,Solar,815.766
 PROPIO,libre,PDGE-TOC-A2,Polo Tocopilla A2,7,Norte Grande,2035,Generación,Solar,2460.38
 PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2025,Generación,Gas,300.0
-PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2035,Almacenamiento,Almacenamiento,611.111
+PROPIO,libre,LosChangos500,Los Changos 500,8,Norte Grande,2035,Almacenamiento,Almacenamiento,442.043
 PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2025,Almacenamiento,Almacenamiento,48.0
 PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2025,Generación,Eólica,156.0
-PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,Almacenamiento,Almacenamiento,900.0
-PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,Generación,Solar,3412.258
+PROPIO,libre,LosChangos220,Los Changos 220,9,Norte Grande,2050,Generación,Solar,586.19
 PROPIO,libre,PDGE-ANF-B1,Polo Antofagasta B1,10,Norte Grande,2045,Generación,Solar,4173.9
 PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Almacenamiento,Almacenamiento,391.3
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,1233.187
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2025,Generación,Solar,1.597
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2027,Generación,Solar,1231.59
 PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2030,Generación,Eólica,327.7
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,3931.293
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2035,Generación,Solar,2775.383
 PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,Generación,Eólica,5.8
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2040,Generación,Solar,367.881
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Almacenamiento,Almacenamiento,400.0
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,3333.689
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,814.092
-PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,4390.75
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Almacenamiento,Almacenamiento,30.703
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2045,Generación,Solar,4559.604
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Almacenamiento,Almacenamiento,1741.384
+PROPIO,libre,NuevaZaldivar220,Nueva Zaldívar 220,11,Norte Grande,2050,Generación,Solar,4690.223
 PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2025,Generación,Eólica,3065.0
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,496.443
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,651.748
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,308.718
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,4718.154
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2040,Almacenamiento,Almacenamiento,27.999
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Almacenamiento,Almacenamiento,100.0
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,1558.699
-PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2050,Almacenamiento,Almacenamiento,100.0
-PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2025,Generación,Eólica,1708.102
-PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,582.638
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Almacenamiento,Almacenamiento,466.525
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2030,Generación,Eólica,621.498
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Almacenamiento,Almacenamiento,340.674
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2035,Generación,Eólica,4696.255
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Almacenamiento,Almacenamiento,63.327
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2045,Generación,Eólica,1293.071
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2050,Almacenamiento,Almacenamiento,36.673
+PROPIO,libre,Parinas500,Parinas 500,12,Norte Grande,2050,Generación,Eólica,317.776
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2025,Generación,Eólica,1706.668
+PROPIO,libre,PDGE-ANF-B2,Polo Antofagasta B2,13,Norte Grande,2027,Generación,Eólica,584.072
 PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
 PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2030,Generación,Eólica,88.9
 PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2035,Almacenamiento,Almacenamiento,277.778
-PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2040,Generación,Eólica,3.253
-PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,Almacenamiento,Almacenamiento,700.0
-PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,Generación,Eólica,39.347
-PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,951.389
-PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2025,Generación,Solar,1276.475
-PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2027,Generación,Solar,214.539
-PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,3893.001
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,Almacenamiento,Almacenamiento,600.0
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2045,Generación,Eólica,16.281
+PROPIO,libre,Cumbre500,Cumbre 500,14,Norte Chico,2050,Almacenamiento,Almacenamiento,749.876
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2025,Generación,Solar,1377.441
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2027,Generación,Solar,113.572
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2045,Generación,Solar,456.171
+PROPIO,libre,PDGE-ANF-B3,Polo Antofagasta B3,15,Norte Chico,2050,Generación,Solar,3537.797
 PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2025,Almacenamiento,Almacenamiento,110.0
 PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2027,Almacenamiento,Almacenamiento,500.0
-PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,600.0
-PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Generación,Solar,1140.551
-PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,856.952
-PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Generación,Solar,1444.049
-PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,464.292
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2045,Almacenamiento,Almacenamiento,500.0
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Almacenamiento,Almacenamiento,934.465
+PROPIO,libre,NuevaCardones500,Nueva Cardones 500,16,Norte Chico,2050,Generación,Solar,2584.6
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2025,Generación,Solar,360.12
 PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Carbón,976.67
 PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2030,Generación,Eólica,161.0
-PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Almacenamiento,Almacenamiento,234.289
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Almacenamiento,Almacenamiento,150.967
 PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2035,Generación,Eólica,23.8
 PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Carbón,701.3
 PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2040,Generación,Eólica,202.8
-PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,405.807
-PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,338.983
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2045,Almacenamiento,Almacenamiento,100.0
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Almacenamiento,Almacenamiento,872.257
 PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Carbón,701.3
-PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,1857.432
+PROPIO,libre,NuevaMaitencillo500,Nueva Maitencillo 500,17,Norte Chico,2050,Generación,Solar,2211.609
 PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2025,Generación,Solar,205.5
 PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2030,Generación,Eólica,674.2
-PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2035,Almacenamiento,Almacenamiento,86.618
-PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Almacenamiento,Almacenamiento,131.165
-PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,708.796
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2045,Almacenamiento,Almacenamiento,100.0
+PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Almacenamiento,Almacenamiento,471.948
 PROPIO,libre,NuevaPandeAzucar500,Nueva Pan de Azúcar 500,18,Norte Chico,2050,Generación,Solar,205.5
-PROPIO,libre,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,453.23
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2025,Generación,Solar,445.423
 PROPIO,libre,Quillota500,Quillota 500,19,Centro,2030,Generación,Eólica,183.2
-PROPIO,libre,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,23.124
-PROPIO,libre,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,42.948
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2035,Almacenamiento,Almacenamiento,43.693
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2040,Almacenamiento,Almacenamiento,234.085
 PROPIO,libre,Quillota500,Quillota 500,19,Centro,2040,Generación,Eólica,14.6
-PROPIO,libre,Quillota500,Quillota 500,19,Centro,2045,Generación,Solar,1397.816
-PROPIO,libre,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,2995.084
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2045,Almacenamiento,Almacenamiento,165.506
+PROPIO,libre,Quillota500,Quillota 500,19,Centro,2050,Generación,Solar,4144.889
 PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2025,Generación,Solar,23.1
 PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2030,Generación,Eólica,25.4
-PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2045,Almacenamiento,Almacenamiento,100.0
+PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2045,Almacenamiento,Almacenamiento,219.724
 PROPIO,libre,Polpaico500,Polpaico 500,20,Centro,2050,Generación,Solar,23.1
-PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,Generación,Solar,1882.478
+PROPIO,libre,AltoJahuel500,Alto Jahuel 500,21,Centro,2050,Generación,Solar,505.627
 PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2025,Generación,Solar,506.9
+PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2045,Almacenamiento,Almacenamiento,142.6
 PROPIO,libre,Candelaria500,Candelaria 500,22,Centro,2050,Generación,Solar,506.9
-PROPIO,libre,Rapel500,Rapel 500,23,Centro,2025,Generación,Solar,105.821
+PROPIO,libre,Rapel500,Rapel 500,23,Centro,2025,Generación,Solar,73.212
 PROPIO,libre,Rapel500,Rapel 500,23,Centro,2030,Generación,Eólica,45.2
 PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2030,Generación,Eólica,978.4
 PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,Almacenamiento,Almacenamiento,100.0
-PROPIO,libre,Ancoa500,Ancoa 500,24,Centro-Sur,2045,Generación,Solar,1995.913
 PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2030,Generación,Eólica,432.9
-PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,2517.0
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2035,Generación,Eólica,2027.875
 PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2040,Generación,Eólica,143.2
-PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,2063.3
-PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Gas,146.56
-PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,2064.089
-PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,102.1
-PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,1773.811
-PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,Generación,Gas,398.874
-PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,Generación,Eólica,1065.13
-PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,3147.251
-PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2040,Generación,Eólica,1332.218
-PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Gas,214.736
-PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,2871.002
-PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,805.598
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2045,Generación,Eólica,489.125
+PROPIO,libre,Concepcion500,Concepción 500,25,Centro-Sur,2050,Generación,Eólica,1803.2
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2030,Generación,Eólica,1995.625
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2035,Generación,Eólica,10.2
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2040,Generación,Eólica,1842.275
+PROPIO,libre,NuevaCharrua500,Nueva Charrúa 500,26,Centro-Sur,2050,Generación,Eólica,91.9
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2030,Generación,Eólica,1151.775
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2035,Generación,Eólica,2834.642
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2040,Generación,Eólica,929.847
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2045,Generación,Eólica,589.017
+PROPIO,libre,Mulchen500,Mulchén 500,27,Centro-Sur,2050,Generación,Eólica,39.319
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2030,Generación,Eólica,2383.996
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2035,Generación,Eólica,534.262
 PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2040,Generación,Eólica,77.7
-PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2045,Almacenamiento,Almacenamiento,100.0
-PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2045,Generación,Eólica,789.8
-PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,1030.0
+PROPIO,libre,RioMalleco500,Río Malleco 500,28,Sur,2050,Generación,Eólica,1788.342
 PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2035,Generación,Eólica,2325.4
-PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2045,Almacenamiento,Almacenamiento,200.0
-PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2045,Generación,Eólica,165.2
-PROPIO,libre,Pichirropulli500,Pichirropulli 500,29,Sur,2050,Generación,Eólica,154.6
-PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,607.712
-PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,Generación,Eólica,289.441
-PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Almacenamiento,Almacenamiento,437.5
-PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,1441.947
-PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Almacenamiento,Almacenamiento,840.087
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,1295.375
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,1919.2
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,2589.67
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Almacenamiento,Almacenamiento,230.649
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,4034.169
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Almacenamiento,Almacenamiento,371.86
-PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,1373.187
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2030,Generación,Eólica,1086.266
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2035,Generación,Eólica,4.251
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Almacenamiento,Almacenamiento,177.669
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2040,Generación,Eólica,860.401
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Almacenamiento,Almacenamiento,69.214
+PROPIO,libre,NuevaPuertoMontt500,Nueva Puerto Montt 500,30,Sur,2045,Generación,Eólica,388.182
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2030,Generación,Eólica,1290.285
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2035,Generación,Eólica,1360.469
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2040,Generación,Eólica,1783.295
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2045,Generación,Eólica,959.924
+PROPIO,libre,NuevaAncud500,Nueva Ancud 500,31,Sur,2050,Generación,Eólica,960.431
 SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2035,Almacenamiento,Almacenamiento,192.22
 SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2045,Almacenamiento,Almacenamiento,174.93
 SIN_DC,base,Parinacota220,Parinacota 220,1,Norte Grande,2050,Almacenamiento,Almacenamiento,13.799

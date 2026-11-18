@@ -27,51 +27,51 @@
  "costo_sin_dc": 42618.79767465143,
  "extra_base": [
   1040.0,
-  4263.0,
+  3496.0,
   3503.0,
-  16184.0
+  9724.0
  ],
  "extra_libre": [
   861.0,
-  3491.0,
+  2997.0,
   2883.0,
-  11635.0
+  7322.0
  ],
  "ahorro": [
   179.0,
-  772.0,
+  500.0,
   620.0,
-  4549.0
+  2402.0
  ],
  "ahorro_pct_extra": [
   17.0,
+  14.0,
   18.0,
-  18.0,
-  28.0
+  25.0
  ],
  "extra_usd_mwh_base": [
   42.0,
   44.0,
   40.0,
-  45.0
+  44.0
  ],
  "extra_usd_mwh_libre": [
   35.0,
-  36.0,
+  38.0,
   33.0,
-  32.0
+  33.0
  ],
  "ahorro_usd_mwh_reubicable": [
   12.4,
-  13.9,
+  13.4,
   11.9,
-  14.9
+  14.0
  ],
  "reubicable_2050_pct": [
   70.0,
-  80.0,
+  69.0,
   70.0,
-  95.0
+  86.0
  ],
  "dc_total_por_periodo": {
   "PELP E2": [
@@ -86,11 +86,11 @@
   "CEN": [
    138.0,
    382.0,
-   664.0,
-   874.0,
-   1143.0,
-   1486.0,
-   1924.0
+   634.0,
+   750.0,
+   886.0,
+   1042.0,
+   1224.0
   ],
   "PELP N1": [
    38.0,
@@ -104,11 +104,11 @@
   "Propio": [
    20.0,
    460.0,
-   2004.0,
-   3034.0,
-   4504.0,
-   6665.0,
-   9839.0
+   1938.0,
+   2360.0,
+   2752.0,
+   3206.0,
+   3733.0
   ]
  },
  "ubicacion_proyectada_region": {
@@ -120,45 +120,18 @@
   ],
   "Metropolitana": [
    282.0,
-   1712.0,
+   1090.0,
    282.0,
-   7798.0
+   2973.0
   ],
   "Valparaíso": [
    50.0,
-   212.0,
+   134.0,
    50.0,
-   2041.0
+   759.0
   ]
  },
  "ubicacion_por_zona": [
-  {
-   "zona": "Parinacota (Arica y Parinacota)",
-   "celdas": [
-    "–",
-    "–",
-    "–",
-    "0 → 234"
-   ]
-  },
-  {
-   "zona": "Nueva Pozo Almonte (Tarapacá)",
-   "celdas": [
-    "–",
-    "–",
-    "–",
-    "0 → 2.024"
-   ]
-  },
-  {
-   "zona": "Lagunas (Tarapacá)",
-   "celdas": [
-    "–",
-    "–",
-    "–",
-    "0 → 22"
-   ]
-  },
   {
    "zona": "Kimal (Antofagasta)",
    "celdas": [
@@ -169,30 +142,21 @@
    ]
   },
   {
-   "zona": "Nueva Zaldívar (Antofagasta)",
-   "celdas": [
-    "–",
-    "–",
-    "–",
-    "0 → 805"
-   ]
-  },
-  {
    "zona": "Quillota (Valparaíso)",
    "celdas": [
     "50 → 15",
-    "212 → 39",
+    "134 → 39",
     "50 → 15",
-    "2.041 → 100"
+    "759 → 100"
    ]
   },
   {
    "zona": "Polpaico (Metropolitana)",
    "celdas": [
     "282 → 84",
-    "1.712 → 343",
+    "1.090 → 343",
     "282 → 84",
-    "4.299 → 310"
+    "1.658 → 310"
    ]
   },
   {
@@ -201,7 +165,7 @@
     "–",
     "–",
     "–",
-    "3.499 → 96"
+    "1.315 → 96"
    ]
   },
   {
@@ -210,7 +174,7 @@
     "–",
     "–",
     "–",
-    "0 → 749"
+    "0 → 176"
    ]
   },
   {
@@ -219,7 +183,7 @@
     "–",
     "–",
     "–",
-    "0 → 620"
+    "0 → 359"
    ]
   },
   {
@@ -228,75 +192,75 @@
     "–",
     "–",
     "–",
-    "0 → 354"
+    "0 → 294"
    ]
   },
   {
    "zona": "Nueva Ancud (Los Lagos)",
    "celdas": [
     "0 → 232",
-    "0 → 1.543",
+    "0 → 843",
     "0 → 757",
-    "0 → 4.524"
+    "0 → 2.397"
    ]
   }
  ],
  "cambio_capacidad": {
   "Eólica": [
    769.0,
-   2876.0,
+   1851.0,
    1802.0,
-   11249.0
+   4908.0
   ],
   "Solar FV": [
    -681.0,
-   -3448.0,
+   -2093.0,
    -1767.0,
-   -12831.0
+   -7632.0
   ],
   "Baterías": [
    -121.0,
-   -556.0,
+   -32.0,
    -109.0,
-   -1796.0
+   -836.0
   ],
   "Bombeo": [
    -219.0,
-   -773.0,
+   -789.0,
    -678.0,
-   -1147.0
+   -1633.0
   ],
   "Transmisión": [
    -1997.0,
-   -6597.0,
+   -2566.0,
    -1651.0,
-   -14615.0
+   -8075.0
   ]
  },
  "ahorro_componentes": {
   "Inversión en generación y almacenamiento": [
    59.0,
-   510.0,
+   295.0,
    288.0,
-   3281.0
+   1726.0
   ],
   "Combustible": [
    79.0,
-   109.0,
+   100.0,
    206.0,
-   525.0
+   340.0
   ],
   "Transmisión": [
    22.0,
-   116.0,
+   70.0,
    65.0,
-   548.0
+   230.0
   ],
   "Impuesto al CO₂ y O&M variable": [
    19.0,
-   38.0,
+   35.0,
    60.0,
-   195.0
+   106.0
   ],
   "Energía no suministrada": [
    0.0,
@@ -307,35 +271,31 @@
  },
  "mw_nuevos_por_mw_dc_base": [
   5.1,
-  5.3,
+  5.4,
   5.0,
-  5.0
+  5.6
  ],
  "mw_nuevos_por_mw_dc_libre": [
   4.4,
+  4.5,
   4.3,
-  4.3,
-  4.3
+  4.2
  ],
  "emisiones_menos_libre_Mt": [
   1.3,
-  2.2,
+  2.3,
   4.2,
-  10.5
+  7.0
  ],
  "dc_ultimo_periodo": [
   331.0,
-  1924.0,
+  1224.0,
   1081.0,
-  9839.0
+  3733.0
  ],
  "zonas_elegidas": [
-  "Lagunas220",
   "NuevaAncud500",
-  "NuevaPozoAlmonte220",
   "NuevaPuertoMontt500",
-  "NuevaZaldivar220",
-  "Parinacota220",
   "Pichirropulli500",
   "RioMalleco500"
  ],
@@ -347,7 +307,7 @@
  ],
  "precio_2040_elegidas": [
   23.0,
-  37.9
+  25.3
  ],
  "precio_2040_proyectadas": [
   37.5,
@@ -362,11 +322,13 @@
  "n_corridas": 9,
  "corredores_en_tope_todos": [
   "Ancoa 500 – Nueva Charrúa 500",
-  "Mulchén 500 – Río Malleco 500"
+  "Los Changos 220 – Nueva Zaldívar 220"
  ],
  "macrozonas_elegidas": [
-  "Norte Grande",
   "Sur"
+ ],
+ "corredores_sur_en_tope_todos": [
+  "Ancoa 500 – Nueva Charrúa 500"
  ],
  "macrozonas_por_escenario": {
   "PELP E2": [
@@ -379,30 +341,14 @@
    "Sur"
   ],
   "Propio": [
-   "Norte Grande",
    "Sur"
   ]
  },
  "precio_2040_por_macrozona": {
-  "Norte Grande": [
-   37.3,
-   37.9
-  ],
   "Sur": [
    23.0,
    25.3
   ]
  },
- "otros_cambios_capacidad": [
-  {
-   "escenario": "Propio",
-   "grupo": "Gas ciclo abierto y motores",
-   "dif_MW": 760.0
-  },
-  {
-   "escenario": "Propio",
-   "grupo": "Solar CSP",
-   "dif_MW": -2563.0
-  }
- ]
+ "otros_cambios_capacidad": []
 }

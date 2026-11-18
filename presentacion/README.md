@@ -51,7 +51,8 @@ presentacion\
   regenerar.ps1            regenera todo (pasos 1 a 6)
   requirements.txt         paquetes de Python
   VERIFICACION_EMPAQUETADO.md   prueba de regeneración de este paquete
-  VERIFICACION_V2.md       verificación independiente de las cifras del deck (inicio 2025)
+  VERIFICACION_3PCT.md     verificación independiente de las cifras del deck vigente (crecimiento de 3 %)
+  VERIFICACION_V2.md       verificación de la versión anterior (crecimiento de 5 % y 8 %)
   AUDITORIA_REPRODUCIBILIDAD.md auditoría previa a la publicación: privacidad, regeneración y documentación
   fuente\
     build.js               arma el PPTX con pptxgenjs: tema, layouts y un bloque por lámina

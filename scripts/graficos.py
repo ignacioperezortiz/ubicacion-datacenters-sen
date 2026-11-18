@@ -72,6 +72,7 @@ FAMILIAS = ['Hidro', 'Gas', 'Eólica', 'Solar', 'Almacenamiento', 'Biomasa y otr
 COLOR_FAMILIA = dict(zip(FAMILIAS, CATEGORICA))     # orden fijo de la paleta, igual en todas las figuras
 
 plt.rcParams.update({
+    'svg.hashsalt': 'ubicacion-dc',   # SVG reproducible: mismos identificadores en cada corrida
     'font.family': ['Segoe UI', 'DejaVu Sans'], 'font.size': 9,
     'figure.facecolor': SUPERFICIE, 'axes.facecolor': SUPERFICIE, 'savefig.facecolor': SUPERFICIE,
     'axes.edgecolor': EJE, 'axes.linewidth': 0.8, 'axes.labelcolor': TINTA_2, 'axes.titlecolor': TINTA,
@@ -133,7 +134,7 @@ def anotar(fig, *lineas):
 
 def guardar(fig, nombre):
     fig.savefig(FIGURAS / f'{nombre}.png', dpi=150)
-    fig.savefig(FIGURAS / f'{nombre}.svg')
+    fig.savefig(FIGURAS / f'{nombre}.svg', metadata={'Date': None})   # sin fecha, para que regenerar no cambie el archivo
     plt.close(fig)
     print(f'  {nombre}')
 

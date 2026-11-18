@@ -128,7 +128,7 @@ print("extent", X0 / PHI0, X1 / PHI0, Y0, Y1)
 # ---------------- figura ----------------
 for f in ("calibri.ttf", "calibrib.ttf"):
     font_manager.fontManager.addfont(os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", f))
-plt.rcParams.update({"font.family": "Calibri", "svg.fonttype": "path"})
+plt.rcParams.update({"font.family": "Calibri", "svg.fonttype": "path", "svg.hashsalt": "ubicacion-dc"})   # SVG reproducible
 FP7 = FontProperties(family="Calibri", size=7)
 
 W, H = 12.1, 4.6
@@ -236,5 +236,5 @@ for v in LEYENDA:
     ycur = yc - dpt / 2 - 6
 
 fig.savefig(OUT + r"\mapa_dc_2050.png", dpi=300, transparent=True)
-fig.savefig(OUT + r"\mapa_dc_2050.svg", transparent=True)
+fig.savefig(OUT + r"\mapa_dc_2050.svg", transparent=True, metadata={"Date": None})   # sin fecha
 print("ok", PW, SC)

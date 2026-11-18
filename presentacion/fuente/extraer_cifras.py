@@ -128,6 +128,13 @@ en_tope = trl.groupby('nombre')[['sin_dc_en_tope', 'base_en_tope', 'libre_en_top
 cif['corredores_en_tope_todos'] = sorted(en_tope[en_tope].index)
 macro = zonas.set_index('zona')['macrozona']
 cif['macrozonas_elegidas'] = sorted(set(macro.reindex(sorted(elegidas)).dropna()))
+# De esos, los que traen energía del sur hacia el centro: algún extremo en el Centro-Sur o el Sur y ninguno en el norte.
+# Son los que explican por qué conviene ubicar en el sur (un corredor en Antofagasta no lo explica).
+extremos = trl.drop_duplicates('nombre').set_index('nombre')['corredor'].str.split('_')
+cif['corredores_sur_en_tope_todos'] = [
+    n for n in cif['corredores_en_tope_todos']
+    if any(macro.get(z) in ('Centro-Sur', 'Sur') for z in extremos[n])
+    and not any(macro.get(z) in ('Norte Grande', 'Norte Chico') for z in extremos[n])]
 # Zonas elegidas por escenario y su macrozona, y precio de 2040 por macrozona elegida
 por_esc = {}
 for e in ESC:

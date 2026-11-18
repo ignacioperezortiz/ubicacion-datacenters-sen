@@ -1,14 +1,14 @@
 escenario,modo,macrozona,orden,generacion_MW,almacenamiento_MW
-CEN,base,Norte Grande,1,48335.195,14141.563
-CEN,base,Norte Chico,2,13344.339,5395.714
-CEN,base,Centro,3,5497.044,427.699
-CEN,base,Centro-Sur,4,12635.95,100.0
-CEN,base,Sur,5,12562.375,0.0
-CEN,libre,Norte Grande,1,45311.981,12662.453
-CEN,libre,Norte Chico,2,12866.61,5299.355
-CEN,libre,Centro,3,5549.916,674.166
-CEN,libre,Centro-Sur,4,14384.009,100.0
-CEN,libre,Sur,5,13690.144,0.0
+CEN,base,Norte Grande,1,46371.196,13374.466
+CEN,base,Norte Chico,2,12634.951,5250.089
+CEN,base,Centro,3,5915.875,533.78
+CEN,base,Centro-Sur,4,12239.915,100.0
+CEN,base,Sur,5,12438.35,0.0
+CEN,libre,Norte Grande,1,44881.225,12495.06
+CEN,libre,Norte Chico,2,12459.272,5302.823
+CEN,libre,Centro,3,5488.098,539.516
+CEN,libre,Centro-Sur,4,13663.248,100.0
+CEN,libre,Sur,5,12866.344,0.0
 PELP_E2,base,Norte Grande,1,44723.844,12571.075
 PELP_E2,base,Norte Chico,2,11724.556,5269.314
 PELP_E2,base,Centro,3,5504.896,444.048
@@ -29,16 +29,16 @@ PELP_N1,libre,Norte Chico,2,11898.524,5129.892
 PELP_N1,libre,Centro,3,5190.954,520.378
 PELP_N1,libre,Centro-Sur,4,13382.17,100.0
 PELP_N1,libre,Sur,5,12782.774,0.0
-PROPIO,base,Norte Grande,1,64698.226,17560.533
-PROPIO,base,Norte Chico,2,17747.794,7551.542
-PROPIO,base,Centro,3,13986.904,1606.944
-PROPIO,base,Centro-Sur,4,12437.374,377.778
-PROPIO,base,Sur,5,13703.093,1716.357
-PROPIO,libre,Norte Grande,1,56606.492,17021.718
-PROPIO,libre,Norte Chico,2,14273.908,6401.776
-PROPIO,libre,Centro,3,8162.829,166.072
-PROPIO,libre,Centro-Sur,4,18375.483,100.0
-PROPIO,libre,Sur,5,21770.0,2180.096
+PROPIO,base,Norte Grande,1,52445.41,15154.827
+PROPIO,base,Norte Chico,2,14663.055,5947.037
+PROPIO,base,Centro,3,7335.995,762.173
+PROPIO,base,Centro-Sur,4,13064.852,131.557
+PROPIO,base,Sur,5,13163.688,555.195
+PROPIO,libre,Norte Grande,1,45690.514,13061.599
+PROPIO,libre,Norte Chico,2,14598.562,5867.291
+PROPIO,libre,Centro,3,6497.552,805.608
+PROPIO,libre,Centro-Sur,4,15359.3,100.0
+PROPIO,libre,Sur,5,15803.204,246.884
 SIN_DC,base,Norte Grande,1,43460.422,12134.353
 SIN_DC,base,Norte Chico,2,11842.494,5252.783
 SIN_DC,base,Centro,3,5342.232,453.143

@@ -15,12 +15,12 @@ Cada cifra sale de una tabla de `resultados/tablas/`, indicada en cada sección.
 
 ## 1. Resumen de hallazgos
 
-1. **Ubicar bien ahorra 179,1, 772,0, 619,7 y 4.549,0 MMUSD** en PELP E2, CEN, PELP N1 y PROPIO. Es entre el 17,2 % y el 28,1 % del costo extra que agregan los data centers, y entre el 0,41 % y el 7,7 % del costo total del sistema.
-2. **El ahorro por MWh reubicado es de 11,9 a 14,9 USD/MWh en los 4 escenarios.** El ahorro relativo sigue a la parte reubicable: PELP E2, PELP N1 y CEN, con el 70 %, el 70 % y el 80 % de su demanda de 2050 reubicable, ahorran entre el 17,2 % y el 18,1 % del costo extra; PROPIO, con el 95 %, ahorra el 28,1 %.
-3. **Lo reubicable va sobre todo al sur:** a Nueva Ancud en los 4 escenarios y, en PROPIO, también a Río Malleco, Pichirropulli y Nueva Puerto Montt. En PROPIO, el 33 % de lo reubicable (3,1 GW, todo en el período 2050) va al norte grande: Nueva Pozo Almonte, Nueva Zaldívar, Parinacota y Lagunas. En 2040, sin data centers, abastecer 1 MW plano cuesta 23,0–25,3 USD/MWh en el sur y 37,5–38,1 USD/MWh en las zonas proyectadas. El sur exporta el 64 % de lo que genera, y los corredores Ancoa – Nueva Charrúa y Mulchén – Río Malleco llegan a su tope de ampliación en los 9 casos.
-4. **Con la ubicación óptima se construye más eólica (0,8 a 11,2 GW), menos solar FV (0,7 a 12,8 GW), menos baterías y bombeo, y entre 1,7 y 14,6 GW menos de transmisión.** Cada MW de data center pide 4,1–4,3 MW de capacidad nueva en vez de 4,8–5,0. Entre el 77 % y el 84 % del ahorro es menor inversión en generación y almacenamiento y menos combustible.
-5. **La expansión eficiente es eólica, solar y almacenamiento.** Sin data centers, en 2050 hay 42,9 GW eólicos, 47,7 GW solares y 16,9 GW de almacenamiento; eólica y solar dan el 92,0 % de la generación y las renovables el 98,3 %. En los 9 casos el modelo decide invertir en eólica, solar FV, baterías y bombeo; PROPIO agrega 2,6 GW de CSP en el caso base y 0,8 GW de gas de ciclo abierto en el libre.
-6. **La ubicación óptima reduce las emisiones acumuladas 2025–2054 entre 1,3 y 10,5 Mt CO₂.** Vertimiento solar y eólico en 2050: 5,9–6,3 % en PELP E2, CEN y PELP N1, con o sin reubicación; en PROPIO baja de 8,9 % a 4,8 %.
+1. **Ubicar bien ahorra 179,1, 499,7, 619,7 y 2.401,9 MMUSD** en PELP E2, CEN, PELP N1 y PROPIO. Es entre el 14,3 % y el 24,7 % del costo extra que agregan los data centers, y entre el 0,41 % y el 4,6 % del costo total del sistema.
+2. **El ahorro por MWh reubicado es de 11,9 a 14,0 USD/MWh en los 4 escenarios.** El ahorro relativo sigue a la parte reubicable de la energía de data centers en VP: CEN, PELP E2, PELP N1 y PROPIO, con el 47 %, el 58 %, el 60 % y el 77 %, ahorran el 14,3 %, el 17,2 %, el 17,7 % y el 24,7 % del costo extra.
+3. **Lo reubicable va todo al sur:** a Nueva Ancud en los 4 escenarios y, en PROPIO, también a Río Malleco, Pichirropulli y Nueva Puerto Montt. En 2040, sin data centers, abastecer 1 MW plano cuesta 23,0–25,3 USD/MWh en el sur y 37,5–38,1 USD/MWh en las zonas proyectadas. El sur exporta el 64 % de lo que genera; el corredor Ancoa – Nueva Charrúa llega a su tope de ampliación en los 9 casos, y Mulchén – Río Malleco, en todos salvo PROPIO libre.
+4. **Con la ubicación óptima se construye más eólica (0,8 a 4,9 GW), menos solar FV (0,7 a 7,6 GW), menos baterías y bombeo, y entre 1,7 y 8,1 GW menos de transmisión.** Cada MW de data center suma 4,1–4,2 MW a la capacidad instalada en 2050, en vez de 4,8–5,5. Entre el 77 % y el 86 % del ahorro es menor inversión en generación y almacenamiento y menos combustible.
+5. **La expansión eficiente es eólica, solar y almacenamiento.** Sin data centers, en 2050 hay 42,9 GW eólicos, 47,7 GW solares y 16,9 GW de almacenamiento; eólica y solar dan el 92,0 % de la generación y las renovables el 98,3 %. En los 9 casos el modelo decide invertir solo en eólica, solar FV, baterías y bombeo.
+6. **La ubicación óptima reduce las emisiones acumuladas 2025–2054 entre 1,3 y 7,0 Mt CO₂.** Vertimiento solar y eólico en 2050: 5,9–6,3 % en PELP E2, CEN y PELP N1, con o sin reubicación; en PROPIO baja de 7,2 % a 5,8 %.
 7. **Cada corrida tarda entre 10,0 y 17,6 minutos;** entre el 72 % y el 80 % es Gurobi (presolve, barrera y crossover).
 
 ---
@@ -39,15 +39,15 @@ Demanda de data centers que se agrega al modelo, en MW medios: carga plana, el m
 | Escenario | 2025 | 2027 | 2030 | 2035 | 2050 | GWh/año en 2050 | Reubicable en 2050 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | PELP E2 | 0 | 99 | 225 | 273 | 331 | 2.904 | 232 MW (70 %) |
-| CEN | 138 | 382 | 664 | 874 | 1.924 | 16.856 | 1.543 MW (80 %) |
+| CEN | 138 | 382 | 634 | 750 | 1.224 | 10.725 | 843 MW (69 %) |
 | PELP N1 | 38 | 324 | 750 | 1.023 | 1.081 | 9.474 | 757 MW (70 %) |
-| PROPIO | 20 | 460 | 2.004 | 3.034 | 9.839 | 86.194 | 9.333 MW (95 %) |
+| PROPIO | 20 | 460 | 1.938 | 2.360 | 3.733 | 32.699 | 3.226 MW (86 %) |
 
-Tablas: `escenarios_dc.csv`, `escenarios_dc_resumen.csv`. Desde 2031, la capacidad de CEN crece 5 % anual. Desde 2033, la demanda total de data centers de PROPIO crece 8 % anual, y ese crecimiento es reubicable. PELP E2 y PELP N1 siguen la trayectoria de la PELP. PROPIO incluye carga fija (llenado de campus ya conectados en Polpaico y Alto Jahuel), que no se mueve en ningún caso: 12 MW medios en 2025, 69 en 2027 y 115 desde 2030.
+Tablas: `escenarios_dc.csv`, `escenarios_dc_resumen.csv`. Desde 2031, la capacidad de CEN crece 3 % anual. Desde 2033, la demanda total de data centers de PROPIO crece 3 % anual, y ese crecimiento es reubicable. PELP E2 y PELP N1 siguen la trayectoria de la PELP. PROPIO incluye carga fija (llenado de campus ya conectados en Polpaico y Alto Jahuel), que no se mueve en ningún caso: 12 MW medios en 2025, 69 en 2027 y 115 desde 2030.
 
 ![Trayectorias de demanda de data centers](../resultados/figuras/i_demanda_dc.png)
 
-Lo de los períodos 2025 y 2027 queda comprometido en las zonas proyectadas: 382 de los 1.924 MW de 2050 en CEN, 99 de 331 en PELP E2, 324 de 1.081 en PELP N1 y 507 de 9.839 en PROPIO (con la carga fija). PELP E2 y PELP N1 tienen la menor parte reubicable, el 70 %; CEN, el 80 %, y PROPIO, el 95 %.
+Lo de los períodos 2025 y 2027 queda comprometido en las zonas proyectadas: 382 de los 1.224 MW de 2050 en CEN, 99 de 331 en PELP E2, 324 de 1.081 en PELP N1 y 507 de 3.733 en PROPIO (con la carga fija). CEN tiene la menor parte reubicable, el 69 %; PELP E2 y PELP N1, el 70 %, y PROPIO, el 86 %.
 
 ---
 
@@ -58,9 +58,9 @@ El sistema sin data centers cuesta **42.618,8 MMUSD**.
 | Escenario | Costo base | Costo libre | Extra base | Extra libre | Ahorro | Ahorro / extra | Ahorro / total |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | PELP E2 | 43.658,7 | 43.479,5 | 1.039,9 | 860,8 | 179,1 | 17,2 % | 0,41 % |
-| CEN | 46.882,2 | 46.110,3 | 4.263,4 | 3.491,5 | 772,0 | 18,1 % | 1,65 % |
+| CEN | 46.115,0 | 45.615,4 | 3.496,2 | 2.996,6 | 499,7 | 14,3 % | 1,08 % |
 | PELP N1 | 46.121,6 | 45.502,0 | 3.502,8 | 2.883,2 | 619,7 | 17,7 % | 1,34 % |
-| PROPIO | 58.802,9 | 54.253,9 | 16.184,1 | 11.635,1 | 4.549,0 | 28,1 % | 7,74 % |
+| PROPIO | 52.343,2 | 49.941,3 | 9.724,4 | 7.322,5 | 2.401,9 | 24,7 % | 4,59 % |
 
 ![Costo extra y ahorro por escenario](../resultados/figuras/a_costo_extra_y_ahorro.png)
 
@@ -69,17 +69,17 @@ Por MWh, con la energía también en VP 2025:
 | Escenario | Energía DC (TWh VP) | Extra base (USD/MWh) | Extra libre (USD/MWh) | Energía reubicable (TWh VP) | Ahorro por MWh DC | Ahorro por MWh reubicado |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | PELP E2 | 24,8 | 41,9 | 34,7 | 14,5 | 7,2 | 12,4 |
-| CEN | 97,7 | 43,6 | 35,7 | 55,6 | 7,9 | 13,9 |
+| CEN | 79,3 | 44,1 | 37,8 | 37,2 | 6,3 | 13,4 |
 | PELP N1 | 86,7 | 40,4 | 33,3 | 52,2 | 7,2 | 11,9 |
-| PROPIO | 358,3 | 45,2 | 32,5 | 306,0 | 12,7 | 14,9 |
+| PROPIO | 223,3 | 43,5 | 32,8 | 171,0 | 10,8 | 14,0 |
 
 Tablas: `costos.csv`, `escenarios_dc_resumen.csv`.
 
 ![Ahorro relativo y por MWh](../resultados/figuras/b_ahorro_relativo.png)
 
-- **Abastecer un data center cuesta al sistema 40,4–45,2 USD/MWh con la ubicación proyectada** y 32,5–35,7 USD/MWh con la óptima.
-- **El ahorro escala con lo que se puede mover.** Por MWh reubicado es de 11,9 a 14,9 USD/MWh en los 4 escenarios, aunque su demanda de 2050 va de 331 a 9.839 MW. Las diferencias en el ahorro relativo vienen de la parte comprometida en 2025 y 2027: con el 70–80 % reubicable, PELP E2, PELP N1 y CEN ahorran el 17,2–18,1 % del costo extra; PROPIO, con el 95 %, el 28,1 %.
-- **Es también un umbral.** Ubicar un data center en la zona elegida conviene al sistema mientras lo que cuesta llevarlo allá (conexión, terreno, fibra, latencia), que el modelo no incluye, sea menor que unos 12 a 15 USD por MWh reubicado.
+- **Abastecer un data center cuesta al sistema 40,4–44,1 USD/MWh con la ubicación proyectada** y 32,8–37,8 USD/MWh con la óptima.
+- **El ahorro escala con lo que se puede mover.** Por MWh reubicado es de 11,9 a 14,0 USD/MWh en los 4 escenarios, aunque su demanda de 2050 va de 331 a 3.733 MW. Las diferencias en el ahorro relativo vienen de la parte comprometida en 2025 y 2027: con el 47–60 % de su energía en VP reubicable, CEN, PELP E2 y PELP N1 ahorran el 14,3–17,7 % del costo extra; PROPIO, con el 77 %, el 24,7 %.
+- **Es también un umbral.** Ubicar un data center en la zona elegida conviene al sistema mientras lo que cuesta llevarlo allá (conexión, terreno, fibra, latencia), que el modelo no incluye, sea menor que unos 12 a 14 USD por MWh reubicado.
 
 ---
 
@@ -89,20 +89,20 @@ Ahorro (base − libre) por componente del costo total, en MMUSD y en % del ahor
 
 | Componente | PELP E2 | CEN | PELP N1 | PROPIO |
 | --- | ---: | ---: | ---: | ---: |
-| Inversión y O&M fijo de generación y almacenamiento | 58,6 (32,7 %) | 509,8 (66,0 %) | 288,2 (46,5 %) | 3.280,7 (72,1 %) |
-| Combustible | 79,4 (44,3 %) | 108,9 (14,1 %) | 205,6 (33,2 %) | 525,0 (11,5 %) |
-| Transmisión (inversión y O&M fijo) | 21,8 (12,2 %) | 115,6 (15,0 %) | 65,5 (10,6 %) | 547,9 (12,0 %) |
-| Impuesto al CO₂ | 12,3 (6,9 %) | 25,3 (3,3 %) | 39,9 (6,4 %) | 112,0 (2,5 %) |
-| O&M variable | 7,0 (3,9 %) | 12,4 (1,6 %) | 20,5 (3,3 %) | 83,5 (1,8 %) |
-| **Total** | **179,1** | **772,0** | **619,7** | **4.549,0** |
+| Inversión y O&M fijo de generación y almacenamiento | 58,6 (32,7 %) | 294,9 (59,0 %) | 288,2 (46,5 %) | 1.726,0 (71,9 %) |
+| Combustible | 79,4 (44,3 %) | 99,9 (20,0 %) | 205,6 (33,2 %) | 340,0 (14,2 %) |
+| Transmisión (inversión y O&M fijo) | 21,8 (12,2 %) | 70,1 (14,0 %) | 65,5 (10,6 %) | 229,7 (9,6 %) |
+| Impuesto al CO₂ | 12,3 (6,9 %) | 24,7 (4,9 %) | 39,9 (6,4 %) | 71,3 (3,0 %) |
+| O&M variable | 7,0 (3,9 %) | 10,0 (2,0 %) | 20,5 (3,3 %) | 34,8 (1,4 %) |
+| **Total** | **179,1** | **499,7** | **619,7** | **2.401,9** |
 
 Tabla: `costos_por_componente.csv` (columnas `base - libre`). Energía no suministrada: 0 en los 9 casos.
 
 ![Ahorro por tipo de costo](../resultados/figuras/c_ahorro_por_tipo_de_costo.png)
 
-- **Inversión en generación y almacenamiento:** 72,1 % del ahorro en PROPIO y 32,7 % en PELP E2. Con la ubicación proyectada es entre el 70,7 % y el 83,6 % del costo extra.
-- **Combustible:** 11,5 % en PROPIO y 44,3 % en PELP E2.
-- **Transmisión:** entre 10,6 % y 15,0 % del ahorro; su costo extra con la ubicación proyectada es entre el 2,2 % y el 4,6 % del costo extra total.
+- **Inversión en generación y almacenamiento:** 71,9 % del ahorro en PROPIO y 32,7 % en PELP E2. Con la ubicación proyectada es entre el 68,4 % y el 81,9 % del costo extra.
+- **Combustible:** 14,2 % en PROPIO y 44,3 % en PELP E2.
+- **Transmisión:** entre 9,6 % y 14,0 % del ahorro; su costo extra con la ubicación proyectada es entre el 2,2 % y el 3,2 % del costo extra total.
 
 ---
 
@@ -132,22 +132,22 @@ Tabla: `matriz_generacion.csv` (por grupo de tecnología, en los 9 casos). Solar
 
 ![Matriz de capacidad por caso](../resultados/figuras/d_matriz_capacidad.png)
 
-Capacidad adicional en 2050 frente a `SIN_DC`, en GW. Las demás tecnologías no cambian, salvo 0,76 GW de gas de ciclo abierto en PROPIO libre, que están en su total:
+Capacidad adicional en 2050 frente a `SIN_DC`, en GW. Las demás tecnologías no cambian:
 
 | Caso | Eólica | Solar | Almacenamiento | Total | MW por MW de DC |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | PELP E2 · base | −0,02 | 1,16 | 0,44 | 1,58 | 4,8 |
 | PELP E2 · libre | 0,75 | 0,49 | 0,10 | 1,35 | 4,1 |
-| CEN · base | 1,53 | 6,05 | 2,12 | 9,70 | 5,0 |
-| CEN · libre | 4,40 | 2,64 | 0,80 | 7,84 | 4,1 |
+| CEN · base | 1,01 | 3,83 | 1,32 | 6,16 | 5,0 |
+| CEN · libre | 2,86 | 1,76 | 0,50 | 5,11 | 4,2 |
 | PELP N1 · base | 0,69 | 3,31 | 1,22 | 5,23 | 4,8 |
 | PELP N1 · libre | 2,49 | 1,55 | 0,44 | 4,48 | 4,1 |
-| PROPIO · base | 2,47 | 35,29 | 10,87 | 48,64 | 4,9 |
-| PROPIO · libre | 13,72 | 19,93 | 7,93 | 42,34 | 4,3 |
+| PROPIO · base | 2,56 | 13,31 | 4,61 | 20,48 | 5,5 |
+| PROPIO · libre | 7,47 | 5,75 | 2,14 | 15,36 | 4,1 |
 
 ![Capacidad que agregan los data centers en 2050](../resultados/figuras/d2_capacidad_extra_2050.png)
 
-Con la ubicación proyectada, los data centers se abastecen sobre todo con solar y almacenamiento. Con la óptima, el almacenamiento baja en los 4 escenarios y la eólica nueva, sobre todo en el centro-sur y el sur (sección 5.4 y `expansion_por_zona.csv`), pasa a ser la mayor parte en PELP E2, CEN y PELP N1; en PROPIO sube de 2,5 a 13,7 GW.
+Con la ubicación proyectada, los data centers se abastecen sobre todo con solar y almacenamiento. Con la óptima, el almacenamiento baja en los 4 escenarios y la eólica nueva, sobre todo en el centro-sur y el sur (sección 5.4 y `expansion_por_zona.csv`), pasa a ser la mayor parte en PELP E2, CEN y PELP N1; en PROPIO sube de 2,6 a 7,5 GW y supera a la solar.
 
 ### 5.2 Inversiones nuevas por tecnología
 
@@ -163,22 +163,22 @@ MW construidos entre 2025 y 2050 sin data centers. Comprometidos son las obras f
 | Gas ciclo abierto y motores | 300 | 300 | 0 | – |
 | Solar FV | 42.461 | 0 | 42.461 | – |
 
-Los MW construidos incluyen reposiciones dentro del horizonte (las baterías nuevas duran 15 años). Los topes anuales de AMEBA a la FV y la eólica nuevas, sumados en los años de cada período, no restringen ([DATOS_Y_SUPUESTOS.md](DATOS_Y_SUPUESTOS.md)): sin data centers, el período 2025 construye 2.609 MW de FV y 5.062 MW eólicos. En los 9 casos, el modelo decide invertir en eólica, solar FV, baterías y bombeo; en PROPIO agrega 2.563 MW de CSP en el caso base y 760 MW de gas de ciclo abierto en el libre.
+Los MW construidos incluyen reposiciones dentro del horizonte (las baterías nuevas duran 15 años). Los topes anuales de AMEBA a la FV y la eólica nuevas, sumados en los años de cada período, no restringen ([DATOS_Y_SUPUESTOS.md](DATOS_Y_SUPUESTOS.md)): sin data centers, el período 2025 construye 2.609 MW de FV y 5.062 MW eólicos. En los 9 casos, el modelo decide invertir solo en eólica, solar FV, baterías y bombeo.
 
 Diferencia de MW construidos 2025–2050, libre − base:
 
 | Grupo | PELP E2 | CEN | PELP N1 | PROPIO |
 | --- | ---: | ---: | ---: | ---: |
-| Eólica | +769 | +2.876 | +1.802 | +11.249 |
-| Solar FV | −681 | −3.448 | −1.767 | −12.831 |
-| Baterías | −121 | −556 | −109 | −1.796 |
-| Bombeo | −219 | −773 | −678 | −1.147 |
+| Eólica | +769 | +1.851 | +1.802 | +4.908 |
+| Solar FV | −681 | −2.093 | −1.767 | −7.632 |
+| Baterías | −121 | −32 | −109 | −836 |
+| Bombeo | −219 | −789 | −678 | −1.633 |
 
-En PROPIO cambian además la CSP (−2.563 MW) y el gas de ciclo abierto (+760 MW). Tablas: `inversiones_por_tecnologia.csv`, `inversiones_libre_menos_base.csv` (con la diferencia por período).
+Tablas: `inversiones_por_tecnologia.csv`, `inversiones_libre_menos_base.csv` (con la diferencia por período).
 
 ![Cambios en inversión, libre − base](../resultados/figuras/e_inversion_libre_menos_base.png)
 
-La ubicación de los períodos 2025 y 2027 es la misma en ambos modos, pero la inversión de esos períodos puede cambiar porque el caso libre anticipa dónde irá la carga desde 2030: en 2025–2027 construye entre 29 (PELP E2) y 646 MW (PROPIO) menos de solar FV.
+La ubicación de los períodos 2025 y 2027 es la misma en ambos modos, pero la inversión de esos períodos puede cambiar porque el caso libre anticipa dónde irá la carga desde 2030: en 2025–2027 construye entre 29 (PELP E2) y 760 MW (PROPIO) menos de solar FV.
 
 ### 5.3 Transmisión
 
@@ -187,26 +187,26 @@ MW agregados a los corredores entre 2025 y 2050 (incluye las obras comprometidas
 | Escenario | Ampliado base (GW) | Ampliado libre (GW) | Libre − base (GW) | Inversión base | Inversión libre | Libre − base |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | PELP E2 | 81,3 | 79,3 | −2,0 | 5.910 | 5.794 | −116 |
-| CEN | 90,4 | 83,8 | −6,6 | 6.530 | 6.050 | −480 |
+| CEN | 85,3 | 82,7 | −2,6 | 6.198 | 5.986 | −212 |
 | PELP N1 | 83,0 | 81,4 | −1,7 | 6.021 | 5.881 | −140 |
-| PROPIO | 105,3 | 90,7 | −14,6 | 8.959 | 6.868 | −2.092 |
+| PROPIO | 94,8 | 86,8 | −8,1 | 6.901 | 6.248 | −653 |
 
 Sin data centers se amplían 77,9 GW. Las obras comprometidas son 2.660 MW: el HVDC Kimal–Lo Aguirre (2.000 MW, corredor Kimal 500 – Alto Jahuel 500) y Río Malleco–Pichirropulli (660 MW), ambas en 2030. Los 2.672 MW que AMEBA construyó hasta 2025 no entran como dato: los decide el modelo.
 
 | Escenario | Mayores reducciones (MW) | Mayores aumentos (MW) |
 | --- | --- | --- |
 | PELP E2 | Nueva Pozo Almonte 220 – Lagunas 220 (−395), Lagunas 220 – Kimal 220 (−308), Kimal 500 – Los Changos 500 (−232) | Los Changos 500 – Parinas 500 (+115), Concepción 500 – Nueva Charrúa 500 (+30) |
-| CEN | Kimal 500 – Los Changos 500 (−1.014), Nueva Maitencillo 500 – Nueva Pan de Azúcar 500 (−811), Parinas 500 – Cumbre 500 (−767) | Los Changos 500 – Parinas 500 (+358), Nueva Pozo Almonte 220 – Lagunas 220 (+307), Polpaico 500 – Alto Jahuel 500 (+302) |
+| CEN | Pichirropulli 500 – Nueva Puerto Montt 500 (−429), Río Malleco 500 – Pichirropulli 500 (−429), Parinas 500 – Cumbre 500 (−419) | Nueva Cardones 500 – Nueva Maitencillo 500 (+407), Los Changos 500 – Parinas 500 (+286), Nueva Pozo Almonte 220 – Lagunas 220 (+167) |
 | PELP N1 | Lagunas 220 – Kimal 220 (−577), Pichirropulli 500 – Nueva Puerto Montt 500 (−475), Nueva Zaldívar 220 – Parinas 500 (−453) | Nueva Pozo Almonte 220 – Lagunas 220 (+457), Nueva Cardones 500 – Nueva Maitencillo 500 (+375), Nueva Pan de Azúcar 500 – Polpaico 500 (+334) |
-| PROPIO | Kimal 220 – Kimal 500 (−4.848), Kimal 500 – Alto Jahuel 500 (−2.395), Kimal 500 – Los Changos 500 (−1.807) | Los Changos 500 – Parinas 500 (+1.084), Los Changos 220 – Nueva Zaldívar 220 (+940), Nueva Puerto Montt 500 – Nueva Ancud 500 (+627) |
+| PROPIO | Río Malleco 500 – Pichirropulli 500 (−1.473), Los Changos 500 – Los Changos 220 (−1.462), Lagunas 220 – Kimal 220 (−1.360) | Nueva Pozo Almonte 220 – Lagunas 220 (+1.190), Polpaico 500 – Alto Jahuel 500 (+552), Los Changos 500 – Parinas 500 (+378) |
 
 Tablas: `transmision_ampliaciones.csv` (por corredor y período), `transmision_libre_menos_base.csv` (totales, tope y diferencia por período).
 
 ![Transmisión ampliada por corredor](../resultados/figuras/f_transmision_por_corredor.png)
 
-- **Menos transmisión, sobre todo en el norte.** Con la carga reubicada, ya no hay que llevar tanta energía solar del norte grande al centro: las mayores reducciones están en los corredores entre Nueva Pozo Almonte, Lagunas, Kimal, Los Changos y Parinas, y en PROPIO también en el enlace Kimal 500 – Alto Jahuel 500. Los aumentos son menores y puntuales.
-- **2 corredores llegan a su tope de ampliación en los 9 casos:** Ancoa 500 – Nueva Charrúa 500 y Mulchén 500 – Río Malleco 500. Los Changos 220 – Nueva Zaldívar 220 llega a su tope en los 7 casos que no son PROPIO. En PROPIO base llegan al tope además Lagunas 220 – Kimal 220, Los Changos 500 – Los Changos 220, Cumbre 500 – Nueva Cardones 500, Nueva Maitencillo 500 – Nueva Pan de Azúcar 500, Nueva Pan de Azúcar 500 – Polpaico 500 y Nueva Charrúa 500 – Mulchén 500.
-- **En dinero:** la inversión overnight en transmisión baja entre 116 y 2.092 MMUSD; en VP, la transmisión explica entre 21,8 y 547,9 MMUSD del ahorro (sección 4).
+- **Menos transmisión, en el norte y en el sur.** En el norte grande baja porque ya no hay que llevar tanta energía solar al centro; ahí están las mayores reducciones de PELP E2 y PELP N1. En el sur baja porque la energía se consume allí: Río Malleco–Pichirropulli y Pichirropulli–Nueva Puerto Montt bajan en los 4 escenarios (de unos 120 MW en PELP E2 a 1.473 MW en PROPIO) y encabezan la lista en CEN y PROPIO. Algunos corredores suben, como Nueva Pozo Almonte–Lagunas en PELP N1 y PROPIO.
+- **2 corredores llegan a su tope de ampliación en los 9 casos:** Ancoa 500 – Nueva Charrúa 500 y Los Changos 220 – Nueva Zaldívar 220. Mulchén 500 – Río Malleco 500 llega a su tope en los 8 casos que no son PROPIO libre. En PROPIO base llegan al tope además Lagunas 220 – Kimal 220, Los Changos 500 – Los Changos 220, Cumbre 500 – Nueva Cardones 500, Nueva Maitencillo 500 – Nueva Pan de Azúcar 500 y Nueva Charrúa 500 – Mulchén 500.
+- **En dinero:** la inversión overnight en transmisión baja entre 116 y 653 MMUSD; en VP, la transmisión explica entre 21,8 y 229,7 MMUSD del ahorro (sección 4).
 
 ### 5.4 Expansión por zona
 
@@ -214,17 +214,17 @@ MW nuevos 2025–2050 (generación y almacenamiento) por macrozona sin data cent
 
 | Macrozona | Sin DC (GW nuevos) | PELP E2 | CEN | PELP N1 | PROPIO |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Norte Grande | 55,6 | −1,27 | −4,50 | −3,74 | −8,63 |
-| Norte Chico | 17,1 | +0,26 | −0,57 | +1,16 | −4,62 |
-| Centro | 5,8 | −0,02 | +0,30 | +0,03 | −7,26 |
-| Centro-Sur | 11,4 | +0,60 | +1,75 | +1,41 | +5,66 |
-| Sur | 12,4 | +0,17 | +1,13 | +0,39 | +8,53 |
+| Norte Grande | 55,6 | −1,27 | −2,37 | −3,74 | −8,85 |
+| Norte Chico | 17,1 | +0,26 | −0,12 | +1,16 | −0,14 |
+| Centro | 5,8 | −0,02 | −0,42 | +0,03 | −0,80 |
+| Centro-Sur | 11,4 | +0,60 | +1,42 | +1,41 | +2,26 |
+| Sur | 12,4 | +0,17 | +0,43 | +0,39 | +2,33 |
 
 Tablas: `expansion_por_zona.csv` (por zona, período y tecnología), `expansion_zona_libre_menos_base.csv` (por zona), `expansion_por_macrozona.csv`.
 
 - **El norte grande concentra la expansión:** 55,6 de los 102,3 GW nuevos sin data centers.
-- **Con la ubicación óptima, la expansión se mueve del norte grande al centro-sur y al sur** en los 4 escenarios. Capacidad nueva del sur: 12,4 GW sin data centers y 24,0 GW en PROPIO libre.
-- **Zonas que más cambian, libre − base.** En PROPIO, suben Nueva Ancud (+6,1 GW), Parinacota (+2,8 GW) y Concepción (+2,1 GW), y bajan Polpaico (−7,7 GW), Nueva Pan de Azúcar (−3,9 GW) y Kimal 220 (−3,5 GW).
+- **Con la ubicación óptima, la expansión se mueve del norte grande al centro-sur y al sur** en los 4 escenarios. Capacidad nueva del sur: 12,4 GW sin data centers y 16,1 GW en PROPIO libre.
+- **Zonas que más cambian, libre − base.** En PROPIO, suben Nueva Zaldívar (+2,0 GW), Nueva Cardones (+1,8 GW) y Nueva Ancud (+1,6 GW), y bajan Lagunas (−6,1 GW), Los Changos 220 (−3,3 GW) y Nueva Maitencillo (−2,1 GW).
 
 **Orden norte → sur.** Las entradas no traen coordenadas. Cada zona es una subestación del SEN, y `zonas.csv` le asigna la latitud aproximada de esa subestación (redondeada a 0,1°), su región y una macrozona: Norte Grande (Arica a Antofagasta), Norte Chico (Atacama y Coquimbo), Centro (Valparaíso, Metropolitana y O'Higgins), Centro-Sur (Maule a Biobío) y Sur (Araucanía a Los Lagos). Los 5 polos PDGE se ubican junto a la subestación a la que se conectan en `transmission_lines.csv`. Cada corredor se ordena por la posición media de sus dos zonas.
 
@@ -236,20 +236,16 @@ Data centers por zona en 2050, en MW medios:
 
 | Zona | PELP E2 base | PELP E2 libre | CEN base | CEN libre | PELP N1 base | PELP N1 libre | PROPIO base | PROPIO libre |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Parinacota 220 (18,5° S) |  |  |  |  |  |  |  | 234 |
-| Nueva Pozo Almonte 220 (20,3° S) |  |  |  |  |  |  |  | 2.024 |
-| Lagunas 220 (21,0° S) |  |  |  |  |  |  |  | 22 |
 | Kimal 220 (22,3° S) |  |  |  |  | 750 | 225 |  |  |
-| Nueva Zaldívar 220 (24,3° S) |  |  |  |  |  |  |  | 805 |
-| Quillota 500 (32,9° S) | 50 | 15 | 212 | 39 | 50 | 15 | 2.041 | 100 |
-| Polpaico 500 (33,1° S) | 282 | 84 | 1.712 | 343 | 282 | 84 | 4.299 | 310 |
-| Alto Jahuel 500 (33,7° S) |  |  |  |  |  |  | 3.499 | 96 |
-| Río Malleco 500 (38,0° S) |  |  |  |  |  |  |  | 750 |
-| Pichirropulli 500 (40,0° S) |  |  |  |  |  |  |  | 620 |
-| Nueva Puerto Montt 500 (41,4° S) |  |  |  |  |  |  |  | 354 |
-| Nueva Ancud 500 (41,9° S) |  | 232 |  | 1.543 |  | 757 |  | 4.524 |
+| Quillota 500 (32,9° S) | 50 | 15 | 134 | 39 | 50 | 15 | 759 | 100 |
+| Polpaico 500 (33,1° S) | 282 | 84 | 1.090 | 343 | 282 | 84 | 1.658 | 310 |
+| Alto Jahuel 500 (33,7° S) |  |  |  |  |  |  | 1.315 | 96 |
+| Río Malleco 500 (38,0° S) |  |  |  |  |  |  |  | 176 |
+| Pichirropulli 500 (40,0° S) |  |  |  |  |  |  |  | 359 |
+| Nueva Puerto Montt 500 (41,4° S) |  |  |  |  |  |  |  | 294 |
+| Nueva Ancud 500 (41,9° S) |  | 232 |  | 843 |  | 757 |  | 2.397 |
 
-Tabla: `ubicacion_dc.csv`. En el caso libre, lo que queda en Polpaico, Quillota, Alto Jahuel y Kimal es lo de los períodos 2025 y 2027 (más la carga fija de PROPIO). En PELP E2, CEN y PELP N1, el 100 % de lo reubicable va a Nueva Ancud. En PROPIO, el 67 % va al sur (Nueva Ancud, Río Malleco, Pichirropulli y Nueva Puerto Montt) y el 33 % al norte grande (Nueva Pozo Almonte, Nueva Zaldívar, Parinacota y Lagunas); la carga del norte grande llega toda en el período 2050.
+Tabla: `ubicacion_dc.csv`. En el caso libre, lo que queda en Polpaico, Quillota, Alto Jahuel y Kimal es lo de los períodos 2025 y 2027 (más la carga fija de PROPIO). En PELP E2, CEN y PELP N1, el 100 % de lo reubicable va a Nueva Ancud. En PROPIO va todo al sur: Nueva Ancud, Río Malleco, Pichirropulli y Nueva Puerto Montt reciben carga en 2030, y desde 2035 todo el crecimiento va a Nueva Ancud, que en 2050 tiene el 74 % de lo reubicable.
 
 ![Ubicación de los data centers por zona](../resultados/figuras/g_ubicacion_dc_por_zona.png)
 
@@ -279,18 +275,18 @@ Balance de energía por macrozona sin data centers, en 2040:
 
 Tabla: `balance_por_macrozona.csv`. Generación neta = inyección − carga del almacenamiento.
 
-- **El sur tiene eólica de sobra y no puede exportar más.** Exporta el 64 % de lo que genera, y los corredores hacia el centro (Mulchén 500 – Río Malleco 500 y Ancoa 500 – Nueva Charrúa 500) están en su tope de ampliación. El precio salta de 26,0 USD/MWh en Nueva Charrúa a 36,1 USD/MWh en Ancoa (2040), a ambos lados de ese tope.
-- **Un data center en el sur consume esa energía donde se produce:** no necesita la solar y el almacenamiento del norte ni la transmisión hacia el centro. En PROPIO, la exportación neta del sur en 2040 pasa de 25,2 TWh (base) a 1,6 TWh (libre).
-- **Nueva Ancud es la zona más barata** (23,0 USD/MWh en 2040). En PROPIO, los 6,2 GW que llegan al sur hasta 2045 suben su precio: en 2050 el sur y el norte grande quedan en 39,1–40,3 USD/MWh, frente a 41,4–42,6 en el centro, y lo que se agrega ese período (3,2 GW) va casi todo al norte grande.
+- **El sur tiene eólica de sobra y no puede exportar más.** Exporta el 64 % de lo que genera, y los corredores hacia el centro (Nueva Charrúa 500 – Mulchén 500 y Ancoa 500 – Nueva Charrúa 500) están en su tope de ampliación. El precio salta de 26,0 USD/MWh en Nueva Charrúa a 36,1 USD/MWh en Ancoa (2040), a ambos lados de ese tope.
+- **Un data center en el sur consume esa energía donde se produce:** no necesita la solar y el almacenamiento del norte ni la transmisión hacia el centro. En PROPIO, la exportación neta del sur en 2040 pasa de 24,2 TWh (base) a 9,1 TWh (libre).
+- **Nueva Ancud es la zona más barata** (23,0 USD/MWh en 2040). En PROPIO, los 3,2 GW que llegan al sur hasta 2050 suben su precio, pero el sur sigue siendo lo más barato: en 2050, 31,4–33,1 USD/MWh, frente a 36,2–37,1 en el norte grande y 39,2–40,1 en el centro.
 
 Precio medio de una carga plana en las zonas donde están los data centers, ponderado por sus MW, en USD/MWh:
 
 | Escenario | Base 2030 | Libre 2030 | Base 2040 | Libre 2040 | Base 2050 | Libre 2050 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | PELP E2 | 34,6 | 30,6 | 38,8 | 28,4 | 39,2 | 31,2 |
-| CEN | 36,4 | 32,7 | 40,9 | 29,0 | 40,9 | 31,5 |
+| CEN | 36,3 | 32,6 | 40,6 | 30,2 | 40,3 | 32,0 |
 | PELP N1 | 36,7 | 31,7 | 38,9 | 28,2 | 38,2 | 31,2 |
-| PROPIO | 45,6 | 33,8 | 48,1 | 29,5 | 49,5 | 39,5 |
+| PROPIO | 45,5 | 34,6 | 43,0 | 28,6 | 43,4 | 32,7 |
 
 Tabla: `precio_dc.csv` (incluye el precio de las mismas zonas sin data centers).
 
@@ -303,18 +299,18 @@ Tabla: `precio_dc.csv` (incluye el precio de las mismas zonas sin data centers).
 | Sin data centers | 128,2 | 12,22 | 12,50 | 2,31 | 2,35 | 98,3 % | 5,9 % | 227,4 |
 | PELP E2 · base | 131,8 | 12,10 | 12,82 | 2,60 | 2,35 | 98,3 % | 5,9 % | 237,7 |
 | PELP E2 · libre | 130,5 | 12,11 | 12,85 | 2,45 | 2,35 | 98,3 % | 6,0 % | 236,8 |
-| CEN · base | 140,5 | 12,52 | 14,01 | 2,91 | 2,26 | 98,5 % | 6,3 % | 269,7 |
-| CEN · libre | 138,3 | 12,54 | 14,10 | 2,77 | 2,34 | 98,5 % | 6,2 % | 259,6 |
+| CEN · base | 140,3 | 12,54 | 14,03 | 2,89 | 2,30 | 98,4 % | 6,1 % | 253,3 |
+| CEN · libre | 138,0 | 12,56 | 14,12 | 2,78 | 2,30 | 98,4 % | 6,3 % | 255,7 |
 | PELP N1 · base | 138,3 | 12,17 | 13,33 | 3,04 | 2,31 | 98,4 % | 6,0 % | 255,7 |
 | PELP N1 · libre | 134,1 | 12,17 | 13,42 | 2,67 | 2,30 | 98,4 % | 6,2 % | 258,1 |
-| PROPIO · base | 155,7 | 11,84 | 13,45 | 4,13 | 2,83 | 98,5 % | 8,9 % | 443,8 |
-| PROPIO · libre | 145,2 | 11,89 | 13,80 | 3,35 | 3,31 | 98,4 % | 4,8 % | 270,6 |
+| PROPIO · base | 147,5 | 11,85 | 13,51 | 4,07 | 2,33 | 98,5 % | 7,2 % | 334,4 |
+| PROPIO · libre | 140,5 | 11,94 | 13,97 | 3,29 | 2,34 | 98,6 % | 5,8 % | 281,8 |
 
 Tablas: `emisiones_vertimiento.csv` (por período), `resumen_casos.csv`. Emisiones acumuladas = emisiones anuales × años de cada período. Vertimiento = energía disponible (capacidad × disponibilidad × factor de planta horario, el mismo límite de despacho de Switch) − energía despachada.
 
-- **Emisiones.** Los períodos 2025 y 2027 emiten 11,8–14,1 Mt/año y aportan entre el 41 % y el 49 % de las acumuladas; desde 2030 quedan entre 2,3 y 4,1 Mt/año. La ubicación óptima cambia las acumuladas en −1,3 (PELP E2), −2,2 (CEN), −4,2 (PELP N1) y −10,5 Mt (PROPIO). En 2025 y 2027, el caso libre emite algo más que el base, hasta 0,35 Mt/año en PROPIO 2027, porque en esos períodos construye menos solar FV (sección 5.2).
-- **CEN frente a PELP N1:** 140,5 frente a 138,3 Mt con ubicación proyectada; en 2025–2029, 13,4 frente a 12,9 Mt/año, por la mayor demanda comprometida de CEN (382 frente a 324 MW en 2027).
-- **Vertimiento.** El de solar y eólica es de 5,9–8,9 % en 2050; efecto de la ubicación: cambia a lo más 0,3 puntos en PELP E2, CEN y PELP N1, y en PROPIO baja de 8,9 % a 4,8 % (de 444 a 271 TWh acumulados). El vertimiento hídrico no supera 63 GWh/año.
+- **Emisiones.** Los períodos 2025 y 2027 emiten 11,9–14,1 Mt/año y aportan entre el 44 % y el 49 % de las acumuladas; desde 2030 quedan entre 2,3 y 4,1 Mt/año. La ubicación óptima cambia las acumuladas en −1,3 (PELP E2), −2,3 (CEN), −4,2 (PELP N1) y −7,0 Mt (PROPIO). En 2025 y 2027, el caso libre emite algo más que el base, hasta 0,46 Mt/año en PROPIO 2027, porque en esos períodos construye menos solar FV (sección 5.2).
+- **CEN frente a PELP N1:** 140,3 frente a 138,3 Mt con ubicación proyectada; en 2025–2029, 13,4 frente a 12,9 Mt/año, por la mayor demanda comprometida de CEN (382 frente a 324 MW en 2027).
+- **Vertimiento.** El de solar y eólica es de 5,9–7,2 % en 2050; efecto de la ubicación: cambia a lo más 0,2 puntos en PELP E2, CEN y PELP N1, y en PROPIO baja de 7,2 % a 5,8 % (de 334 a 282 TWh acumulados). El vertimiento hídrico no supera 114 GWh/año.
 
 ---
 
@@ -325,12 +321,12 @@ Tablas: `emisiones_vertimiento.csv` (por período), `resumen_casos.csv`. Emision
 | Sin data centers | 8 | 20,6 | 164 | 791,8 | 54,6 | 955,6 | 76,9 | 17,6 |
 | PELP E2 · base | 14 | 23,4 | 171 | 583,4 | 24,8 | 706,1 | 54,0 | 13,3 |
 | PELP E2 · libre | 14 | 20,0 | 156 | 431,7 | 15,1 | 521,6 | 42,5 | 10,0 |
-| CEN · base | 14 | 24,2 | 169 | 658,6 | 31,3 | 792,5 | 54,8 | 14,8 |
-| CEN · libre | 14 | 20,0 | 174 | 471,9 | 19,2 | 566,2 | 42,0 | 10,7 |
+| CEN · base | 14 | 23,0 | 160 | 598,1 | 31,1 | 733,1 | 50,9 | 13,8 |
+| CEN · libre | 14 | 25,9 | 153 | 569,4 | 16,5 | 682,7 | 47,5 | 12,8 |
 | PELP N1 · base | 14 | 24,2 | 131 | 502,9 | 17,4 | 624,0 | 52,5 | 12,0 |
 | PELP N1 · libre | 14 | 19,9 | 156 | 440,7 | 14,9 | 533,4 | 42,8 | 10,2 |
-| PROPIO · base | 8 | 33,4 | 124 | 696,3 | 16,0 | 842,0 | 52,6 | 15,5 |
-| PROPIO · libre | 14 | 24,6 | 147 | 474,1 | 18,5 | 572,3 | 43,5 | 11,0 |
+| PROPIO · base | 14 | 21,8 | 139 | 466,4 | 30,9 | 584,3 | 54,3 | 11,3 |
+| PROPIO · libre | 14 | 23,0 | 170 | 657,7 | 25,1 | 788,5 | 52,8 | 14,7 |
 
 Tablas: `tiempos_computo.csv`, `entorno_computo.csv`.
 
@@ -338,8 +334,8 @@ Tablas: `tiempos_computo.csv`, `entorno_computo.csv`.
 
 - **Tamaño.** Cada caso es un programa lineal de 1.542.353 restricciones (1.542.230 en modo libre), 1.346.239 variables y 8,07 millones de coeficientes; tras el presolve quedan unas 890 mil filas y 996 mil columnas.
 - **Equipo y solver.** Intel Core Ultra 9 185H (16 núcleos físicos, 22 lógicos), Gurobi 13.0.3 con barrera (`Method=2`).
-- **Dónde se va el tiempo.** Gurobi (presolve, barrera y crossover) es entre el 72 % y el 80 % del tiempo de reloj. Pasar el modelo de Pyomo a Gurobi y leer la solución toma otros 74 a 129 s.
-- **Las 9 corridas suman 115 minutos.** `SIN_DC` y PROPIO base corrieron a la vez, con 8 hilos cada una; las otras 7, de a una y con 14 hilos. El tiempo de reloj no es comparable entre ambos grupos.
+- **Dónde se va el tiempo.** Gurobi (presolve, barrera y crossover) es entre el 72 % y el 80 % del tiempo de reloj. Pasar el modelo de Pyomo a Gurobi y leer la solución toma otros 74 a 108 s.
+- **Las 9 corridas suman 116 minutos.** `SIN_DC` corrió a la vez que otra corrida, con 8 hilos; las otras 8, de a una y con 14 hilos. El tiempo de reloj no es comparable entre ambos grupos.
 - **Memoria.** Con 7 períodos, el ordenamiento de la barrera de Gurobi llega a unos 20–60 GB por corrida. En un equipo de 63 GB conviene correr un caso a la vez.
 
 ---
@@ -348,10 +344,10 @@ Tablas: `tiempos_computo.csv`, `entorno_computo.csv`.
 
 Las del modelo y los datos están en [DATOS_Y_SUPUESTOS.md, sección 9](DATOS_Y_SUPUESTOS.md#9-limitaciones). Las que más pesan en estos resultados:
 
-- **Sin costos de ubicación de los data centers.** El caso libre no paga conexión, terreno, fibra ni latencia, ni tiene tope por zona. El ahorro es el del sistema eléctrico; los 12 a 15 USD por MWh reubicado son el máximo que esos costos podrían sumar para que reubicar siga conviniendo.
-- **El sur barato depende de los topes de transmisión** (Ancoa 500 – Nueva Charrúa 500 y Mulchén 500 – Río Malleco 500, en su tope en los 9 casos), que vienen de los candidatos de la PELP. Si esos corredores pudieran ampliarse más, la diferencia de precio entre el sur y el centro, y con ella el ahorro, sería menor.
+- **Sin costos de ubicación de los data centers.** El caso libre no paga conexión, terreno, fibra ni latencia, ni tiene tope por zona. El ahorro es el del sistema eléctrico; los 12 a 14 USD por MWh reubicado son el máximo que esos costos podrían sumar para que reubicar siga conviniendo.
+- **El sur barato depende de los topes de transmisión** (Ancoa 500 – Nueva Charrúa 500, en su tope en los 9 casos, y Mulchén 500 – Río Malleco 500, en 8), que vienen de los candidatos de la PELP. Si esos corredores pudieran ampliarse más, la diferencia de precio entre el sur y el centro, y con ella el ahorro, sería menor.
 - **Modelo de transporte.** Sin leyes de Kirchhoff ni pérdidas, abastecer el centro desde el norte sale más barato de lo que es: por este lado, el ahorro está subestimado.
-- **Una sola zona de destino en PELP E2, CEN y PELP N1.** Nueva Ancud gana a Nueva Puerto Montt por 0,1–1,6 % del costo acumulado ([VALIDACION.md](VALIDACION.md#6-resultados)): el resultado se lee como una región, no como una subestación. En PROPIO, la carga de 2050 se reparte entre el sur y el norte grande, con precios casi iguales.
+- **Una sola zona de destino en PELP E2, CEN y PELP N1.** Nueva Ancud gana a Nueva Puerto Montt por 0,5–1,6 % del costo acumulado ([VALIDACION.md](VALIDACION.md#6-resultados)): el resultado se lee como una región, no como una subestación. En PROPIO, la carga se reparte entre cuatro zonas del sur.
 - **Previsión perfecta y carga plana.** El caso libre elige la zona con los precios futuros que el propio modelo produce, y los data centers no tienen flexibilidad horaria.
 - **6 días típicos por período** y operación sin compromiso de unidades.
 - **Salidas de AMEBA como entrada.** La energía hidro por día típico, el perfil del consumo de H₂/NH₃ y el factor 1,031 de la demanda siguen saliendo de la solución de AMEBA.

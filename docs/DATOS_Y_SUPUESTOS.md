@@ -166,12 +166,12 @@ Carga media agregada al modelo por encima de lo existente, en MW medios. Cada pe
 | Período | `PELP_E2` | `PELP_N1` | `CEN` | `PROPIO`, ubicable | `PROPIO`, fija | `PROPIO`, total |
 |---|---:|---:|---:|---:|---:|---:|
 | 2025 | 0,0 | 37,5 | 138,3 | 8,0 | 11,5 | 19,5 |
-| 2027 | 99,0 | 324,0 | 381,7 | 391,3 | 69,1 | 460,4 |
-| 2030 | 224,8 | 749,8 | 663,5 | 1.888,5 | 115,2 | 2.003,7 |
-| 2035 | 272,8 | 1.022,8 | 874,2 | 2.918,8 | 115,2 | 3.034,0 |
-| 2040 | 292,4 | 1.042,4 | 1.143,1 | 4.389,2 | 115,2 | 4.504,4 |
-| 2045 | 311,9 | 1.061,9 | 1.486,3 | 6.549,7 | 115,2 | 6.664,9 |
-| 2050 | 331,5 | 1.081,5 | 1.924,2 | 9.724,2 | 115,2 | 9.839,4 |
+| 2027 | 99,0 | 324,0 | 381,7 | 391,3 | 69,1 | 460,5 |
+| 2030 | 224,8 | 749,8 | 633,7 | 1.822,5 | 115,2 | 1.937,7 |
+| 2035 | 272,8 | 1.022,8 | 750,4 | 2.245,3 | 115,2 | 2.360,5 |
+| 2040 | 292,4 | 1.042,4 | 885,6 | 2.637,0 | 115,2 | 2.752,2 |
+| 2045 | 311,9 | 1.061,9 | 1.042,5 | 3.091,1 | 115,2 | 3.206,3 |
+| 2050 | 331,5 | 1.081,5 | 1.224,3 | 3.617,6 | 115,2 | 3.732,8 |
 
 - La carga total de data centers del sistema es la de la tabla más los 99 MW existentes.
 - En `PELP_E2`, `PELP_N1` y `CEN`, toda la carga agregada es ubicable.
@@ -211,7 +211,7 @@ La PELP 2028–2032 trae los data centers como tres cargas planas (el mismo valo
 ### 8.4 `CEN`: Coordinador Eléctrico Nacional
 
 - **Capacidad hasta 2030.** La identificada por el CEN en su Proyección de Demanda 2026–2046 (figura 5-13): 398 MW en 2025, 552 en 2026, 642 en 2027, 963 en 2028, 1.281 en 2029 y **1.381 MW en 2030**. El CEN la deja plana después, porque se agota la cartera de proyectos informados por las empresas.
-- **Crecimiento desde 2031: 5 % anual.** Una cartera agotada no implica que la industria deje de crecer. Se supone un crecimiento conservador de la capacidad de 5 % anual desde 2031: 1.381 MW en 2030 y unos 3.660 MW en 2050.
+- **Crecimiento desde 2031: 3 % anual.** Una cartera agotada no implica que la industria deje de crecer. Se supone que la capacidad crece 3 % anual desde 2031, la misma tasa del escenario propio: 1.381 MW en 2030 y unos 2.490 MW en 2050.
 - **Utilización: 50 %**, la misma con que la PELP pasa de capacidad a demanda. Da 690 MW medios en 2030.
 - **Reparto.** El del CEN al 2030, en todos los años: RM 1.225 MW (a Polpaico500) y Valparaíso 155 MW (a Quillota500), 89 % y 11 %.
 
@@ -232,7 +232,7 @@ Proyección construida desde proyectos con solicitud de conexión, no desde anun
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | MW medios acumulados | 0 | 16 | 22 | 454 | 698 | 1.448 | 1.755,5 | 1.905,5 |
 
-**Crecimiento desde 2033: 8 % anual.** Las solicitudes llegan hasta 2032. Desde 2033, la demanda total de data centers crece 8 % anual: lo que ya está en la demanda (99 MW medios), el llenado de los campus conectados (115,2) y lo solicitado (1.905,5), 2.119,7 MW medios en 2032. El aumento es carga nueva y ubicable; su ubicación base reparte el aumento en proporción a lo solicitado en cada zona.
+**Crecimiento desde 2033: 3 % anual.** Las solicitudes llegan hasta 2032. Desde 2033, la demanda total de data centers crece 3 % anual, la misma tasa de CEN: lo que ya está en la demanda (99 MW medios), el llenado de los campus conectados (115,2) y lo solicitado (1.905,5), 2.119,7 MW medios en 2032. El aumento es carga nueva y ubicable; su ubicación base reparte el aumento en proporción a lo solicitado en cada zona.
 
 **Ubicación por subestación de conexión** (criterio: la barra de 500/220 kV que la abastece, verificada con la red de 234 nodos):
 

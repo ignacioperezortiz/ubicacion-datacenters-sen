@@ -1,201 +1,201 @@
 escenario,modo,corredor,nombre,zona_norte,zona_sur,orden,periodo,MW_ampliados,MW_comprometidos,inversion_overnight_MMUSD
 CEN,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,3500.0,0.0,62.825
-CEN,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,680.095,0.0,12.208
+CEN,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,665.549,0.0,11.947
 CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2030,13.509,0.0,0.604
-CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2040,38.69,0.0,1.73
-CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,2654.417,0.0,118.679
-CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,1108.367,0.0,49.555
-CEN,base,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,1072.406,0.0,30.228
-CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2035,492.614,0.0,0.0
-CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,65.199,0.0,0.0
-CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2045,21.663,0.0,0.0
-CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2050,32.978,0.0,0.0
+CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2040,19.126,0.0,0.855
+CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,2242.318,0.0,100.254
+CEN,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,1077.498,0.0,48.175
+CEN,base,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,394.021,0.0,11.106
+CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2035,445.34,0.0,0.0
+CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,58.942,0.0,0.0
+CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2045,99.534,0.0,0.0
+CEN,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2050,8.637,0.0,0.0
 CEN,base,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2035,1922.965,0.0,0.002
 CEN,base,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2040,21.314,0.0,0.0
-CEN,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,906.438,0.0,35.251
-CEN,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2050,767.464,0.0,29.847
-CEN,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2035,41.518,0.0,2.396
-CEN,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2050,1324.933,0.0,76.462
-CEN,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,1581.979,0.0,44.591
-CEN,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,949.023,0.0,26.75
-CEN,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,2880.543,0.0,0.003
-CEN,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,192.84,0.0,0.0
-CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2025,452.234,0.0,27.912
-CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2027,47.766,0.0,2.948
-CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2030,214.924,0.0,11.054
-CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2035,1785.076,0.0,91.806
+CEN,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,884.18,0.0,34.386
+CEN,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2045,139.032,0.0,5.407
+CEN,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2050,1354.088,0.0,78.144
+CEN,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,1292.558,0.0,36.433
+CEN,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,1451.631,0.0,40.917
+CEN,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,2951.09,0.0,0.003
+CEN,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,122.293,0.0,0.0
+CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2025,463.391,0.0,28.6
+CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2027,36.609,0.0,2.26
+CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2030,228.921,0.0,11.773
+CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2035,1771.079,0.0,91.087
 CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2035,1500.0,0.0,92.58
-CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2040,605.882,0.0,31.161
-CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,474.88,0.0,29.31
-CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,894.118,0.0,45.984
-CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1000.0,0.0,51.43
+CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2040,564.45,0.0,29.03
+CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,629.342,0.0,38.843
+CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,646.129,0.0,33.23
+CEN,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1289.421,0.0,66.315
+CEN,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2050,29.726,0.0,1.835
 CEN,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2027,500.0,0.0,43.0
-CEN,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1500.0,0.0,129.0
-CEN,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2050,412.947,0.0,35.513
-CEN,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2025,1656.295,0.0,0.002
-CEN,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,581.824,0.0,0.001
+CEN,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1446.243,0.0,124.377
+CEN,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2050,575.576,0.0,49.5
+CEN,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2025,1667.463,0.0,0.002
+CEN,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,570.655,0.0,0.001
 CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2025,500.0,0.0,27.835
 CEN,base,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2030,2000.0,2000.0,1251.2
 CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2035,1500.0,0.0,83.505
-CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2040,206.431,0.0,11.492
-CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,1293.569,0.0,72.013
-CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,527.649,0.0,29.374
+CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2040,54.545,0.0,3.037
+CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,1342.786,0.0,74.753
+CEN,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,34.24,0.0,1.906
 CEN,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2025,1271.199,0.0,0.001
 CEN,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2040,7.511,0.0,0.0
-CEN,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2045,471.108,0.0,0.0
-CEN,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,1531.686,0.0,0.002
+CEN,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2045,67.799,0.0,0.0
+CEN,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,1934.995,0.0,0.002
 CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2025,500.0,0.0,28.5
-CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,1026.598,0.0,58.516
-CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1973.402,0.0,112.484
-CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,986.861,0.0,56.251
+CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,874.713,0.0,49.859
+CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1914.91,0.0,109.15
+CEN,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,613.215,0.0,34.953
 CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2025,325.061,0.0,14.485
-CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2027,4.096,0.0,0.183
-CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,446.91,0.0,19.914
-CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2040,115.764,0.0,5.158
-CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,2246.186,0.0,100.09
-CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,1007.277,0.0,44.884
-CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,446.263,0.0,30.966
-CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2035,98.691,0.0,6.848
-CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2040,38.675,0.0,2.684
-CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,2297.273,0.0,159.408
-CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,2087.594,0.0,144.858
+CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2027,39.704,0.0,1.769
+CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,373.182,0.0,16.629
+CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2040,13.393,0.0,0.597
+CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,2118.356,0.0,94.394
+CEN,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,821.239,0.0,36.594
+CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,427.451,0.0,29.661
+CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2027,6.004,0.0,0.417
+CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2040,83.44,0.0,5.79
+CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,1982.706,0.0,137.58
+CEN,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,1641.208,0.0,113.883
 CEN,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2025,500.0,0.0,66.805
-CEN,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,2191.407,0.0,292.794
-CEN,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,1902.575,0.0,254.203
-CEN,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2050,247.042,0.0,6.613
+CEN,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,1762.748,0.0,235.521
+CEN,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,1409.959,0.0,188.385
+CEN,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2050,316.912,0.0,8.484
 CEN,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2025,500.0,0.0,30.64
-CEN,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2040,162.143,0.0,9.936
-CEN,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,174.387,0.0,10.686
+CEN,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2040,135.871,0.0,8.326
+CEN,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,225.978,0.0,13.848
 CEN,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2040,43.889,0.0,1.118
-CEN,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2045,65.465,0.0,1.667
-CEN,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2050,210.684,0.0,5.366
+CEN,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2045,101.533,0.0,2.586
+CEN,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2050,60.321,0.0,1.536
 CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2030,345.971,0.0,46.381
-CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1385.401,0.0,185.727
-CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1600.824,0.0,214.606
-CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,267.034,0.0,35.799
+CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1383.373,0.0,185.455
+CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1599.174,0.0,214.385
+CEN,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,270.713,0.0,36.292
 CEN,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2030,500.0,0.0,61.915
 CEN,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2035,1500.0,0.0,185.745
 CEN,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2040,1500.0,0.0,185.745
 CEN,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2050,1000.0,0.0,123.83
 CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2025,168.395,0.0,6.709
 CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2030,49.236,0.0,1.962
-CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,295.426,0.0,11.77
-CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,186.236,0.0,7.42
-CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2050,370.389,0.0,14.756
+CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,285.594,0.0,11.378
+CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,115.449,0.0,4.599
+CEN,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2050,447.307,0.0,17.821
 CEN,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2030,500.0,0.0,18.46
 CEN,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2035,1500.0,0.0,55.38
 CEN,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2040,2000.0,0.0,73.84
-CEN,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,2000.0,0.0,73.84
-CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,153.035,0.0,3.59
-CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,223.359,0.0,5.24
-CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,2721.474,0.0,63.846
-CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2045,126.525,0.0,2.968
-CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1275.607,0.0,29.926
+CEN,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,1793.822,0.0,66.228
+CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,148.111,0.0,3.475
+CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,243.225,0.0,5.706
+CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,2697.29,0.0,63.278
+CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2045,133.746,0.0,3.138
+CEN,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1277.627,0.0,29.973
 CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2030,660.0,660.0,107.54
-CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2035,122.758,0.0,20.002
-CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,2725.602,0.0,444.11
-CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,176.328,0.0,28.731
-CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2050,303.747,0.0,49.493
-CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2035,60.309,0.0,5.716
-CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,2718.779,0.0,257.686
-CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,324.85,0.0,30.789
-CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2050,182.065,0.0,17.256
-CEN,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,306.07,0.0,15.763
-CEN,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,2062.741,0.0,106.231
-CEN,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,268.585,0.0,13.832
-CEN,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,3500.0,0.0,62.825
-CEN,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,987.089,0.0,17.718
+CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2035,114.475,0.0,18.653
+CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,2730.0,0.0,444.826
+CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,173.848,0.0,28.327
+CEN,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2050,267.614,0.0,43.605
+CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2035,55.066,0.0,5.219
+CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,2714.725,0.0,257.302
+CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,246.541,0.0,23.367
+CEN,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2050,202.15,0.0,19.16
+CEN,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,302.278,0.0,15.567
+CEN,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,2122.324,0.0,109.3
+CEN,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,125.188,0.0,6.447
+CEN,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,3353.256,0.0,60.191
+CEN,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,979.501,0.0,17.582
 CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2030,13.509,0.0,0.604
-CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2040,40.902,0.0,1.829
-CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,2229.753,0.0,99.692
-CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,967.036,0.0,43.236
-CEN,libre,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,500.287,0.0,14.101
-CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2035,346.235,0.0,0.0
-CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,45.825,0.0,0.0
-CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2045,187.416,0.0,0.0
+CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2040,19.218,0.0,0.859
+CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,2015.468,0.0,90.112
+CEN,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,1019.133,0.0,45.565
+CEN,libre,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,394.611,0.0,11.123
+CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2035,333.943,0.0,0.0
+CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,44.198,0.0,0.0
+CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2045,201.335,0.0,0.0
 CEN,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2050,32.978,0.0,0.0
 CEN,libre,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2035,1922.965,0.0,0.002
 CEN,libre,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2040,21.314,0.0,0.0
-CEN,libre,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,659.66,0.0,25.654
-CEN,libre,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2050,1453.08,0.0,83.857
-CEN,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,834.854,0.0,23.532
-CEN,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,1606.762,0.0,45.289
+CEN,libre,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,633.266,0.0,24.628
+CEN,libre,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2050,1436.538,0.0,82.903
+CEN,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,890.923,0.0,25.112
+CEN,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,1543.748,0.0,43.513
 CEN,libre,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,2880.543,0.0,0.003
 CEN,libre,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,192.84,0.0,0.0
 CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2025,463.391,0.0,28.6
 CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2027,36.609,0.0,2.26
-CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2030,3.43,0.0,0.176
-CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2035,1996.57,0.0,102.684
+CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2035,2000.0,0.0,102.86
 CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2035,1500.0,0.0,92.58
-CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2040,140.795,0.0,7.241
-CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,612.601,0.0,37.81
-CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,612.08,0.0,31.479
-CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1747.125,0.0,89.855
-CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2050,219.919,0.0,13.573
+CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2040,26.518,0.0,1.364
+CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,681.405,0.0,42.056
+CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,782.425,0.0,40.24
+CEN,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1691.056,0.0,86.971
+CEN,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2050,263.736,0.0,16.278
 CEN,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2027,500.0,0.0,43.0
-CEN,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1237.854,0.0,106.455
-CEN,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2050,684.973,0.0,58.908
+CEN,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1261.314,0.0,108.473
+CEN,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2050,548.892,0.0,47.205
 CEN,libre,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2025,1667.463,0.0,0.002
 CEN,libre,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,570.655,0.0,0.001
 CEN,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2025,500.0,0.0,27.835
 CEN,libre,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2030,2000.0,2000.0,1251.2
 CEN,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2035,1500.0,0.0,83.505
-CEN,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,1134.694,0.0,63.168
-CEN,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,126.003,0.0,7.015
+CEN,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,981.832,0.0,54.659
+CEN,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,30.459,0.0,1.696
 CEN,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2025,1271.199,0.0,0.001
 CEN,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2027,34.779,0.0,0.0
 CEN,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,1975.526,0.0,0.002
 CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2025,500.0,0.0,28.5
-CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,874.292,0.0,49.835
-CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1594.014,0.0,90.859
-CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,793.28,0.0,45.217
+CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,881.745,0.0,50.259
+CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1433.698,0.0,81.721
+CEN,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,824.868,0.0,47.017
 CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2025,325.061,0.0,14.485
-CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2027,39.087,0.0,1.742
-CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,251.989,0.0,11.229
-CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,2057.703,0.0,91.691
-CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,1593.559,0.0,71.009
-CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,427.971,0.0,29.697
-CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2027,5.484,0.0,0.381
-CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,1903.625,0.0,132.093
-CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,1820.887,0.0,126.351
+CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2027,50.024,0.0,2.229
+CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,241.979,0.0,10.783
+CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,1837.134,0.0,81.863
+CEN,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,1643.275,0.0,73.224
+CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,418.758,0.0,29.058
+CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2027,14.697,0.0,1.02
+CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,1660.288,0.0,115.207
+CEN,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,1804.323,0.0,125.202
 CEN,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2025,500.0,0.0,66.805
-CEN,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,1602.927,0.0,214.167
-CEN,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,1728.278,0.0,230.915
+CEN,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,1404.249,0.0,187.622
+CEN,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,1611.504,0.0,215.313
 CEN,libre,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2050,73.781,0.0,1.975
 CEN,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2025,500.0,0.0,30.64
-CEN,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2040,73.628,0.0,4.512
-CEN,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,565.018,0.0,34.624
+CEN,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2040,73.315,0.0,4.493
+CEN,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,309.352,0.0,18.957
 CEN,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2040,43.889,0.0,1.118
-CEN,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2050,42.553,0.0,1.084
+CEN,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2050,170.171,0.0,4.334
 CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2030,345.971,0.0,46.381
-CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1394.802,0.0,186.987
-CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1569.48,0.0,210.404
-CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,285.446,0.0,38.267
+CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1387.395,0.0,185.994
+CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1576.887,0.0,211.397
+CEN,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,288.977,0.0,38.74
 CEN,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2030,500.0,0.0,61.915
 CEN,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2035,1500.0,0.0,185.745
 CEN,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2040,1500.0,0.0,185.745
 CEN,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2050,1000.0,0.0,123.83
 CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2025,168.395,0.0,6.709
 CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2030,55.085,0.0,2.195
-CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,276.549,0.0,11.018
-CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,348.241,0.0,13.874
-CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2050,322.489,0.0,12.848
+CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,293.424,0.0,11.69
+CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,157.311,0.0,6.267
+CEN,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2050,447.459,0.0,17.827
 CEN,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2030,500.0,0.0,18.46
 CEN,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2035,1500.0,0.0,55.38
 CEN,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2040,2000.0,0.0,73.84
-CEN,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,1649.504,0.0,60.9
-CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,96.282,0.0,2.259
-CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,236.282,0.0,5.543
-CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,2457.453,0.0,57.652
-CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2045,259.838,0.0,6.096
-CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1450.146,0.0,34.02
+CEN,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,1804.359,0.0,66.617
+CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,110.299,0.0,2.588
+CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,243.745,0.0,5.718
+CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,2559.518,0.0,60.046
+CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2045,230.326,0.0,5.403
+CEN,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1356.112,0.0,31.814
 CEN,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2030,660.0,660.0,107.54
-CEN,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,2392.52,0.0,389.837
-CEN,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,308.086,0.0,50.2
-CEN,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,2231.472,0.0,211.499
-CEN,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,392.738,0.0,37.224
-CEN,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,1837.839,0.0,94.649
-CEN,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,271.233,0.0,13.969
+CEN,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,2577.263,0.0,419.939
+CEN,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,271.337,0.0,44.212
+CEN,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2050,8.718,0.0,1.42
+CEN,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,2442.44,0.0,231.494
+CEN,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,347.424,0.0,32.929
+CEN,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,2105.489,0.0,108.433
+CEN,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,217.832,0.0,11.218
 PELP_E2,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,3431.54,0.0,61.596
 PELP_E2,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,740.697,0.0,13.296
 PELP_E2,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2030,13.509,0.0,0.604
@@ -573,221 +573,218 @@ PELP_N1,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva P
 PELP_N1,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,6.264,0.0,0.323
 PELP_N1,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,1906.241,0.0,98.171
 PELP_N1,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,261.873,0.0,13.486
-PROPIO,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2040,1649.758,0.0,29.613
-PROPIO,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,1537.571,0.0,27.599
-PROPIO,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2040,1330.497,0.0,59.487
-PROPIO,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,2169.503,0.0,96.998
+PROPIO,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2040,187.196,0.0,3.36
+PROPIO,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,3006.408,0.0,53.965
+PROPIO,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,62.328,0.0,1.119
+PROPIO,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2035,37.401,0.0,1.672
+PROPIO,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,3462.599,0.0,154.813
 PROPIO,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,1000.0,0.0,44.71
-PROPIO,base,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2045,3300.0,0.0,93.016
-PROPIO,base,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,1680.316,0.0,47.363
+PROPIO,base,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,1013.102,0.0,28.556
 PROPIO,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2035,587.328,0.0,0.001
 PROPIO,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,16.489,0.0,0.0
+PROPIO,base,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2050,8.637,0.0,0.0
 PROPIO,base,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2035,1922.965,0.0,0.002
-PROPIO,base,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2050,958.149,0.0,0.001
-PROPIO,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,696.745,0.0,27.096
-PROPIO,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2045,518.305,0.0,20.157
-PROPIO,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2050,591.651,0.0,23.009
-PROPIO,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2030,96.385,0.0,5.562
-PROPIO,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2035,1694.886,0.0,97.812
-PROPIO,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2040,223.727,0.0,6.306
-PROPIO,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,2326.378,0.0,65.573
-PROPIO,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,1749.895,0.0,49.324
-PROPIO,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2040,335.124,0.0,0.0
-PROPIO,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,2364.631,0.0,0.002
-PROPIO,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,876.704,0.0,0.001
+PROPIO,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,199.686,0.0,7.766
+PROPIO,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2045,35.32,0.0,1.374
+PROPIO,base,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2050,1000.903,0.0,38.925
+PROPIO,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2030,115.186,0.0,6.647
+PROPIO,base,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2035,1262.904,0.0,72.882
+PROPIO,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2040,570.986,0.0,16.094
+PROPIO,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,1152.903,0.0,32.496
+PROPIO,base,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,2576.111,0.0,72.612
+PROPIO,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,2880.543,0.0,0.003
+PROPIO,base,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,192.84,0.0,0.0
 PROPIO,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2025,482.047,0.0,29.752
 PROPIO,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2027,17.953,0.0,1.108
 PROPIO,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2030,500.0,0.0,25.715
 PROPIO,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2035,1500.0,0.0,77.145
 PROPIO,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2035,1500.0,0.0,92.58
-PROPIO,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,194.623,0.0,12.012
-PROPIO,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,1500.0,0.0,77.145
-PROPIO,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2045,106.608,0.0,6.58
-PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2027,480.661,0.0,41.337
-PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2030,19.339,0.0,1.663
+PROPIO,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2040,347.26,0.0,17.86
+PROPIO,base,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,527.116,0.0,32.534
+PROPIO,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,1152.74,0.0,59.285
+PROPIO,base,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1000.0,0.0,51.43
+PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2027,457.784,0.0,39.369
+PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2030,42.216,0.0,3.631
 PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1500.0,0.0,129.0
-PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2045,482.541,0.0,41.499
+PROPIO,base,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2045,256.656,0.0,22.072
 PROPIO,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2025,1686.138,0.0,0.002
-PROPIO,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,400.87,0.0,0.0
-PROPIO,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2035,151.111,0.0,0.0
+PROPIO,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,380.321,0.0,0.0
+PROPIO,base,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2035,171.66,0.0,0.0
 PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2025,500.0,0.0,27.835
 PROPIO,base,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2030,2000.0,2000.0,1251.2
 PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2035,1500.0,0.0,83.505
-PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2040,1500.0,0.0,83.505
-PROPIO,base,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2045,2887.512,0.0,1806.428
-PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,855.75,0.0,47.64
-PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2025,864.047,0.0,0.001
-PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2027,378.03,0.0,0.0
-PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2030,1.509,0.0,0.0
-PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2035,172.639,0.0,0.0
-PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2045,230.946,0.0,0.0
-PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,1397.116,0.0,0.001
+PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2040,627.633,0.0,34.94
+PROPIO,base,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2045,46.356,0.0,29.0
+PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,872.367,0.0,48.565
+PROPIO,base,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,549.853,0.0,30.61
+PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2025,968.965,0.0,0.001
+PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2027,266.784,0.0,0.0
+PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2030,1.502,0.0,0.0
+PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2045,840.567,0.0,0.001
+PROPIO,base,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,1203.688,0.0,0.001
 PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2025,500.0,0.0,28.5
-PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,1500.0,0.0,85.5
-PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2040,1500.0,0.0,85.5
+PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,1354.523,0.0,77.208
+PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2040,612.934,0.0,34.937
+PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1032.542,0.0,58.855
 PROPIO,base,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,1000.0,0.0,57.0
 PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2025,237.304,0.0,10.574
-PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,1586.284,0.0,70.685
-PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2040,1676.412,0.0,74.701
+PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,954.288,0.0,42.523
+PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2040,713.568,0.0,31.797
+PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,1594.84,0.0,71.066
 PROPIO,base,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,942.768,0.0,42.01
 PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,484.37,0.0,33.61
 PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2027,15.63,0.0,1.085
-PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2035,1134.929,0.0,78.753
-PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2040,1793.683,0.0,124.464
-PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,71.389,0.0,4.954
+PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2035,572.668,0.0,39.737
+PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2040,654.289,0.0,45.401
+PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,1773.043,0.0,123.031
 PROPIO,base,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,2000.0,0.0,138.78
 PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2025,500.0,0.0,66.805
-PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2035,1111.305,0.0,148.482
-PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2040,1654.991,0.0,221.123
-PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,2233.703,0.0,298.445
-PROPIO,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2040,456.874,0.0,12.231
-PROPIO,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2045,380.436,0.0,10.184
-PROPIO,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2050,415.186,0.0,11.115
+PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2035,518.7,0.0,69.303
+PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2040,550.947,0.0,73.612
+PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,1814.522,0.0,242.438
+PROPIO,base,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,1743.076,0.0,232.892
+PROPIO,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2040,110.112,0.0,2.948
+PROPIO,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2045,222.291,0.0,5.951
+PROPIO,base,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2050,43.765,0.0,1.172
 PROPIO,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2025,500.0,0.0,30.64
-PROPIO,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2045,939.725,0.0,57.586
-PROPIO,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,247.752,0.0,15.182
+PROPIO,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2045,66.675,0.0,4.086
+PROPIO,base,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,1055.306,0.0,64.669
 PROPIO,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2040,43.889,0.0,1.118
-PROPIO,base,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2045,93.136,0.0,2.372
 PROPIO,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2030,345.971,0.0,46.381
 PROPIO,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1551.361,0.0,207.975
-PROPIO,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1382.054,0.0,185.278
-PROPIO,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,630.415,0.0,84.513
+PROPIO,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1383.941,0.0,185.531
+PROPIO,base,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,484.539,0.0,64.957
 PROPIO,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2030,500.0,0.0,61.915
 PROPIO,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2035,1500.0,0.0,185.745
 PROPIO,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2040,1500.0,0.0,185.745
 PROPIO,base,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2050,1000.0,0.0,123.83
-PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2025,168.0,0.0,6.693
-PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,649.325,0.0,25.869
-PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2040,239.763,0.0,9.552
-PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,215.093,0.0,8.569
+PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2025,168.318,0.0,6.706
+PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,362.184,0.0,14.429
+PROPIO,base,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,567.097,0.0,22.593
 PROPIO,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2030,500.0,0.0,18.46
 PROPIO,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2035,1500.0,0.0,55.38
 PROPIO,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2040,2000.0,0.0,73.84
 PROPIO,base,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,2000.0,0.0,73.84
 PROPIO,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,246.906,0.0,5.792
-PROPIO,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,1603.432,0.0,37.617
-PROPIO,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,1649.662,0.0,38.701
+PROPIO,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,1382.186,0.0,32.426
+PROPIO,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,1870.908,0.0,43.892
 PROPIO,base,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1000.0,0.0,23.46
 PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2030,660.0,660.0,107.54
-PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2035,1120.24,0.0,182.532
-PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,1987.895,0.0,323.908
-PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,202.286,0.0,32.96
-PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2050,438.89,0.0,71.513
+PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2035,848.474,0.0,138.25
+PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,2083.853,0.0,339.543
+PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,206.624,0.0,33.667
+PROPIO,base,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2050,490.611,0.0,79.94
 PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2030,272.969,0.0,25.872
-PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2035,458.987,0.0,43.503
-PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,1968.709,0.0,186.594
-PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,445.404,0.0,42.215
-PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2050,675.242,0.0,63.999
-PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2030,69.781,0.0,3.594
-PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,288.774,0.0,14.872
-PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,1724.549,0.0,88.814
-PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,649.09,0.0,33.428
-PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2050,739.123,0.0,38.065
-PROPIO,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,2687.348,0.0,48.238
+PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2035,166.478,0.0,15.779
+PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,2008.977,0.0,190.411
+PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,350.92,0.0,33.26
+PROPIO,base,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2050,877.808,0.0,83.199
+PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2030,102.582,0.0,5.283
+PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,237.288,0.0,12.22
+PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,1448.26,0.0,74.585
+PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,597.338,0.0,30.763
+PROPIO,base,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2050,809.514,0.0,41.69
+PROPIO,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,3500.0,0.0,62.825
+PROPIO,libre,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,945.551,0.0,16.973
 PROPIO,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2030,13.509,0.0,0.604
-PROPIO,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,1818.618,0.0,81.31
-PROPIO,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,1320.953,0.0,59.06
-PROPIO,libre,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2040,114.164,0.0,3.218
-PROPIO,libre,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2050,17.668,0.0,0.498
-PROPIO,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,606.172,0.0,0.001
-PROPIO,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2050,6.282,0.0,0.0
+PROPIO,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2040,23.424,0.0,1.047
+PROPIO,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2045,2122.169,0.0,94.882
+PROPIO,libre,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2050,980.766,0.0,43.85
+PROPIO,libre,Kimal500_Kimal220,Kimal 220 – Kimal 500,Kimal220,Kimal500,4.5,2040,87.899,0.0,2.478
+PROPIO,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2035,587.328,0.0,0.001
+PROPIO,libre,PDGE-TOC-A1_Kimal500,Kimal 500 – Polo Tocopilla A1,Kimal500,PDGE-TOC-A1,5.5,2040,25.322,0.0,0.0
 PROPIO,libre,PDGE-TOC-A2_Kimal500,Kimal 500 – Polo Tocopilla A2,Kimal500,PDGE-TOC-A2,6.0,2035,1922.965,0.0,0.002
-PROPIO,libre,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2035,892.768,0.0,51.522
-PROPIO,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,1113.464,0.0,31.385
-PROPIO,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,3186.536,0.0,89.818
-PROPIO,libre,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,3053.295,0.0,0.003
-PROPIO,libre,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,20.087,0.0,0.0
-PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2025,464.791,0.0,28.687
-PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2027,35.209,0.0,2.173
+PROPIO,libre,Kimal500_LosChangos500,Kimal 500 – Los Changos 500,Kimal500,LosChangos500,6.5,2040,369.26,0.0,14.361
+PROPIO,libre,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2035,185.403,0.0,10.7
+PROPIO,libre,Kimal220_NuevaZaldivar220,Kimal 220 – Nueva Zaldívar 220,Kimal220,NuevaZaldivar220,7.5,2050,1321.072,0.0,76.239
+PROPIO,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2045,1351.18,0.0,38.085
+PROPIO,libre,LosChangos500_LosChangos220,Los Changos 500 – Los Changos 220,LosChangos500,LosChangos220,8.5,2050,1486.911,0.0,41.911
+PROPIO,libre,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2045,2880.543,0.0,0.003
+PROPIO,libre,PDGE-ANF-B1_LosChangos500,Los Changos 500 – Polo Antofagasta B1,LosChangos500,PDGE-ANF-B1,9.0,2050,192.84,0.0,0.0
+PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2025,463.391,0.0,28.6
+PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2027,36.609,0.0,2.26
 PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2030,450.086,0.0,23.148
 PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2035,1549.914,0.0,79.712
 PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2035,1500.0,0.0,92.58
-PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,143.802,0.0,8.875
-PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,954.877,0.0,49.109
-PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2045,493.08,0.0,30.433
-PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1485.383,0.0,76.393
-PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2050,748.578,0.0,46.202
+PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2040,378.663,0.0,19.475
+PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2040,539.775,0.0,33.315
+PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2045,890.538,0.0,45.8
+PROPIO,libre,LosChangos220_NuevaZaldivar220,Los Changos 220 – Nueva Zaldívar 220,LosChangos220,NuevaZaldivar220,10.0,2050,1230.799,0.0,63.3
+PROPIO,libre,LosChangos500_Parinas500,Los Changos 500 – Parinas 500,LosChangos500,Parinas500,10.0,2050,365.536,0.0,22.561
 PROPIO,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2027,441.537,0.0,37.972
 PROPIO,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2030,58.463,0.0,5.028
-PROPIO,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1091.504,0.0,93.869
-PROPIO,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2050,646.159,0.0,55.57
-PROPIO,libre,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2025,1668.864,0.0,0.002
-PROPIO,libre,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,569.254,0.0,0.001
+PROPIO,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2035,1048.472,0.0,90.169
+PROPIO,libre,Parinas500_NuevaZaldivar220,Nueva Zaldívar 220 – Parinas 500,NuevaZaldivar220,Parinas500,11.5,2050,820.96,0.0,70.603
+PROPIO,libre,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2025,1667.463,0.0,0.002
+PROPIO,libre,PDGE-ANF-B2_Parinas500,Parinas 500 – Polo Antofagasta B2,Parinas500,PDGE-ANF-B2,12.5,2027,570.655,0.0,0.001
 PROPIO,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2025,500.0,0.0,27.835
 PROPIO,libre,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2030,2000.0,2000.0,1251.2
 PROPIO,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2035,1500.0,0.0,83.505
-PROPIO,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2040,493.532,0.0,27.475
-PROPIO,libre,Kimal500_AltoJahuel500,Kimal 500 – Alto Jahuel 500,Kimal500,AltoJahuel500,13.0,2045,492.159,0.0,307.895
-PROPIO,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,1006.468,0.0,56.03
-PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2025,1118.064,0.0,0.001
-PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2027,63.057,0.0,0.0
-PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,2100.383,0.0,0.002
+PROPIO,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2045,1500.0,0.0,83.505
+PROPIO,libre,Parinas500_Cumbre500,Parinas 500 – Cumbre 500,Parinas500,Cumbre500,13.0,2050,187.817,0.0,10.456
+PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2025,1206.501,0.0,0.001
+PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2040,65.034,0.0,0.0
+PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2045,136.003,0.0,0.0
+PROPIO,libre,PDGE-ANF-B3_Cumbre500,Cumbre 500 – Polo Antofagasta B3,Cumbre500,PDGE-ANF-B3,14.5,2050,1873.967,0.0,0.002
 PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2025,500.0,0.0,28.5
-PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,1207.987,0.0,68.855
-PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2040,549.67,0.0,31.331
-PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1242.343,0.0,70.814
-PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,735.829,0.0,41.942
+PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2035,1055.828,0.0,60.182
+PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2045,1921.819,0.0,109.544
+PROPIO,libre,Cumbre500_NuevaCardones500,Cumbre 500 – Nueva Cardones 500,Cumbre500,NuevaCardones500,15.0,2050,658.474,0.0,37.533
 PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2025,287.751,0.0,12.822
-PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,569.895,0.0,25.395
-PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2040,1021.348,0.0,45.511
-PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,1621.006,0.0,72.232
-PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,1202.424,0.0,53.58
-PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,459.251,0.0,31.867
-PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2027,40.749,0.0,2.828
-PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2035,175.711,0.0,12.193
-PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2040,1056.153,0.0,73.286
-PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,1520.927,0.0,105.537
-PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,1862.645,0.0,129.249
+PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2027,34.433,0.0,1.534
+PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2035,419.679,0.0,18.701
+PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2040,341.267,0.0,15.207
+PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2045,1984.162,0.0,88.414
+PROPIO,libre,NuevaCardones500_NuevaMaitencillo500,Nueva Cardones 500 – Nueva Maitencillo 500,NuevaCardones500,NuevaMaitencillo500,16.5,2050,1518.153,0.0,67.649
+PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2025,388.503,0.0,26.958
+PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2027,111.497,0.0,7.737
+PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2035,80.455,0.0,5.583
+PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2040,273.902,0.0,19.006
+PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2045,2059.876,0.0,142.935
+PROPIO,libre,NuevaMaitencillo500_NuevaPandeAzucar500,Nueva Maitencillo 500 – Nueva Pan de Azúcar 500,NuevaMaitencillo500,NuevaPandeAzucar500,17.5,2050,2196.803,0.0,152.436
 PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2025,500.0,0.0,66.805
-PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2040,991.438,0.0,132.466
-PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,1580.29,0.0,211.143
-PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,1377.453,0.0,184.041
-PROPIO,libre,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2045,46.628,0.0,1.248
-PROPIO,libre,Quillota500_Polpaico500,Quillota 500 – Polpaico 500,Quillota500,Polpaico500,19.5,2050,288.667,0.0,7.728
+PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2040,113.931,0.0,15.222
+PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2045,2143.277,0.0,286.363
+PROPIO,libre,NuevaPandeAzucar500_Polpaico500,Nueva Pan de Azúcar 500 – Polpaico 500,NuevaPandeAzucar500,Polpaico500,19.0,2050,2036.488,0.0,272.095
 PROPIO,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2025,500.0,0.0,30.64
-PROPIO,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2040,31.54,0.0,1.933
-PROPIO,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2045,353.458,0.0,21.66
-PROPIO,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,1112.001,0.0,68.143
+PROPIO,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2040,32.193,0.0,1.973
+PROPIO,libre,Polpaico500_AltoJahuel500,Polpaico 500 – Alto Jahuel 500,Polpaico500,AltoJahuel500,20.5,2050,1641.401,0.0,100.585
 PROPIO,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2040,43.889,0.0,1.118
-PROPIO,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2045,101.533,0.0,2.586
-PROPIO,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2050,221.93,0.0,5.653
+PROPIO,libre,Candelaria500_AltoJahuel500,Alto Jahuel 500 – Candelaria 500,AltoJahuel500,Candelaria500,21.5,2050,188.31,0.0,4.796
 PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2030,345.971,0.0,46.381
-PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1418.625,0.0,190.181
-PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1505.631,0.0,201.845
-PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,177.302,0.0,23.769
+PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2035,1406.86,0.0,188.604
+PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2040,1530.947,0.0,205.239
+PROPIO,libre,AltoJahuel500_Ancoa500,Alto Jahuel 500 – Ancoa 500,AltoJahuel500,Ancoa500,22.5,2050,307.198,0.0,41.183
 PROPIO,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2030,500.0,0.0,61.915
 PROPIO,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2035,1500.0,0.0,185.745
 PROPIO,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2040,1500.0,0.0,185.745
 PROPIO,libre,Ancoa500_NuevaCharrua500,Ancoa 500 – Nueva Charrúa 500,Ancoa500,NuevaCharrua500,25.0,2050,1000.0,0.0,123.83
 PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2025,173.728,0.0,6.921
 PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2030,54.054,0.0,2.153
-PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,626.013,0.0,24.94
-PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2040,305.392,0.0,12.167
-PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2050,319.718,0.0,12.738
+PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2035,584.201,0.0,23.275
+PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2045,36.289,0.0,1.446
+PROPIO,libre,Concepcion500_NuevaCharrua500,Concepción 500 – Nueva Charrúa 500,Concepcion500,NuevaCharrua500,25.5,2050,322.489,0.0,12.848
 PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2030,500.0,0.0,18.46
 PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2035,1500.0,0.0,55.38
-PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2040,1792.163,0.0,66.167
-PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2045,207.837,0.0,7.673
-PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,1851.343,0.0,68.352
-PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,226.838,0.0,5.322
-PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,627.685,0.0,14.725
-PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,1569.82,0.0,36.828
-PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2045,483.236,0.0,11.337
-PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1592.421,0.0,37.358
-PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2030,660.0,660.0,107.54
-PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2035,306.266,0.0,49.903
-PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,1532.221,0.0,249.66
-PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,423.045,0.0,68.931
-PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2050,1105.377,0.0,180.11
-PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2030,139.334,0.0,13.206
-PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2035,265.947,0.0,25.206
-PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,1564.202,0.0,148.255
-PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,707.281,0.0,67.036
-PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2050,593.182,0.0,56.222
-PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,313.822,0.0,16.162
-PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,1532.786,0.0,78.938
-PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,1653.392,0.0,85.15
-PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2050,598.686,0.0,30.832
+PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2040,2000.0,0.0,73.84
+PROPIO,libre,NuevaCharrua500_Mulchen500,Nueva Charrúa 500 – Mulchén 500,NuevaCharrua500,Mulchen500,26.5,2050,1663.924,0.0,61.432
+PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2030,198.387,0.0,4.654
+PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2035,479.453,0.0,11.248
+PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2040,2041.579,0.0,47.895
+PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2045,40.977,0.0,0.961
+PROPIO,libre,RioMalleco500_Mulchen500,Mulchén 500 – Río Malleco 500,Mulchen500,RioMalleco500,27.5,2050,1564.086,0.0,36.693
+PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2030,888.969,660.0,144.849
+PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2040,1780.558,0.0,290.124
+PROPIO,libre,RioMalleco500_Pichirropulli500,Río Malleco 500 – Pichirropulli 500,RioMalleco500,Pichirropulli500,28.5,2045,146.931,0.0,23.941
+PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2030,158.069,0.0,14.982
+PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2035,331.798,0.0,31.448
+PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2040,1389.707,0.0,131.716
+PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2045,231.582,0.0,21.949
+PROPIO,libre,Pichirropulli500_NuevaPuertoMontt500,Pichirropulli 500 – Nueva Puerto Montt 500,Pichirropulli500,NuevaPuertoMontt500,29.5,2050,268.43,0.0,25.442
+PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2035,258.982,0.0,13.338
+PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2040,1528.434,0.0,78.714
+PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2045,385.581,0.0,19.857
+PROPIO,libre,NuevaPuertoMontt500_NuevaAncud500,Nueva Puerto Montt 500 – Nueva Ancud 500,NuevaPuertoMontt500,NuevaAncud500,30.5,2050,124.225,0.0,6.398
 SIN_DC,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2045,2899.398,0.0,52.044
 SIN_DC,base,NuevaPozoAlmonte220_Lagunas220,Nueva Pozo Almonte 220 – Lagunas 220,NuevaPozoAlmonte220,Lagunas220,2.5,2050,524.614,0.0,9.417
 SIN_DC,base,Lagunas220_Kimal220,Lagunas 220 – Kimal 220,Lagunas220,Kimal220,3.5,2030,13.509,0.0,0.604

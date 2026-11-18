@@ -22,7 +22,8 @@ SALIDA.mkdir(parents=True, exist_ok=True)
 # ---------------------------------------------------------------- fuente
 disponibles = {f.name for f in font_manager.fontManager.ttflist}
 fuente = next(f for f in ["Calibri", "Carlito", "Arial"] if f in disponibles)
-plt.rcParams.update({"font.family": fuente, "font.size": 7.5, "svg.fonttype": "none"})
+plt.rcParams.update({"font.family": fuente, "font.size": 7.5, "svg.fonttype": "none",
+                     "svg.hashsalt": "ubicacion-dc"})   # SVG reproducible
 
 # ---------------------------------------------------------------- datos
 with open(REPO / "resultados" / "tablas" / "zonas.csv", encoding="utf-8") as f:
@@ -249,5 +250,5 @@ print(f"barras={len(barras)} polos={len(polos)} corredores={len(dibujados)} (csv
 print("problemas:", problemas or "ninguno")
 
 fig.savefig(SALIDA / "diagrama_red.png", dpi=300, facecolor="white")
-fig.savefig(SALIDA / "diagrama_red.svg", facecolor="white")
+fig.savefig(SALIDA / "diagrama_red.svg", facecolor="white", metadata={"Date": None})   # sin fecha
 print("ok", SALIDA)

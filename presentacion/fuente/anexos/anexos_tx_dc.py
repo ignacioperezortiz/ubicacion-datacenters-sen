@@ -504,7 +504,7 @@ v("Data centers", "Propio, fija: " + " / ".join(fmt(fija_propio[p], 1) for p in 
 
 # Reconstrucción independiente de las trayectorias anuales (sección 8 + cambio del 17-nov-2026)
 EXIST = 99.0
-CRECE_CEN, CRECE_PROPIO = 0.05, 0.08
+CRECE_CEN, CRECE_PROPIO = 0.03, 0.03   # 17-nov-2026 (noche): 3 % anual en ambos (antes 5 % y 8 %)
 
 
 def prom(serie, p):
@@ -527,7 +527,7 @@ def n1_kimal(a):
 CEN_CAP = {2025: 398, 2026: 552, 2027: 642, 2028: 963, 2029: 1281, 2030: 1381}
 
 
-def cen_cap(a):  # proyección del CEN hasta 2030; desde 2031 crece 5 % anual
+def cen_cap(a):  # proyección del CEN hasta 2030; desde 2031 crece 3 % anual
     return CEN_CAP[a] if a <= 2030 else 1381 * (1 + CRECE_CEN) ** (a - 2030)
 
 
@@ -539,11 +539,11 @@ for p in PERIODOS:
     assert abs(max(0.0, prom(pelp_rmv, p) - EXIST) - tray["PELP_E2"][p]) < 1e-3, p
     assert abs(max(0.0, prom(pelp_rmv, p) - EXIST) + prom(n1_kimal, p) - tray["PELP_N1"][p]) < 1e-3, p
     assert abs(prom(cen_medios, p) - EXIST - tray["CEN"][p]) < 1e-3, (p, prom(cen_medios, p) - EXIST, tray["CEN"][p])
-check(True, "E2, N1 y CEN reconstruidos desde las trayectorias anuales (promedio por período − 99), con CEN +5 %/año desde 2031")
+check(True, "E2, N1 y CEN reconstruidos desde las trayectorias anuales (promedio por período − 99), con CEN +3 %/año desde 2031")
 v("Data centers", "reconstrucción de E2, N1 y CEN",
   "E2: RM+Valparaíso 99 (2025 y 2026), 297 (2030), 364 (2035), 450 (2057) MW medios con interpolación lineal; promedio de los años "
   "del período − 99. N1: E2 + 75 MW medios por año desde 2026 hasta 750. CEN: 398, 552, 642, 963, 1.281 y 1.381 MW de "
-  "capacidad en 2025–2030 y 1.381 × 1,05^(año − 2030) desde 2031 (`CRECIMIENTO_CEN` del script de escenarios), × 50 % × 1.380/1.381 "
+  "capacidad en 2025–2030 y 1.381 × 1,03^(año − 2030) desde 2031 (`CRECIMIENTO_CEN` del script de escenarios), × 50 % × 1.380/1.381 "
   "(reparto RM 1.225 + Valparaíso 155), − 99. Coinciden con `dc_libre.csv` a 10⁻³ MW")
 
 # Reparto por zona
@@ -773,7 +773,7 @@ def solicitado(a, z=None):  # MW medios de lo solicitado, acumulado al año a (0
 total_2032 = EXIST + LLENADO + solicitado(ULTIMO)
 
 
-def propio_anual(a, z=None):  # desde 2033 la demanda total de data centers crece 8 % anual; el aumento es ubicable
+def propio_anual(a, z=None):  # desde 2033 la demanda total de data centers crece 3 % anual; el aumento es ubicable
     if a <= ULTIMO:
         return solicitado(a, z)
     cuota = 1.0 if z is None else solicitado(ULTIMO, z) / solicitado(ULTIMO)
@@ -787,15 +787,15 @@ check(abs(total_2032 - 2119.7) < 1e-9, "base del crecimiento: 99 + 115,2 + 1.905
 libre_p = DC["PROPIO"][2]
 for p in PERIODOS:
     assert abs(prom(lambda a: anual[a], p) - libre_p[p]) < 2e-3, (p, prom(lambda a: anual[a], p), libre_p[p])
-check(True, "promedio por período de la trayectoria anual (con +8 %/año desde 2033) = dc_libre de PROPIO, a 2·10⁻³ MW")
+check(True, "promedio por período de la trayectoria anual (con +3 %/año desde 2033) = dc_libre de PROPIO, a 2·10⁻³ MW")
 basep = DC["PROPIO"][0]
 for z in ["Polpaico500", "AltoJahuel500", "Quillota500"]:
     for p in PERIODOS:
         assert abs(prom(lambda a: propio_anual(a, z), p) - basep[z][p]) < 2e-3, (z, p)
 check(True, "reparto por zona y período = dc_base de PROPIO (el aumento desde 2033 se reparte como lo solicitado en 2032)")
-v("Propio", "MW medios = 50 % de los MW solicitados; +8 %/año desde 2033",
+v("Propio", "MW medios = 50 % de los MW solicitados; +3 %/año desde 2033",
   "carga plana desde el año de la fecha estimada (año completo); acumulado anual 0 (2025), 16 … 1.905,5 (2032); "
-  "desde 2033, + 2.119,7 × (1,08^(año − 2032) − 1), repartido como lo solicitado en 2032 (`CRECIMIENTO` del script del "
+  "desde 2033, + 2.119,7 × (1,03^(año − 2032) − 1), repartido como lo solicitado en 2032 (`CRECIMIENTO` del script del "
   "escenario propio); promedio de los años del período = `dc_libre.csv` (" + "; ".join(fmt(libre_p[p], 1) for p in PERIODOS)
   + ") y, por zona, `dc_base.csv`")
 
@@ -843,7 +843,7 @@ dc1 = {
         {"tipo": "texto", "letra": 12, "gris": True, "texto":
             "Carga por encima de los ~99 MW medios de data centers que ya están en la demanda. Cada período usa el promedio "
             "de la trayectoria anual en sus años (2025 = 2025–2026; 2050 = 2050–2054). Después de su horizonte, CEN crece "
-            "5 % anual desde 2031 y Propio 8 % anual desde 2033; E2 y N1 traen su propio crecimiento."},
+            "3 % anual desde 2031 y Propio 3 % anual desde 2033; E2 y N1 traen su propio crecimiento."},
     ]}],
     "fuente": FUENTE_DC,
     "notas": (
@@ -855,11 +855,11 @@ dc1 = {
         "El Salto queda casi en empate entre Polpaico 500 y Alto Jahuel 500; se asigna a Polpaico 500 por su línea de 220 kV y la distancia.\n"
         "CEN: capacidad identificada de 398 MW en 2025, 552 en 2026, 642 en 2027, 963 en 2028, 1.281 en 2029 y 1.381 en 2030, "
         "con 50 % de utilización; reparto RM 1.225 MW y Valparaíso 155 MW. La proyección llega a 2030; desde 2031 la "
-        f"capacidad crece 5 % anual (supuesto conservador), hasta {fmt(cen_cap(2054))} MW en 2054.\n"
+        f"capacidad crece 3 % anual, hasta {fmt(cen_cap(2054))} MW en 2054.\n"
         f"Propio: 3.811 MW solicitados = 1.905,5 MW medios en 2032, más 115,2 MW medios fijos por el llenado de "
         f"campus ya conectados ({fmt(fija_propio[2025], 1)} en promedio en 2025–2026 y {fmt(fija_propio[2027], 1)} en "
         f"2027–2029). Desde 2033 la demanda total de data centers (99 + 115,2 + 1.905,5 = {fmt(total_2032, 1)} MW medios "
-        "en 2032) crece 8 % anual; el aumento es carga nueva y ubicable, con ubicación base en proporción a lo solicitado.\n"
+        "en 2032) crece 3 % anual; el aumento es carga nueva y ubicable, con ubicación base en proporción a lo solicitado.\n"
         "Se descuentan los ~99 MW medios existentes: 84,15 en Polpaico 500 y 14,85 en Quillota 500. En el caso libre, "
         "el modelo puede mover desde 2030 todo lo que no es fijo; antes de 2030 la ubicación es la base."),
 }
@@ -909,7 +909,7 @@ dc3 = {
             f"MW medios = 50 % de los MW solicitados, como carga plana desde el año estimado de conexión: {fmt(mw_sol)} MW "
             f"solicitados dan {fmt(0.5 * mw_sol, 1)} MW medios en 2032 ({fmt(0.5 * por_zona['Polpaico500'])} en Polpaico 500, "
             f"{fmt(0.5 * por_zona['AltoJahuel500'], 1)} en Alto Jahuel 500 y {fmt(0.5 * por_zona['Quillota500'])} en Quillota 500); "
-            "desde 2033 el total de data centers crece 8 % anual",
+            "desde 2033 el total de data centers crece 3 % anual",
             f"Llenado de los campus ya conectados: {fmt(mw_exist, 1)} MW × 50 % − 99 = {fmt(fill, 1)} MW medios fijos "
             f"({fmt(fp, 1)} en Polpaico 500 y {fmt(fa, 1)} en Alto Jahuel 500), con rampa de 20 % por año hasta 2030",
         ]},
@@ -924,7 +924,7 @@ dc3 = {
         f"({fmt(libre_p[2025], 1)} MW medios en 2025–2026, {fmt(libre_p[2027], 1)} en 2027–2029 y {fmt(libre_p[2030], 1)} "
         "en 2030–2034, este último ya con el crecimiento de 2033–2034).\n"
         f"Crecimiento: desde 2033, la demanda total de data centers, {fmt(total_2032, 1)} MW medios en 2032 (99 ya en la "
-        "demanda, 115,2 de llenado y 1.905,5 solicitados), crece 8 % anual. El aumento se agrega como carga ubicable y "
+        "demanda, 115,2 de llenado y 1.905,5 solicitados), crece 3 % anual. El aumento se agrega como carga ubicable y "
         f"su ubicación base sigue el reparto de lo solicitado; en 2050–2054 el escenario agrega {fmt(tray['PROPIO'][2050], 1)} "
         "MW medios.\n"
         "Llenado: las conexiones existentes suman 428,4 MW; al 50 % consumirían 214,2 MW medios, frente a los ~99 que "
