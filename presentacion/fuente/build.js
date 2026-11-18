@@ -492,7 +492,7 @@ K.literatura.forEach((lam) => {
   if (fs.existsSync(MAPA)) {
     s.addImage({ path: MAPA, x: X0, y: YC, w: W, h: W * 4.6 / 12.1, altText: `Mapas de Chile por región con la capacidad de data centers en ${ULT}, por escenario, con la ubicación proyectada y la óptima` });
   }
-  fuenteLinea(s, "Capacidad instalada = MW medios / 0,5 (utilización de 50 %). La ubicación óptima mantiene lo conectado antes de 2030. Elaboración propia.", X0, 6.42, W);
+  fuenteLinea(s, "Capacidad instalada = MW medios / 0,5. Círculos de área proporcional, separados si se tocan. La ubicación óptima mantiene lo conectado antes de 2030. Elaboración propia.", X0, 6.42, W);
   s.addNotes(SUR ? "En los cuatro escenarios, lo que el modelo puede reubicar va al sur. Lo que queda en la RM, Valparaíso y Antofagasta en la ubicación óptima es lo conectado antes de 2030."
     : `${DONDE}. Lo que queda en la RM, Valparaíso y Antofagasta en la ubicación óptima es lo conectado antes de 2030.`);
 }

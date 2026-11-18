@@ -137,9 +137,12 @@ MAP_TOP, MAP_BOT = 4.00, 0.06
 GAP_PAIR = 0.20
 PW = (W - LEG_W - 0.05 - 3 * GAP_PAIR) / 8
 SC = (MAP_TOP - MAP_BOT) / (Y1 - Y0)            # pulgadas por unidad
-# Escala común a los 8 mapas: el círculo más grande mide a lo más ~44 pt de diámetro
+# Escala común a los 8 mapas: área proporcional a la capacidad; el círculo más grande mide a lo más
+# D_MAX pt de diámetro (cada mapa mide ~94 pt de ancho)
+D_MAX = 30
 CAP_MAX = max(c for *_, c in filas)
-K = min(0.30, 44 ** 2 / CAP_MAX)                  # pt^2 por MW (área de scatter)
+K = min(0.30, D_MAX ** 2 / CAP_MAX)               # pt^2 por MW (área de scatter)
+SEP = 1.5                                         # pt de separación mínima entre círculos
 LEYENDA = (10000, 4000, 1000) if CAP_MAX > 8000 else (2000, 1000, 500)
 GRIS, NEGRO = "#8C8C8C", "#111111"
 
@@ -180,13 +183,46 @@ for i, (e, etxt) in enumerate(ESC):
         datos.sort(key=lambda t: -t[1])
         def to_pt(x, y):
             return ((L + (x - xa) * SC) * 72, (MAP_BOT + (y - Y0) * SC) * 72)
+        def to_data(px, py):
+            return (xa + (px / 72 - L) / SC, Y0 + (py / 72 - MAP_BOT) / SC)
+        # Círculos en pt, en el punto representativo de su región
+        orig = [to_pt(*punto[reg]) for reg, c in datos]
+        rad = [math.sqrt(K * c) / 2 + 0.3 for reg, c in datos]
+        pos = [list(o) for o in orig]
+        # Regiones vecinas (RM y Valparaíso, Los Ríos y Los Lagos) quedan a pocos pt: se separan los círculos
+        # que se tocan, moviendo más al chico, y cada uno queda unido a su región con una línea fina.
+        for _ in range(400):
+            movio = False
+            for a in range(len(pos)):
+                for b in range(a + 1, len(pos)):
+                    dx, dy = pos[b][0] - pos[a][0], pos[b][1] - pos[a][1]
+                    d = math.hypot(dx, dy)
+                    falta = rad[a] + rad[b] + SEP - d
+                    if falta > 1e-3:
+                        ux, uy = (dx / d, dy / d) if d > 1e-6 else (1.0, 0.0)
+                        wa = rad[b] ** 2 / (rad[a] ** 2 + rad[b] ** 2)    # el grande se mueve menos
+                        pos[a][0] -= ux * falta * wa; pos[a][1] -= uy * falta * wa
+                        pos[b][0] += ux * falta * (1 - wa); pos[b][1] += uy * falta * (1 - wa)
+                        movio = True
+            for i in range(len(pos)):   # dentro del mapa
+                pos[i][0] = min(max(pos[i][0], L * 72 + rad[i] + 1), (L + PW) * 72 - rad[i] - 1)
+            if not movio:
+                break
         circles = []
-        for reg, c in datos:
-            x, y = punto[reg]
-            s = K * c
-            ax.scatter([x], [y], s=s, c=NEGRO, edgecolors="white", linewidths=0.6, zorder=3 + len(circles))
-            px, py = to_pt(x, y)
-            circles.append((px, py, math.sqrt(s) / 2 + 0.3))
+        for n, (reg, c) in enumerate(datos):
+            (ox, oy), (px, py) = orig[n], pos[n]
+            tapado = any(math.hypot(ox - pos[j][0], oy - pos[j][1]) < rad[j] + 2 for j in range(len(pos)) if j != n)
+            if math.hypot(px - ox, py - oy) - rad[n] > 4 and not tapado:
+                # línea fina desde la región hasta el borde del círculo, y un punto en la región. Si la línea
+                # mediría menos de 4 pt, o si otro círculo tapa ese punto, quedaría como un guion suelto: no se dibuja
+                ux, uy = (px - ox) / math.hypot(px - ox, py - oy), (py - oy) / math.hypot(px - ox, py - oy)
+                ex, ey = px - ux * rad[n], py - uy * rad[n]
+                (x1, y1), (x2, y2) = to_data(ox, oy), to_data(ex, ey)
+                ax.plot([x1, x2], [y1, y2], color=NEGRO, linewidth=0.5, zorder=2, solid_capstyle="butt")
+                ax.scatter([x1], [y1], s=3, c=NEGRO, linewidths=0, zorder=2)
+            x, y = to_data(px, py)
+            ax.scatter([x], [y], s=K * c, c=NEGRO, edgecolors="white", linewidths=0.6, zorder=3 + n)
+            circles.append((px, py, rad[n]))
         placed = []
         pl, pr = L * 72, (L + PW) * 72
         for n, (reg, c) in enumerate(datos):

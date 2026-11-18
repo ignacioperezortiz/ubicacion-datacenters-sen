@@ -122,5 +122,9 @@ Cifras comprobadas: unas 300 (58 ítems), entre ellas 28 puntos de trayectoria, 
 - **Error 1, lámina 28, notas:** corregido en `fuente\anexos\40_modelo.js`. Ahora dice que CEN y el escenario propio crecen 3 % anual, desde 2031 y 2033.
 - **Observación 2, láminas 13 y 15:** el argumento del sur cita solo los corredores en su tope que traen energía del sur al centro. Son los que tienen algún extremo en el Centro-Sur o el Sur y ninguno en el norte (`corredores_sur_en_tope_todos` en `extraer_cifras.py`). Queda «El corredor Ancoa 500 – Nueva Charrúa 500 llega a su tope de ampliación en los 9 casos».
 - **Observación 3, lámina 10, notas:** «(la proyección del CEN termina en 2030 con 1.381 MW)».
-- **Sin cambios, por ser menores:** observaciones 4 y 5 y la diagramación de las láminas 11, 12 y 30.
+- **Lámina 12, mapa (18-nov, a pedido de Ignacio):**
+  - los círculos miden a lo más 30 pt de diámetro (antes 44) y mantienen el área proporcional a la capacidad;
+  - los de regiones vecinas se separan hasta no tocarse, así que ya no hay superposiciones;
+  - las cifras no cambian.
+- **Sin cambios, por ser menores:** observaciones 4 y 5 y la diagramación de las láminas 11 y 30.
 - **Observación 1 (`docs\ANALISIS.md`):** se corrige junto con las cifras de la documentación.
