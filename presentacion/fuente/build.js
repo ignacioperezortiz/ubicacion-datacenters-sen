@@ -197,7 +197,7 @@ const PRECIO_MZ = CF.macrozonas_elegidas.slice().sort((a, b) => CF.precio_2040_p
   col(X0, "INTEGRANTES", ["Ignacio Pérez", "Vicente Martínez", "Sebastián San Martín", "Raúl Ugarte"], 4.6);
   vrule(s, X0 + 5.0, 4.85, 1.7);
   col(X0 + 5.35, "PROFESOR", ["Rodrigo Moreno"], 3.0);
-  col(X0 + 5.35 + 3.2, "AYUDANTE", ["Enzo Nahmias"], 3.0);
+  col(X0 + 5.35 + 3.2, "AYUDANTE", ["Yerko Orellana"], 3.0);
   tb(s, [{ text: CURSO, options: { fontSize: 16, breakLine: true } }, { text: "Universidad Adolfo Ibáñez · 2026", options: { fontSize: 16, color: C.text2 } }],
     { x: X0 + 5.35, y: 5.8, w: 6.5, h: 0.75, valign: "top" });
 }
@@ -567,7 +567,7 @@ K.literatura.forEach((lam) => {
   tb(s, [label("Modelo"), ...bullets([
     "Flujo DC (leyes de Kirchhoff) en los lazos de la red",
     "Zonas donde realmente se pueden instalar data centers, según la red de fibra óptica de Chile",
-    "Escenario Recuperación Lenta de la PELP, además de Carbono Neutralidad",
+    "Escenarios Recuperación Lenta y Transición Acelerada de la PELP, además de Carbono Neutralidad",
   ], { size: 16, after: 9 })], { x: X0, y: YC, w: cw, h: 4.6 });
   vrule(s, X0 + cw + 0.25, YC + 0.05, 3.6);
   tb(s, [label("Datos y análisis"), ...bullets([
